@@ -1,12 +1,12 @@
 # Table of contents
 
-* [What is CMP?](README.md)
+* [What is the Cloud Management Platform?](README.md)
 
 ## General
 
 * [Login](general/login.md)
 * [Viewing Your User Profile](general/viewing-your-user-profile.md)
-* [Company Registration \(Video\)](general/company-registration-video.md)
+* [Company Registration](general/company-registration-video.md)
 * [Tagging Assets](general/tag-assets.md)
 * [Perks](general/perks.md)
 

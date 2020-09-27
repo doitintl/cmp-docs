@@ -5,8 +5,8 @@
 ## General
 
 * [Login](general/login.md)
-* [Viewing Your User Profile](general/viewing-your-user-profile.md)
-* [Company Registration](general/company-registration-video.md)
+* [Viewing Your User Profile](general/profile.md)
+* [Company Registration](general/registration.md)
 * [Tagging Assets](general/tag-assets.md)
 * [Perks](general/perks.md)
 
@@ -35,4 +35,10 @@
 * [Escalating Support Requests](tickets/escalating-support-requests.md)
 * [Ticket Sharing](tickets/ticket-sharing.md)
 * [Cloud Infrastructure Known Issues](tickets/cloud-infrastructure-known-issues.md)
+
+## G Suite & Office 365
+
+---
+
+* [Add a New G Suite Subscription](add-a-new-g-suite-subscription.md)
 

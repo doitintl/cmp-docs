@@ -1,2 +1,2 @@
-# cmp-docs
-CMP Public Documentation
+# Initial page
+

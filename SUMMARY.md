@@ -1,29 +1,39 @@
 # Table of contents
 
 * [Documentation](README.md)
-* [Assets](assets.md)
-* [Create Google Cloud Billing Account](create-google-cloud-billing-account.md)
-* [Tag Assets](tag-assets.md)
-* [Login](login.md)
-* [Introduction to the Cloud Management Platform](introduction-to-the-cloud-management-platform.md)
-* [Viewing Your User Profile](viewing-your-user-profile.md)
-* [Perks](perks.md)
-* [AWS Migration TCO Analysis](aws-migration-tco-analysis.md)
-* [Connect Google Cloud Service Account](connect-google-cloud-service-account.md)
-* [Google Cloud Quotas](google-cloud-quotas/README.md)
-  * [Add your Amazon Web Services IAM Role](google-cloud-quotas/add-your-amazon-web-services-iam-role.md)
-* [Transfer Google Cloud Projects](transfer-google-cloud-projects/README.md)
-  * [Create An AWS Account](transfer-google-cloud-projects/create-an-aws-account.md)
-* [Invite Existing AWS Account](invite-existing-aws-account.md)
-* [Supported AWS Cost Allocation Tags](supported-aws-cost-allocation-tags.md)
-* [Cloud Infrastructure Known Issues](cloud-infrastructure-known-issues.md)
-* [Open A New Support Request](open-a-new-support-request.md)
-* [Escalating Support Requests](escalating-support-requests.md)
-* [Ticket Sharing](ticket-sharing.md)
-* [Access An Existing Support Request](access-an-existing-support-request.md)
-* [Company Registration \(Video\)](company-registration-video.md)
-* [Transfer Google Cloud Projects \(Video\)](transfer-google-cloud-projects-video.md)
-* [Create Google Cloud Billing Account \(Video\)](create-google-cloud-billing-account-video.md)
-* [Configure Cost Labels \(Video - reOptimize\)](configure-cost-labels-video-reoptimize.md)
-* [Create An AWS Account \(Video\)](create-an-aws-account-video.md)
+
+## General
+
+* [Introduction to the Cloud Management Platform](general/introduction-to-the-cloud-management-platform.md)
+* [Login](general/login.md)
+* [Viewing Your User Profile](general/viewing-your-user-profile.md)
+* [Company Registration \(Video\)](general/company-registration-video.md)
+* [Tagging Assets](general/tag-assets.md)
+* [Perks](general/perks.md)
+
+## Google Cloud
+
+* [Connect Google Cloud Service Account](google-cloud/connect-google-cloud-service-account.md)
+* [Create Google Cloud Billing Account](google-cloud/create-google-cloud-billing-account.md)
+* [Transfer Google Cloud Projects](google-cloud/transfer-google-cloud-projects.md)
+* [Create Google Cloud Billing Account \(Video\)](google-cloud/create-google-cloud-billing-account-video.md)
+* [Transfer Google Cloud Projects \(Video\)](google-cloud/transfer-google-cloud-projects-video.md)
+* [Google Cloud Quotas](google-cloud/google-cloud-quotas.md)
+
+## Amazon Web Services
+
+* [Add your Amazon Web Services IAM Role](amazon-web-services/add-your-amazon-web-services-iam-role.md)
+* [Invite Existing AWS Account](amazon-web-services/invite-existing-aws-account.md)
+* [Create An AWS Account](amazon-web-services/create-an-aws-account.md)
+* [Create An AWS Account \(Video\)](amazon-web-services/create-an-aws-account-video.md)
+* [Supported AWS Cost Allocation Tags](amazon-web-services/supported-aws-cost-allocation-tags.md)
+* [AWS Migration TCO Analysis](amazon-web-services/aws-migration-tco-analysis.md)
+
+## Working with Tickets <a id="tickets"></a>
+
+* [Open A New Support Request](tickets/open-a-new-support-request.md)
+* [Access An Existing Support Request](tickets/access-an-existing-support-request.md)
+* [Escalating Support Requests](tickets/escalating-support-requests.md)
+* [Ticket Sharing](tickets/ticket-sharing.md)
+* [Cloud Infrastructure Known Issues](tickets/cloud-infrastructure-known-issues.md)
 

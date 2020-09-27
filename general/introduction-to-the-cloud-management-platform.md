@@ -31,7 +31,7 @@ You may have various components of your application\(s\) spread across different
 
 ### AWS-to-GCP TCO Analysis Report
 
-As a DoiT International customer, you can [compare the Total Cost of Ownership \(TCO\)](aws-migration-tco-analysis.md) of your AWS assets vs. Google Cloud, directly from the Cloud Management Platform using your AWS invoice data in CSV format.
+As a DoiT International customer, you can [compare the Total Cost of Ownership \(TCO\)](../amazon-web-services/aws-migration-tco-analysis.md) of your AWS assets vs. Google Cloud, directly from the Cloud Management Platform using your AWS invoice data in CSV format.
 
 Within seconds of uploading your AWS invoice, you'll see what your potential GCP costs \(and savings\) would be if you ran the same compute workloads there.
 
@@ -105,7 +105,7 @@ Every cloud provider has resource quotas for things like VPCs, CPU cores, and mo
 
 However, sometimes your quota limits can, without warning, be hit by a surge of demand that causes you to hit those quotas. When this happens, you're forced to wait for your ticket to be addressed.
 
-With Quota Monitoring for [Google Cloud](google-cloud-quotas/) and [AWS](https://help.doit-intl.com/hc/en-us/articles/360038791071-AWS-Service-Limits-Quotas-Alerts) you can stay on top of your cloud quotas with proactive monitoring. You'll get notified when you're approaching quotas.
+With Quota Monitoring for [Google Cloud](../google-cloud/google-cloud-quotas.md) and [AWS](https://help.doit-intl.com/hc/en-us/articles/360038791071-AWS-Service-Limits-Quotas-Alerts) you can stay on top of your cloud quotas with proactive monitoring. You'll get notified when you're approaching quotas.
 
 This way, you'll keep services always running by adjusting limits ahead of time.
 
@@ -153,8 +153,8 @@ CMP gives you complete self-service management of assets across Google Cloud, AW
 From your Asset Management screen, you can:
 
 * View all cloud subscriptions in one place.
-* [Create a new Google Cloud Billing Account](create-google-cloud-billing-account.md) and/or an [AWS account](transfer-google-cloud-projects/create-an-aws-account.md).
-* [Invite an existing AWS account](invite-existing-aws-account.md)
+* [Create a new Google Cloud Billing Account](../google-cloud/create-google-cloud-billing-account.md) and/or an [AWS account](../amazon-web-services/create-an-aws-account.md).
+* [Invite an existing AWS account](../amazon-web-services/invite-existing-aws-account.md)
 * [Purchase additional seats for G Suite](https://help.doit-intl.com/hc/en-us/articles/360032598271-Purchase-G-Suite-Licenses) and/or [Office 365](https://help.doit-intl.com/hc/en-us/articles/360032598391-Purchase-Office-365-Licenses) yourself.
 * Automate subscription management with [auto-provisioning](https://help.doit-intl.com/hc/en-us/articles/360038041751-Configure-Auto-Increase-for-G-Suite-Subscriptions) for G Suite, guaranteeing there is an open seat at all times.
 * [Tag Assets](tag-assets.md) for classification and invoicing purposes \(e.g. team name, cost center, location, etc.\).
@@ -209,8 +209,8 @@ Use User Management to:
 
 Within the CMP you can resolve your cloud issues quickly with hyper-responsive and unlimited support from DoiT International— **at no extra cost**.
 
-* [Open tickets](open-a-new-support-request.md) with experienced Cloud Architects and Engineers.
+* [Open tickets](../tickets/open-a-new-support-request.md) with experienced Cloud Architects and Engineers.
 * View open or historical tickets and their statuses.
-* [Share tickets](ticket-sharing.md) with other team members.
-* Stay up to date on any [known issues](cloud-infrastructure-known-issues.md) across all clouds you use.
+* [Share tickets](../tickets/ticket-sharing.md) with other team members.
+* Stay up to date on any [known issues](../tickets/cloud-infrastructure-known-issues.md) across all clouds you use.
 

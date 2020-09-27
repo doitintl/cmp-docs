@@ -1,10 +1,9 @@
 # Table of contents
 
-* [Documentation](README.md)
+* [What is CMP?](README.md)
 
 ## General
 
-* [Introduction to the Cloud Management Platform](general/introduction-to-the-cloud-management-platform.md)
 * [Login](general/login.md)
 * [Viewing Your User Profile](general/viewing-your-user-profile.md)
 * [Company Registration \(Video\)](general/company-registration-video.md)

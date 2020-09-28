@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is the Cloud Management Platform?](README.md)
+* [What is CMP?](README.md)
 
 ## General
 
@@ -41,4 +41,8 @@
 ---
 
 * [Add a New G Suite Subscription](add-a-new-g-suite-subscription.md)
+
+## API
+
+* [Untitled](api/untitled.md)
 

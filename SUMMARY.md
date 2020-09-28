@@ -44,5 +44,3 @@
 
 ## API
 
-* [API](api/api.md)
-

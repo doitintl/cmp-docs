@@ -1,4 +1,4 @@
-# Transfer Google Cloud Projects \(Video\)
+# Transfer Google Cloud Projects
 
 Was this article helpful?
 

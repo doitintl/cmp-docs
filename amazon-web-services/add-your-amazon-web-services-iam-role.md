@@ -1,4 +1,4 @@
-# Add your Amazon Web Services IAM Role
+# Connect Your AWS IAM Role
 
 By connecting your AWS account/s, you will unlock additional functionalities such as proactive resource quota monitoring and more.
 

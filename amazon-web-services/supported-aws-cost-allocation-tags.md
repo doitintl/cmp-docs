@@ -1,4 +1,4 @@
-# Supported AWS Cost Allocation Tags
+# AWS Cost Allocation Tags
 
 We have enabled the following user-defined tags \(case sensitive\) across our AWS consolidated billing accounts:
 

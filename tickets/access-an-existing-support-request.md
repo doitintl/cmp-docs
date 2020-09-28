@@ -1,4 +1,4 @@
-# Access An Existing Support Request
+# Working with Support Requests
 
 If you would like to access and review previously submitted support requests, you can easily do so through the Cloud Management Platform \(i.e., [https://hello.doit-intl.com](https://hello.doit-intl.com/)\). 
 

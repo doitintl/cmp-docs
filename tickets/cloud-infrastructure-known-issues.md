@@ -1,4 +1,4 @@
-# Cloud Infrastructure Known Issues
+# Known Issues
 
 **Known Issues** are defined as any faults or defects in Google Cloud Platform, Amazon Web Services, or Microsoft Azure services that may be impacting the performance or availability of your applications.
 

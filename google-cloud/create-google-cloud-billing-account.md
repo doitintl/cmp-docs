@@ -1,4 +1,4 @@
-# Create Google Cloud Billing Account
+# New Google Billing Account
 
 As a customer, you are able to create a Google Cloud Billing Account directly from the Cloud Management Platform.
 

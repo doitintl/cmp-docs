@@ -16,5 +16,7 @@ Once you're at the Assets page, switch to the relevant asset, locate the three-d
 
 You may add any term or keyword you like, yet only one tag is allowed per asset. Once you choose the tag, click 'Save'.
 
-The tag will be saved and can be used for other assets as well. 
+![Tagging a Google Billing Account with &quot;CRE&quot; tag](../.gitbook/assets/tagging-assets.png)
+
+The tag will be saved and can be reused for other assets as well. 
 

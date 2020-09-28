@@ -14,6 +14,10 @@ Another way to access Assets is via the menu on the left-hand side of the page a
 
 Once you're at the Assets page, switch to the relevant asset, locate the three-dots icon, and click on 'Tag Asset'.
 
+{% hint style="info" %}
+This is your hint!
+{% endhint %}
+
 You may add any term or keyword you like, yet only one tag is allowed per asset. Once you choose the tag, click 'Save'.
 
 ![Tagging a Google Billing Account with &quot;CRE&quot; tag](../.gitbook/assets/tagging-assets.png)

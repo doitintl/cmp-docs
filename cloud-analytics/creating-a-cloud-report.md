@@ -6,7 +6,7 @@
 
 At a minimum, to create, edit, and share Cloud Reports, you will need to satisfy the following requirements:
 
-* [Connect your Google Cloud Organization](https://help.doit-intl.com/hc/en-us/articles/360048197072-Connect-Google-Cloud-Service-Account) to CMP.
+* [Connect your Google Cloud Organization](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account) to CMP.
 * You must have the "Cloud Analytics" CMP permission granted.
 
 ### Accessing Cloud Reports

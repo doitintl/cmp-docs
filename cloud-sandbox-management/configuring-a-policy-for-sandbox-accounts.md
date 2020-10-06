@@ -8,9 +8,9 @@ description: >-
 
 Google Cloud Sandbox for Organizations is the easiest way for companies to set up and manage Google Cloud sandboxes. Through the Cloud Management Platform, you’ll be able to enable your developers to create a sandbox, monitor sandboxes from a centralized hub, and have one-click access to sandbox projects for deeper dives.
 
-Set up a Google Cloud Sandbox Policy to enforce rules which automate sandbox management. With a sandbox policy, you can set up sandbox budgets, get alerts when a budget is hit, or automatically disable the billing, limit the number of sandboxes per user, connect all sandboxes to your GCP billing account, organization, and IAM folder, and give all sandboxes a stable naming convention.
+Set up a Google Cloud Sandbox Policy to enforce rules which automate sandbox management. With a sandbox policy, you can set up sandbox budgets, get alerts when a budget is hit, or automatically disable the billing, limit the number of sandboxes per user, connect all sandboxes to your Google Cloud billing account, organization, and IAM folder, and give all sandboxes a stable naming convention.
 
-_To create Google Cloud Sandbox Accounts, you must verify that a Google Cloud service account was successfully configured. You can read more on how to configure your Google Cloud service account at_ [_Connect Your Google Cloud Organization._](https://help.doit-intl.com/hc/en-us/articles/360048197072-Connect-Google-Cloud-Service-Account)
+_To create Google Cloud Sandbox Accounts, you must verify that a Google Cloud service account was successfully configured. You can read more on how to configure your Google Cloud service account at_ [_Connect Your Google Cloud Organization_](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account)_._
 
 **Required Permission:**
 

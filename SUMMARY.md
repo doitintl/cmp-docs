@@ -49,5 +49,6 @@
 
 ## Cloud Analytics
 
-* [Creating a Cloud Report](cloud-analytics/creating-a-cloud-report.md)
+* [Creating a Cloud Report](cloud-analytics/create-cloud-report.md)
+* [Editing your Cloud Report](cloud-analytics/editing-your-cloud-report.md)
 

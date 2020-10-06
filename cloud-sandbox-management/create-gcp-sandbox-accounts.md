@@ -12,7 +12,7 @@ At a minimum, to create a sandbox account, you must be granted the following per
 
 * Sandbox User 
 
-After a policy has been configured, a user can create sandbox accounts up to the amount which was defined by the Admin in the Sandbox Policy.
+After a [policy has been configured](https://app.gitbook.com/@doitintl/s/cmp/cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts), a user can create sandbox accounts up to the amount which was defined by the Admin in the Sandbox Policy.
 
 From the home page, please select 'Sandbox Accounts' using the left navigation menu. Then, click on 'Create Sandbox', located on the right-hand side of the page.
 

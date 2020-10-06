@@ -45,7 +45,9 @@ Complete the Sandbox Management Policy form:
 
 ![](../.gitbook/assets/sandbox-policy2.png)
 
+
+
 The Sandbox Admin can disable the policy to prevent the creation of additional sandboxes. This action will not disable any preexisting sandboxes. Click on 'Update Policy', and locate the disable/enable button. To finish, click 'Save'.
 
-To learn more about how to create sandbox environments in the CMP, go [here](https://help.doit-intl.com/hc/en-us/articles/360042612671).  
+To learn more about how to create sandbox environments in the CMP, go [here](https://app.gitbook.com/@doitintl/s/cmp/cloud-sandbox-management/create-gcp-sandbox-accounts).  
 

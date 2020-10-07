@@ -51,4 +51,5 @@
 
 * [Creating a Cloud Report](cloud-analytics/create-cloud-report.md)
 * [Editing your Cloud Report](cloud-analytics/editing-your-cloud-report.md)
+* [Attributing Cloud Spend](cloud-analytics/attributing-cloud-spend.md)
 

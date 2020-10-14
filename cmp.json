@@ -1,0 +1,859 @@
+{
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "schemes": [
+    "https"
+  ],
+  "swagger": "2.0",
+  "info": {
+    "description": "Cloud Management Platform API - scheduled tasks",
+    "title": "Cloud Management Platform API",
+    "version": "v1"
+  },
+  "host": "api-dev.doit-intl.com",
+  "basePath": "/v1",
+  "paths": {
+    "/customers/{CustomerId}/assets": {
+      "get": {
+        "description": "Shows all the open issues from the cloud providers.\nyou can filter using the parameters",
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "assets"
+        ],
+        "summary": "return the list of customer assets.",
+        "operationId": "idOfAssets",
+        "parameters": [
+          {
+            "type": "string",
+            "description": "customer ID",
+            "name": "CustomerId",
+            "in": "path",
+            "required": true
+          },
+          {
+            "type": "integer",
+            "format": "int64",
+            "description": "max results",
+            "name": "Limit",
+            "in": "query"
+          },
+          {
+            "enum": [
+              "all",
+              "google-cloud-project",
+              "google-cloud",
+              "amazon-web-services",
+              "bettercloud",
+              "g-suite",
+              "zendesk",
+              "office-365",
+              "microsoft-azure"
+            ],
+            "type": "string",
+            "default": "all",
+            "description": "asset type",
+            "name": "AssetType",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/responses/successRespWithAssets"
+          },
+          "400": {
+            "$ref": "#/responses/badRequest"
+          },
+          "401": {
+            "$ref": "#/responses/unauthorized"
+          },
+          "403": {
+            "$ref": "#/responses/forbidden"
+          },
+          "404": {
+            "$ref": "#/responses/notFound"
+          }
+        }
+      }
+    },
+    "/customers/{CustomerId}/assets/{AssetId}": {
+      "get": {
+        "description": "Shows asset deatils.",
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "assets"
+        ],
+        "summary": "return asst information.",
+        "operationId": "idOfAsset",
+        "parameters": [
+          {
+            "type": "string",
+            "description": "customer ID",
+            "name": "CustomerId",
+            "in": "path",
+            "required": true
+          },
+          {
+            "type": "string",
+            "description": "asset ID",
+            "name": "AssetId",
+            "in": "path",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/responses/successRespWithAsset"
+          },
+          "400": {
+            "$ref": "#/responses/badRequest"
+          },
+          "401": {
+            "$ref": "#/responses/unauthorized"
+          },
+          "403": {
+            "$ref": "#/responses/forbidden"
+          },
+          "404": {
+            "$ref": "#/responses/notFound"
+          }
+        }
+      }
+    },
+    "/customers/{CustomerId}/invoices": {
+      "get": {
+        "description": "Shows all the open issues from the cloud providers.\nyou can filter using the parameters",
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "invoices"
+        ],
+        "summary": "return cloud providers open issues filtered by parameters.",
+        "operationId": "idOfInvoices",
+        "parameters": [
+          {
+            "type": "string",
+            "description": "customer ID",
+            "name": "CustomerId",
+            "in": "path",
+            "required": true
+          },
+          {
+            "type": "integer",
+            "format": "int64",
+            "description": "max results",
+            "name": "Limit",
+            "in": "query"
+          },
+          {
+            "type": "string",
+            "description": "Due date Date 2019-09-16 19:39:31",
+            "name": "DueDate",
+            "in": "query"
+          },
+          {
+            "type": "string",
+            "description": "date min Date 2019-09-16 19:39:31",
+            "name": "From",
+            "in": "query"
+          },
+          {
+            "type": "string",
+            "description": "date max Date 2020-09-16 19:39:31",
+            "name": "To",
+            "in": "query"
+          },
+          {
+            "enum": [
+              "all",
+              "true",
+              "false"
+            ],
+            "type": "string",
+            "default": "all",
+            "description": "filter by is Paid",
+            "name": "Paid",
+            "in": "query"
+          },
+          {
+            "type": "string",
+            "description": "filter by billing Profile",
+            "name": "BillingProfile",
+            "in": "query"
+          },
+          {
+            "enum": [
+              "all",
+              "true",
+              "false"
+            ],
+            "type": "string",
+            "default": "all",
+            "description": "include canceled invoices",
+            "name": "Canceled",
+            "in": "query"
+          },
+          {
+            "enum": [
+              "amazon-web-services",
+              "google-cloud",
+              "g-suite",
+              "microsoft-azure",
+              "office-365",
+              "superQuery"
+            ],
+            "type": "string",
+            "description": "Product",
+            "name": "Product",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/responses/successRespWithInvoices"
+          },
+          "400": {
+            "$ref": "#/responses/badRequest"
+          },
+          "401": {
+            "$ref": "#/responses/unauthorized"
+          },
+          "403": {
+            "$ref": "#/responses/forbidden"
+          },
+          "404": {
+            "$ref": "#/responses/notFound"
+          }
+        }
+      }
+    },
+    "/customers/{CustomerId}/reports": {
+      "get": {
+        "description": "Shows all the Cloud Analytics reports.\nyou can filter using the parameters",
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "reports"
+        ],
+        "summary": "return list of available Cloud Analytics reports ",
+        "operationId": "idOfReports",
+        "parameters": [
+          {
+            "type": "integer",
+            "format": "int64",
+            "description": "max results",
+            "name": "Limit",
+            "in": "query"
+          },
+          {
+            "enum": [
+              "all",
+              "custom",
+              "preset"
+            ],
+            "type": "string",
+            "default": "all",
+            "description": "type",
+            "name": "Type",
+            "in": "query"
+          },
+          {
+            "enum": [
+              "all",
+              "true",
+              "false"
+            ],
+            "type": "string",
+            "default": "all",
+            "description": "is Public",
+            "name": "IsPublic",
+            "in": "query"
+          },
+          {
+            "type": "string",
+            "description": "Owner",
+            "name": "Owner",
+            "in": "query"
+          },
+          {
+            "type": "string",
+            "description": "customer ID",
+            "name": "CustomerId",
+            "in": "path",
+            "required": true
+          },
+          {
+            "type": "string",
+            "description": "report ID",
+            "name": "ReportId",
+            "in": "path",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/responses/successRespWithReports"
+          },
+          "400": {
+            "$ref": "#/responses/badRequest"
+          },
+          "401": {
+            "$ref": "#/responses/unauthorized"
+          },
+          "403": {
+            "$ref": "#/responses/forbidden"
+          },
+          "404": {
+            "$ref": "#/responses/notFound"
+          }
+        }
+      }
+    },
+    "/customers/{CustomerId}/reports/{ReportId}": {
+      "get": {
+        "description": "execute a CMP report and return its results.",
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "reports"
+        ],
+        "summary": "execute a CMP report and return its results ",
+        "operationId": "idOfReport",
+        "parameters": [
+          {
+            "type": "string",
+            "description": "customer ID",
+            "name": "CustomerId",
+            "in": "path",
+            "required": true
+          },
+          {
+            "type": "string",
+            "description": "report ID",
+            "name": "ReportId",
+            "in": "path",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/responses/successRespWithReport"
+          },
+          "400": {
+            "$ref": "#/responses/badRequest"
+          },
+          "401": {
+            "$ref": "#/responses/unauthorized"
+          },
+          "403": {
+            "$ref": "#/responses/forbidden"
+          },
+          "404": {
+            "$ref": "#/responses/notFound"
+          }
+        }
+      }
+    },
+    "/knownIssues": {
+      "get": {
+        "description": "Shows all the open issues from the cloud providers.\nyou can filter using the parameters",
+        "schemes": [
+          "https"
+        ],
+        "tags": [
+          "knownIssues"
+        ],
+        "summary": "return cloud providers open issues filtered by parameters.",
+        "operationId": "idOfKnownIssues",
+        "parameters": [
+          {
+            "type": "integer",
+            "format": "int64",
+            "description": "max results",
+            "name": "Limit",
+            "in": "query"
+          },
+          {
+            "enum": [
+              "all",
+              "amazon-web-services",
+              "google-cloud-project"
+            ],
+            "type": "string",
+            "default": "all",
+            "description": "known issues cloud platform",
+            "name": "Platform",
+            "in": "query"
+          },
+          {
+            "type": "string",
+            "description": "date min Date 2019-09-16 19:39:31",
+            "name": "From",
+            "in": "query"
+          },
+          {
+            "type": "string",
+            "description": "date max Date 2020-09-16 19:39:31",
+            "name": "To",
+            "in": "query"
+          },
+          {
+            "type": "string",
+            "description": "filter by product",
+            "name": "Product",
+            "in": "query"
+          },
+          {
+            "enum": [
+              "all",
+              "ongoing",
+              "archived"
+            ],
+            "type": "string",
+            "default": "all",
+            "description": "filter by status",
+            "name": "Status",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "$ref": "#/responses/successRespWithknownIssues"
+          },
+          "400": {
+            "$ref": "#/responses/badRequest"
+          },
+          "401": {
+            "$ref": "#/responses/unauthorized"
+          },
+          "403": {
+            "$ref": "#/responses/forbidden"
+          },
+          "404": {
+            "$ref": "#/responses/notFound"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Asset": {
+      "type": "object",
+      "title": "Asset ...",
+      "properties": {
+        "AssetID": {
+          "type": "string"
+        },
+        "AssetType": {
+          "type": "string"
+        },
+        "Properties": {
+          "$ref": "#/definitions/AssetProperties"
+        },
+        "Tags": {
+          "description": "Bucket     *firestore.DocumentRef `firestore:\"bucket\"`\nContract   *firestore.DocumentRef `firestore:\"contract\"`\nCustomer   *firestore.DocumentRef `firestore:\"customer\"`\nEntity     *firestore.DocumentRef `firestore:\"entity\"`",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "AssetProperties": {
+      "type": "object",
+      "title": "AssetProperties ...",
+      "properties": {
+        "Admins": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "BillingAccountID": {
+          "type": "string"
+        },
+        "DisplayName": {
+          "type": "string"
+        },
+        "Etag": {
+          "type": "string"
+        },
+        "Projects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Assets": {
+      "type": "array",
+      "title": "Assets ...",
+      "items": {
+        "$ref": "#/definitions/Asset"
+      }
+    },
+    "Invoice": {
+      "type": "object",
+      "title": "Invoice ...",
+      "properties": {
+        "BillingProfile": {
+          "description": "Billing Profile",
+          "type": "string"
+        },
+        "Cancelled": {
+          "description": "is invoice cancelled",
+          "type": "boolean"
+        },
+        "Currency": {
+          "description": "currenct",
+          "type": "string"
+        },
+        "Date": {
+          "description": "issue date e.g 2020-05-01 00:00:00",
+          "type": "string",
+          "format": "date-time"
+        },
+        "DueDate": {
+          "description": "due date e.g 2020-05-01 00:00:00",
+          "type": "string",
+          "format": "date-time"
+        },
+        "ID": {
+          "description": "Invoice ID",
+          "type": "string"
+        },
+        "Paid": {
+          "description": "is paid",
+          "type": "boolean"
+        },
+        "PriorityID": {
+          "description": "Priority Id",
+          "type": "string"
+        },
+        "Prooducts": {
+          "description": "products",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Total": {
+          "description": "Invoice total",
+          "type": "number",
+          "format": "double"
+        },
+        "TotalUSD": {
+          "description": "Invoice total in USD",
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "Invoices": {
+      "type": "array",
+      "title": "Invoices ...",
+      "items": {
+        "$ref": "#/definitions/Invoice"
+      }
+    },
+    "KnownIssue": {
+      "description": "KnoenIssue retrived from the cloud providers",
+      "type": "object",
+      "properties": {
+        "AffectedProduct": {
+          "description": "The producr affected by the issue",
+          "type": "string"
+        },
+        "DateTime": {
+          "description": "Date and time issue reported",
+          "type": "string",
+          "format": "date-time"
+        },
+        "IssueID": {
+          "description": "Issue id",
+          "type": "string"
+        },
+        "Platform": {
+          "description": "The Cloud Provider",
+          "type": "string"
+        },
+        "Status": {
+          "description": "Issue status",
+          "type": "string"
+        },
+        "Summary": {
+          "description": "Issue summary",
+          "type": "string"
+        },
+        "Symptoms": {
+          "description": "Issue symptoms",
+          "type": "string"
+        },
+        "Title": {
+          "description": "Issue titile",
+          "type": "string"
+        }
+      }
+    },
+    "KnownIssues": {
+      "description": "Array of known issues",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/KnownIssue"
+      }
+    },
+    "Report": {
+      "type": "object",
+      "title": "Report ...",
+      "properties": {
+        "collaborators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ReportCollaborator"
+          }
+        },
+        "isPublic": {
+          "type": "boolean"
+        },
+        "name": {
+          "type": "string"
+        },
+        "reportID": {
+          "type": "string"
+        },
+        "timeCreated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "timeModified": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "ReportCollaborator": {
+      "type": "object",
+      "title": "ReportCollaborator ...",
+      "properties": {
+        "owner": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        }
+      }
+    },
+    "Reports": {
+      "type": "array",
+      "title": "Reports ...",
+      "items": {
+        "$ref": "#/definitions/Report"
+      }
+    }
+  },
+  "responses": {
+    "badRequest": {
+      "description": "Error badRequest",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "description": "HTTP status code 400 -  Bad Request",
+            "type": "integer",
+            "format": "int64"
+          },
+          "message": {
+            "description": "Detailed error message",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "forbidden": {
+      "description": "Error Forbidden",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "description": "HTTP status code 403 -  Forbidden",
+            "type": "integer",
+            "format": "int64"
+          },
+          "message": {
+            "description": "Detailed error message",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notFound": {
+      "description": "Error NotFound",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "description": "HTTP status code 404 -  Not Found",
+            "type": "integer",
+            "format": "int64"
+          },
+          "message": {
+            "description": "Detailed error message",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ok": {
+      "description": "Success response",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "description": "HTTP status code 200 - OK",
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      }
+    },
+    "successRespWithAsset": {
+      "description": "asset customer asset.",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "Data": {
+            "$ref": "#/definitions/Asset"
+          },
+          "code": {
+            "description": "HTTP status code 200/201",
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      }
+    },
+    "successRespWithAssets": {
+      "description": "assets customer assets.",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "Data": {
+            "$ref": "#/definitions/Assets"
+          },
+          "code": {
+            "description": "HTTP status code 200/201",
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      }
+    },
+    "successRespWithInvoices": {
+      "description": "invoices customer invoices.",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "Data": {
+            "$ref": "#/definitions/Invoices"
+          },
+          "code": {
+            "description": "HTTP status code 200/201",
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      }
+    },
+    "successRespWithReport": {
+      "description": "Cloud Analytics Reports.",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "Data": {
+            "$ref": "#/definitions/Report"
+          },
+          "code": {
+            "description": "HTTP status code 200/201",
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      }
+    },
+    "successRespWithReports": {
+      "description": "Cloud Analytics Reports.",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "Data": {
+            "$ref": "#/definitions/Reports"
+          },
+          "code": {
+            "description": "HTTP status code 200/201",
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      }
+    },
+    "successRespWithknownIssues": {
+      "description": "knwonIssues Known Issues reported by the cloud providers.",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "Data": {
+            "$ref": "#/definitions/KnownIssues"
+          },
+          "code": {
+            "description": "HTTP status code 200/201",
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      }
+    },
+    "unauthorized": {
+      "description": "Error Unauthorized",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "description": "HTTP status code 401 -  Unauthorized",
+            "type": "integer",
+            "format": "int64"
+          },
+          "message": {
+            "description": "Detailed error message",
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "api_key": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+  "security": [
+    {
+      "api_key": []
+    }
+  ]
+}

@@ -52,6 +52,10 @@
 * [Creating a Cloud Report](cloud-analytics/create-cloud-report.md)
 * [Editing your Cloud Report](cloud-analytics/editing-your-cloud-report.md)
 * [Attributing Cloud Spend](cloud-analytics/attributing-cloud-spend.md)
+* [Sharing Cloud Reports](cloud-analytics/sharing-cloud-reports.md)
+* [Cloning and/or Customizing Cloud Reports](cloud-analytics/cloning-and-or-customizing-cloud-reports.md)
+* [Using Aggregations in Cloud Reports](cloud-analytics/using-aggregations-in-cloud-reports.md)
+* [Exporting Cloud Reports](cloud-analytics/exporting-cloud-reports.md)
 
 ## API <a id="api-1"></a>
 

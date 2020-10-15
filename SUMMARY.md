@@ -39,6 +39,11 @@
 ---
 
 * [Add a New G Suite Subscription](add-a-new-g-suite-subscription.md)
+* [Purchasing G Suite Licenses](purchasing-g-suite-licenses.md)
+* [Upgrading your G Suite Edition](upgrading-your-g-suite-edition.md)
+* [Configuring Auto-Increase for G Suite Subscriptions](configuring-auto-increase-for-g-suite-subscriptions.md)
+* [Add New Office 365 Subscriptions](add-new-office-365-subscriptions.md)
+* [Purchasing Office 365 Licenses](purchasing-office-365-licenses.md)
 
 ## API
 

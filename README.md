@@ -11,11 +11,13 @@ In this article, we'll briefly go over each of the main capabilities you have ac
 Cloud Reports give you instant visibility into your Google Cloud costs without having to spend agonizing hours scanning through GCP bills.
 
 * Analyze cloud spend to identify optimization opportunities.
-* [Build customized reports](https://help.doit-intl.com/hc/en-us/articles/360045644211-Creating-a-Cloud-Report) and [share](https://help.doit-intl.com/hc/en-us/articles/360045700631-Share-Cloud-Reports) them with others.
+* [Build customized reports](cloud-analytics/create-cloud-report.md) and [share](cloud-analytics/sharing-cloud-reports.md) them with others.
 * Monitor costs on the go from your phone.
 * Cross-check your SUD/CUD credits with by-the-hour reporting.
 
-[Go here](https://help.doit-intl.com/hc/en-us/sections/360009379892-Cloud-Reports) for the full list of your capabilities with Cloud Reports.
+{% embed url="https://www.loom.com/share/b953b425d41844d5b48e95d24da3787e" %}
+
+
 
 ### Cost Attributions
 
@@ -23,9 +25,9 @@ Attributions are a flexible way to group resources and their associated costs, h
 
 You may have various components of your application\(s\) spread across different projects, using different services. Attributions allow you to combine everything into something coherent.
 
- [![Attributions-team-prod.jpg](https://help.doit-intl.com/hc/article_attachments/360066691611/Attributions-team-prod.jpg)](https://help.doit-intl.com/hc/article_attachments/360066691611/Attributions-team-prod.jpg)
+{% embed url="https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883?sharedAppSource=team\_library" %}
 
-[How to use your Attributions in your Cloud Reports](https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883)
+
 
 ## Cloud Cost Optimization
 
@@ -51,6 +53,10 @@ With Instance Rightsizing for Google Cloud, you will:
 * [Identify and delete and/or modify idle VMs](https://help.doit-intl.com/hc/en-us/articles/360039630271-Rightsizing-for-Google-Cloud) in two clicks.
 * Never pay for underutilized Google Compute instances again.
 
+{% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team\_library" %}
+
+
+
 ### Flexible Reserved Instances
 
 AWS Reserved Instances \(RIs\) offer you between 30-70% savings on compute costs in exchange for a one or three-year commitment. Typically, you’d use RIs for predictable workloads, and pay on-demand pricing for the less predictable.
@@ -62,6 +68,10 @@ However getting RIs usage perfect is hard, because it relies on you being able t
 This means you can reduce lock-in risk for your less-predictable workloads.
 
 Placing an order for a Flex RI for the following month takes all but a few clicks, and you can easily monitor their performance from a central hub in the CMP.
+
+{% embed url="https://www.loom.com/share/0b0b32a767cf43dba42a32b741f61502?sharedAppSource=team\_library" %}
+
+
 
 ### BigQuery FinOps Dashboard
 
@@ -77,11 +87,15 @@ One important aspect of the BigQuery FinOps Dashboard is the Recommendations wid
 
 Each recommendation category comes with further details on how to act on each recommendation.
 
+{% embed url="https://www.loom.com/share/bfd572ece0494386938a061b4d81cf47?sharedAppSource=team\_library" %}
+
+
+
 ## Cloud Enablement
 
 ### Cloud Sandbox for Google Cloud
 
-Cloud sandboxes offer engineering teams a safe and controlled environment to run experiments, test and build out new features without worrying about impacting production infrastructure. While easy, simply creating a new Google Cloud project cannot be considered a “complete” solution due to the lack of built-in budget management, self-service for developers, and governing policies.
+Cloud sandboxes offer engineering teams a safe and controlled environment to run experiments, test, and build out new features without worrying about impacting production infrastructure. While easy, simply creating a new Google Cloud project cannot be considered a “complete” solution due to the lack of built-in budget management, self-service for developers, and governing policies.
 
 Cloud Sandbox for Google Cloud gives admins and developers the governance and autonomy they both need, respectively, all while connecting to their Google Cloud Organization.
 
@@ -95,6 +109,10 @@ First, [create a sandbox policy](https://help.doit-intl.com/hc/en-us/articles/36
 
 Once a policy is created, developers are free to [create cloud sandbox environments](https://help.doit-intl.com/hc/en-us/articles/360042612671-Create-Google-Cloud-Sandbox-Accounts) themselves. No more submitting tickets just to get a new environment provisioned by an SRE. Finally, when sandboxes are up and running, you can monitor them all from a central hub.
 
+{% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team\_library" %}
+
+
+
 ### Quota Monitoring for Google Cloud and AWS
 
 Every cloud provider has resource quotas for things like VPCs, CPU cores, and more. If you'd like to change that quota, you can request more, and typically cloud vendors will approve it. However, this takes hours to days.
@@ -104,6 +122,10 @@ However, sometimes your quota limits can, without warning, be hit by a surge of 
 With Quota Monitoring for [Google Cloud](google-cloud/google-cloud-quotas.md) and [AWS](https://help.doit-intl.com/hc/en-us/articles/360038791071-AWS-Service-Limits-Quotas-Alerts) you can stay on top of your cloud quotas with proactive monitoring. You'll get notified when you're approaching quotas.
 
 This way, you'll keep services always running by adjusting limits ahead of time.
+
+{% embed url="https://www.loom.com/share/ff6f7fe037ec42dfa0a788e09144965c?sharedAppSource=team\_library" %}
+
+
 
 ### Anomaly Detection for Google Cloud
 
@@ -120,11 +142,17 @@ Available to DoiT customers right from the CMP, it also offers:
 * Fine-tune alerts by training them with your direct feedback.
 * Real-time analysis of workload activity 
 
+{% embed url="https://www.loom.com/share/b1ed3dd283ce472b965d0dddc1d10f55?sharedAppSource=team\_library" %}
+
+
+
 ### Perks
 
 [Perks](general/perks.md) are service-based benefits available to DoiT International customers at no extra cost, including workshops, training, cost optimization sessions, case studies, and co-produced webinars. They can easily be browsed and requested on-demand from within the CMP.
 
- [![Perks.jpg](https://help.doit-intl.com/hc/article_attachments/360062960052/Perks.jpg)](https://help.doit-intl.com/hc/article_attachments/360062960052/Perks.jpg)
+{% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team\_library" %}
+
+
 
 ## Cloud Productivity
 

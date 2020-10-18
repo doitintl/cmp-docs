@@ -9,6 +9,7 @@
 * [Company Registration](general/registration.md)
 * [Tagging Assets](general/tag-assets.md)
 * [Perks](general/perks.md)
+* [Accessing your Contracts with DoiT](general/accessing-your-contracts-with-doit.md)
 
 ## Google Cloud
 
@@ -84,4 +85,16 @@
 ## Anomaly Detection
 
 * [Viewing your Google Cloud Cost Anomalies](anomaly-detection/viewing-your-google-cloud-cost-anomalies.md)
+
+## User Management
+
+* [Creating a New User](user-management/creating-a-new-user.md)
+* [User Permissions Explained](user-management/user-permissions-explained.md)
+
+## Notifications
+
+* [Payment Reminders](notifications/payment-reminders.md)
+* [New Invoices](notifications/new-invoices.md)
+* [Cloud Credits](notifications/cloud-credits.md)
+* [Managing Alerts in Shared Slack Channels](notifications/managing-alerts-in-shared-slack-channels.md)
 

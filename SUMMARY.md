@@ -76,3 +76,7 @@
 * [Updating your Payment Method](invoices-and-payments/updating-your-payment-method.md)
 * [Updating your Accounts Payable \(AP\) Information](invoices-and-payments/updating-your-accounts-payable-ap-information.md)
 
+## Flexible Reserved Instances
+
+* [Purchasing Flex RIs](flexible-reserved-instances/purchasing-flex-ris.md)
+

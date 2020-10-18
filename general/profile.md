@@ -6,7 +6,11 @@ You can access and edit your user profile to adjust your personal details and/or
 
 Click your profile icon in the upper-right corner of the page header, then select **Profile.**
 
+![](../.gitbook/assets/profile-2-.png)
+
 In the Profile dialog, you will find the following fields which can all be edited.
+
+![](../.gitbook/assets/my-profile.png)
 
 **Email Address** - you can update your email address. This email is used for login, sending email notifications \(see Notification Settings\).
 

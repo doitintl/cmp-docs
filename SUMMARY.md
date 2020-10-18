@@ -46,8 +46,6 @@
 * [Add New Office 365 Subscriptions](add-new-office-365-subscriptions.md)
 * [Purchasing Office 365 Licenses](purchasing-office-365-licenses.md)
 
-## API
-
 ## Cloud Sandbox Management
 
 * [Configuring a Policy for Sandbox Accounts](cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md)
@@ -111,4 +109,6 @@
 * [Rightsizing for Google Cloud](dashboards/rightsizing-for-google-cloud.md)
 * [BigQuery FinOps Dashboard](dashboards/bigquery-finops-dashboard.md)
 * [AWS FinOps Dashboard](dashboards/aws-finops-dashboard.md)
+
+## API
 

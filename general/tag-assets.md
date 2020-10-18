@@ -10,13 +10,27 @@ At a minimum, to manage Invoices, you must be granted the following permission:
 
 From the main dashboard please select '**Manage Licenses**' & Assets. 
 
+![](../.gitbook/assets/new-manage-licenses-1-%20%281%29.png)
+
+
+
 Another way to access Assets is via the menu on the left-hand side of the page and clicking on Assets.
 
+![](../.gitbook/assets/assets-icon-1-%20%283%29.png)
+
+
+
 Once you're at the Assets page, switch to the relevant asset, locate the three-dots icon, and click on 'Tag Asset'.
+
+![](../.gitbook/assets/tag-asset.png)
+
+
 
 You may add any term or keyword you like, yet only one tag is allowed per asset. Once you choose the tag, click 'Save'.
 
 ![Tagging a Google Billing Account with &quot;CRE&quot; tag](../.gitbook/assets/tagging-assets.png)
 
-The tag will be saved and can be reused for other assets as well. 
+The tag will be saved and can be reused for other assets as well.
+
+![](../.gitbook/assets/tag-asset2.png)
 

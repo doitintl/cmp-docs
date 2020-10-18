@@ -80,3 +80,7 @@
 
 * [Purchasing Flex RIs](flexible-reserved-instances/purchasing-flex-ris.md)
 
+## Anomaly Detection
+
+* [Viewing your Google Cloud Cost Anomalies](anomaly-detection/viewing-your-google-cloud-cost-anomalies.md)
+

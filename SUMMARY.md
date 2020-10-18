@@ -62,5 +62,17 @@
 * [Using Aggregations in Cloud Reports](cloud-analytics/using-aggregations-in-cloud-reports.md)
 * [Exporting Cloud Reports](cloud-analytics/exporting-cloud-reports.md)
 
-## API <a id="api-1"></a>
+## Invoices & Payments
+
+* [Setting up a New Billing Profile](invoices-and-payments/setting-up-a-new-billing-profile.md)
+* [Managing Invoices](invoices-and-payments/managing-invoices.md)
+* [Paying Invoices with Credit Card or ACH](invoices-and-payments/paying-invoices-with-credit-card-or-ach.md)
+* [Changing Invoice Settings](invoices-and-payments/changing-invoice-settings.md)
+* [Setting up ACH Payments](invoices-and-payments/setting-up-ach-payments.md)
+* [Downloading your Invoice Reconciliation File](invoices-and-payments/downloading-your-invoice-reconciliation-file.md)
+* [Changing your Billing Currency](invoices-and-payments/changing-your-billing-currency.md)
+* [Changing your Company Name](invoices-and-payments/changing-your-company-name.md)
+* [Updating your Billing Address](invoices-and-payments/updating-your-billing-address.md)
+* [Updating your Payment Method](invoices-and-payments/updating-your-payment-method.md)
+* [Updating your Accounts Payable \(AP\) Information](invoices-and-payments/updating-your-accounts-payable-ap-information.md)
 

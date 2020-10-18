@@ -38,6 +38,7 @@
 
 ---
 
+* [How do I transfer my existing G Suite subscription to DoiT International?](how-do-i-transfer-my-existing-g-suite-subscription-to-doit-international.md)
 * [Add a New G Suite Subscription](add-a-new-g-suite-subscription.md)
 * [Purchasing G Suite Licenses](purchasing-g-suite-licenses.md)
 * [Upgrading your G Suite Edition](upgrading-your-g-suite-edition.md)

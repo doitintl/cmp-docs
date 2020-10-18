@@ -10,7 +10,13 @@ At a minimum, to enable/disable ticket sharing, you must be granted the followin
 
 Start with navigating to the 'Support' page by selecting the icon on the left-hand side menu.
 
+![](../.gitbook/assets/support-tab.png)
+
 Locate the three-dots icon on the right-hand side of the page and click 'Enable Ticket Sharing'.
 
+![](../.gitbook/assets/enable-ticket-sharing.png)
+
 Below is an example of ticket sharing enabled, note the requester who opened the ticket.
+
+![](../.gitbook/assets/ticket-sharing-enabled.png)
 

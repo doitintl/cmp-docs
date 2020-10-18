@@ -16,7 +16,6 @@
 * [Connect Your Google Cloud IAM](google-cloud/connect-google-cloud-service-account.md)
 * [New Google Billing Account](google-cloud/create-google-cloud-billing-account.md)
 * [Transfer Google Cloud Projects](google-cloud/transfer-google-cloud-projects.md)
-* [Transfer Google Cloud Projects](google-cloud/transfer-google-cloud-projects-video.md)
 * [Google Cloud Quotas](google-cloud/google-cloud-quotas.md)
 
 ## Amazon Web Services
@@ -102,4 +101,14 @@
 
 * [General Vendor Information](vendor-information/general-vendor-information.md)
 * [Security and Data Access Policy for Cloud Management Platform](vendor-information/security-and-data-access-policy-for-cloud-management-platform.md)
+
+## Dashboards
+
+* [Widgets Overview](dashboards/widgets-overview.md)
+* [Customizing Dashboards](dashboards/customizing-dashboards.md)
+* [Creating a New Dashboard](dashboards/creating-a-new-dashboard.md)
+* [Accessing a Public Dashboard](dashboards/accessing-a-public-dashboard.md)
+* [Rightsizing for Google Cloud](dashboards/rightsizing-for-google-cloud.md)
+* [BigQuery FinOps Dashboard](dashboards/bigquery-finops-dashboard.md)
+* [AWS FinOps Dashboard](dashboards/aws-finops-dashboard.md)
 

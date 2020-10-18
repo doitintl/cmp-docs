@@ -98,3 +98,8 @@
 * [Cloud Credits](notifications/cloud-credits.md)
 * [Managing Alerts in Shared Slack Channels](notifications/managing-alerts-in-shared-slack-channels.md)
 
+## Vendor Information
+
+* [General Vendor Information](vendor-information/general-vendor-information.md)
+* [Security and Data Access Policy for Cloud Management Platform](vendor-information/security-and-data-access-policy-for-cloud-management-platform.md)
+

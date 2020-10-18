@@ -78,3 +78,11 @@ In the example above, we made sure to filter for the production, dev, and ops te
 
 ![](../.gitbook/assets/filterattributions-2.jpg)
 
+
+
+View the bite-sized video below for a closer look at Attributions and using them in your Cloud Reports.
+
+{% embed url="https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883?sharedAppSource=team\_library" %}
+
+
+

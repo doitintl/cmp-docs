@@ -48,3 +48,11 @@ Choose a bucket to make it the default. Any asset that isn't assigned to a speci
 
 You can always revert back to separating your invoices by asset type if the custom bucketing isn't suitable for you anymore.
 
+
+
+Watch the bite-sized video below for a closer look at Billing Profiles, Invoices, and Invoice Buckets.
+
+{% embed url="https://www.loom.com/share/58349311a16d4daf8d9f9c5b1ebffdce?sharedAppSource=team\_library" %}
+
+
+

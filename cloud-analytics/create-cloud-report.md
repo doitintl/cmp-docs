@@ -50,3 +50,11 @@ After a few seconds, your report will appear, ready for your analysis.
 
 ![](../.gitbook/assets/cloudreportsui.jpg)
 
+
+
+View the bite-sized video below for a closer look at creating and exploring Cloud Reports.
+
+{% embed url="https://www.loom.com/share/b953b425d41844d5b48e95d24da3787e?sharedAppSource=team\_library" %}
+
+
+

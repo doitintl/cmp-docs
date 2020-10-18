@@ -51,3 +51,11 @@ The Sandbox Admin can disable the policy to prevent the creation of additional s
 
 To learn more about how to create sandbox environments in the CMP, go [here](https://app.gitbook.com/@doitintl/s/cmp/cloud-sandbox-management/create-gcp-sandbox-accounts).  
 
+
+
+View the bite-sized video below for a closer look at setting up your Cloud Sandbox policy and creating Cloud Sandboxes.
+
+{% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team\_library" %}
+
+
+

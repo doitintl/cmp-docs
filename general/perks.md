@@ -33,3 +33,11 @@ Once requested, a ticket will be automatically created in Zendesk and assigned t
 
 In the ticket, you and the engineers will arrange a suitable time for the workshop, training, or pro-serv to take place. Finally, any questions you have prior to the start date can be asked here.
 
+
+
+View the bite-sized video below for a closer look at viewing and requesting Perks.
+
+{% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team\_library" %}
+
+
+

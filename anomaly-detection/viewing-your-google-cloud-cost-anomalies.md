@@ -38,6 +38,10 @@ To further assist with the learning of our machine-learning model, and reduce th
 
 
 
+View the bite-sized video below for a closer look at Anomaly Detection for Google Cloud.
+
+{% embed url="https://www.loom.com/share/b1ed3dd283ce472b965d0dddc1d10f55?sharedAppSource=team\_library" %}
+
 
 
 

@@ -38,3 +38,11 @@ In this dialogue, you will be able to apply the recommendations in order to save
 
 
 
+View the bite-sized video below for a closer look at Rightsizing Google Cloud Instances.
+
+{% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team\_library" %}
+
+
+
+
+

@@ -18,5 +18,9 @@ As listed in the popup, an email is sent out for further instructions, here is a
 
 The following video shows you how to Create an AWS Account.
 
+{% embed url="https://www.loom.com/share/f92b0a76aa884a52ad9281f0736f44a1" %}
+
+
+
 If you require further assistance please contact our support team at [support@doit-intl.com](mailto:support@doit-intl.com).
 

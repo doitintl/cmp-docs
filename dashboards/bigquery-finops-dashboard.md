@@ -107,3 +107,11 @@ We have two main processes, once of which runs queries and the other not: 1\) En
 * Daily run of cost simulation queries to provide the cost savings information, superQuery usage estimation, and potential savings.
 * Daily run of FinOps calculation queries to provide the richly detailed information you see in the CMP on your BigQuery usage.
 
+
+
+View the bite-sized video below for a quick tutorial on the BigQuery FinOps Dashboard.
+
+{% embed url="https://www.loom.com/share/bfd572ece0494386938a061b4d81cf47?sharedAppSource=team\_library" %}
+
+
+

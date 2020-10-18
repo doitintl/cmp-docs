@@ -65,3 +65,11 @@ Once clicked, notice that all of the Features will revert back to "Not Configure
 
 As you did with your initial service account, select the features you'd like to grant permissions for this service account, and run the gcloud commands provided.
 
+
+
+Check out the bite-sized video below for a closer look at connecting your Google Cloud Organization to CMP.
+
+{% embed url="https://www.loom.com/share/55c2fd9dbde74ac6bd2d3ac7e8c8bd45?sharedAppSource=team\_library" %}
+
+
+

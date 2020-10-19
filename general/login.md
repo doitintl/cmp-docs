@@ -1,4 +1,8 @@
-# Login
+---
+description: How to login to the Cloud Management Platform
+---
+
+# Login to CMP
 
 In order to access the Cloud Management Platform, you have to sign in with your Google, Microsoft, or email account. If your company uses Google G Suite \(now Workspace\) or Microsoft Office 365, we recommend signing in with your Google or Microsoft identity.
 

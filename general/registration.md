@@ -1,5 +1,5 @@
 ---
-description: Your first step to start using DoiT International CMP
+description: Your first step to start using DoiT International Cloud Management Platform
 ---
 
 # Company Registration

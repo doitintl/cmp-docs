@@ -167,7 +167,7 @@ From your Asset Management screen, you can:
 * [Invite an existing AWS account](amazon-web-services/invite-existing-aws-account.md)
 * [Purchase additional seats for G Suite](https://help.doit-intl.com/hc/en-us/articles/360032598271-Purchase-G-Suite-Licenses) and/or [Office 365](https://help.doit-intl.com/hc/en-us/articles/360032598391-Purchase-Office-365-Licenses) yourself.
 * Automate subscription management with [auto-provisioning](https://help.doit-intl.com/hc/en-us/articles/360038041751-Configure-Auto-Increase-for-G-Suite-Subscriptions) for G Suite, guaranteeing there is an open seat at all times.
-* [Tag Assets](general/tag-assets.md) for classification and invoicing purposes \(e.g. team name, cost center, location, etc.\).
+* [Tag Assets](assets-and-contracts/tag-assets.md) for classification and invoicing purposes \(e.g. team name, cost center, location, etc.\).
 
 Additionally, you can view your order history of all licenses and subscriptions across all of your cloud products.
 

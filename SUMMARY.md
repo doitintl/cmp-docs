@@ -4,11 +4,9 @@
 
 ## General
 
-* [Login](general/login.md)
+* [Login to CMP](general/login.md)
 * [Company Registration](general/registration.md)
 * [Viewing Your User Profile](general/profile.md)
-* [Tag Assets](general/tag-assets.md)
-* [Access Contracts](general/accessing-your-contracts-with-doit.md)
 
 ## Google Cloud
 
@@ -117,4 +115,9 @@
 ## Perks
 
 * [Perks](perks/perks.md)
+
+## Assets & Contracts
+
+* [Tag Assets](assets-and-contracts/tag-assets.md)
+* [Access Contracts](assets-and-contracts/accessing-your-contracts-with-doit.md)
 

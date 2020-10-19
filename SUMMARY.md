@@ -30,7 +30,7 @@
 * [Enable Ticket Sharing](tickets/ticket-sharing.md)
 * [Known Issues](tickets/cloud-infrastructure-known-issues.md)
 
-## G Suite & Office 365
+## G Suite & MS Office 365 <a id="g-suite-and-office-365"></a>
 
 ---
 

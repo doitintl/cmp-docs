@@ -1,6 +1,10 @@
+---
+description: Your first step to start using DoiT International CMP
+---
+
 # Company Registration
 
-At DoiT International we want to create a seamless customer experience from the very first touchpoint to the post-contract stage, and that's why registering your company through our Cloud Management Platform \(i.e., [hello.doit-intl.com\)](https://hello.doit-intl.com/) is an integral part of a successful customer onboarding process. 
+At DoiT International we want to create a seamless customer experience from the very first touchpoint to the post-contract stage, and that's why registering your company through our Cloud Management Platform is an integral part of a successful customer onboarding process. 
 
 At some point in your communications with DoiT International's Account Management team, you will receive an e-mail to register your company and complete the form \(see example below\)
 

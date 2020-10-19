@@ -8,23 +8,13 @@ At a minimum, to manage Invoices, you must be granted the following permission:
 
 * Invoice Viewer
 
-From the main dashboard please select '**Manage Licenses**' & Assets. 
+Access Assets from the menu on the left-hand side of the page and clicking on Assets.
 
-![](../.gitbook/assets/new-manage-licenses-1-%20%281%29.png)
-
-
-
-Another way to access Assets is via the menu on the left-hand side of the page and clicking on Assets.
-
-![](../.gitbook/assets/assets-icon-1-%20%283%29.png)
-
-
+![CMP Home Dashboard](../.gitbook/assets/assets-icon-1-%20%283%29.png)
 
 Once you're at the Assets page, switch to the relevant asset, locate the three-dots icon, and click on 'Tag Asset'.
 
 ![](../.gitbook/assets/tag-asset.png)
-
-
 
 You may add any term or keyword you like, yet only one tag is allowed per asset. Once you choose the tag, click 'Save'.
 

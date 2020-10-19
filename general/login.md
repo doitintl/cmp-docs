@@ -1,11 +1,8 @@
 # Login
 
-In order to access the Cloud Management Platform \(i.e., [hello.doit-intl.com](https://hello.doit-intl.com/)\), you have to sign in with your Google, Microsoft or stand-alone account. 
+In order to access the Cloud Management Platform, you have to sign in with your Google, Microsoft, or email account. If your company uses Google G Suite \(now Workspace\) or Microsoft Office 365, we recommend signing in with your Google or Microsoft identity.
 
-If your company uses Google or Microsoft, please sign in with your Google or Microsoft identity.
-
-Otherwise, if you don't have a Google or Microsoft account and this is your first time signing in, please click the 'SIGN UP' button and fill in your email and a password of your choice.  
- Once you verify your email account, you will be able to sign in with your email and the selected password.
+Otherwise, if you don't have a Google or Microsoft account and this is your first time signing in, please click the 'SIGN UP' button and fill in your email and a password of your choice. Once you verify your email account, you will be able to sign in with your email and the selected password.
 
 ![](../.gitbook/assets/hello.png)
 

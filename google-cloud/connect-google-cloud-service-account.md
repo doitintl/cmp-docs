@@ -1,14 +1,16 @@
+---
+description: Connect your Google Cloud Organization IAM to unlock additional CMP features.
+---
+
 # Connect Your Google Cloud IAM
 
 In order to use many of the functionalities available to you within the **Cloud Management Platform**, we request an extra set of permissions, depending on the features you'd like to use. These permissions allow us to access the Google API and obtain information for monitoring or alerts, and/or help you take action on recommendations.
 
 To grant these permissions, you will need to create a Google Cloud Service Account, set up a Google Cloud IAM Role at the organization level, and upload the key to the Cloud Management Platform. In this article, we'll go over how to do all of the above.
 
-**Required Permissions:**
-
-At a minimum, to connect your Google Cloud Organization, you must be granted the following CMP permissions:
-
-* Manage Settings
+{% hint style="info" %}
+Required Permissions**: Manage Settings**
+{% endhint %}
 
 ## Creating a Google Cloud Service Account 
 
@@ -20,8 +22,6 @@ To create a service account, please execute the following steps:
 4. Click on "Create Service Account"
 
 ![](../.gitbook/assets/cmp_featuresconfig_serviceaccount.jpg)
-
-
 
 Next, a slide-out will appear on the right side of your screen, containing all of the Google SDK \([gcloud\)](https://cloud.google.com/sdk) commands you need to run in order to create the service account and set it up with the correct role. Copy the commands and run them sequentially in your terminal or Google Cloud Shell.
 
@@ -64,8 +64,6 @@ To add a new service account, click on the **"+"** icon in the top-right corner 
 Once clicked, notice that all of the Features will revert back to "Not Configured" since you are setting up a new service account.
 
 As you did with your initial service account, select the features you'd like to grant permissions for this service account, and run the gcloud commands provided.
-
-
 
 Check out the bite-sized video below for a closer look at connecting your Google Cloud Organization to CMP.
 

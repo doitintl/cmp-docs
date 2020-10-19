@@ -1,24 +1,18 @@
 # Creating a New User
 
-You can manage the access of other users on behalf of the organization, as well as create users for new employees who need access to the Cloud Management Platform \(i.e., [hello.doit-intl.com](https://hello.doit-intl.com/)\).
+You can manage the access of other users on behalf of the organization, as well as create users for new employees who need access to the Cloud Management Platform.
 
-**Required Permission:**
-
-At a minimum, to create a new user, you must be granted the following permission:
-
-* Users Manager
+{% hint style="info" %}
+Required Permissions: **User Manager**
+{% endhint %}
 
 Please select the '**Manage Users**' icon on the left-hand side of the page.
 
 ![](../.gitbook/assets/new-manage-users.png)
 
-
-
 Fill in the Email, First & Last Name, Telephone and User Role of the employee you'd like to invite to your organization.
 
 ![](../.gitbook/assets/create-user-2.png)
-
-
 
 **Notifications:**
 

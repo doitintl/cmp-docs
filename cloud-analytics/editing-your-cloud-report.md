@@ -1,4 +1,4 @@
-# Editing your Cloud Report
+# Edit Cloud Analytics Report
 
 _**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on_ [_**Creating Cloud Reports**_](create-cloud-report.md) _before reading further._
 
@@ -31,10 +31,7 @@ Next, click "Save" in the lower-right corner of the popup modal.
 
 ![](../.gitbook/assets/cloudreports_filters.jpg)
 
-
-
-Your filters are displayed along with any other visible configurations on the right-hand collapsable sidebar. To expand it, click on the **&gt;\|** icon in the lower-right corner of your screen.  
-
+Your filters are displayed along with any other visible configurations on the right-hand collapsable sidebar. To expand it, click on the **&gt;\|** icon in the lower-right corner of your screen.
 
 ![](../.gitbook/assets/cloudreports_filtervisibleconfig.jpg)
 
@@ -55,8 +52,6 @@ Any edits which don't alter the results themselves will update the report in rea
 Below, we can see all three types of real-time edits being performed. 
 
 ![](../.gitbook/assets/cleanshot-2020-06-30-at-12.49.48.gif)
-
-\*\*\*\*
 
 **Edits requiring a refresh**
 

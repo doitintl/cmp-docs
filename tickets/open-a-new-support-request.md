@@ -1,14 +1,18 @@
-# Open A New Support Request
+---
+description: Get world-class advisory and technical support from DoiT International
+---
 
-DoiT International provides premium consulting and support services for cloud platforms such as AWS, Google Cloud and Microsoft Azure to its clients at no extra cost. As a customer, you are not limited to any number of support requests or how much time DoiT International invests in supporting you as a client. To open a support request with us, please file a ticket as instructed in this article.
+# Support or Advisory Requests
 
-_Helpful Tip: By clicking on 'Allow'_ _to show you notifications, the Cloud Management Platform will notify the requester \(and anyone that is cc'd\) each time an update is made to your support request._
+DoiT International provides unlimited advisory and technical support for Amazon Web Services, Google Cloud, and Microsoft Azure. As a customer, you are not limited to any number of support requests or how much time DoiT International invests in supporting you as a client. To open a support request with us, please file a ticket as instructed in this article.
+
+{% hint style="info" %}
+By clicking on 'Allow' to show you notifications, the Cloud Management Platform will notify the requester \(and anyone that is cc'd\) each time an update is made to your support request.
+{% endhint %}
 
 ![](../.gitbook/assets/hello-chrome-notifications.png)
 
 A new support request can be filed by clicking on the 'Access Support' from the home page, or from the menu on the left-hand side of the page.
-
-![](../.gitbook/assets/new-access-support%20%281%29.png)
 
 Once there, go to the right side of the page and click 'New Ticket'.
 

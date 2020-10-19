@@ -1,26 +1,26 @@
-# Setting up ACH Payments
+---
+description: How to set up Automated Clearing House payments with Cloud Management Platform
+---
 
-You can pay your invoices by using ACH \(Automated Clearing House\) via the Cloud Management Platform \(i.e., [hello.doit-intl.com](https://hello.doit-intl.com/)\). Please follow the step-by-step instructions on how to set up an ACH Payment for your company.
+# Set up ACH Payments
 
-**Required Permission:**
+You can pay your invoices by using ACH \(Automated Clearing House\) via the Cloud Management Platform. Please follow the step-by-step instructions on how to set up an ACH Payment for your company.
 
-At a minimum, to update the Payment Method, you must be granted the following permission:
+{% hint style="info" %}
+Required Permissions: **Billing Profile Admin**
+{% endhint %}
 
-* Billing Profile Admin 
-
-_Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to update the Payment Methods._
+{% hint style="warning" %}
+Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a license.
+{% endhint %}
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
 ![](../.gitbook/assets/update-billing-profile.png)
 
-
-
-Once you're at the Billing Profile Settings page, switch to the 'Payment Methods' tab, select 'ACH Payment' and click on 'Link New Account' to link your bank account.
+Once you're at the Billing Profile Settings page, switch to the 'Payment Methods' tab, select 'ACH Payment', and click on 'Link New Account' to link your bank account.
 
 ![](../.gitbook/assets/ach1.png)
-
-
 
 ### **Link Account**
 
@@ -28,31 +28,21 @@ We use Plaid \(plaid.com\) to perform secure ACH payments authorizations which d
 
 ![](../.gitbook/assets/ach2.png)
 
-
-
 Next, choose your bank.
 
 ![](../.gitbook/assets/ach3.png)
-
-
 
 Then enter the same credentials used for your online banking account.
 
 ![](../.gitbook/assets/ach4.png)
 
-
-
 After that, choose either a 'Checking' or 'Saving' account.
 
 ![](../.gitbook/assets/ach6.png)
 
-
-
 Finally, your bank account details should successfully be linked and saved for future ACH Payments.
 
 ![](../.gitbook/assets/ach7.png)
-
-
 
 ### **Pay Invoice with ACH**
 

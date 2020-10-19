@@ -4,17 +4,15 @@ description: >-
   your Cloud Reports.
 ---
 
-# Attributing Cloud Spend
+# Attribute Cloud Spend
 
 Attributions are a flexible way to group resources and their associated costs, helping you understand the cloud costs and relate them to the business in your [Cloud Reports](https://help.doit-intl.com/hc/en-us/articles/360045644211-Creating-a-Cloud-Report).
 
 You may have various components of your application\(s\) spread across different projects, using different services. Attributions allow you to combine everything into something coherent.
 
-**Prerequisites:**
-
-At a minimum, to create and edit Cost Attributions, you will need to satisfy the following requirements:
-
-* You must have the "Cloud Analytics" CMP permission granted to your user account
+{% hint style="info" %}
+Required Permissions: **Cloud Analytics**
+{% endhint %}
 
 ### Creating an Attribution
 
@@ -41,8 +39,6 @@ Now it's time to configure the conditions, or the criteria, which will determine
 From there, filter your selections either by keyword, exclusion, or regular expression just as you would do in Cloud Analytics Reports. Continuing our example from above, let's filter for projects which the production team uses.
 
 ![](../.gitbook/assets/attributions_filter.jpg)
-
-
 
 Finally, click "Save" to apply the filter on your condition. 
 
@@ -77,8 +73,6 @@ In the event that you have many attributions, make sure to click on the Attribut
 In the example above, we made sure to filter for the production, dev, and ops team attributions we created earlier.
 
 ![](../.gitbook/assets/filterattributions-2.jpg)
-
-
 
 View the bite-sized video below for a closer look at Attributions and using them in your Cloud Reports.
 

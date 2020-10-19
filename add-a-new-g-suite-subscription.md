@@ -1,12 +1,16 @@
+---
+description: >-
+  Add new subscriptions to your G Suite or Google Workspace account with DoiT
+  International
+---
+
 # Add a New G Suite Subscription
 
-If you would like to purchase a new G Suite subscription, you can do so through the Cloud Management Platform, \(i.e., [hello.doit-intl.com](https://hello.doit-intl.com/)\).
+If you would like to purchase a new G Suite subscription, you can do so through the Cloud Management Platform.
 
-**Required Permission:**
-
-At a minimum, to add a new G Suite subscription, you must be granted the following permission:
-
-* Licenses Manager
+{% hint style="info" %}
+Required Permission: **Licenses Manager**
+{% endhint %}
 
 _Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a new subscription._
 

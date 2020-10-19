@@ -1,6 +1,12 @@
-# How do I transfer my existing G Suite subscription to DoiT International?
+---
+description: >-
+  How do I transfer my existing G Suite or Google Workspace subscription to DoiT
+  International?
+---
 
-If you have ordered a G Suite service with DoiT International and already have G Suite set up for that domain with Google or a different reseller, you are not required to go through the traditional setup process. We will instead be able to transfer your existing setup over to us with no downtime involved.
+# Transfer G Suite subscription
+
+If you have a contract for a G Suite or Google Workspace with DoiT International and already have that domain with Google or a different reseller, you are not required to go through the traditional setup process. We will instead be able to transfer your existing setup over to us with no downtime involved.
 
 To transfer the management of your existing G Suite setup you will need to retrieve your Transfer Token from G Suite, you can retrieve your token by following the below steps:
 

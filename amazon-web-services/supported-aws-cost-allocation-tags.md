@@ -1,26 +1,32 @@
+---
+description: Cost allocation tags we natively support in Cloud Management Platform
+---
+
 # AWS Cost Allocation Tags
 
 We have enabled the following user-defined tags \(case sensitive\) across our AWS consolidated billing accounts:
 
-* Alias
-* alias
-* Billing
-* billing
-* Env
-* env
-* Environment
-* environment
-* Name
-* Owner
-* owner
-* Product
-* product
-* Project
-* project
-* team
-* Team
-* unit
-* Unit
+```text
+Alias
+alias
+Billing
+billing
+Env
+env
+Environment
+environment
+Name
+Owner
+owner
+Product
+product
+Project
+project
+team
+Team
+unit
+Unit
+```
 
 Ideally, you will be using one of these tags to track your AWS cost allocations. If you need a custom cost allocation tag, please open a support ticket using http://support.doit-intl.com
 

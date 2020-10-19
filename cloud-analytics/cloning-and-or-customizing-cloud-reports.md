@@ -1,4 +1,10 @@
-# Cloning and/or Customizing Cloud Reports
+---
+description: >-
+  It's easy to clone existing reports, both shared by other users or provided by
+  DoiT International
+---
+
+# Clone Cloud Analytics Reports
 
 For cases in which you'll want to create a copy of an existing Cloud Report, you have the option to either:
 
@@ -17,8 +23,6 @@ Finally, a new report will appear with the name "A copy of \[Original Report Nam
 
 ![](../.gitbook/assets/cloudreports_clonereport-2.jpg)
 
-### 
-
 ### Customize Reports
 
 The "Customize" function is available for Preset Reports only. These are built-in reports you have access to right away before creating any reports yourself. This function allows you to create a copy of a Preset Report and make modifications on top of it. 
@@ -26,8 +30,6 @@ The "Customize" function is available for Preset Reports only. These are built-i
 To identify a Preset Report, look under the "Type" column for the word "Preset". 
 
 ![](../.gitbook/assets/cloudreports_custom-preset.jpg)
-
-
 
 Then click on the "Customize" button on the right-hand sidebar of your Cloud Reports screen.
 

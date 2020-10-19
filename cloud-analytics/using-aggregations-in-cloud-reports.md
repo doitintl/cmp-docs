@@ -1,4 +1,10 @@
-# Using Aggregations in Cloud Reports
+---
+description: >-
+  Cloud Management Platform provides a rich array of data aggregation functions,
+  useful for various cost or spend analysis tasks.
+---
+
+# Understanding Aggregations
 
 Before you can properly control and optimize your Google Cloud costs, you need to understand where costs originated within your organization. Aggregations in Cloud Reports help you summarize patterns so you can more quickly identify the source of potential issues.
 
@@ -10,8 +16,6 @@ In the "Total" aggregation, your results will be displayed in absolute terms. A 
 
 ![](../.gitbook/assets/cloudreports_totals.jpg)
 
-#### 
-
 #### % of Total
 
 "% of Total" aggregations express each result as a percentage of the total sum of results. All values of the cell will add up to 100%.
@@ -20,23 +24,17 @@ If you're viewing your results in a Table view, then a final column titled "Tota
 
 ![](../.gitbook/assets/percoftotal_cloudreports.jpg)
 
-#### 
-
 #### % of Column
 
 "% of Column" aggregations display cell values as a percentage of its column, with each column being represented as 100% in totality.
 
 ![](../.gitbook/assets/cloudreports_percofcolumn.jpg)
 
-
-
 #### % of Row
 
 "% of Row" aggregations display cell values as a percentage of its row, with each row being represented as 100% in totality.
 
 ![](../.gitbook/assets/percofrow_cloudreports.jpg)
-
-
 
 #### Cost÷Usage
 

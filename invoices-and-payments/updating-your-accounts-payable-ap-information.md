@@ -1,20 +1,24 @@
-# Updating your Accounts Payable \(AP\) Information
+---
+description: >-
+  Make sure your accounts payable (AP) contact in Cloud Management Platform is
+  updated.
+---
 
-You can update the Accounts Payable information for your organization using the Cloud Management Platform \(i.e., [hello.doit-intl.com](https://hello.doit-intl.com/)\). The information is used for billing and invoicing purposes.  
+# Set Accounts Payable Contact
 
-**Required Permission:**
+You can update the Accounts Payable information for your organization using the Cloud Management Platform. The information is used for billing and invoicing purposes.  
 
-At a minimum, to update the Accounts Payable, you must be granted the following permission:
+{% hint style="info" %}
+Required Permissions: **Billing Profile Admin**
+{% endhint %}
 
-* Billing Profile Admin
-
-_Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to update the Accounts Payable information._
+{% hint style="warning" %}
+Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a license.
+{% endhint %}
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
 ![](../.gitbook/assets/update-billing-profile-2-.png)
-
-
 
 Once you're at the Billing Profile Settings page, switch to the 'Invoices Contact' tab.
 

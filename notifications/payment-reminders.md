@@ -1,18 +1,14 @@
-# Payment Reminders
+# Payments Notifications
 
-Customers can be notified when charges on upcoming invoices are soon to be due \(as well as overdue invoices\), by enabling the alerts for 'Payment Reminders' in the profile section of the Cloud Management Platform \(i.e., [hello.doit-intl.com](https://hello.doit-intl.com/)\). 
+Customers can be notified when charges on upcoming invoices are soon to be due \(as well as overdue invoices\), by enabling the alerts for 'Payment Reminders' in the profile section of the Cloud Management Platform.
 
 In order to enable or disable the notification itself, click your profile icon in the upper-right corner of the page header, then select **Profile.**
 
 ![](../.gitbook/assets/profile-1-.png)
 
-
-
 In the Profile dialog, you will find the '**Payment Reminders**' notification setting.
 
 ![](../.gitbook/assets/payment-reminders-notification.png)
-
-\*\*\*\*
 
 Below are three examples of payment reminder email notifications we will send out: 
 
@@ -20,13 +16,9 @@ Below are three examples of payment reminder email notifications we will send ou
 
 ![](../.gitbook/assets/7-days-before-overdue-invoice.png)
 
-
-
 2. Four days _after_ the overdue is due.
 
 ![](../.gitbook/assets/4-days-after-invoice-is-overdue.png)
-
-
 
 3. 10 days _after_ the overdue is due.
 

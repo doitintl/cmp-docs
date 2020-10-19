@@ -1,4 +1,8 @@
-# Security and Data Access Policy for Cloud Management Platform
+---
+description: Security and Data Access Policy for Cloud Management Platform
+---
+
+# Data Access Policy
 
 This document outlines what customer data we access, why we do that, what data we store, and how we do that.
 
@@ -18,7 +22,7 @@ The list below denotes all permissions we require to your Google Cloud Organizat
 
 _Note: While this provides us permissions to read info about your resources, none of these allow us to access your data, such as GCS objects or BigQuery table's data._
 
-* _resourcemanager.organizations.get, resourcemanager.organizations.getIamPolicy, resourcemanager.folders.get, resourcemanager.folders.list, resourcemanager.projects.get, resourcemanager.projects.list_  Used to get information about your GCP resource hierarchy and correlate with billing.  
+* _resourcemanager.organizations.get, resourcemanager.organizations.getIamPolicy, resourcemanager.folders.get, resourcemanager.folders.list, resourcemanager.projects.get, resourcemanager.projects.list_  Used to get information about your GCP resource hierarchy and correlate with billing. 
 * _resourcemanager.projects.create_  Required for [CMP Sandbox](https://help.doit-intl.com/hc/en-us/articles/360042612671-Create-Google-Cloud-Sandbox-Accounts) functionality.  
 * _bigquery.datasets.create, bigquery.datasets.get, bigquery.tables.get, bigquery.tables.list, bigquery.jobs.get, bigquery.jobs.list, bigquery.jobs.listAll, bigquery.jobs.create_ Required for BigQuery info and optimization.  
 * _compute.addresses.list, compute.disks.get, compute.disks.list, compute.images.get, compute.images.list, compute.instances.get, compute.instances.list, compute.projects.get, compute.regions.get. compute.regions.list, compute.snapshots.get, compute.snapshots.list, compute.zones.get, compute.zones.list, compute.commitments.get, compute.commitments.list, recommender.computeInstanceMachineTypeRecommendations.list_  Required for Compute instance optimization and commitments recommendation functionality.  

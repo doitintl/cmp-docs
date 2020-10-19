@@ -1,21 +1,24 @@
+---
+description: >-
+  Instructions on transferring your Google Cloud projects to your new billing
+  account with DoiT International
+---
+
 # Transfer Google Cloud Projects
 
 As a new customer who has recently onboarded with DoiT International, you have the ability to transfer all your existing Google Cloud projects to the billing account assigned to you by DoiT International.
 
-> **WARNING**  
-> _Changing the billing account linked to a project could disable and result in data loss for any partner-managed services purchased through **GCP Marketplace**._ [_Learn more_](https://cloud.google.com/marketplace/docs/understanding-billing#changing_a_projects_billing_account)
+{% hint style="danger" %}
+Changing the billing account linked to a project could disable and result in data loss for any partner-managed services purchased through Google Cloud Marketplace. [Learn more](https://cloud.google.com/marketplace/docs/understanding-billing#changing_a_projects_billing_account)
+{% endhint %}
 
 From the main dashboard please select '**Manage Licenses & Assets**'. Once you're at the Assets page, switch to the Google Cloud tab.
 
 ![](../.gitbook/assets/google-cloud-tab.png)
 
-
-
 To transfer your projects, locate your new Google Cloud billing account with DoiT International, and click on the three-dots menu on the right-hand side of the widget. Choose 'Transfer Projects' to start the wizard.
 
 ![](../.gitbook/assets/transfer-projects1%20%281%29.png)
-
-
 
 To begin the transfer process, a dedicated Google Cloud service account will be generated once you click the 'Start' wizard.
 
@@ -27,37 +30,25 @@ Copy the service account name.
 
 ![](../.gitbook/assets/transfer-projects3.png)
 
-
-
 Add it to your Google Cloud Organization IAM.
 
 ![](../.gitbook/assets/transfer-projects4.png)
-
-
 
 If you do not add the service account to your Google Cloud Organization IAM, the following error will appear. 
 
 ![](../.gitbook/assets/transfer-projects-error.png)
 
-
-
 If you don't have access to your Google Cloud Organization IAM, you can copy the command from the following section and send it to your colleague who the permission.
 
 ![](../.gitbook/assets/transfer-projects5.png)
-
-
 
 Select the projects you want to transfer to your new Google Cloud Billing Account with DoiT International.
 
 ![](../.gitbook/assets/transfer-projects6.png)
 
-
-
 By clicking the **&gt;** button, the selected projects will be assigned to your new billing account. Review the list of projects you intend to transfer and click 'Finish'. 
 
 ![](../.gitbook/assets/transfer-projects7.png)
-
-
 
 The confirmation page informs you of how many projects were transferred, and by selecting the 'Click here' button you can retrieve the full list of transferred projects as they will be copied to your clipboard.  
 
@@ -72,8 +63,6 @@ If some or all of your projects don't transfer successfully, you will see a disc
 If _some_ of your projects transferred, this is the message you will see.
 
 ![](../.gitbook/assets/screen-shot-2020-09-10-at-16.14.00-1-%20%281%29.png)
-
-
 
 If none of your projects were successfully transferred, you will see this message.
 

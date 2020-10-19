@@ -1,13 +1,18 @@
-# Creating a Cloud Report
+---
+description: Understand your Google Cloud or Amazon Web Services Cost or Usage data
+---
 
-**Cloud Reports** give you instant visibility into your Google Cloud costs without having to spend agonizing hours scanning through Google Cloud bills. Using Cloud Reports, you'll be able to slice and dice your cloud spend and shine a light on cost & performance optimization opportunities for your organization.
+# Create Cloud Analytics Reports
 
-**Prerequisites:**
+**Cloud Analytics Reports** give you instant visibility into your Google Cloud costs without having to spend agonizing hours scanning through Google Cloud bills. Using Cloud Reports, you'll be able to slice and dice your cloud spend and shine a light on cost & performance optimization opportunities for your organization.
 
-At a minimum, to create, edit, and share Cloud Reports, you will need to satisfy the following requirements:
+{% hint style="info" %}
+Required Permissions: **Cloud Analytics**
+{% endhint %}
 
-* [Connect your Google Cloud Organization](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account) to CMP.
-* You must have the "Cloud Analytics" CMP permission granted.
+{% hint style="warning" %}
+Please [Connect your Google Cloud Organization](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account) to the Cloud Management Platform to get all available features.
+{% endhint %}
 
 ### Accessing Cloud Reports
 
@@ -25,8 +30,6 @@ Click on the "+New" button on the top-right part of the Cloud Analytics page to 
 
 ![](../.gitbook/assets/cloudanalytics_cloudreports.jpg)
 
-### 
-
 ### Set up your Cloud Report
 
 By default, your report will be in "View Mode". This is a read-only view of your report, where you'll only be able to adjust the Metric, Aggregation, and Chart Type options.
@@ -36,8 +39,6 @@ To edit your report, click on the pencil icon on the right-hand sidebar. This wi
 Conversely, if you are in Edit Mode, you can switch to View Mode by clicking on the eye icon that will appear in place of the pencil icon.
 
 ![](../.gitbook/assets/cloudreports_editviewmode.jpg)
-
-
 
 There are four steps to setting up your cloud report:
 
@@ -49,8 +50,6 @@ There are four steps to setting up your cloud report:
 After a few seconds, your report will appear, ready for your analysis.
 
 ![](../.gitbook/assets/cloudreportsui.jpg)
-
-
 
 View the bite-sized video below for a closer look at creating and exploring Cloud Reports.
 

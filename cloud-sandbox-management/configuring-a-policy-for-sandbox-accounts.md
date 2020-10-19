@@ -4,7 +4,7 @@ description: >-
   developers.
 ---
 
-# Configuring a Policy for Sandbox Accounts
+# Configuring Sandbox Policy
 
 Google Cloud Sandbox for Organizations is the easiest way for companies to set up and manage Google Cloud sandboxes. Through the Cloud Management Platform, you’ll be able to enable your developers to create a sandbox, monitor sandboxes from a centralized hub, and have one-click access to sandbox projects for deeper dives.
 
@@ -12,11 +12,9 @@ Set up a Google Cloud Sandbox Policy to enforce rules which automate sandbox man
 
 _To create Google Cloud Sandbox Accounts, you must verify that a Google Cloud service account was successfully configured. You can read more on how to configure your Google Cloud service account at_ [_Connect Your Google Cloud Organization_](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account)_._
 
-**Required Permission:**
-
-At a minimum, to configure a policy, you must be granted the following permission:
-
-* Sandbox Admin 
+{% hint style="info" %}
+Required Permission: __**Sandbox Admin**
+{% endhint %}
 
 Before users can create a sandbox account, the Sandbox Admin needs to configure a policy. Without a configured policy, users cannot create a sandbox, as the policy defines how a sandbox is created.
 
@@ -29,8 +27,6 @@ To begin, click the 'Sandbox Accounts' icon on the left-hand side of the page. O
 A notification will pop up informing you that the sandbox policy doesn't guarantee you won't exceed the budget. Click on 'Accept' to proceed.
 
 ![](../.gitbook/assets/sandbox-policy1.png)
-
-
 
 Complete the Sandbox Management Policy form:
 
@@ -45,13 +41,9 @@ Complete the Sandbox Management Policy form:
 
 ![](../.gitbook/assets/sandbox-policy2.png)
 
-
-
 The Sandbox Admin can disable the policy to prevent the creation of additional sandboxes. This action will not disable any preexisting sandboxes. Click on 'Update Policy', and locate the disable/enable button. To finish, click 'Save'.
 
 To learn more about how to create sandbox environments in the CMP, go [here](https://app.gitbook.com/@doitintl/s/cmp/cloud-sandbox-management/create-gcp-sandbox-accounts).  
-
-
 
 View the bite-sized video below for a closer look at setting up your Cloud Sandbox policy and creating Cloud Sandboxes.
 

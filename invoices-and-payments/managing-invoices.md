@@ -1,34 +1,28 @@
+---
+description: >-
+  Manage all of your Google Cloud, Amazon Web Services, G Suite or Office 365
+  invoices in all place
+---
+
 # Managing Invoices
 
 As a customer, you can access your company invoices, including their full details and the actual invoice documents. 
 
-**Required Permission:**
+{% hint style="info" %}
+Required Permissions: **Invoice Viewer**
+{% endhint %}
 
-At a minimum, to manage Invoices, you must be granted the following permission:
-
-* Invoice Viewer
-
-From the main dashboard please select '**Access & Pay Invoices**'.
-
-![](../.gitbook/assets/new-access-invoices.png)
-
-Another way to access Invoices is via the menu on the top left-hand side of the page and clicking on Invoices, or locating the icon as seen in the example below.
+Start with accessing `Invoices` from the menu on the top left-hand side of the page and clicking on Invoices, or locating the icon as seen in the example below.
 
 ![](../.gitbook/assets/invoice-icon.png)
-
-
 
 You can filter the invoices per billing profile to which it was issued, and by issue date of the invoice. To filter the invoices, use the dropdown controls at the top of the page.
 
 ![](../.gitbook/assets/timeframe.png)
 
-
-
 In addition, there is the option to download the invoice summary as a CSV file by clicking the download icon in the top-right corner of the page.
 
 ![](../.gitbook/assets/download-csm-summary%20%281%29.png)
-
-
 
 There are five possible statuses for invoices:
 

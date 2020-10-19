@@ -1,38 +1,30 @@
+---
+description: Adding existing AWS accounts to DoiT International consolidated billing
+---
+
 # Invite Existing AWS Account
 
-You can add existing AWS accounts to DoiT International's consolidated billing using the Cloud Management Platform \(i.e., [hello.doit-intl.com](https://hello.doit-intl.com/)\).
+You can add existing AWS accounts to DoiT International's consolidated billing using the Cloud Management Platform.
 
-**Required Permission:**
+{% hint style="info" %}
+Required Permission**: Licenses Manager**
+{% endhint %}
 
-At a minimum, to Invite an Existing AWS Account, you must be granted the following permission:
+{% hint style="warning" %}
+Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to invite an existing account.
+{% endhint %}
 
-* Licenses Manager
-
-_Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to invite an existing account._
-
-From the main dashboard please select '**Manage Licenses & Assets**'.
-
-![](../.gitbook/assets/new-manage-licenses-1-%20%282%29.png)
-
-
-
-Another way to access the 'Invite AWS Account' is via the menu on the left-hand side of the page and clicking on Assets.
+Access the 'Invite AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
 
 ![](../.gitbook/assets/assets-icon-1-%20%281%29.png)
-
-
 
 Once you're at the Assets page, go to the right-hand side of the page and click on '**Invite Account**'.
 
 ![](../.gitbook/assets/aws-invite-tab.png)
 
-
-
 Choose the Billing Profile to which you'd like to have the existing AWS account now be a part of. Enter the 12-digit AWS Account ID and any optional notes before clicking 'Invite'.
 
 ![](../.gitbook/assets/aws-id.png)
-
-
 
 An email will be sent on behalf of AWS.
 

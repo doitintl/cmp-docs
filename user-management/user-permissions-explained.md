@@ -1,6 +1,6 @@
 # User Permissions Explained
 
-User Permissions designate the type of access given to users that enables them to access specific resources within the Cloud Management Platform \(i.e., [https://hello.doit-intl.com](https://hello.doit-intl.com/)\).
+User Permissions designate the type of access given to users that enables them to access specific resources within the Cloud Management Platform.
 
 Available Permissions:
 

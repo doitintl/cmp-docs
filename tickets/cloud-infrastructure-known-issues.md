@@ -1,3 +1,9 @@
+---
+description: >-
+  Get access to the known infrastructure issues with Google Cloud or Amazon Web
+  Services ahead of time
+---
+
 # Known Issues
 
 **Known Issues** are defined as any faults or defects in Google Cloud, Amazon Web Services, or Microsoft Azure services that may be impacting the performance or availability of your applications.
@@ -12,16 +18,11 @@ If one of the known issues displayed looks to be related to the service issues y
 
 ![](../.gitbook/assets/knownissuesnew.jpg)
 
-
-
 Should you want to filter through Known Issues, click on the filter button near the search box.
 
 ![](../.gitbook/assets/knownissuesfilter.jpg)
 
-
-
-If you'd like to learn more about a particular Known Issue, then click on the **VIEW** button corresponding to the issue to see a detailed description.  
-
+If you'd like to learn more about a particular Known Issue, then click on the **VIEW** button corresponding to the issue to see a detailed description.
 
 ![](../.gitbook/assets/viewknownissues.jpg)
 

@@ -1,6 +1,6 @@
 # Widgets Overview
 
-Widgets are an essential aspect of the home dashboard in the Cloud Management Platform's \(i.e., [https://hello.doit-intl.com](https://hello.doit-intl.com/)\) customization. You can change the location of the widgets by clicking the 'Customize' button and reordering the widgets on your dashboard, as well as remove them altogether if you wish.  
+Widgets are an essential aspect of the home dashboard in the Cloud Management Platform customization. You can change the location of the widgets by clicking the 'Customize' button and reordering the widgets on your dashboard, as well as remove them altogether if you wish.  
 
 **Manage Licenses & Assets** opens the assets page which you can use to purchase additional licenses and subscriptions for G Suite and Office 365.
 
@@ -56,8 +56,6 @@ The activity of your company's customer service requests over the last 36 months
 
 ![](../.gitbook/assets/support-requests.png)
 
-\*\*\*\*
-
 **Monthly Expenses**
 
 Review your AWS consumption over the last 12 months. The bars represent AWS services consumption per month and the different gradients show the amount that each product consumed. Please note that the chart contains only the top 10 AWS services consumed by your accounts. 
@@ -71,8 +69,6 @@ Review your Google Cloud consumption over the last 12 months. The bars represent
 On the top right-hand corner is the machine learning prediction for the current month.
 
 ![](../.gitbook/assets/google-cloud.png)
-
-\*\*\*\*
 
 **Cloud Commitment**
 

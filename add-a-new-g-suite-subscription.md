@@ -1,7 +1,7 @@
 ---
 description: >-
-  Add new subscriptions to your G Suite or Google Workspace account with DoiT
-  International
+  Add new subscriptions to your existing G Suite or Google Workspace account
+  with DoiT International
 ---
 
 # Add a New G Suite Subscription

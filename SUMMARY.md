@@ -29,13 +29,13 @@
 * [Escalating Support Requests](tickets/escalating-support-requests.md)
 * [Enable Ticket Sharing](tickets/ticket-sharing.md)
 * [Known Issues](tickets/cloud-infrastructure-known-issues.md)
+* [Add a New G Suite Subscription](tickets/add-a-new-g-suite-subscription.md)
 
 ## G Suite & Office 365
 
 ---
 
 * [Transfer G Suite subscription](how-do-i-transfer-my-existing-g-suite-subscription-to-doit-international.md)
-* [Add a New G Suite Subscription](add-a-new-g-suite-subscription.md)
 * [Purchasing G Suite Licenses](purchasing-g-suite-licenses.md)
 * [Upgrading G Suite Subscription](upgrading-your-g-suite-edition.md)
 * [Auto-Increase Subscriptions](configuring-auto-increase-for-g-suite-subscriptions.md)

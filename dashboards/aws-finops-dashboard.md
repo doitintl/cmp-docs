@@ -4,7 +4,9 @@ Having full visibility into your services' operations and being accountable for 
 
 _Please note you must be assigned access to at least one Billing Profile with active AWS assets attached in order to access this dashboard._
 
-Your first step would be attaching the AWS FinOps dashboard within your Cloud Management Platform \(i.e., [hello.doit-intl.com](https://hello.doit-intl.com/)\). Please navigate to the right-hand side of the page and click 'Attach Dashboard'.
+Your first step would be attaching the AWS FinOps dashboard within your Cloud Management Platform.
+
+Please navigate to the right-hand side of the page and click 'Attach Dashboard'.
 
 ![](../.gitbook/assets/awsfinops1.png)
 

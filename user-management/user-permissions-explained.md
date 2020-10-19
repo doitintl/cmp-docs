@@ -24,7 +24,7 @@ Available Permissions:
 
 **Licenses Manager**
 
-* Purchase additional licenses and subscriptions for [G Suite](../purchasing-g-suite-licenses.md)
+* Purchase additional licenses and subscriptions for [G Suite](../g-suite-and-workspace/purchasing-g-suite-licenses.md)
 * Purchase additional licenses and subscriptions for [Office 365](../purchasing-office-365-licenses.md)
 * Create new AWS accounts
 * Invite existing AWS accounts

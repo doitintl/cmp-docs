@@ -30,15 +30,17 @@
 * [Enable Ticket Sharing](tickets/ticket-sharing.md)
 * [Known Issues](tickets/cloud-infrastructure-known-issues.md)
 
+## G Suite & Workspace
+
+* [Transfer G Suite subscription](g-suite-and-workspace/how-do-i-transfer-my-existing-g-suite-subscription-to-doit-international.md)
+* [Purchasing G Suite Licenses](g-suite-and-workspace/purchasing-g-suite-licenses.md)
+* [Add a New G Suite Subscription](g-suite-and-workspace/add-a-new-g-suite-subscription.md)
+* [Upgrading G Suite Subscription](g-suite-and-workspace/upgrading-your-g-suite-edition.md)
+
 ## G Suite & MS Office 365 <a id="g-suite-and-office-365"></a>
 
 ---
 
-* [Transfer G Suite subscription](how-do-i-transfer-my-existing-g-suite-subscription-to-doit-international.md)
-* [Purchasing G Suite Licenses](purchasing-g-suite-licenses.md)
-* [Add a New G Suite Subscription](add-a-new-g-suite-subscription.md)
-* [Upgrading G Suite Subscription](upgrading-your-g-suite-edition.md)
-* [Auto-Increase Subscriptions](configuring-auto-increase-for-g-suite-subscriptions.md)
 * [Create Office 365 Subscriptions](add-new-office-365-subscriptions.md)
 * [Purchasing Office 365 Licenses](purchasing-office-365-licenses.md)
 

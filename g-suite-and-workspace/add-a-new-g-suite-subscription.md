@@ -16,26 +16,25 @@ _Please note that you must be assigned access to the specific Billing Profile un
 
 From the main dashboard please select '**Manage Licenses & Assets**'.
 
-[![New\_Manage\_Licenses.png](https://help.doit-intl.com/hc/article_attachments/360044352032/New_Manage_Licenses.png)](https://help.doit-intl.com/hc/article_attachments/360044352032/New_Manage_Licenses.png)
+![](../.gitbook/assets/new-manage-licenses-1-%20%283%29.png)
 
 Another way to access the G Suite based Assets is via the menu on the left-hand side of the page and clicking on Assets.
 
-[![Assets\_Icon.png](https://help.doit-intl.com/hc/article_attachments/360052514931/Assets_Icon.png)](https://help.doit-intl.com/hc/article_attachments/360052514931/Assets_Icon.png)
+![](../.gitbook/assets/assets-icon-1-%20%284%29.png)
 
 Once you're at the Assets page, switch to the G Suite tab and click on '**New Subscription**'.
 
-[![G\_Suite.png](https://help.doit-intl.com/hc/article_attachments/360040845812/G_Suite.png)](https://help.doit-intl.com/hc/article_attachments/360040845812/G_Suite.png)
+![](../.gitbook/assets/g-suite%20%282%29.png)
 
-Select the domain for which you're adding a subscription and click 'Next'. 
+Select the domain for which you're adding a subscription and click 'Next'.
 
-[![G\_Suite\_Subscription\_1.png](https://help.doit-intl.com/hc/article_attachments/360040184692/G_Suite_Subscription_1.png)](https://help.doit-intl.com/hc/article_attachments/360040184692/G_Suite_Subscription_1.png)
+![](../.gitbook/assets/gsuite1.jpg)
 
-Select the Subscription/License and quantity you'd like to order. 
+Select the Subscription/License and quantity you'd like to order.
 
-[![G\_Suite\_Subscription\_2.png](https://help.doit-intl.com/hc/article_attachments/360040192291/G_Suite_Subscription_2.png)](https://help.doit-intl.com/hc/article_attachments/360040192291/G_Suite_Subscription_2.png)
+![](../.gitbook/assets/gsuite2.jpg)
 
-Lastly, review your order summary and if you approve click 'Submit'.
+Lastly, review your order summary and, if you approve, click 'Submit'
 
-[![G\_Suite\_Subscription\_3.png](https://help.doit-intl.com/hc/article_attachments/360040184792/G_Suite_Subscription_3.png)](https://help.doit-intl.com/hc/article_attachments/360040184792/G_Suite_Subscription_3.png)  
-
+![](../.gitbook/assets/gsuite3.jpg)
 

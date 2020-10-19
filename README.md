@@ -4,6 +4,10 @@ description: Overview of DoiT International Cloud Management Platform
 
 # What is CMP?
 
+**Welcome to DoiT International's Help Center for all things Cloud Management Platform \(CMP\).** You can request changes to articles or report issues via our [public Github repo](https://github.com/doitintl/cmp-docs]) by submitting a pull request or creating an issue. 
+
+But for now, let's go over what exactly the CMP is and how _you_ can benefit from using it.
+
 Our Cloud Management Platform helps the developers and system administrators at digital-native companies improve cloud operations, maintain security, control cost, and ensure governance of its cloud estate. It has five strategic pillars: Analytics, Optimization, Enablement, Productivity, and Governance.
 
 In this article, we'll briefly go over each of the main capabilities you have access to in the CMP, along with links to other articles for each feature if you're interested in doing a deeper dive.

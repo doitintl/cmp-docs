@@ -1,12 +1,18 @@
+---
+description: Understand in-depth your Amazon Web Services usage
+---
+
 # AWS FinOps Dashboard
 
 Having full visibility into your services' operations and being accountable for your cloud finances to fully manage costs is crucial, whether fixed or variable. Use this dashboard to decide how and when to optimize costs, monitor performance, and more. The AWS FinOps dashboard can only be attached if you have Amazon Web Services assets linked to DoiT International.
 
-_Please note you must be assigned access to at least one Billing Profile with active AWS assets attached in order to access this dashboard._
+{% hint style="warning" %}
+Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to invite an existing account.
+{% endhint %}
 
-Your first step would be attaching the AWS FinOps dashboard within your Cloud Management Platform.
+Your first step would be attaching the AWS FinOps dashboard within the Cloud Management Platform.
 
-Please navigate to the right-hand side of the page and click 'Attach Dashboard'.
+Please navigate to the right-hand side of the page and click 'Attach Dashboard':
 
 ![](../.gitbook/assets/awsfinops1.png)
 

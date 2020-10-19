@@ -42,8 +42,6 @@
 * [Create Office 365 Subscriptions](microsoft-office-365/add-new-office-365-subscriptions.md)
 * [Purchasing Office 365 Licenses](microsoft-office-365/purchasing-office-365-licenses.md)
 
-## G Suite & MS Office 365 <a id="g-suite-and-office-365"></a>
-
 ## Cloud Sandbox Management
 
 * [Configuring Sandbox Policy](cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md)
@@ -108,11 +106,9 @@
 * [BigQuery FinOps Dashboard](dashboards/bigquery-finops-dashboard.md)
 * [AWS FinOps Dashboard](dashboards/aws-finops-dashboard.md)
 
-## API
+## APIs
 
----
-
-* [Developer Hub](developer-hub.md)
+* [Developer Hub](apis/developer-hub.md)
 
 ## Perks
 

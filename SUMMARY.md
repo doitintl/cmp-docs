@@ -22,6 +22,7 @@
 * [Connect Your AWS IAM Role](amazon-web-services/add-your-amazon-web-services-iam-role.md)
 * [AWS Cost Allocation Tags](amazon-web-services/supported-aws-cost-allocation-tags.md)
 * [AWS Migration TCO Analysis](amazon-web-services/aws-migration-tco-analysis.md)
+* [Set up CloudHealth](amazon-web-services/set-up-cloudhealth.md)
 
 ## Working with Tickets <a id="tickets"></a>
 

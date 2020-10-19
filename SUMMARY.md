@@ -37,12 +37,12 @@
 * [Add a New G Suite Subscription](g-suite-and-workspace/add-a-new-g-suite-subscription.md)
 * [Upgrading G Suite Subscription](g-suite-and-workspace/upgrading-your-g-suite-edition.md)
 
+## Microsoft Office 365
+
+* [Create Office 365 Subscriptions](microsoft-office-365/add-new-office-365-subscriptions.md)
+* [Purchasing Office 365 Licenses](microsoft-office-365/purchasing-office-365-licenses.md)
+
 ## G Suite & MS Office 365 <a id="g-suite-and-office-365"></a>
-
----
-
-* [Create Office 365 Subscriptions](add-new-office-365-subscriptions.md)
-* [Purchasing Office 365 Licenses](purchasing-office-365-licenses.md)
 
 ## Cloud Sandbox Management
 

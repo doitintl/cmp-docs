@@ -12,6 +12,10 @@ As a customer, you can create a new AWS account directly from the Cloud Manageme
 Please note you must be assigned access to the specific Billing Profile under which the domain is managed in order to create a new account.
 {% endhint %}
 
+{% hint style="danger" %}
+You will see an **OrganizationAccountAccessRole** in the new AWS account. This role is created by AWS and links back to the parent account. The CMP or DoiT International does not use this role and you will have to **manually remove this role from your account**. 
+{% endhint %}
+
 Access the 'Create AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
 
 ![](../.gitbook/assets/assets-icon-1-%20%282%29.png)

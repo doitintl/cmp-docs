@@ -136,7 +136,7 @@ Available to DoiT customers right from the CMP, it also offers:
 
 ### Perks
 
-[Perks](general/perks.md) are service-based benefits available to DoiT International customers at no extra cost, including workshops, training, cost optimization sessions, case studies, and co-produced webinars. They can easily be browsed and requested on-demand from within the CMP.
+[Perks](perks/perks.md) are service-based benefits available to DoiT International customers at no extra cost, including workshops, training, cost optimization sessions, case studies, and co-produced webinars. They can easily be browsed and requested on-demand from within the CMP.
 
 {% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team\_library" %}
 

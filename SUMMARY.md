@@ -7,9 +7,8 @@
 * [Login](general/login.md)
 * [Company Registration](general/registration.md)
 * [Viewing Your User Profile](general/profile.md)
-* [Tagging Assets](general/tag-assets.md)
-* [Perks](general/perks.md)
-* [Accessing Contracts](general/accessing-your-contracts-with-doit.md)
+* [Tag Assets](general/tag-assets.md)
+* [Access Contracts](general/accessing-your-contracts-with-doit.md)
 
 ## Google Cloud
 
@@ -110,4 +109,12 @@
 * [AWS FinOps Dashboard](dashboards/aws-finops-dashboard.md)
 
 ## API
+
+---
+
+* [Developer Hub](developer-hub.md)
+
+## Perks
+
+* [Perks](perks/perks.md)
 

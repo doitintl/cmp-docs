@@ -1,3 +1,9 @@
+---
+description: >-
+  Cloud Perks are special benefits available to you as DoiT International
+  customer.
+---
+
 # Perks
 
 Perks are service-based benefits available to DoiT International customers at no extra cost, including workshops, training, cost optimization sessions, case studies, and co-produced webinars. They can easily be browsed and requested on-demand from within the CMP. Let's go over how that is done.

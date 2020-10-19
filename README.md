@@ -21,8 +21,6 @@ Cloud Reports give you instant visibility into your Google Cloud costs without h
 
 {% embed url="https://www.loom.com/share/b953b425d41844d5b48e95d24da3787e" %}
 
-
-
 ### Cost Attributions
 
 Attributions are a flexible way to group resources and their associated costs, helping you understand the cloud costs and relate them to the business in your Cloud Reports.
@@ -30,8 +28,6 @@ Attributions are a flexible way to group resources and their associated costs, h
 You may have various components of your application\(s\) spread across different projects, using different services. Attributions allow you to combine everything into something coherent.
 
 {% embed url="https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883?sharedAppSource=team\_library" %}
-
-
 
 ## Cloud Cost Optimization
 
@@ -59,8 +55,6 @@ With Instance Rightsizing for Google Cloud, you will:
 
 {% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team\_library" %}
 
-
-
 ### Flexible Reserved Instances
 
 AWS Reserved Instances \(RIs\) offer you between 30-70% savings on compute costs in exchange for a one or three-year commitment. Typically, you’d use RIs for predictable workloads, and pay on-demand pricing for the less predictable.
@@ -74,8 +68,6 @@ This means you can reduce lock-in risk for your less-predictable workloads.
 Placing an order for a Flex RI for the following month takes all but a few clicks, and you can easily monitor their performance from a central hub in the CMP.
 
 {% embed url="https://www.loom.com/share/0b0b32a767cf43dba42a32b741f61502?sharedAppSource=team\_library" %}
-
-
 
 ### BigQuery FinOps Dashboard
 
@@ -92,8 +84,6 @@ One important aspect of the BigQuery FinOps Dashboard is the Recommendations wid
 Each recommendation category comes with further details on how to act on each recommendation.
 
 {% embed url="https://www.loom.com/share/bfd572ece0494386938a061b4d81cf47?sharedAppSource=team\_library" %}
-
-
 
 ## Cloud Enablement
 
@@ -115,8 +105,6 @@ Once a policy is created, developers are free to [create cloud sandbox environme
 
 {% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team\_library" %}
 
-
-
 ### Quota Monitoring for Google Cloud and AWS
 
 Every cloud provider has resource quotas for things like VPCs, CPU cores, and more. If you'd like to change that quota, you can request more, and typically cloud vendors will approve it. However, this takes hours to days.
@@ -128,8 +116,6 @@ With Quota Monitoring for [Google Cloud](google-cloud/google-cloud-quotas.md) an
 This way, you'll keep services always running by adjusting limits ahead of time.
 
 {% embed url="https://www.loom.com/share/ff6f7fe037ec42dfa0a788e09144965c?sharedAppSource=team\_library" %}
-
-
 
 ### Anomaly Detection for Google Cloud
 
@@ -148,15 +134,11 @@ Available to DoiT customers right from the CMP, it also offers:
 
 {% embed url="https://www.loom.com/share/b1ed3dd283ce472b965d0dddc1d10f55?sharedAppSource=team\_library" %}
 
-
-
 ### Perks
 
 [Perks](general/perks.md) are service-based benefits available to DoiT International customers at no extra cost, including workshops, training, cost optimization sessions, case studies, and co-produced webinars. They can easily be browsed and requested on-demand from within the CMP.
 
 {% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team\_library" %}
-
-
 
 ## Cloud Productivity
 

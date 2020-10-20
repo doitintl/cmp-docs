@@ -12,28 +12,31 @@ To grant these permissions, you will need to create a Google Cloud Service Accou
 Required Permissions**: Manage Settings**
 {% endhint %}
 
-## Creating a Google Cloud Service Account 
+## Create Google Service Account 
 
-To create a service account, please execute the following steps:
+To create a Google Cloud Service account, please execute the following steps:
 
-1. Navigate to the Settings icon in your lefthand navigation panel
-2. Check the features you'd like to enable within the CMP
-3. Review the permissions each service request \(by expanding the card\)
-4. Click on "Create Service Account"
+1. Open [Cloud Management Platform](https://app.doit-intl.com/) 
+2. Navigate to the Settings icon in your lefthand navigation panel
+3. Check the features you'd like to enable within the CMP
+4. Review the permissions each service request \(by expanding the card\)
+5. Click on "Create Service Account"
 
 ![](../.gitbook/assets/cmp_featuresconfig_serviceaccount.jpg)
 
 Next, a slide-out will appear on the right side of your screen, containing all of the Google SDK \([gcloud\)](https://cloud.google.com/sdk) commands you need to run in order to create the service account and set it up with the correct role. Copy the commands and run them sequentially in your terminal or Google Cloud Shell.
 
-_**Note:** The gcloud commands vary according to the boxes of the features you checked._
-
-Once finished, you should have the JSON file of your service account.
+{% hint style="info" %}
+The `gcloud` commands vary according to the boxes of the features you checked
+{% endhint %}
 
 ![](../.gitbook/assets/cmp_gcp_createserviceaccount2.jpg)
 
-## Upload your Service Account Key
+Once finished, you have the key JSON file for your new service account.
 
-Whether you've generated your service account key via Google Cloud Console or CMP, your next step is to upload the JSON file in the CMP by clicking on "Upload File".
+## Upload the Service Account Key
+
+Whether you've generated your service account key, your next step is to upload the JSON file to the CMP by clicking on "Upload File".
 
 If configured successfully, you should see a "**Healthy**" or "**Partial**" value appear under the "Status" column in the "Configured Accounts" widget.
 
@@ -45,11 +48,13 @@ If there is something wrong with the JSON file you uploaded, you will see an "**
 
 ## Updating your Service Account
 
-If, after initially connecting your Google Cloud Organization, you decide that you want to grant permissions for an additional feature — or remove permissions — you can do that easily from the CMP. First, check or uncheck the feature\(s\) you'd like to add or remove. Then click on "Update Role".
+If, after initially connecting your Google Cloud Organization, you decide that you want to grant permissions for an additional feature — or remove permissions — you can do that easily from the same page. 
+
+First, check or uncheck the feature\(s\) you'd like to add or remove. Then click on "Update Role".
 
 ![](../.gitbook/assets/cmp_updaterole.jpg)
 
-A slide-out will appear containing the gcloud commands you need to run to update your service account's role so that permissions corresponding to the feature you checked or unchecked are added or removed, respectively.
+A slide-out will appear containing the `gcloud` commands you need to run to update your service account's role so that permissions corresponding to the feature you checked or unchecked are added or removed, respectively.
 
 ![](../.gitbook/assets/cmp_updaterole2.jpg)
 
@@ -63,7 +68,7 @@ To add a new service account, click on the **"+"** icon in the top-right corner 
 
 Once clicked, notice that all of the Features will revert back to "Not Configured" since you are setting up a new service account.
 
-As you did with your initial service account, select the features you'd like to grant permissions for this service account, and run the gcloud commands provided.
+As you did with your initial service account, select the features you'd like to grant permissions for this service account, and run the `gcloud` commands provided.
 
 Check out the bite-sized video below for a closer look at connecting your Google Cloud Organization to CMP.
 

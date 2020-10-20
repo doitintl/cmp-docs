@@ -12,6 +12,8 @@ As a new customer who has recently onboarded with DoiT International, you have t
 Changing the billing account linked to a project could disable and result in data loss for any partner-managed services purchased through Google Cloud Marketplace. [Learn more](https://cloud.google.com/marketplace/docs/understanding-billing#changing_a_projects_billing_account)
 {% endhint %}
 
+### Instructions
+
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select '**Manage Licenses & Assets**' from the main dashboard:
 
 ![](../.gitbook/assets/transfer-projects.png)
@@ -60,7 +62,7 @@ The confirmation page informs you of how many projects were transferred, and by 
 
 Congrats! You have successfully reassigned your existing Google Cloud projects to your new billing account with DoiT International! Well done! 
 
-##  Partial or Unsuccessful Transfer of Project\(s\)
+### Partial Transfers
 
 If some or all of your projects don't transfer successfully, you will see a discrepancy when you complete your transfer process between the number of projects successfully transferred and the total number of projects you attempted to transfer.
 
@@ -72,7 +74,7 @@ If none of your projects were successfully transferred, you will see this messag
 
 ![](../.gitbook/assets/screen-shot-2020-09-10-at-16.10.34-1-.png)
 
-### **Why projects don't transfer successfully**
+### **Common Problems**
 
 There are a few "edge case" situations in which some or all of your Google Cloud Projects won't transfer successfully:
 

@@ -1,12 +1,16 @@
 ---
 description: >-
-  Instructions on transferring your existing Google Cloud projects to your new
-  billing account with DoiT International
+  How to transfer your existing Google Cloud projects to your new billing
+  account with DoiT International
 ---
 
 # Transfer Google Cloud Projects
 
-As a new customer who has recently onboarded with DoiT International, you have the ability to transfer all your existing Google Cloud projects to the billing account assigned to you by DoiT International.
+### Overview
+
+To change the Cloud Billing account for a project, you need to be able to move a project from your existing Cloud Billing account to another Cloud Billing account provided by DoiT International. To accomplish this task, you need permissions adequate to unlink the project from the existing Cloud Billing account AND to link the project to the target Cloud Billing account. Unfortunately, it is a manual process and requires a repetitive, one-by-one, transfer operation for each project. [Learn more.](https://cloud.google.com/billing/docs/how-to/modify-project#change_the_billing_account_for_a_project) 
+
+As part of the Cloud Management Platform, DoiT International has developed a Project Transfer Tool, to assist you with bulk transferring all of your existing Google Cloud projects to the billing account assigned to you by DoiT International.
 
 {% hint style="danger" %}
 Changing the billing account linked to a project could disable and result in data loss for any partner-managed services purchased through Google Cloud Marketplace. [Learn more](https://cloud.google.com/marketplace/docs/understanding-billing#changing_a_projects_billing_account)
@@ -22,37 +26,37 @@ Once you're at the **Assets** page, please switch to the Google Cloud tab.
 
 ![](../.gitbook/assets/google-cloud-tab.png)
 
-To transfer your projects, locate your new Google Cloud billing account with DoiT International, and click on the three-dots menu on the right-hand side of the widget. Choose 'Transfer Projects' to start the wizard.
+To transfer your projects, locate your new Google Cloud billing account with DoiT International \(doit.budgetao.com in this example\), and click on the three-dots menu on the right-hand side of the widget. Choose 'Transfer Projects' to start the wizard.
 
 ![](../.gitbook/assets/transfer-projects1%20%281%29.png)
 
-To begin the transfer process, a dedicated Google Cloud service account will be generated once you click the 'Start' wizard.
+Acknowledge the Marketplace Apps consent and click "Start":
 
 ![](../.gitbook/assets/transfer-gcp.png)
 
-Once the service account has been generated, you will need to add it to your Google Cloud Organization's IAM Policy and attach the Billing Administrator role. You can do so by copying the service account and entering it as a new member of your organization in the Google Cloud Console.
-
-Copy the service account name.
+After you begin the transfer process, a dedicated Google Cloud service account will be generated to facilitate the transfer process. _Please note the service account name, you will need it for the next step._
 
 ![](../.gitbook/assets/transfer-projects3.png)
 
-Add it to your Google Cloud Organization IAM.
+Please add the email address of the generated service account to your Google Cloud Organization IAM Policy and attach the Billing Administrator role. You can do so by copying the service account and entering it as a new member of your organization in the Google Cloud Console.
 
 ![](../.gitbook/assets/transfer-projects4.png)
 
 If you do not add the service account to your Google Cloud Organization IAM, the following error will appear. 
 
-![](../.gitbook/assets/transfer-projects-error.png)
+{% hint style="warning" %}
+If you incorrectly add the service account to one of your Google Project IAM and not the Organization IAM, the following error will appear: **Service Account Not Found in Organization IAM.**
+{% endhint %}
 
-If you don't have access to your Google Cloud Organization IAM, you can copy the command from the following section and send it to your colleague who the permission.
-
-![](../.gitbook/assets/transfer-projects5.png)
+{% hint style="info" %}
+If you don't have access to your Google Cloud Organization IAM, the Transfer Tool will provide you with a command you can send to your colleague who has the Organization IAM permission.
+{% endhint %}
 
 Select the projects you want to transfer to your new Google Cloud Billing Account with DoiT International.
 
 ![](../.gitbook/assets/transfer-projects6.png)
 
-By clicking the **&gt;** button, the selected projects will be assigned to your new billing account. Review the list of projects you intend to transfer and click 'Finish'. 
+By clicking the **&gt;** button, the selected projects are designated to be transferred. Review the list of projects you intend to transfer, validate it and click 'Finish'. 
 
 ![](../.gitbook/assets/transfer-projects7.png)
 
@@ -74,20 +78,22 @@ If none of your projects were successfully transferred, you will see this messag
 
 ![](../.gitbook/assets/screen-shot-2020-09-10-at-16.10.34-1-.png)
 
-### **Common Problems**
+### **Troubleshooting**
 
-There are a few "edge case" situations in which some or all of your Google Cloud Projects won't transfer successfully:
+There are a few "edge case" situations in which some or all of your Google Cloud projects won't transfer successfully:
 
-1. The project\(s\) is associated with an Organization that the service account doesn’t have access to.
-2. The billing account doesn’t fall under the Organization your service account has permissions to.
+1. The project\(s\) is associated with another Google Organization that the service account doesn’t have an access to.
+2. The origin billing account is not under the Organization the service account has permissions to.
 
 To identify which project\(s\) didn't transfer successfully, click on the hyperlinked "Click here" in the pop-up shown above. This will copy to clipboard all of the projects you attempted to transfer, as well as their statuses. 
 
 Here is an example output:
 
-* project-id-1, success
-* project-id-2, success
-* project-id-3, error-code
+```text
+project-id-1, success
+project-id-2, success
+project-id-3, error-code
+```
 
 From here you can troubleshoot the project\(s\) that have "error-code" for one of the two "edge case" situations we described above.
 

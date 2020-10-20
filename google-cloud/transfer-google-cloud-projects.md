@@ -1,7 +1,7 @@
 ---
 description: >-
-  Instructions on transferring your Google Cloud projects to your new billing
-  account with DoiT International
+  Instructions on transferring your existing Google Cloud projects to your new
+  billing account with DoiT International
 ---
 
 # Transfer Google Cloud Projects
@@ -12,7 +12,11 @@ As a new customer who has recently onboarded with DoiT International, you have t
 Changing the billing account linked to a project could disable and result in data loss for any partner-managed services purchased through Google Cloud Marketplace. [Learn more](https://cloud.google.com/marketplace/docs/understanding-billing#changing_a_projects_billing_account)
 {% endhint %}
 
-From the main dashboard please select '**Manage Licenses & Assets**'. Once you're at the Assets page, switch to the Google Cloud tab.
+Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select '**Manage Licenses & Assets**' from the main dashboard:
+
+![](../.gitbook/assets/transfer-projects.png)
+
+Once you're at the **Assets** page, please switch to the Google Cloud tab.
 
 ![](../.gitbook/assets/google-cloud-tab.png)
 
@@ -79,9 +83,9 @@ To identify which project\(s\) didn't transfer successfully, click on the hyperl
 
 Here is an example output:
 
-* project1, success
-* project2, success
-* project3, error-code
+* project-id-1, success
+* project-id-2, success
+* project-id-3, error-code
 
 From here you can troubleshoot the project\(s\) that have "error-code" for one of the two "edge case" situations we described above.
 

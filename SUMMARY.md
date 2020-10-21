@@ -6,7 +6,7 @@
 
 * [Login to CMP](general/login.md)
 * [Company Registration](general/registration.md)
-* [Viewing Your User Profile](general/profile.md)
+* [Your Profile](general/profile.md)
 
 ## Google Cloud
 

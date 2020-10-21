@@ -16,7 +16,9 @@ Click the link in the email to start the sign-in & registration process. You wil
 
 In conclusion, enter your payment method and currency and click 'Submit'.
 
-_Please note that there will be a section that requests your billing information. This does not activate billing, it just ensures that once the paperwork is signed, you don’t experience any drop in service._
+{% hint style="info" %}
+Please note that there will be a section that requests your billing information. This does not activate billing, it just ensures that once the paperwork is signed, you don’t experience any drop in service.
+{% endhint %}
 
 ![](../.gitbook/assets/submit-new-billing-profile.png)
 

@@ -4,19 +4,23 @@ description: Overview of DoiT International Cloud Management Platform
 
 # What is CMP?
 
-**Welcome to DoiT International's Help Center for all things Cloud Management Platform \(CMP\).** You can request changes to articles or report issues via our [public Github repo](https://github.com/doitintl/cmp-docs]) by submitting a pull request or creating an issue. 
+**Welcome to DoiT International's Help Center for all things Cloud Management Platform!**
+
+{% hint style="info" %}
+You can request changes to articles or report issues via our [public GitHub repository](https://github.com/doitintl/cmp-docs) by submitting a pull request or creating an issue. 
+{% endhint %}
 
 But for now, let's go over what exactly the CMP is and how _you_ can benefit from using it.
 
-Our Cloud Management Platform helps the developers and system administrators at digital-native companies improve cloud operations, maintain security, control cost, and ensure governance of its cloud estate. It has five strategic pillars: Analytics, Optimization, Enablement, Productivity, and Governance.
+The Cloud Management Platform helps the developers and system administrators at digital-native companies improve cloud operations, maintain security, control cost, and ensure governance of its cloud estate. It has five strategic pillars: Analytics, Optimization, Enablement, Productivity, and Governance.
 
-In this article, we'll briefly go over each of the main capabilities you have access to in the CMP, along with links to other articles for each feature if you're interested in doing a deeper dive.
+In this brief, we'll briefly go over each of the main capabilities you have access to in the CMP, along with links to other articles for each feature if you're interested in doing a deeper dive.
 
 ## Cloud Analytics
 
 ### Reports
 
-Cloud Reports give you instant visibility into your Google Cloud costs without having to spend agonizing hours scanning through GCP bills.
+Cloud Reports give you instant visibility into your Google Cloud costs without having to spend agonizing hours scanning through cloud bills.
 
 * Analyze cloud spend to identify optimization opportunities.
 * [Build customized reports](cloud-analytics/create-cloud-report.md) and [share](cloud-analytics/sharing-cloud-reports.md) them with others.
@@ -39,7 +43,7 @@ You may have various components of your application\(s\) spread across different
 
 As a DoiT International customer, you can [compare the Total Cost of Ownership \(TCO\)](amazon-web-services/aws-migration-tco-analysis.md) of your AWS assets vs. Google Cloud, directly from the Cloud Management Platform using your AWS invoice data in CSV format.
 
-Within seconds of uploading your AWS invoice, you'll see what your potential GCP costs \(and savings\) would be if you ran the same compute workloads there.
+Within seconds of uploading your AWS invoice, you'll see what your potential Google Cloud costs \(and savings\) would be if you ran the same compute workloads there.
 
 Inside the report you'll find:
 
@@ -49,7 +53,7 @@ Inside the report you'll find:
 
 ### Instance Rightsizing for Google Cloud
 
-When you create an instance in GCP and it is under-utilized, you are paying more than you should as a result of idle resources.
+When you create an instance in Google Cloud and it is under-utilized, you are paying more than you should as a result of idle resources.
 
 With Instance Rightsizing for Google Cloud, you will:
 
@@ -73,11 +77,11 @@ Placing an order for a Flex RI for the following month takes all but a few click
 
 {% embed url="https://www.loom.com/share/0b0b32a767cf43dba42a32b741f61502?sharedAppSource=team\_library" %}
 
-### BigQuery FinOps Dashboard
+### BigQuery FinOps
 
 As powerful as BQ is, it comes at a high cost depending on your analysts’ behavior and how your BigQuery architecture is set up. Adding on to this, trying to identify BigQuery resource inefficiencies without knowing _what_ you're looking for can be a huge timesuck.
 
-As a result, we created the [BigQuery FinOps Dashboard](https://help.doit-intl.com/hc/en-us/articles/360040580752-BigQuery-FinOps-Dashboard), your Swiss Army knife for highlighting inefficiencies in your team's BigQuery usage.
+As a result, we created the [BigQuery FinOps](https://help.doit-intl.com/hc/en-us/articles/360040580752-BigQuery-FinOps-Dashboard), your Swiss Army knife for highlighting inefficiencies in your team's BigQuery usage.
 
 It analyzes your team’s BigQuery behavior, aggregate information, and display the most important statistics for you. Unlike alternative solutions and methods, BigQuery FinOps Dashboard brings important information TO you, without you having to configure anything.
 
@@ -91,15 +95,15 @@ Each recommendation category comes with further details on how to act on each re
 
 ## Cloud Enablement
 
-### Cloud Sandbox for Google Cloud
+### Cloud Sandboxes
 
-Cloud sandboxes offer engineering teams a safe and controlled environment to run experiments, test, and build out new features without worrying about impacting production infrastructure. While easy, simply creating a new Google Cloud project cannot be considered a “complete” solution due to the lack of built-in budget management, self-service for developers, and governing policies.
+Cloud sandboxes \(or DCEs, - disposable cloud environments\) offer engineering teams a safe and controlled environment to run experiments, test, and build out new features without worrying about impacting production infrastructure. While easy, simply creating a new Google Cloud project cannot be considered a “complete” solution due to the lack of built-in budget management, self-service for developers, and governing policies.
 
 Cloud Sandbox for Google Cloud gives admins and developers the governance and autonomy they both need, respectively, all while connecting to their Google Cloud Organization.
 
 First, [create a sandbox policy](https://help.doit-intl.com/hc/en-us/articles/360042369611-Configure-A-Policy-For-Sandbox-Accounts) to automate sandbox management. With a policy set up, you can:
 
-* Connect to your GCP billing account, organization, and IAM folder.
+* Connect to your Google Cloud billing account, organization, and IAM folder.
 * Set sandbox budgets.
 * Get alerts when a budget is hit, or automatically disable the billing.
 * Limit the number of sandboxes per user.
@@ -115,13 +119,13 @@ Every cloud provider has resource quotas for things like VPCs, CPU cores, and mo
 
 However, sometimes your quota limits can, without warning, be hit by a surge of demand that causes you to hit those quotas. When this happens, you're forced to wait for your ticket to be addressed.
 
-With Quota Monitoring for [Google Cloud](google-cloud/google-cloud-quotas.md) and [AWS](https://help.doit-intl.com/hc/en-us/articles/360038791071-AWS-Service-Limits-Quotas-Alerts) you can stay on top of your cloud quotas with proactive monitoring. You'll get notified when you're approaching quotas.
+With Quota Monitoring for [Google Cloud](google-cloud/google-cloud-quotas.md), and [AWS](https://help.doit-intl.com/hc/en-us/articles/360038791071-AWS-Service-Limits-Quotas-Alerts) you can stay on top of your cloud quotas with proactive monitoring. You'll get notified when you're approaching quotas.
 
 This way, you'll keep services always running by adjusting limits ahead of time.
 
 {% embed url="https://www.loom.com/share/ff6f7fe037ec42dfa0a788e09144965c?sharedAppSource=team\_library" %}
 
-### Anomaly Detection for Google Cloud
+### Cost Anomaly Detection
 
 With so many moving parts in the cloud, it’s critical to keep a finger on the pulse of your costs. However, unless IT regularly monitors cloud spend, sudden spikes in resource costs can remain undetected for weeks — until the monthly bill arrives.
 
@@ -156,7 +160,7 @@ Available to DoiT customers right from the CMP, it also offers:
 * [Enhanced Caching](https://support.superquery.io/en/articles/3543297-setting-up-enhanced-caching)
 * [Git functionality support](https://support.superquery.io/en/collections/1746442-superquery-key-features-explained#git-functionality-and-github)
 
-DoiT customers get unlimited seats and access to superQuery at no additional cost, and can quickly access it from the CMP.
+As a customer, you get unlimited superQuery seats and access to superQuery at no additional cost, and can quickly access it from the CMP.
 
 ## Cloud Governance
 
@@ -175,17 +179,15 @@ From your Asset Management screen, you can:
 
 Additionally, you can view your order history of all licenses and subscriptions across all of your cloud products.
 
-[~~Go here~~]() ~~~~for the full list of your asset management capabilities in CMP.
-
 ### Billing Profiles, Invoices, and Invoice Buckets
 
-CMP gives you capabilities unavailable in GCP or AWS to customize _precisely_ how you'd like to billed via Billing Profiles, Invoices, and Invoice Buckets. 
+CMP gives you capabilities unavailable in Google Cloud or AWS to customize _precisely_ how you'd like to billed via Billing Profiles, Invoices, and Invoice Buckets. 
 
 [**Billing Profiles**](https://help.doit-intl.com/hc/en-us/articles/360032254792-Set-Up-New-Billing-Profile) are for when your company has different entities requiring separate invoices. For instance, you may use a different payment method or currency depending on the entity.
 
 In the CMP, customers can create as many Billing Profiles as required, per their company's needs.
 
-Additionally, whereas with GCP or AWS you can only pay with a credit card, DoiT International customers have more options for customizing the payment method for their Billing Profile\(s\) including Credit Card, Wire, Bill.com, and ACH. 
+Additionally, whereas with Google Cloud or AWS you can only pay with a credit card, DoiT International customers have more options for customizing the payment method for their Billing Profile\(s\) including Credit Card, Wire, Bill.com, and ACH. 
 
 [**Invoices**](https://help.doit-intl.com/hc/en-us/articles/360032254812-Manage-Invoices) across all cloud platforms and their current statuses can be easily accessed using the CMP.
 
@@ -208,9 +210,9 @@ With invoice buckets, you will receive separate invoices for each invoice bucket
 
 ### Contract Management
 
-Via the Contracts page, you get [self-service access to all cloud contracts](https://help.doit-intl.com/hc/en-us/articles/360032255892-Accessing-Contracts) you are being billed for through DoiT International.
+Via the Contracts page, you get self-service access to all cloud contracts you are being billed for through DoiT International.
 
-### User Management
+### User and Role Management
 
 Use User Management to:
 

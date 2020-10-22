@@ -11,7 +11,7 @@ You have four options when exporting your Cloud Reports:
 * Export as PNG
 * Export as PDF
 * Export to CSV
-* Export to Sheets
+* Export to Google Sheets
 
 {% hint style="info" %}
 Required Permissions: **Cloud Analytics**
@@ -27,13 +27,13 @@ Finally, once you click on an option, a download will begin and you will receive
 
 
 
-### Exporting to CSV or Sheets
+### Exporting to CSV or Google Sheets
 
 To export to Google Sheets or CSV, click on the "View As" dropdown and select either the "Sheets Export" or "CSV Export" options, respectively.
 
 ![](../.gitbook/assets/cloudreportsexport2.jpg)
 
-#### Sheets Export
+#### Export to Google Sheets
 
 If this is your first time exporting a Cloud Report to Google Sheets, you will be asked to give CMP permission to create Google Drive files.
 

@@ -14,11 +14,13 @@ Start with navigating to the 'Support' page by selecting the icon on the left-ha
 
 ![](../.gitbook/assets/support-tab.png)
 
-Locate the three-dots icon on the right-hand side of the page and click 'Enable Ticket Sharing'.
+Locate the settings gear icon at the top-right of the page and click 'Enable Ticket Sharing'.
 
-![](../.gitbook/assets/enable-ticket-sharing.png)
+![](../.gitbook/assets/supportsharing1.jpg)
 
-Below is an example of ticket sharing enabled, note the requester who opened the ticket.
+![](../.gitbook/assets/cleanshot-2020-10-22-at-13.38.08.jpg)
 
-![](../.gitbook/assets/ticket-sharing-enabled.png)
+
+
+Once enabled, you will be able to see tickets opened by others in your organization.
 

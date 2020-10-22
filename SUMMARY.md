@@ -24,6 +24,16 @@
 * [AWS Migration TCO Analysis](amazon-web-services/aws-migration-tco-analysis.md)
 * [Set up CloudHealth](amazon-web-services/set-up-cloudhealth.md)
 
+## Cloud Analytics
+
+* [Create Cloud Analytics Reports](cloud-analytics/create-cloud-report.md)
+* [Edit Cloud Analytics Report](cloud-analytics/editing-your-cloud-report.md)
+* [Attribute Cloud Spend](cloud-analytics/attributing-cloud-spend.md)
+* [Share Cloud Analytics Reports](cloud-analytics/sharing-cloud-reports.md)
+* [Clone Cloud Analytics Reports](cloud-analytics/cloning-and-or-customizing-cloud-reports.md)
+* [Understanding Aggregations](cloud-analytics/using-aggregations-in-cloud-reports.md)
+* [Export Cloud Analytics Reports](cloud-analytics/exporting-cloud-reports.md)
+
 ## Working with Tickets <a id="tickets"></a>
 
 * [Support or Advisory Requests](tickets/open-a-new-support-request.md)
@@ -47,16 +57,6 @@
 
 * [Configuring Sandbox Policy](cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md)
 * [Creating Google Cloud Sandbox](cloud-sandbox-management/create-gcp-sandbox-accounts.md)
-
-## Cloud Analytics
-
-* [Create Cloud Analytics Reports](cloud-analytics/create-cloud-report.md)
-* [Edit Cloud Analytics Report](cloud-analytics/editing-your-cloud-report.md)
-* [Attribute Cloud Spend](cloud-analytics/attributing-cloud-spend.md)
-* [Share Cloud Analytics Reports](cloud-analytics/sharing-cloud-reports.md)
-* [Clone Cloud Analytics Reports](cloud-analytics/cloning-and-or-customizing-cloud-reports.md)
-* [Understanding Aggregations](cloud-analytics/using-aggregations-in-cloud-reports.md)
-* [Export Cloud Analytics Reports](cloud-analytics/exporting-cloud-reports.md)
 
 ## Invoices & Payments
 

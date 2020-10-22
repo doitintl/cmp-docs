@@ -14,7 +14,7 @@ Sign in to the AWS account you'd like to integrate with CloudHealth with an IAM 
 
 1. Navigate to [IAM Policies](https://console.aws.amazon.com/iam/home?region=us-east-1#/policies)
 2. Click "Create Policy"
-3. Switch to JSON tab
+3. Switch to the JSON tab
 4. Remove existing content and copy the content of [this JSON policy](https://storage.googleapis.com/hello-static-assets/cloudhealth/iam-policy.json) and paste it into the text area
 5. Click "Review Policy"
 6. Set name to "CloudHealth"
@@ -34,5 +34,6 @@ Sign in to the AWS account you'd like to integrate with CloudHealth with an IAM 
 10. Set Role Name to "CloudHealth"
 11. Click "Create Role"
 
+  
 If you require any further assistance with the creation of the CloudHealth IAM Role, don't hesitate to contact our support at [https://support.doit-intl.com](https://support.doit-intl.com)
 

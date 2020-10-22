@@ -26,9 +26,11 @@ To access your Cloud Reports, click on the "Cloud Analytics" icon on the left-ha
 * Monthly Cost by Project 12mo
 * CloudSQL Hourly Cost 60d
 
-Click on the "+New" button on the top-right part of the Cloud Analytics page to begin working on a new Cloud Report.
+Click on the "Explore" button on the top-right part of the Cloud Analytics page to begin working on a new ad-hoc Cloud Report. Reports created this way will not be automatically saved _unless_ you give it a name.
 
-![](../.gitbook/assets/cloudanalytics_cloudreports.jpg)
+If you'd like your report to be automatically saved regardless of whether you give it a name, click on the dropdown arrow next to "Explore" and select "New Report" instead.
+
+![](../.gitbook/assets/cloudreportsnewww.jpg)
 
 ### Set up your Cloud Report
 

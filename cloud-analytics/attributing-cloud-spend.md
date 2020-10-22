@@ -32,9 +32,11 @@ If you want to give even more context to your Attribution, you may give it a des
 
 ![](../.gitbook/assets/attributions_namee.jpg)
 
-Now it's time to configure the conditions, or the criteria, which will determine what falls under your Attribution. Select the field\(s\) you'd like to include as part of your Attribution from the dropdown:
+Now it's time to configure the conditions, or the criteria, which will determine what falls under your Attribution. You'll have every Google Cloud billing dimension to choose from; as well as any custom, project, and system labels.
 
-![](../.gitbook/assets/cmp_attributions_fieldselect.jpg)
+Select the field\(s\) you'd like to include as part of your Attribution from the dropdown:
+
+![](../.gitbook/assets/attributionslabels.jpg)
 
 From there, filter your selections either by keyword, exclusion, or regular expression just as you would do in Cloud Analytics Reports. Continuing our example from above, let's filter for projects which the production team uses.
 
@@ -49,16 +51,6 @@ Once you've set a condition, a quick preview will appear showing your attributio
 Using our example from above, we will also create similar attributions for dev and ops teams.
 
 _**Note:** You should not set multiple separate conditions with the same field — unless there is an exclusion set up in one of those conditions._
-
-#### Adding Labels in Attributions
-
-To include Labels in your Attribution conditions, click on the "**+ LABELS**" button at the top-right corner. Then select the labels you'd like to include from the dropdown menu and click "Save".
-
-![](../.gitbook/assets/cmp_attributions_labels.jpg)
-
-Once saved, your selected Labels will appear in your Fields dropdown and be added as a condition.
-
-![](../.gitbook/assets/cmp_attributions-labels2.jpg)
 
 ### Using Attributions in Cloud Analytics Reports
 

@@ -32,9 +32,28 @@ An email will be sent on behalf of AWS.
 
 If within five minutes you haven't received the above email, please re-enter your AWS Account ID in the DoiT Cloud Management Platform and invite once again. 
 
-To complete the process please visit the AWS documentation on "[Inviting an AWS Account to Join Your Organization](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_accounts_invites.html#orgs_manage_accounts_accept-decline-invite)" and search for the "To accept or decline an invitation \(console\)" section.
+To complete the process, sign in to the [AWS Organizations Console](https://console.aws.amazon.com/organizations/). On the Invitations page in the console, you can see your open invitations to join organizations. Finally, click the "Accept" button to accept the invitation.
+
+![](../.gitbook/assets/cint_aws_invitation3.png)
+
+Afterward, you will be redirected to the **Organization overview** page with details about the organization that your account is now a member of. You can view the organization's ID and the owner's email address.
 
 After signing in to the AWS Console and accepting the invitation, a final email will be sent instructing how to complete the IAM access for CloudHealth.
 
 ![](../.gitbook/assets/iam-last-steps.png)
+
+### Multiple Accounts Under a Master Organization
+
+In the event that you have multiple accounts under a Master account / organization, you will get an error trying to accept the invitation.
+
+In order to successfully accept the invitation, you must remove each linked AWS account from your master account.
+
+{% hint style="info" %}
+Note: This will prompt you to input payment details for each linked account if you didn't do so while initially creating them.
+{% endhint %}
+
+For each account you must:
+
+1. "Leave" the Organization \(no new invites will appear before you do this\)
+2. Accept the invite from DoiT International in each linked account
 

@@ -38,10 +38,6 @@ To complete the process, sign in to the [AWS Organizations Console](https://cons
 
 Afterward, you will be redirected to the **Organization overview** page with details about the organization that your account is now a member of. You can view the organization's ID and the owner's email address.
 
-After signing in to the AWS Console and accepting the invitation, a final email will be sent instructing how to complete the IAM access for CloudHealth.
-
-![](../.gitbook/assets/iam-last-steps.png)
-
 ### Multiple Accounts Under a Master Organization
 
 In the event that you have multiple accounts under a Master account / organization, you will get an error trying to accept the invitation.
@@ -56,4 +52,10 @@ For each account you must:
 
 1. "Leave" the Organization \(no new invites will appear before you do this\)
 2. Accept the invite from DoiT International in each linked account
+
+### Completing IAM Access for CloudHealth
+
+After signing in to the AWS Console and accepting the invitation, a final email will be sent instructing how to complete the IAM access for CloudHealth.
+
+![](../.gitbook/assets/iam-last-steps.png)
 

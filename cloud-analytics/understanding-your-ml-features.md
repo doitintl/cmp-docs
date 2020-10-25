@@ -1,10 +1,8 @@
 ---
-description: >-
-  Cloud Analytics Reports provides ML Features you can use to make better sense
-  of your cloud usage.
+description: How to detect trending dimensions in Cloud Analytics Reports
 ---
 
-# Understanding your ML Features
+# Trend Analysis
 
 Use ML Features in your Cloud Analytics Reports by selecting an option from the "**ML Features**" dropdown on the lefthand set of options.
 
@@ -12,13 +10,9 @@ Use ML Features in your Cloud Analytics Reports by selecting an option from the 
 
 Let's go over the effect each ML Feature has on your reports.
 
-**Trending Up**
+**Trending Up or Trending Down**
 
-Using the [Mann-Kendall](https://www.statisticshowto.com/mann-kendall-trend-test/) algorithm, this ML Feature removes "noise" from your charts and only shows results that are trending up in your selected [Metric](https://help.doit-intl.com/cloud-analytics/editing-your-cloud-report#metric-options) \(i.e. Cost\).
+Using the [Mann-Kendall](https://www.statisticshowto.com/mann-kendall-trend-test/) algorithm, the "Trending Up or Down feature removes "noise" from your Cloud Analytics Reports and only shows trending [Metric](https://help.doit-intl.com/cloud-analytics/editing-your-cloud-report#metric-options) \(i.e. Cost or Usage\) in your series.
 
 ![](../.gitbook/assets/mltrendingup.gif)
-
-**Trending Down**
-
-Similar to the "Trending Up" feature, "Trending Down" displays results that are trending down for your metric within your selected Time Range.
 

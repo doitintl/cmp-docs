@@ -2,7 +2,7 @@
 description: How to detect trending dimensions in Cloud Analytics Reports
 ---
 
-# Trend Analysis
+# Metric Trend Analysis
 
 Use ML Features in your Cloud Analytics Reports by selecting an option from the "**ML Features**" dropdown on the lefthand set of options.
 

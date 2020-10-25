@@ -32,7 +32,7 @@
 * [Share Cloud Analytics Reports](cloud-analytics/sharing-cloud-reports.md)
 * [Clone Cloud Analytics Reports](cloud-analytics/cloning-and-or-customizing-cloud-reports.md)
 * [Understanding Aggregations](cloud-analytics/using-aggregations-in-cloud-reports.md)
-* [Trend Analysis](cloud-analytics/understanding-your-ml-features.md)
+* [Metric Trend Analysis](cloud-analytics/understanding-your-ml-features.md)
 * [Export Cloud Analytics Reports](cloud-analytics/exporting-cloud-reports.md)
 
 ## Working with Tickets <a id="tickets"></a>

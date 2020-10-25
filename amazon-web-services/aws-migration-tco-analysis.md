@@ -1,10 +1,14 @@
+---
+description: Estimate the alternative cost of your cloud workload/s
+---
+
 # AWS Migration TCO Analysis
 
 As a DoiT International customer, you can compare the Total Cost of Ownership \(TCO\) of your AWS assets vs. Google Cloud, directly from the Cloud Management Platform using your AWS invoice data in CSV format.
 
 First, you must download your AWS invoice for a given month from your AWS Management Console by going to _Billing &gt; Bills &gt; Select month &gt; Download CSV_.
 
-To upload the CSV file to the Cloud Management Platform and start the analysis, please click on the 'AWS TCO Analysis' icon. Then, click on 'New' at the top-right hand side of the page to start.
+Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com). To upload the CSV file to the Cloud Management Platform and start the analysis, please click on the 'AWS TCO Analysis' icon. Then, click on 'New' at the top-right hand side of the page to start.
 
 ![](../.gitbook/assets/tco-1.png)
 
@@ -26,7 +30,7 @@ Click on 'View' to see the full analysis. You can also browse each region by cli
 
 Some important notes about your report:
 
-* The report compares the direct cost of EC2 with Google Compute Engine. Your AWS invoice may contain other resources as well such as RDS, Data Transfer or others. At this time, these resources are ignored for the comparison report.
+* The report compares the direct cost of EC2 with Google Compute Engine. Your AWS invoice may contain other resources as well such as RDS, or others. At this time, these resources are ignored for the comparison report.
 * If you have purchased AWS Reserved Instances with Full or Partial Upfront, the report will "normalize" the cost of these instances to on-demand pricing for both AWS and Google Cloud.
 * For the 1Y or 3Y Upfront Reserved Instances with No Upfront, we will automatically calculate the price with Google Committed Use Discounts accordingly.
 * Attached EBS volumes are not taken into account. If your AWS instances have Instance based storage, they are calculated into the Google Cloud costs.

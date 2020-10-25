@@ -22,7 +22,7 @@ Please note that your user account must be linked to at least one billing profil
 
 ### Create a new Billing Account
 
-Start with you logging into the Cloud Management Platform, and select 'Manage Licenses & Assets' from the main dashboard:
+Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select 'Manage Licenses & Assets' from the main dashboard:
 
 ![](../.gitbook/assets/transfer-projects.png)
 

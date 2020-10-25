@@ -18,13 +18,14 @@ Please [Connect your Google Cloud Organization](https://app.gitbook.com/@doitint
 
 To access your Cloud Reports, click on the "Cloud Analytics" icon on the left-hand side of the page.
 
- By default, you will have several preset reports to start with:
+ By default, CMP provided several preset reports to start with, such as:
 
 * Monthly Credits History 12mo
 * Daily Google Cloud Cost 12mo
 * Monthly Cost by Service 12mo
 * Monthly Cost by Project 12mo
 * CloudSQL Hourly Cost 60d
+* Trending Up Google Cloud Costs
 
 Click on the "Explore" button on the top-right part of the Cloud Analytics page to begin working on a new ad-hoc Cloud Report. Reports created this way will not be automatically saved _unless_ you give it a name.
 

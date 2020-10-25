@@ -14,7 +14,7 @@ Required Permission**: Manage Settings**
 
 ## Get AWS Account \# and External ID 
 
-First, navigate to the Settings page via the gear icon in your lefthand navigation panel. 
+Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and navigate to the Settings page via the gear icon in your lefthand navigation panel. 
 
 ![](../.gitbook/assets/awssettings.jpg)
 

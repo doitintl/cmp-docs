@@ -16,7 +16,7 @@ Please note you must be assigned access to the specific Billing Profile under wh
 You will see an **OrganizationAccountAccessRole** in the new AWS account. This role is created by AWS and links back to the parent account. The CMP or DoiT International does not use this role and you will have to **manually remove this role from your account**. 
 {% endhint %}
 
-Access the 'Create AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
+Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and Access the 'Create AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
 
 ![](../.gitbook/assets/assets-icon-1-%20%282%29.png)
 

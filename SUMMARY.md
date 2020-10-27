@@ -84,7 +84,7 @@
 ## User Management
 
 * [Creating a New User](user-management/creating-a-new-user.md)
-* [Managing Roles](user-management/creating-user-roles.md)
+* [Manage Roles](user-management/creating-user-roles.md)
 * [User Permissions Explained](user-management/user-permissions-explained.md)
 
 ## Notifications

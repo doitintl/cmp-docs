@@ -4,7 +4,7 @@ description: >-
   in your organization.
 ---
 
-# Managing Roles
+# Manage Roles
 
 Users Roles make it easy to bulk-assign permissions and manage users more efficiently in your organization. 
 

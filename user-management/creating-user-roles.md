@@ -1,18 +1,31 @@
 ---
 description: >-
-  User Roles allow you to group sets of permissions for different types of users
+  User Roles allow you to group sets of permissions and assign them to the users
   in your organization.
 ---
 
-# Creating User Roles
+# Managing Roles
 
-Users Roles make it easy to bulk-assign permissions when [adding new users](creating-a-new-user.md) to your organization in the CMP. 
+Users Roles make it easy to bulk-assign permissions and manage users more efficiently in your organization. 
 
 {% hint style="info" %}
 Required Permissions: **User Manager**
 {% endhint %}
 
-To create a custom user role, select the "Users and Roles" icon in the lefthand navigation bar.
+### Built-in Roles
+
+There are 5 built-in roles in your account. These roles are pre-created by the Cloud Management Platform for your convenience. 
+
+* **Basic** - access to raise service requests and access to the existing service requests
+* **IT Manager** -  License Manager \(+Basic permissions\)
+* **Finance User** - Billing Profile Admin, Invoice Viewer \(+Basic permissions\)
+* **Standard** - Cloud Analytics, Sandbox User, superQuery \(+Basic permissions\)
+* **Power User** - Flexible RIs, Sandbox Admin and Settings \(+Standard permissions\)
+* **Admin** - Access to everything
+
+### Custom Roles
+
+If one of the built-in roles doesn't work for you, you can create a custom role. To create a custom user role, select the "Users and Roles" icon in the lefthand navigation bar.
 
 ![](../.gitbook/assets/usersandroles.jpg)
 
@@ -30,11 +43,25 @@ To get started:
 
 ![](../.gitbook/assets/createrole.jpg)
 
-### Editing a User Role
+### Editing a Custom Role
 
-To modify the permissions contained in a role, check the box next to the role you'd like to edit, then click on the "Edit Role" icon at the top-right of your screen.
+{% hint style="info" %}
+You can't edit built-in roles.
+{% endhint %}
+
+To modify the permissions contained in a custom role, check the box next to the role you'd like to edit, then click on the "Edit Role" icon at the top-right of your screen.
 
 ![](../.gitbook/assets/editrole.jpg)
 
 From there, make your edits to the permissions the role contains. When finished, click on the **&lt;--** back arrow icon at the top-left to return to the main Roles page.
+
+### Deleting a Custom Role
+
+To delete the custom role, you would need to make sure there are no users configured with this role. The CMP will not allow removing the role until this condition is satisfied. 
+
+Select the role you'd like to delete and click the "Remove" button. You will need to confirm your action and the role will be removed.
+
+{% hint style="info" %}
+You can't remove built-in roles.
+{% endhint %}
 

@@ -4,11 +4,11 @@ description: How to detect trending dimensions in Cloud Analytics Reports
 
 # Metric Trend Analysis
 
-Use ML Features in your Cloud Analytics Reports by selecting an option from the "**ML Features**" dropdown on the lefthand set of options.
+Oftentimes when analyzing our cloud usage, we're overwhelmed with so many data points that it becomes impossible to identify important trends. **Trend Analysis** helps you cut through the "noise" and isolate what is trending upward or downward in a single click.
+
+Use Trend Analysis in your Cloud Analytics Reports by selecting an option from the "**ML Features**" dropdown on the lefthand set of options.
 
 ![](../.gitbook/assets/mlfeaturesss.jpg)
-
-Let's go over the effect each ML Feature has on your reports.
 
 **Trending Up or Trending Down**
 

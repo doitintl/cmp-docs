@@ -6,6 +6,8 @@ description: >-
 
 # BigQuery FinOps Dashboard
 
+### Overview
+
 BigQuery FinOps is your Swiss army knife for highlighting inefficiencies in your organization's BigQuery usage, and its insights are displayed in the **BigQuery FinOps Dashboard,** located in your [Cloud Management Platform](../).
 
 Without configuring anything, you'll have the most important BigQuery insights brought _to_ you. To access the BigQuery FinOps Dashboard, you must verify that your Google Cloud service account was successfully uploaded and granted the appropriate permissions. You can read more on how to configure your Google Cloud accounts at [Connect Your Google Cloud Organization.](../google-cloud/connect-google-cloud-service-account.md)
@@ -17,14 +19,19 @@ If successfully uploaded, you will see:
 
 ![](../.gitbook/assets/cmp_gcp_partialpermissions%20%281%29.jpg)
 
+### Setup
+
 Once the Google Cloud Service Account setup is complete, click the **'**Attach' button and choose the BigQuery FinOps dashboard from the list.
 
 ![](../.gitbook/assets/budgetao_finops_attach.jpg)
 
-_**Some things to note:**_
+Cloud Management Platform will now start gathering the information on your usage patterns. While this information is being collected, your BigQuery FinOps would have the following state:
 
-* _If you have just set up the Google Cloud Service Account, it may take up to a few days for the BigQuery FinOps dashboard to appear. This is due to the fact that the Cloud Management Platform is validating that there's enough information about the BigQuery usage patterns in your organization before providing you access to this dashboard._ 
-* _Your BigQuery data isn't backfilled, so the data you'll see will be based on activity from the moment your service account key is processed. As more time passes, you'll get more information around your team's BigQuery information._
+![BigQuery FinOps dashboard while collecting usage information](../.gitbook/assets/bigquery-finops-empty-state.png)
+
+{% hint style="info" %}
+Your BigQuery data isn't backfilled, so the data you'll see will be based on activity from the moment your service account key is processed. As more time passes, you'll get more information about your team's BigQuery information.
+{% endhint %}
 
 Once available, you'll see the dashboard appear with the statistics of your organization's BigQuery usage.
 

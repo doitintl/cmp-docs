@@ -35,8 +35,6 @@ Your BigQuery data isn't backfilled, so the data you'll see will be based on act
 
 Once available, you'll see the dashboard appear with the statistics of your organization's BigQuery usage.
 
-![](../.gitbook/assets/budgetao_finops_attachedd.jpg)
-
 ### Understanding the BigQuery FinOps Dashboard
 
 The BigQuery FinOps dashboard \(reference image below\) is compiled of widgets that will provide you more insight into your organization's statistics.

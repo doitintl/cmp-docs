@@ -142,6 +142,22 @@ Available to DoiT customers right from the CMP, it also offers:
 
 {% embed url="https://www.loom.com/share/b1ed3dd283ce472b965d0dddc1d10f55?sharedAppSource=team\_library" %}
 
+### Accessing DoiT Support and Advisory
+
+As a DoiT International customer, you have access to 80+ battle-tested senior cloud engineers around the globe with over 200 certifications between them.
+
+Within the CMP you can:
+
+* Create [support or advisory requests](tickets/open-a-new-support-request.md)
+* [Escalate](tickets/escalating-support-requests.md) support requests
+* [Share](tickets/ticket-sharing.md) support requests with others
+
+{% embed url="https://www.loom.com/share/ec2e0bca53fc46ef80061dd96be2f1a0?sharedAppSource=team\_library" %}
+
+
+
+
+
 ### Perks
 
 [Perks](perks/perks.md) are service-based benefits available to DoiT International customers at no extra cost, including workshops, training, cost optimization sessions, case studies, and co-produced webinars. They can easily be browsed and requested on-demand from within the CMP.

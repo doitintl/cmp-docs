@@ -1,8 +1,10 @@
 ---
-description: Connect your Google Cloud Organization IAM to unlock additional CMP features.
+description: >-
+  Connect CMP to your Google Cloud Organization to unlock additional CMP
+  features.
 ---
 
-# Connect Your Google Cloud IAM
+# Connect CMP to your Google Cloud Organization
 
 In order to use many of the functionalities available to you within the **Cloud Management Platform**, we request an extra set of permissions, depending on the features you'd like to use. These permissions allow us to access the Google API and obtain information for monitoring or alerts, and/or help you take action on recommendations.
 
@@ -24,7 +26,11 @@ To create a Google Cloud Service account, please execute the following steps:
 
 ![](../.gitbook/assets/cmp_featuresconfig_serviceaccount.jpg)
 
-Next, a slide-out will appear on the right side of your screen, containing all of the Google SDK \([gcloud\)](https://cloud.google.com/sdk) commands you need to run in order to create the service account and set it up with the correct role. Copy the commands and run them sequentially in your terminal or Google Cloud Shell.
+Next, a slide-out will appear on the right side of your screen, containing all of the Google SDK \([gcloud\)](https://cloud.google.com/sdk) commands you need to run in order to create the service account and set it up with the correct role.
+
+Before executing the gcloud commands, ensure that you have selected an appropriate project to create your service account. The project should be one that you are planning to keep long-term and that will only be accessible by only trusted people.
+
+Next, copy the commands generated above and run them sequentially in your terminal or Google Cloud Shell.
 
 {% hint style="info" %}
 The `gcloud` commands vary according to the boxes of the features you checked

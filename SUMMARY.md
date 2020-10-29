@@ -12,7 +12,7 @@
 
 * [Create Google Billing Account](google-cloud/create-google-cloud-billing-account.md)
 * [Transfer Google Cloud Projects](google-cloud/transfer-google-cloud-projects.md)
-* [Connect Your Google Cloud IAM](google-cloud/connect-google-cloud-service-account.md)
+* [Connect CMP to your Google Cloud Organization](google-cloud/connect-google-cloud-service-account.md)
 * [Google Cloud Quotas](google-cloud/google-cloud-quotas.md)
 
 ## Amazon Web Services

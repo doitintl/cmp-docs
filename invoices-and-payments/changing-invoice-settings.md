@@ -4,6 +4,8 @@ description: Setup cost-centers and attribute costs to specific billing profiles
 
 # Change Invoice Settings
 
+### Overview
+
 You can configure how you would like to be billed for your cloud assets managed by DoiT International using the Cloud Management Platform**.** For example, you might want to split your _Production_ related accounts to be billed separately from _R&D_ accounts.  
 
 {% hint style="info" %}
@@ -21,6 +23,8 @@ From the main dashboard, click on the edit icon next to the Billing Profile of w
 Once you're at the Billing Profile Settings page, switch to the 'Invoice Settings' tab.
 
 ![](../.gitbook/assets/invoice-settings.png)
+
+### Invoice Bucketing
 
 As a customer, you have two options for each one of your billing profiles:
 

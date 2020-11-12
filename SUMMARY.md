@@ -7,6 +7,8 @@
 * [Login to CMP](general/login.md)
 * [Company Registration](general/registration.md)
 * [Your Profile](general/profile.md)
+* [Sharing Feedback and Feature Requests](general/sharing-feedback-and-feature-requests.md)
+* [Upvoting Existing Ideas in the Feedback Hub](general/upvoting-existing-ideas-in-the-feedback-hub.md)
 
 ## Google Cloud
 

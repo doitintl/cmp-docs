@@ -2,7 +2,7 @@
 description: How to detect trending dimensions in Cloud Analytics Reports
 ---
 
-# Metric Trend Analysis
+# Trend Analysis
 
 Oftentimes when analyzing our cloud usage, we're overwhelmed with so many data points that it becomes impossible to identify important trends. **Trend Analysis** helps you cut through the "noise" and isolate what is trending upward or downward in a single click.
 

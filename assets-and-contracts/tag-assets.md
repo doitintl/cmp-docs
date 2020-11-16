@@ -10,10 +10,6 @@ You can tag an asset for classification purposes. Tags will appear on invoices s
 Required Permission**: Invoice Viewer**
 {% endhint %}
 
-{% hint style="warning" %}
-Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to invite an existing account.
-{% endhint %}
-
 Access Assets from the menu on the left-hand side of the page and clicking on Assets.
 
 ![CMP Home Dashboard](../.gitbook/assets/assets-icon-1-%20%283%29.png)

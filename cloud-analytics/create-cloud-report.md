@@ -4,14 +4,14 @@ description: Understand your Google Cloud or Amazon Web Services Cost or Usage d
 
 # Create Cloud Analytics Reports
 
-**Cloud Analytics Reports** give you instant visibility into your Google Cloud costs without having to spend agonizing hours scanning through Google Cloud bills. Using Cloud Reports, you'll be able to slice and dice your cloud spend and shine a light on cost & performance optimization opportunities for your organization.
+**Cloud Analytics Reports** give you instant visibility into your Google Cloud or AWS costs without having to spend agonizing hours scanning through vendor's bills. Using Cloud Analytics Reports, you'll be able to slice and dice your cloud spend and shine a light on cost & performance optimization opportunities for your organization.
 
 {% hint style="info" %}
 Required Permissions: **Cloud Analytics**
 {% endhint %}
 
 {% hint style="warning" %}
-Please [Connect your Google Cloud Organization](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account) to the Cloud Management Platform to get all available features.
+Please connect your [Google Cloud Organization](https://app.gitbook.com/@doitintl/s/cmp/google-cloud/connect-google-cloud-service-account) or Amazon Web Services to the Cloud Management Platform to get all available features.
 {% endhint %}
 
 ### Accessing Cloud Reports

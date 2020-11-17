@@ -6,7 +6,7 @@ description: How to estimate your future cloud costs.
 
 Being able to forecast your future cloud costs is important when trying to stay within your planned budgets.
 
-With **Forecasting** in Cloud Analytics Reports, you'll answer questions like "How much I am going to pay Google/AWS this month?" or "How much I will spend on BigQuery and Pub/Sub during the next 90 days?" or maybe "How much S3 is going to cost during 2021 for my team?".
+With **Forecasting** in Cloud Analytics Reports, you'll answer questions like _"How much I am going to pay Google Cloud/AWS this month?"_ or _"How much I will spend on BigQuery and Pub/Sub during the next 90 days?"_ in just one click.
 
 ### Generate a forecast
 

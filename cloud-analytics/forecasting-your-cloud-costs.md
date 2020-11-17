@@ -4,7 +4,7 @@ description: How to estimate your future cloud costs.
 
 # Forecasting your Cloud Costs
 
-Being able to forecast your cloud costs is important when you're trying to stay within your planned budgets.
+Being able to forecast your future cloud costs is important when trying to stay within your planned budgets.
 
 With **Forecasting** in Cloud Analytics Reports, you'll answer questions like "How much I am going to pay Google/AWS this month?" or "How much I will spend on BigQuery and Pub/Sub during the next 90 days?" or maybe "How much S3 is going to cost during 2021 for my team?".
 

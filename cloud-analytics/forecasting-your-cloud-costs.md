@@ -28,3 +28,9 @@ As shown in the example below, in these situations you can use forecasts to give
 
 ![](../.gitbook/assets/screen-shot-2020-11-17-at-22.45.09.png)
 
+Watch this short video explainer for more information
+
+{% embed url="https://www.loom.com/share/51439d799674427eba2b2f3a7b26cd87" %}
+
+
+

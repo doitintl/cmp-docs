@@ -35,7 +35,7 @@
 * [Clone Cloud Analytics Reports](cloud-analytics/cloning-and-or-customizing-cloud-reports.md)
 * [Understanding Aggregations](cloud-analytics/using-aggregations-in-cloud-reports.md)
 * [Trend Analysis](cloud-analytics/trend-analysis.md)
-* [Forecasting your Cloud Costs](cloud-analytics/forecasting-your-cloud-costs.md)
+* [Forecasting](cloud-analytics/forecasting-your-cloud-costs.md)
 * [Export Cloud Analytics Reports](cloud-analytics/exporting-cloud-reports.md)
 
 ## Working with Tickets <a id="tickets"></a>

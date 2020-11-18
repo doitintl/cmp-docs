@@ -2,7 +2,7 @@
 description: How to estimate your future cloud costs.
 ---
 
-# Forecasting your Cloud Costs
+# Forecasting
 
 Being able to forecast your future cloud costs is important when trying to stay within your planned budgets.
 
@@ -14,15 +14,11 @@ Use Forecasting in your Cloud Analytics Reports by selecting the "**Forecast**" 
 
 ![](../.gitbook/assets/forecast-side-menu.jpg)
 
-
-
 Once selected, you will see a forecast line which estimates what your costs may look like for the period you selected moving forward. 
 
 For example, if you selected "Last 30 days" under the "Time Range" dropdown, your forecast will display cloud cost estimates for 30 days looking forward.
 
 ![](../.gitbook/assets/forecastinreport.jpg)
-
-### 
 
 ### Identify incomplete billing data
 

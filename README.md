@@ -25,9 +25,13 @@ Cloud Reports give you instant visibility into your Google Cloud costs without h
 * Analyze cloud spend to identify optimization opportunities.
 * [Build customized reports](cloud-analytics/create-cloud-report.md) and [share](cloud-analytics/sharing-cloud-reports.md) them with others.
 * Monitor costs on the go from your phone.
+* [Detect trends](cloud-analytics/trend-analysis.md) in your cloud usage
+* [Forecast your cloud spend](cloud-analytics/forecasting.md) across all time ranges and any cloud services
 * Cross-check your SUD/CUD credits with by-the-hour reporting.
 
-{% embed url="https://www.loom.com/share/b953b425d41844d5b48e95d24da3787e" %}
+{% embed url="https://www.loom.com/share/3bb89b9c624a4a52a2ecfbb61a56b4b8" %}
+
+
 
 ### Cost Attributions
 

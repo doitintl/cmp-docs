@@ -76,8 +76,6 @@
 * [Update Payment Method](invoices-and-payments/updating-your-payment-method.md)
 * [Set Accounts Payable Contact](invoices-and-payments/updating-your-accounts-payable-ap-information.md)
 
-## Flexible Reserved Instances
-
 ## Anomaly Detection
 
 * [View Cost Anomalies](anomaly-detection/viewing-your-google-cloud-cost-anomalies.md)

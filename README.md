@@ -127,15 +127,13 @@ With Quota Monitoring for [Google Cloud](google-cloud/google-cloud-quotas.md), a
 
 This way, you'll keep services always running by adjusting limits ahead of time.
 
-{% embed url="https://www.loom.com/share/ff6f7fe037ec42dfa0a788e09144965c?sharedAppSource=team\_library" %}
-
-### Cost Anomaly Detection
+### Anomaly Detection for AWS and Google Cloud
 
 With so many moving parts in the cloud, it’s critical to keep a finger on the pulse of your costs. However, unless IT regularly monitors cloud spend, sudden spikes in resource costs can remain undetected for weeks — until the monthly bill arrives.
 
 As a result, critical staff resources are wasted manually monitoring for and identifying the scope & source of problems.
 
-[Cloud cost anomaly detection](https://help.doit-intl.com/hc/en-us/articles/360035689731-Cost-Anomalies-for-Google-Cloud) offers end-to-end **autonomous monitoring** of spikes in your Google Cloud billing, seamlessly, across all your projects and services right.
+[Cloud cost anomaly detection](https://help.doit-intl.com/hc/en-us/articles/360035689731-Cost-Anomalies-for-Google-Cloud) offers end-to-end **autonomous monitoring** of spikes in your  AWS & Google Cloud usage & billing, seamlessly, across all your projects and services.
 
 Available to DoiT customers right from the CMP, it also offers:
 
@@ -144,7 +142,9 @@ Available to DoiT customers right from the CMP, it also offers:
 * Fine-tune alerts by training them with your direct feedback.
 * Real-time analysis of workload activity 
 
-{% embed url="https://www.loom.com/share/b1ed3dd283ce472b965d0dddc1d10f55?sharedAppSource=team\_library" %}
+{% embed url="https://www.loom.com/share/c5005c6d4af9468f9df0b00ca5f43655" %}
+
+
 
 ### Accessing DoiT Support and Advisory
 

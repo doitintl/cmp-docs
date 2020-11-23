@@ -1,8 +1,10 @@
 ---
-description: How to purchase Flex RIs and view their utilitization rate.
+description: How to purchase EC2 Flexible Reservations and monitor their utilitization
 ---
 
-# Purchase Flex RIs
+# Flexible Reservations
+
+### Overview
 
 Flexible Reserved Instances provide you with a 22% discount over on-demand EC2 pricing while allowing you to commit to instances in one-month intervals.
 
@@ -13,6 +15,8 @@ _Please note that new orders and editing previous orders can only be generated u
 {% hint style="info" %}
 Required Permissions: **Flexible RI Admin**
 {% endhint %}
+
+### How-To Purchase Flexible Reservations
 
 To begin, click the 'Flexible RIs' icon on the left-hand side of the page. Once you're at the Flexible Reserved Instances page, click on 'New Order', located on the right-hand side of the page.
 
@@ -31,6 +35,8 @@ You can now see a new order visible in the list:
 
 ![](../.gitbook/assets/flex-new.png)
 
+### Monitoring Flexible Reservations
+
 Click on the arrow to expand your order and view details further. You can see the difference between the on-demand prices per hour vs. the Flex RI, and by further inspecting the utilization graph for additional details of your Flexible RI reservation.
 
 ![](../.gitbook/assets/flex-expand.png)
@@ -45,6 +51,10 @@ The "Flexible RI Savings" will state the amount you have saved due to the purcha
 The optional "Flexible RI Underutilization" will state the amount deducted from the cost of the reservation if the underlying instance wasn't utilized 100% of the time during the month.
 
 View the bite-sized video below for a closer look at purchasing and viewing your Flex RIs.
+
+### Auto-Renewable Orders
+
+explanation about how to configure auto-renewable orders.
 
 {% embed url="https://www.loom.com/share/0b0b32a767cf43dba42a32b741f61502?sharedAppSource=team\_library" %}
 

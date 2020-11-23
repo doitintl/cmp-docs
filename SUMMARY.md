@@ -7,8 +7,7 @@
 * [Login to CMP](general/login.md)
 * [Company Registration](general/registration.md)
 * [Your Profile](general/profile.md)
-* [Sharing Feedback and Feature Requests](general/sharing-feedback-and-feature-requests.md)
-* [Upvoting Existing Ideas in the Feedback Hub](general/upvoting-existing-ideas-in-the-feedback-hub.md)
+* [Sharing Feedback](general/sharing-feedback-and-feature-requests.md)
 
 ## Google Cloud
 
@@ -24,6 +23,7 @@
 * [Connect Your AWS IAM Role](amazon-web-services/add-your-amazon-web-services-iam-role.md)
 * [AWS Cost Allocation Tags](amazon-web-services/supported-aws-cost-allocation-tags.md)
 * [AWS Migration TCO Analysis](amazon-web-services/aws-migration-tco-analysis.md)
+* [Flexible Reservations](amazon-web-services/purchasing-flex-ris.md)
 * [Set up CloudHealth](amazon-web-services/set-up-cloudhealth.md)
 
 ## Cloud Analytics
@@ -77,8 +77,6 @@
 * [Set Accounts Payable Contact](invoices-and-payments/updating-your-accounts-payable-ap-information.md)
 
 ## Flexible Reserved Instances
-
-* [Purchase Flex RIs](flexible-reserved-instances/purchasing-flex-ris.md)
 
 ## Anomaly Detection
 

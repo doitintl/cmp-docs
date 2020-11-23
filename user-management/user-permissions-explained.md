@@ -49,7 +49,7 @@ Available Permissions:
 
 **Flexible RI Admin**
 
-* Purchase [Flexible Reserved Instances](../flexible-reserved-instances/purchasing-flex-ris.md) and manage orders.
+* Purchase [Flexible Reserved Instances](../amazon-web-services/purchasing-flex-ris.md) and manage orders.
 
 **superQuery**
 

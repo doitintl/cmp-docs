@@ -37,11 +37,5 @@ To further assist with the learning of our machine-learning model, and reduce th
 
 View the bite-sized video below for a closer look at Anomaly Detection.
 
-{% embed url="https://www.loom.com/share/b1ed3dd283ce472b965d0dddc1d10f55?sharedAppSource=team\_library" %}
-
-
-
-
-
-
+{% embed url="https://www.loom.com/share/c5005c6d4af9468f9df0b00ca5f43655" %}
 

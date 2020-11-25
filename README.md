@@ -133,7 +133,7 @@ With so many moving parts in the cloud, it’s critical to keep a finger on the 
 
 As a result, critical staff resources are wasted manually monitoring for and identifying the scope & source of problems.
 
-[Cloud cost anomaly detection](https://help.doit-intl.com/hc/en-us/articles/360035689731-Cost-Anomalies-for-Google-Cloud) offers end-to-end **autonomous monitoring** of spikes in your  AWS & Google Cloud usage & billing, seamlessly, across all your projects and services.
+[Cloud cost anomaly detection](https://help.doit-intl.com/anomaly-detection/viewing-your-google-cloud-cost-anomalies) offers end-to-end **autonomous monitoring** of spikes in your  AWS & Google Cloud usage & billing, seamlessly, across all your projects and services.
 
 Available to DoiT customers right from the CMP, it also offers:
 

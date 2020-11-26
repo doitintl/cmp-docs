@@ -20,26 +20,42 @@ Required Permissions: **Flexible RI Admin**
 
 To begin, click the 'Flexible RIs' icon on the left-hand side of the page. Once you're at the Flexible Reserved Instances page, click on 'New Order', located on the right-hand side of the page.
 
-![](../.gitbook/assets/flex-ri.png)
+![](../.gitbook/assets/cleanshot-2020-11-26-at-10.42.36.jpg)
 
-Complete the Flexible Reserved Instances order by providing the following information: 
+Complete your Flexible Reserved Instances order by providing the following information: 
 
-* AWS Account
-* Region
-* Instance Type - on-demand instances which are not associated with an existing RI 
-* Number of Instances
-
-![](../.gitbook/assets/flex-ri-instance-order.png)
+* **AWS Account**
+* **Region**
+* **Instance Type** - on-demand instances which are not associated with an existing RI 
+* **Number of Instances**
+* **Recurring Order** 
+  * If you'd like this Flex RI order to be purchased on a recurring basis, select the last month you want this recurring purchase to go 
+* **Order Notes** - anything you'd like to add to give more context to your Flex RI order.
 
 You can now see a new order visible in the list:
 
-![](../.gitbook/assets/flex-new.png)
+![](../.gitbook/assets/flexriordersuccess.jpg)
 
 ### Monitoring Flexible Reservations
 
-Click on the arrow to expand your order and view details further. You can see the difference between the on-demand prices per hour vs. the Flex RI, and by further inspecting the utilization graph for additional details of your Flexible RI reservation.
+At the top of the Flex RI page, you'll see four Flex RI Reporting metrics that give you a high-level overview of your Flex RI purchases:
 
-![](../.gitbook/assets/flex-expand.png)
+* **Total Expected Savings** - the maximum amount you could have saved
+* **Actual Savings** - the amount you actually saved
+* **Flexible Reservation Utilization** - how well you are utilizing your Flexible Reserved Instances.
+* **Year to Date Savings** - the aggregate $ amount saved across all your Flex RI purchases, from the beginning of the current year.
+
+{% hint style="info" %}
+Note: The first three metrics are based on what is shown in the table, meaning taking into account any filters you've set on your orders. The last metric takes _every_ Flex RI order into account when calculating the number.
+{% endhint %}
+
+To view information on a specific order, click on the arrow next to an active or retired order to expand your order and view details further. 
+
+You can see the difference between the on-demand price per hour vs. the Flex RI, and further inspecting the utilization graph for additional details of your Flexible RI reservation.
+
+![](../.gitbook/assets/viewflexriorder.jpg)
+
+### Viewing Flexible Reserved Instances in your Monthly Invoice
 
 For each order of Flexible Reservations, you'll see one or both of the following lines on your monthly invoice:
 
@@ -51,10 +67,6 @@ The "Flexible RI Savings" will state the amount you have saved due to the purcha
 The optional "Flexible RI Underutilization" will state the amount deducted from the cost of the reservation if the underlying instance wasn't utilized 100% of the time during the month.
 
 View the bite-sized video below for a closer look at purchasing and viewing your Flex RIs.
-
-### Recurring Orders
-
-\[explanation about how to configure recurring orders\]
 
 {% embed url="https://www.loom.com/share/0b0b32a767cf43dba42a32b741f61502?sharedAppSource=team\_library" %}
 

@@ -16,7 +16,7 @@ _Please note that new orders and editing previous orders can only be generated u
 Required Permissions: **Flexible RI Admin**
 {% endhint %}
 
-### How-To Purchase Flexible Reservations
+### How-To Purchase FlexRIs
 
 To begin, click the 'Flexible RIs' icon on the left-hand side of the page. Once you're at the Flexible Reserved Instances page, click on 'New Order', located on the right-hand side of the page.
 
@@ -37,26 +37,26 @@ Click "Submit" and your order will be created and become visible in the list:
 
 ![](../.gitbook/assets/flexriordersuccess.jpg)
 
-### Monitoring Flexible Reservations
+### Monitoring FlexRIs
 
-At the top of the Flex RI page, you'll see four Flex RI Reporting metrics that give you a high-level overview of your Flex RI purchases:
+At the top of the FlexRI page, you'll see four FlexRI Reporting metrics that give you a high-level overview of your past and existing FlexRI purchases:
 
 * **Total Expected Savings** - the maximum amount you could have saved
 * **Actual Savings** - the amount you actually saved
 * **Flexible Reservation Utilization** - how well you are utilizing your Flexible Reserved Instances.
-* **Year to Date Savings** - the aggregate $ amount saved across all your Flex RI purchases, from the beginning of the current year.
+* **Year to Date Savings** - the aggregate $ amount saved across all your FlexRI purchases, from the beginning of the current year.
 
 {% hint style="info" %}
-Note: The first three metrics are based on what is shown in the table, meaning taking into account any filters you've set on your orders. The last metric takes _every_ Flex RI order into account when calculating the number.
+Note: The first three metrics are based on what is shown in the table, meaning taking into account any filters you've set on your orders. The last metric takes _every_ FlexRI order into account when calculating the number.
 {% endhint %}
 
 To view information on a specific order, click on the arrow next to an active or retired order to expand your order and view details further. 
 
-You can see the difference between the on-demand price per hour vs. the Flex RI, and further inspecting the utilization graph for additional details of your Flexible RI reservation.
+You can see the difference between the on-demand price per hour vs. the FlexRI, and further inspecting the utilization graph for additional details of your flexible reservation.
 
 ![](../.gitbook/assets/viewflexriorder.jpg)
 
-### Viewing Flexible Reserved Instances in your Monthly Invoice
+### FlexRIs Invoices
 
 For each order of Flexible Reservations, you'll see one or both of the following lines on your monthly invoice:
 

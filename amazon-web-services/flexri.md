@@ -1,14 +1,12 @@
 ---
-description: How to purchase EC2 Flexible Reservations and monitor their utilitization
+description: How to purchase AWS EC2 Flexible Reservations and monitor their utilization
 ---
 
 # Flexible Reservations
 
 ### Overview
 
-Flexible Reserved Instances provide you with up to a 22% discount over on-demand EC2 pricing while allowing you to commit to instances in 30-day intervals.
-
-DoiT International has developed a proprietary technology to provide companies with month-to-month discounts based on on-demand instances in your AWS environment. In order to get the benefits of Flexible RIs, your AWS account/s should be consolidated with DoiT International as your channel reseller.
+Flexible Reserved Instances provide up to a 22% discount over on-demand EC2 pricing by making 30-day commitments. In order to use Flexible Reservations, your AWS account/s should be consolidated with DoiT International billing organization. DoiT International is a global [AWS Advanced Channel Reseller](https://partners.amazonaws.com/partners/001E000001HPlIAIA1/).
 
 {% hint style="info" %}
 Required Permissions: **Flexible RI Admin**
@@ -43,10 +41,10 @@ Please note that new orders and editing previous orders can only be submitted up
 
 At the top of the FlexRI page, you'll see four FlexRI Reporting metrics that give you a high-level overview of your past and existing FlexRI purchases:
 
-* **Total Expected Savings** - the maximum amount you could have saved
+* **Total Expected Savings** - the maximum amount you could have saved, given 100% utilization
 * **Actual Savings** - the amount you actually saved
 * **Flexible Reservation Utilization** - how well you are utilizing your Flexible Reserved Instances.
-* **Year to Date Savings** - the aggregate $ amount saved across all your FlexRI purchases, from the beginning of the current year.
+* **YTD Savings** - the total saving across all your reservations, from the beginning of the current year.
 
 {% hint style="info" %}
 Note: The first three metrics are based on what is shown in the table, meaning taking into account any filters you've set on your orders. The last metric takes _every_ FlexRI order into account when calculating the number.

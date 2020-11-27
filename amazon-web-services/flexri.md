@@ -6,7 +6,7 @@ description: How to purchase EC2 Flexible Reservations and monitor their utiliti
 
 ### Overview
 
-Flexible Reserved Instances provide you with a 22% discount over on-demand EC2 pricing while allowing you to commit to instances in one-month intervals.
+Flexible Reserved Instances provide you with up to a 22% discount over on-demand EC2 pricing while allowing you to commit to instances in one-month intervals.
 
 DoiT International has developed a proprietary technology to provide our customers with month-to-month discounts based on the reserved instances in your AWS environment. In order to get the benefits of Flexible RIs, your AWS account/s should be consolidated with DoiT International as your channel reseller.
 
@@ -24,15 +24,16 @@ To begin, click the 'Flexible RIs' icon on the left-hand side of the page. Once 
 
 Complete your Flexible Reserved Instances order by providing the following information: 
 
-* **AWS Account**
-* **Region**
-* **Instance Type** - on-demand instances which are not associated with an existing RI 
-* **Number of Instances**
-* **Recurring Order** 
-  * If you'd like this Flex RI order to be purchased on a recurring basis, select the last month you want this recurring purchase to go 
-* **Order Notes** - anything you'd like to add to give more context to your Flex RI order.
+| Field | Description |
+| :--- | :--- |
+| Account | AWS account for this order |
+| Region | AWS region for this order |
+| Instance | note, only instances not associated with existing reservations or saving plans are shown |
+| Qty | how many instances of the selected "Instance Type" the order should include |
+| Recurring | For orders with a recurring basis, select the last month you want this order to go  |
+| Notes | Use notes to give more context to your order such as PO numbers, workload names, etc. |
 
-You can now see a new order visible in the list:
+Click "Submit" and your order will be created and become visible in the list:
 
 ![](../.gitbook/assets/flexriordersuccess.jpg)
 
@@ -69,10 +70,4 @@ The optional "Flexible RI Underutilization" will state the amount deducted from 
 View the bite-sized video below for a closer look at purchasing and viewing your Flex RIs.
 
 {% embed url="https://www.loom.com/share/0b0b32a767cf43dba42a32b741f61502?sharedAppSource=team\_library" %}
-
-
-
-
-
-
 

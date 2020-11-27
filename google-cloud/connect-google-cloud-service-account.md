@@ -4,7 +4,7 @@ description: >-
   features.
 ---
 
-# Connect CMP to your Google Cloud Organization
+# Link Google Cloud Organization
 
 In order to use many of the functionalities available to you within the **Cloud Management Platform**, we request an extra set of permissions, depending on the features you'd like to use. These permissions allow us to access the Google API and obtain information for monitoring or alerts, and/or help you take action on recommendations.
 

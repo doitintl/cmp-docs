@@ -6,11 +6,9 @@ description: How to purchase EC2 Flexible Reservations and monitor their utiliti
 
 ### Overview
 
-Flexible Reserved Instances provide you with up to a 22% discount over on-demand EC2 pricing while allowing you to commit to instances in one-month intervals.
+Flexible Reserved Instances provide you with up to a 22% discount over on-demand EC2 pricing while allowing you to commit to instances in 30-day intervals.
 
-DoiT International has developed a proprietary technology to provide our customers with month-to-month discounts based on the reserved instances in your AWS environment. In order to get the benefits of Flexible RIs, your AWS account/s should be consolidated with DoiT International as your channel reseller.
-
-_Please note that new orders and editing previous orders can only be generated up to the 25th day of the month. After this timeframe, each order will become **Pending** for internal review and processing by our team._
+DoiT International has developed a proprietary technology to provide companies with month-to-month discounts based on on-demand instances in your AWS environment. In order to get the benefits of Flexible RIs, your AWS account/s should be consolidated with DoiT International as your channel reseller.
 
 {% hint style="info" %}
 Required Permissions: **Flexible RI Admin**
@@ -36,6 +34,10 @@ Complete your Flexible Reserved Instances order by providing the following infor
 Click "Submit" and your order will be created and become visible in the list:
 
 ![](../.gitbook/assets/flexriordersuccess.jpg)
+
+{% hint style="info" %}
+Please note that new orders and editing previous orders can only be submitted up to the 25th day of the month. After that date, orders will become **Pending** while we conduct an internal review before activating your Flexible Reservations.
+{% endhint %}
 
 ### Monitoring FlexRIs
 

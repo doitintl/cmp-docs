@@ -79,7 +79,7 @@ This means you can reduce lock-in risk for your less-predictable workloads.
 
 Placing an order for a Flex RI for the following month takes all but a few clicks, and you can easily monitor their performance from a central hub in the CMP.
 
-{% embed url="https://www.loom.com/share/0b0b32a767cf43dba42a32b741f61502?sharedAppSource=team\_library" %}
+{% embed url="https://www.loom.com/share/7385b68facec49569fcbc3d377f05fbf" %}
 
 ### BigQuery FinOps
 

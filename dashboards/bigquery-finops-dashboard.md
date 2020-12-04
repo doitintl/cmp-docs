@@ -39,13 +39,13 @@ Once available, you'll see the dashboard appear with the statistics of your orga
 
 The BigQuery FinOps dashboard \(reference image below\) is compiled of widgets that will provide you more insight into your organization's statistics.
 
-![](../.gitbook/assets/bigqueryfinops_dashboard.jpg)
+![](../.gitbook/assets/bqfinopsnew.jpg)
 
-Below is a list of widgets that will appear in the BigQuery FinOps dashboard, with an understanding of their purpose:
+Below is a list of the elements that make up your BigQuery FinOps dashboard, with an understanding of their purpose:
 
-**1. Time Filter** - insights can be displayed in the dashboard as the Last 7 days, Last 30 days, and All.
+**1. Timeframe** - all insights displayed are from the last 30 days.
 
-**2. Potential Savings**  -  **your potential cost savings resulting from completing all suggested tasks listed in the** _**Recommendations**_ widget, expressed in absolute US dollars.
+**2. Potential Savings**  -  **your potential cost savings resulting from completing all suggested tasks listed in the** _**BigQuery**_ ****_**Recommendations**_ widget, expressed in absolute US dollars.
 
 **3. superQuery vs. Actual** - compares your potential BigQuery spend accounting for potential savings incurred as a result of query optimization via superQuery, versus your total BigQuery costs during the time period specified in the Time Filter. The difference between the two numbers represent your maximum potential savings assuming 100% of your BigQuery traffic runs through superQuery.
 
@@ -57,11 +57,13 @@ Below is a list of widgets that will appear in the BigQuery FinOps dashboard, wi
 
 **7. BigQuery Explorer** - get more granular information as far as your team's BigQuery usage, completely modifiable by the user in the following format:
 
-Top 10 \(**Project, Dataset, Table, User**\) by \(**Scan Price, Scan TB, Storage Price, Storage TB**\).
+Top 10 \(**Project, Billing Project, Dataset, Table, User**\) by \(**Scan Price, Scan TB, Storage Price, Storage TB**\).
 
 Clicking on one of the results in the BigQuery Usage Explorer widget will open a pop-up where you can get even more granular with your usage insights.
 
-**8. BigQuery Scans by Table Type** - see how much data you are scanning from various types of tables, broken down between unpartitioned tables and various types of partitioned tables, along with external sources such as Google Sheets.
+**8. BigQuery Scans by Table Type** - see how much data you are scanning from various types of tables, broken down between unpartitioned tables and various types of partitioned tables, along with external sources such as Google Sheets.   
+  
+Click on a specific table type to see what are the most frequently-scanned tables within that type.
 
 ### BigQuery Recommendation Types
 

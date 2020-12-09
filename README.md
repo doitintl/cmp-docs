@@ -20,7 +20,7 @@ In this brief, we'll briefly go over each of the main capabilities you have acce
 
 ### Reports
 
-Cloud Reports give you instant visibility into your Google Cloud costs without having to spend agonizing hours scanning through cloud bills.
+Cloud Reports give you instant visibility into your Google Cloud and AWS costs without having to spend agonizing hours manually scanning through cloud bills.
 
 * Analyze cloud spend to identify optimization opportunities.
 * [Build customized reports](cloud-analytics/create-cloud-report.md) and [share](cloud-analytics/sharing-cloud-reports.md) them with others.

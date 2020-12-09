@@ -37,6 +37,8 @@
 * [Trend Analysis](cloud-analytics/trend-analysis.md)
 * [Forecasting](cloud-analytics/forecasting.md)
 * [Export Cloud Analytics Reports](cloud-analytics/exporting-cloud-reports.md)
+* [Add Report-based Widgets](cloud-analytics/add-report-based-widgets.md)
+* [Schedule Recurring Report](cloud-analytics/schedule-recurring-report.md)
 
 ## Working with Tickets <a id="tickets"></a>
 

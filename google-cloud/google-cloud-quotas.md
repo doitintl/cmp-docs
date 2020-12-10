@@ -6,7 +6,7 @@ description: Proactive monitoring of Google Cloud Quotas
 
 Google Compute Engine enforces quotas on resource usage for a variety of reasons; i.e., quotas protect the community of Google Cloud users by preventing unforeseen spikes in usage. As your use of Google Cloud expands over time, your quotas may increase accordingly as not all projects have the same quotas. 
 
-The Cloud Management Platform offers quota monitoring, so when you’re approaching your quotas, we will notify you ahead of time; you can then increase the limits before usage is blocked. In order to start receiving automatic notifications prior to reaching your Google Cloud quotas, your Google Cloud account must be successfully connected.  
+The Cloud Management Platform offers quota monitoring, so when you hit the 80% of your quota threshold, we will notify you ahead of time; you can then increase the limits before usage is blocked. In order to start receiving automatic notifications prior to reaching your Google Cloud quotas, your Google Cloud account must be successfully connected.  
 
 To use Google Cloud Quotas, you must verify that your service account was successfully uploaded and granted the appropriate permissions. You can read more on how to configure your Google Cloud accounts at [Connect Your Google Cloud Organization.](connect-google-cloud-service-account.md)
 

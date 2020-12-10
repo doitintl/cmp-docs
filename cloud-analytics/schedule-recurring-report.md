@@ -1,12 +1,12 @@
 ---
-description: Share your reports via automatic email delivery
+description: >-
+  You can send a copy of your Cloud Analytics Reports to yourself and your
+  stakeholders on a regular basis by setting up an email delivery schedule.
 ---
 
 # Schedule Report Email Delivery
 
-You can send a copy of your Cloud Analytics Reports to yourself and your stakeholders on a regular basis by setting up an email delivery schedule.
-
-## Create a Scheduled Email Delivery
+### Create a Scheduled Email Delivery
 
 Begin by opening a report that you have "Owner" access to. Then, click on the mail icon at the far-right side of your screen.
 
@@ -14,43 +14,43 @@ Begin by opening a report that you have "Owner" access to. Then, click on the ma
 
  Next, configure your scheduled report by:
 
-* CC'ing anyone who you'd like to be included
-* Editing the scheduled email's subject if you'd like it to differ from the report's name
-* Add an additional message to provide more context for recipients.
-* Set up the scheduled report's interval using [unix-cron format](https://crontab.guru/) and specify the timezone.
+* Other stakeholders, you'd like to be included
+* Update email's subject if you'd like it to differ from the report's name
+* Add an optional message to provide more context for recipients
+* Set up the scheduled report's interval using [unix-cron format](https://crontab.guru/) and select the timezone
+
+{% hint style="info" %}
+You can't schedule a report to be delivered more than once a day.
+{% endhint %}
 
 ![](../.gitbook/assets/schedulereport2.jpg)
 
-If you've cc'd a user\(s\) who was not previously shared on the report, a modal will appear asking you to add that user to the report. You can choose whether to give the user\(s\) "Viewer" or "Editor" access rights.
+If you've included someone who doesn't have access to the report, you will be asked to add that user to the report. You can choose whether to grant the "Viewer" or "Editor" access.
 
 ![](../.gitbook/assets/scheduledreportinvite.jpg)
 
-Once the day & time you set under "Frequency" arrives, your scheduled report will look something like the image below.
-
-From the email, you'll be able to open the report in CMP to investigate further.
+Your scheduled report will look something like the image below. From the email, you'll be able to preview the report and open an interactive report in Cloud Analytics, by using the "Open Live Report" button.
 
 ![](../.gitbook/assets/scheduledemail.jpg)
 
-## Updating Scheduled Delivery
+### Updating Scheduled Delivery
 
-To update a report's scheduled email delivery configuration — or delete it — open a report that already has a configured schedule. Then, click on the blue envelope icon in the far-right side of your report's page.
+To update the scheduled email delivery configuration, open a report that already has a configured schedule. Then, click on the blue envelope icon on the far-right side of your report's page. Then, make the changes then click on the Update button.
 
 ![](../.gitbook/assets/updateschedulereport.jpg)
 
-In the "Schedule Report Email Delivery" modal, make your changes then click on the Update button.
+### Deleting Scheduled Delivery
 
-## Deleting Scheduled Delivery
-
-If you're deleting the scheduled report, simply click on the Delete button.
+If you need to delete the scheduled report, please use the Delete button on the "Schedule Report Email Delivery" dialog.
 
 ![](../.gitbook/assets/updateschedule2.jpg)
 
-## Limitations
+### Limitations
 
 A few limitations exist for scheduled reports:
 
-* Each report can only have one email schedule
+* Each report can only have a single email delivery schedule
 * The person who scheduled the report is always included in the email
-* The minimum interval for a scheduled report is 24 hours
+* The minimum interval for a scheduled report is 24 hours. In other words, you can't schedule a report to be delivered more than once a day.
 * Only chart-based reports can be scheduled \(i.e. no tables or heatmaps\)
 

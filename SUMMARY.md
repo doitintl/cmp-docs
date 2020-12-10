@@ -37,8 +37,18 @@
 * [Trend Analysis](cloud-analytics/trend-analysis.md)
 * [Forecasting](cloud-analytics/forecasting.md)
 * [Export Cloud Analytics Reports](cloud-analytics/exporting-cloud-reports.md)
-* [Add Report-based Widgets](cloud-analytics/add-report-based-widgets.md)
-* [Schedule Recurring Report](cloud-analytics/schedule-recurring-report.md)
+* [Schedule Report Email Delivery](cloud-analytics/schedule-recurring-report.md)
+
+## Dashboards & Widgets <a id="dashboards"></a>
+
+* [Widgets Overview](dashboards/widgets-overview.md)
+* [Add Report-based Widgets](dashboards/add-report-based-widgets.md)
+* [Customize Dashboards](dashboards/customizing-dashboards.md)
+* [Create New Dashboard](dashboards/creating-a-new-dashboard.md)
+* [Access Public Dashboard](dashboards/accessing-a-public-dashboard.md)
+* [Rightsizing for Google Cloud](dashboards/rightsizing-for-google-cloud.md)
+* [BigQuery FinOps Dashboard](dashboards/bigquery-finops-dashboard.md)
+* [AWS FinOps Dashboard](dashboards/aws-finops-dashboard.md)
 
 ## Working with Tickets <a id="tickets"></a>
 
@@ -99,16 +109,6 @@
 
 * [General Vendor Information](vendor-information/general-vendor-information.md)
 * [Data Access Policy](vendor-information/security-and-data-access-policy-for-cloud-management-platform.md)
-
-## Dashboards
-
-* [Widgets Overview](dashboards/widgets-overview.md)
-* [Customize Dashboards](dashboards/customizing-dashboards.md)
-* [Create New Dashboard](dashboards/creating-a-new-dashboard.md)
-* [Access Public Dashboard](dashboards/accessing-a-public-dashboard.md)
-* [Rightsizing for Google Cloud](dashboards/rightsizing-for-google-cloud.md)
-* [BigQuery FinOps Dashboard](dashboards/bigquery-finops-dashboard.md)
-* [AWS FinOps Dashboard](dashboards/aws-finops-dashboard.md)
 
 ## APIs
 

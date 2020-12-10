@@ -6,7 +6,7 @@ description: >-
 
 # Add Report-based Widgets
 
-Transforming your Cloud Analytics Reports into widgets allows you to [customize dashboards](../dashboards/customizing-dashboards.md), or [create new](../dashboards/creating-a-new-dashboard.md) ones, that give you an at-a-glance view of your most important cloud infrastructure data points.
+Transforming your Cloud Analytics Reports into widgets allows you to [customize dashboards](customizing-dashboards.md), or [create new](creating-a-new-dashboard.md) ones, that give you an at-a-glance view of your most important cloud infrastructure data points.
 
 {% hint style="info" %}
 Required Permissions: **Cloud Analytics**
@@ -18,7 +18,7 @@ You can only add Preset Reports and public Custom reports for which you have Edi
 
 Enable your report as an addable widget by switching to Edit mode for the report, and clicking the toggle at the far-right of your screen.
 
-This will make the report addable from your [Widgets Library](../dashboards/widgets-overview.md).
+This will make the report addable from your [Widgets Library](widgets-overview.md).
 
 ![](../.gitbook/assets/addtowidgetlibrary.jpg)
 
@@ -34,7 +34,7 @@ Finally, scroll down a bit until you see the "**Report Widgets**", and click on 
 
 
 
-From there, you're free to [customize](../dashboards/customizing-dashboards.md) the size and arrangement of the widgets as you see fit. 
+From there, you're free to [customize](customizing-dashboards.md) the size and arrangement of the widgets as you see fit. 
 
 Note that report data displayed in the widget will refresh every four hours. Additionally, only reports with chart visualizations \(i.e. not tables\) can be added as widgets.
 

@@ -47,7 +47,7 @@ In addition to using these values, every field in a cron expression can also use
 | `,` | list | If the month field is set to `5,7,9` or `May,Jul,Sep`, then the schedule starts every May, July, and September. |
 | `/` | step | If the month field is set to `*/3`, then the schedule starts during the first month and every 3 months after that: January, April, July, and October. |
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Schedule intervals lower than daily are not permitted with Google Cloud Analytics, meaning the first 2 places must be numbers between \(0-59\) and \(0-23\) \(edited\) 
 {% endhint %}
 

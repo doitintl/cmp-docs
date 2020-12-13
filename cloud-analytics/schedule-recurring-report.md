@@ -1,27 +1,28 @@
 ---
 description: >-
-  You can send a copy of your Cloud Analytics Reports to yourself and your
-  stakeholders on a regular basis by setting up an email delivery schedule.
+  Send periodically Cloud Analytics Reports by setting up an email delivery
+  schedule
 ---
 
 # Schedule Report Email Delivery
 
+You can send a copy of your Data Studio report to yourself and your stakeholders on a regular basis by setting up an email delivery schedule.
+
+{% hint style="info" %}
+Required Permissions: **Cloud Analytics**
+{% endhint %}
+
 ### Create a Scheduled Email Delivery
 
-Begin by opening a report that you have "Owner" access to. Then, click on the mail icon at the far-right side of your screen.
+Begin by opening a report that you have `Owner` or `Editor` access to. Then, click on the email ✉️ icon on the report actions toolbar.
 
 ![](../.gitbook/assets/schedulereport1.jpg)
 
- Next, configure your scheduled report by:
+ Then, configure the scheduled delivery:
 
-* Other stakeholders, you'd like to be included
-* Update email's subject if you'd like it to differ from the report's name
-* Add an optional message to provide more context for recipients
-* Set up the scheduled report's interval using [unix-cron format](https://crontab.guru/) and select the timezone
-
-{% hint style="info" %}
-You can't schedule a report to be delivered more than once a day.
-{% endhint %}
+* Set  other users, you'd like to be included on report's distribution
+* Optionally, update email's subject and the message to provide more context for recipients
+* Set up when you'd like to be delivered \(using [_cron expression_](https://crontab.guru/)\)
 
 ![](../.gitbook/assets/schedulereport2.jpg)
 
@@ -29,7 +30,32 @@ If you've included someone who doesn't have access to the report, you will be as
 
 ![](../.gitbook/assets/scheduledreportinvite.jpg)
 
-Your scheduled report will look something like the image below. From the email, you'll be able to preview the report and open an interactive report in Cloud Analytics, by using the "Open Live Report" button.
+### About Cron Expressions
+
+The delivery time and recurrence of a Cloud Analytics Report can be configured by using a [cron expression](https://wikipedia.org/wiki/Cron#CRON_expression). Cron is a time-based job scheduler originally used in Unix-like computer operating systems. A cron expression is a string comprising of five or six fields separated by whitespace. The following table defines the fields of a cron expression and the possible values for each field.
+
+| Minute | Hour | Day of  month | Month | Day of the week | Year \(optional\) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 0-59 | 0-23 | 1-31 | 1-12 \(Jan-Dec\)  where `1`=`Jan`, `2`=`Feb`, ... `12`=`Dec` | 0-6 \(Sun-Sat\) or 1-7 \(Mon-Sun\)  where `0`=`Sun`, `1`=`Mon`, ... `6`=`Sat`, `7`=`Sun` | 2000-2036  or every year \(`*`\) if not provided |
+
+In addition to using these values, every field in a cron expression can also use special characters:
+
+| Character | Meaning | Example |
+| :--- | :--- | :--- |
+| `*` | any | If the day of month field, day of the week field, and year field \(if included\) are each set to `*`, then the schedule starts every day. |
+| `-` | range | If the day of week field is set to `1-5` or `Mon-Fri`, then the schedule starts every week Monday to Friday. |
+| `,` | list | If the month field is set to `5,7,9` or `May,Jul,Sep`, then the schedule starts every May, July, and September. |
+| `/` | step | If the month field is set to `*/3`, then the schedule starts during the first month and every 3 months after that: January, April, July, and October. |
+
+**Repeating schedules versus onetime schedules**
+
+Depending on how you write your cron expression, your schedule might run once or periodically repeat. To create a schedule that only runs once, you must specify the year field. For example, the cron expression 0 0 30 1 \* 2030 configures a schedule to only start once, at midnight on January 30, 2030.
+
+To create a schedule that repeats, use special characters to describe when that schedule is to repeat. For example, the cron expression 30 8 \* \* Mon-Fri configures a schedule to start at 8:30 AM on every Monday, Tuesday, Wednesday, Thursday, and Friday.
+
+**Example**
+
+Your scheduled report will look something like in this example below. From the email, you'll be able to preview the report and open an interactive report in Cloud Analytics, by using the "Open Live Report" button.
 
 ![](../.gitbook/assets/scheduledemail.jpg)
 

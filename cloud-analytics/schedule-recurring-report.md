@@ -34,28 +34,30 @@ If you've included someone who doesn't have access to the report, you will be as
 
 The delivery time and recurrence of a Cloud Analytics Report can be configured by using a [cron expression](https://wikipedia.org/wiki/Cron#CRON_expression). Cron is a time-based job scheduler originally used in Unix-like computer operating systems. A cron expression is a string comprising of five or six fields separated by whitespace. The following table defines the fields of a cron expression and the possible values for each field.
 
-| Minute | Hour | Day of  month | Month | Day of the week | Year \(optional\) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 0-59 | 0-23 | 1-31 | 1-12 \(Jan-Dec\)  where `1`=`Jan`, `2`=`Feb`, ... `12`=`Dec` | 0-6 \(Sun-Sat\) or 1-7 \(Mon-Sun\)  where `0`=`Sun`, `1`=`Mon`, ... `6`=`Sat`, `7`=`Sun` | 2000-2036  or every year \(`*`\) if not provided |
+| Minute | Hour | Day of  month | Month | Day of the week |
+| :--- | :--- | :--- | :--- | :--- |
+| 0-59 | 0-23 | 1-31 | 1-12 \(Jan-Dec\)  where `1`=`Jan`, `2`=`Feb`, ... `12`=`Dec` | 0-6 \(Sun-Sat\) or 1-7 \(Mon-Sun\)  where `0`=`Sun`, `1`=`Mon`, ... `6`=`Sat`, `7`=`Sun` |
 
 In addition to using these values, every field in a cron expression can also use special characters:
 
 | Character | Meaning | Example |
 | :--- | :--- | :--- |
-| `*` | any | If the day of month field, day of the week field, and year field \(if included\) are each set to `*`, then the schedule starts every day. |
+| `*` | any | If the day of month field, day of the week field are each set to `*`, then the schedule starts every day. |
 | `-` | range | If the day of week field is set to `1-5` or `Mon-Fri`, then the schedule starts every week Monday to Friday. |
 | `,` | list | If the month field is set to `5,7,9` or `May,Jul,Sep`, then the schedule starts every May, July, and September. |
 | `/` | step | If the month field is set to `*/3`, then the schedule starts during the first month and every 3 months after that: January, April, July, and October. |
 
+{% hint style="info" %}
+Schedule intervals lower than daily are not permitted with Google Cloud Analytics, meaning the first 2 places must be numbers between \(0-59\) and \(0-23\) \(edited\) 
+{% endhint %}
+
 **Repeating schedules versus onetime schedules**
 
-Depending on how you write your cron expression, your schedule might run once or periodically repeat. To create a schedule that only runs once, you must specify the year field. For example, the cron expression 0 0 30 1 \* 2030 configures a schedule to only start once, at midnight on January 30, 2030.
-
-To create a schedule that repeats, use special characters to describe when that schedule is to repeat. For example, the cron expression 30 8 \* \* Mon-Fri configures a schedule to start at 8:30 AM on every Monday, Tuesday, Wednesday, Thursday, and Friday.
+Depending on how you write your cron expression, your schedule might run once or periodically repeat. To create a schedule that repeats, use special characters to describe when that schedule is to repeat. For example, the cron expression 30 8 \* \* Mon-Fri configures a schedule to start at 8:30 AM on every Monday, Tuesday, Wednesday, Thursday, and Friday.
 
 **Example**
 
-Your scheduled report will look something like in this example below. From the email, you'll be able to preview the report and open an interactive report in Cloud Analytics, by using the "Open Live Report" button.
+Your scheduled report will look something like in the example below. From the email, you'll be able to preview the report and open an interactive report in Cloud Analytics, by using the "Open Live Report" button.
 
 ![](../.gitbook/assets/scheduledemail.jpg)
 

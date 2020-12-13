@@ -37,7 +37,7 @@
 * [Trend Analysis](cloud-analytics/trend-analysis.md)
 * [Forecasting](cloud-analytics/forecasting.md)
 * [Export Cloud Analytics Reports](cloud-analytics/exporting-cloud-reports.md)
-* [Schedule Report Email Delivery](cloud-analytics/schedule-recurring-report.md)
+* [Schedule Report Email Delivery](cloud-analytics/schedule-report.md)
 
 ## Dashboards & Widgets <a id="dashboards"></a>
 

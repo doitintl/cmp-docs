@@ -6,7 +6,7 @@ description: >-
 
 # Schedule Report Email Delivery
 
-You can send a copy of your Data Studio report to yourself and your stakeholders on a regular basis by setting up an email delivery schedule.
+You can send a copy of your Cloud Analytics report to yourself and your stakeholders on a regular basis by setting up an email delivery schedule.
 
 {% hint style="info" %}
 Required Permissions: **Cloud Analytics**

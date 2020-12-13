@@ -48,7 +48,7 @@ In addition to using these values, every field in a cron expression can also use
 | `/` | step | If the month field is set to `*/3`, then the schedule starts during the first month and every 3 months after that: January, April, July, and October. |
 
 {% hint style="warning" %}
-Schedule intervals lower than daily are not permitted with Google Cloud Analytics, meaning the first 2 places must be numbers between \(0-59\) and \(0-23\)
+Schedule intervals lower than daily are not permitted with Cloud Analytics, meaning the first 2 places must be numbers between \(0-59\) and \(0-23\)
 {% endhint %}
 
 To create a schedule that repeats, use special characters to describe when that schedule is to repeat. For example, the cron expression 30 8 \* \* Mon-Fri configures a schedule to start at 8:30 AM on every Monday, Tuesday, Wednesday, Thursday, and Friday.

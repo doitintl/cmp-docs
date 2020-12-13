@@ -51,9 +51,7 @@ In addition to using these values, every field in a cron expression can also use
 Schedule intervals lower than daily are not permitted with Google Cloud Analytics, meaning the first 2 places must be numbers between \(0-59\) and \(0-23\)
 {% endhint %}
 
-**Repeating schedules versus onetime schedules**
-
-Depending on how you write your cron expression, your schedule might run once or periodically repeat. To create a schedule that repeats, use special characters to describe when that schedule is to repeat. For example, the cron expression 30 8 \* \* Mon-Fri configures a schedule to start at 8:30 AM on every Monday, Tuesday, Wednesday, Thursday, and Friday.
+To create a schedule that repeats, use special characters to describe when that schedule is to repeat. For example, the cron expression 30 8 \* \* Mon-Fri configures a schedule to start at 8:30 AM on every Monday, Tuesday, Wednesday, Thursday, and Friday.
 
 **Example**
 

@@ -25,6 +25,7 @@
 * [AWS Migration TCO Analysis](amazon-web-services/aws-migration-tco-analysis.md)
 * [Flexible Reservations](amazon-web-services/flexri.md)
 * [Set up CloudHealth](amazon-web-services/set-up-cloudhealth.md)
+* [AWS Quotas](amazon-web-services/aws-quotas.md)
 
 ## Cloud Analytics
 

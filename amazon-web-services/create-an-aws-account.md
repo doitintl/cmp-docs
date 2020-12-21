@@ -36,6 +36,10 @@ As listed in the popup, an email is sent out for further instructions, here is a
 
 ![](../.gitbook/assets/aws-doit-success.png)
 
+{% hint style="warning" %}
+Newly created AWS accounts will appear as "assets" in the Cloud Management Platform once there is at least $10+ spend AND more than 36 hours passed since the usage started.
+{% endhint %}
+
 The following video shows you how to create an AWS Account.
 
 {% embed url="https://www.loom.com/share/f92b0a76aa884a52ad9281f0736f44a1" %}

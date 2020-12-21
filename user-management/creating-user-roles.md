@@ -6,26 +6,66 @@ description: >-
 
 # Manage Roles
 
-Users Roles make it easy to bulk-assign permissions and manage users more efficiently in your organization. 
+If you don't want to give a user full access to the Cloud Management Platform, you can let them perform only a subset of tasks by assigning a role. Roles make it easy to assign multiple permissions and manage users more efficiently in your organization. 
 
 {% hint style="info" %}
-Required Permissions: **User Manager**
+Required permission to manage and assign roles: **User Manager**
 {% endhint %}
 
-### Built-in Roles
+### Pre-built roles
 
-There are 5 built-in roles in your account. These roles are pre-created by the Cloud Management Platform for your convenience. 
+There are a few pre-built roles in your account for your convenience. The easiest way to give user privileges is to assign pre-built roles. Each role grants one or more privileges that together, allow performing a common business function. For example, one role allows managing user accounts, another role manages financial aspects, another role manages IT functions, and so on.
 
-* **Basic** - access to raise service requests and access to the existing service requests
-* **IT Manager** -  License Manager \(+Basic permissions\)
-* **Finance User** - Billing Profile Admin, Invoice Viewer \(+Basic permissions\)
-* **Standard** - Cloud Analytics, Sandbox User, superQuery \(+Basic permissions\)
-* **Power User** - Flexible RIs, Sandbox Admin and Settings \(+Standard permissions\)
-* **Admin** - Access to everything
+#### **Basic Role**
+
+| Privileges | Only users with privilege can:  |
+| :--- | :--- |
+| Support | create new and access existing technical support requests  |
+
+#### **IT Manager**
+
+| Privileges | Only users with privilege can:  |
+| :--- | :--- |
+| Support | create new and access existing technical support requests |
+| Manage Licenses | buy and manage Google Workspace and Office 365 Licenses |
+
+#### **Finance User**
+
+| Privileges | Only users with privilege can:  |
+| :--- | :--- |
+| Support | create new and access existing technical support requests |
+| Billing Profiles Admin  | create new and manage existing billing profiles, including payment method |
+| Invoice Viewer | access invoices |
+| Cloud Analytics | create new and access existing Cloud Analytics Reports |
+
+#### **Standard User**
+
+| Privileges | Only users with privilege can:  |
+| :--- | :--- |
+| Support | create new and access existing technical support requests |
+| Cloud Analytics  | create new and access existing Cloud Analytics Reports |
+| Sandbox User | create disposable cloud environments \(sandboxes\) according to company policy |
+| superQuery | access superQuery IDE |
+
+#### **Power User**
+
+| Privileges | Only users with privilege can:  |
+| :--- | :--- |
+| Support | create new and access existing technical support requests |
+| Cloud Analytics  | create new and access existing Cloud Analytics Reports |
+| Sandbox User | create disposable cloud environments \(sandboxes\) according to company policy |
+| superQuery | access superQuery IDE |
+| Sandbox Admin | set company Sandbox policy for other users  |
+| FlexRI Admin | purchase and manage flexible reservations |
+| Manage Settings | manage your Cloud Management Platform account settings |
+
+#### **Admin**
+
+Has access to all features in the Cloud Management Platform and the CMP API, and can manage every aspect of your organization's account. 
 
 ### Custom Roles
 
-If one of the built-in roles doesn't work for you, you can create a custom role. To create a custom user role, select the "Users and Roles" icon in the lefthand navigation bar.
+If one of the built-in roles doesn't work for you, you can create a custom role with your own set of permissions. To create a custom user role, select the "Users and Roles" icon in the lefthand navigation bar.
 
 ![](../.gitbook/assets/usersandroles.jpg)
 

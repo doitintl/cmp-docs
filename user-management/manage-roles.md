@@ -45,18 +45,18 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Support | create new and access existing technical support requests |
 | Cloud Analytics  | create new and access existing Cloud Analytics Reports |
 | Sandbox User | create disposable cloud environments \(sandboxes\) according to company policy |
-| superQuery | access superQuery IDE |
+| superQuery | unlimited access to the superQuery IDE |
 
 #### **Power User**
 
 | Privileges | Only users with privilege can:  |
 | :--- | :--- |
 | Support | create new and access existing technical support requests |
-| Cloud Analytics  | create new and access existing Cloud Analytics Reports |
-| Sandbox User | create disposable cloud environments \(sandboxes\) according to company policy |
+| Cloud Analytics  | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report.md) |
+| Sandbox User | [create disposable cloud environments](../cloud-sandbox-management/create-gcp-sandbox-accounts.md) \(sandboxes\) governed by a company Sandbox policy |
 | superQuery | access superQuery IDE |
-| Sandbox Admin | set company Sandbox policy for other users  |
-| FlexRI Admin | purchase and manage flexible reservations |
+| Sandbox Admin | set company [Sandbox policy](../cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md) for other users  |
+| FlexRI Admin | purchase and manage [flexible reservations](../amazon-web-services/flexri.md) |
 | Manage Settings | manage your Cloud Management Platform account settings |
 
 #### **Admin**
@@ -97,7 +97,7 @@ From there, make your edits to the permissions the role contains. When finished,
 
 ### Deleting a Custom Role
 
-To delete the custom role, you would need to make sure there are no users configured with this role. The CMP will not allow removing the role until this condition is satisfied. 
+To delete the custom role, you will need to make sure there are no users configured with this role. You cannot delete a role until this condition is satisfied. 
 
 Select the role you'd like to delete and click the "Remove" button. You will need to confirm your action and the role will be removed.
 

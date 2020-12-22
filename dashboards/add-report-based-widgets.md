@@ -1,7 +1,7 @@
 ---
 description: >-
-  Cloud Analytics Reports can be made available as widgets and used on your
-  dashboards out of.
+  Cloud Analytics Reports can be made available as widgets and used to build
+  dashboards.
 ---
 
 # Report-based Widgets

@@ -48,7 +48,7 @@ Any edits which don't alter the results themselves will update the report in rea
 * Metric measurement
 * Chart type
 * Sorting of results
-* [ML Features](trend-analysis.md)
+* ML Features such as [Trend Analysis](trend-analysis.md) or [Forecasting](forecasting.md)
 
 Below, we can see the first three types of real-time edits being performed. 
 

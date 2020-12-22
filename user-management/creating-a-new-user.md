@@ -38,7 +38,7 @@ When editing a profile, you have four sections:
 
 ![](../.gitbook/assets/edituserprofilessss.gif)
 
-**Bulk Editing**
+#### **Bulk Editing**
 
 To perform bulk updates on users in your organization, check the boxes next to the users you'd like to update. Next, click on the "Edit" button.
 

@@ -27,6 +27,7 @@ Team
 unit
 Unit
 glue_job
+service-name
 ```
 
 Ideally, you will be using one of these tags to track your AWS cost allocations. If you need a custom cost allocation tag, please open a support ticket using http://support.doit-intl.com

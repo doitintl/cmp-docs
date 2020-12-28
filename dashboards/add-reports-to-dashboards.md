@@ -40,7 +40,7 @@ Check the box of the newly-created dashboard to add your report there as well.
 
 Finally, navigate to your dashboard\(s\) to view the report\(s\) you added.
 
-![](../.gitbook/assets/customizewidgetdashboard.gif)
-
 From there, you're free to [customize](customizing-dashboards.md) the size and arrangement of the widgets as you see fit. Note that report data displayed in the widget will refresh every four hours. 
+
+![](../.gitbook/assets/customizewidgetdashboard.gif)
 

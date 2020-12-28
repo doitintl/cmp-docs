@@ -1,3 +1,7 @@
+---
+description: Widgets are cards you can place on dashboards for additional functionality
+---
+
 # Widgets Overview
 
 Widgets are an essential aspect of the home dashboard in the Cloud Management Platform customization. You can change the location of the widgets by clicking the 'Customize' button and reordering the widgets on your dashboard, as well as remove them altogether if you wish.  

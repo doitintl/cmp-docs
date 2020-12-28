@@ -28,9 +28,7 @@ Next, select which dashboard\(s\) you'd like to add the report to. You may also 
 
 ![](../.gitbook/assets/addwidgetsnew2.jpg)
 
-Additionally, you may also add a report to a new, yet-to-be-created dashboard. 
-
-To add the report to a new dashboard, click on the "**NEW DASHBOARD**" button, give your dashboard a name, and click "**Save**".
+Additionally, you may also add a report to a new, yet-to-be-created dashboard. To add the report to a new dashboard, click on the "**NEW DASHBOARD**" button, give your dashboard a name, and click "**Save**".
 
 ![](../.gitbook/assets/new-dashboard.jpg)
 

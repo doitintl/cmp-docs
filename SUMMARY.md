@@ -43,7 +43,7 @@
 ## Dashboards & Widgets <a id="dashboards"></a>
 
 * [Widgets Overview](dashboards/widgets-overview.md)
-* [Report-based Widgets](dashboards/add-report-based-widgets.md)
+* [Adding Reports to a Dashboard](dashboards/add-reports-to-dashboards.md)
 * [Customize Dashboards](dashboards/customizing-dashboards.md)
 * [Create New Dashboard](dashboards/creating-a-new-dashboard.md)
 * [Access Public Dashboard](dashboards/accessing-a-public-dashboard.md)

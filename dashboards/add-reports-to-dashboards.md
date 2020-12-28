@@ -4,7 +4,7 @@ description: >-
   dashboards.
 ---
 
-# Report-based Widgets
+# Adding Reports to a Dashboard
 
 Transforming your Cloud Analytics Reports into widgets allows you to [customize dashboards](customizing-dashboards.md), or [create new](creating-a-new-dashboard.md) ones, that give you an at-a-glance view of your most important cloud infrastructure data points.
 

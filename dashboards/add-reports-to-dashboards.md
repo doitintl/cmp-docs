@@ -6,22 +6,24 @@ description: >-
 
 # Adding Reports to a Dashboard
 
-Transforming your Cloud Analytics Reports into widgets allows you to [customize dashboards](customizing-dashboards.md), or [create new](creating-a-new-dashboard.md) ones, that give you an at-a-glance view of your most important cloud infrastructure data points.
+Dashboards provide a collective view into your most important reports. Create personal dashboards, project dashboards, or team dashboards depending on what you would like to track more closely.
+
+Adding Cloud Analytics Reports into [customizable dashboards](customizing-dashboards.md), give you an at-a-glance view of your most important cloud infrastructure data points.
 
 {% hint style="info" %}
-Required Permissions: **Cloud Analytics**
+Required Permissions: **Cloud Analytics** \(part of 'Standard User' preset role\)
 {% endhint %}
 
-{% hint style="warning" %}
-You can only use preset reports or custom reports for which you have Edit access as widgets 
-{% endhint %}
+### Adding Reports to a Dashboard
 
-Enable your report as an addable widget by switching to Edit mode for the report, and clicking the toggle at the far-right of your screen. This will make the report addable from your [Widgets Library](widgets-overview.md).
+Add your report to a dashboard by clicking the 'Add to dashboard' icon in the upper right-hand corner of the report.
+
+This will make the report addable from your [Widgets Library](widgets-overview.md).
 
 ![](../.gitbook/assets/addtowidgetlibrary.jpg)
 
 {% hint style="warning" %}
-Only reports with chart visualizations \(i.e. not table or heatmap-based reports\) can be added as widgets to your dashboards.
+Only chart-based reports can be added to your dashboards. The table-based and heatmap-based reports are currently not supported by dashboards.
 {% endhint %}
 
 Next, access any of your dashboards and open your Widgets Library by clicking on the "+" in the lower-right corner of your screen.

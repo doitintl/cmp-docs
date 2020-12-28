@@ -6,9 +6,9 @@ description: >-
 
 # Adding Reports to a Dashboard
 
-Dashboards provide a collective view into your most important reports. Create personal dashboards, project dashboards, or team dashboards depending on what you would like to track more closely.
+CMP Dashboards help you visually track and analyze key cloud data points & metrics. Create personal dashboards, project dashboards, team-specific dashboards and more, depending on what you would like to track more closely.
 
-Adding Cloud Analytics Reports into [customizable dashboards](customizing-dashboards.md), give you an at-a-glance view of your most important cloud infrastructure data points.
+Adding [Cloud Analytics Reports](../cloud-analytics/create-cloud-report.md) into [customizable dashboards](customizing-dashboards.md) gives you an at-a-glance view of your most important cloud infrastructure data points.
 
 {% hint style="info" %}
 Required Permissions: **Cloud Analytics** \(part of 'Standard User' preset role\)
@@ -18,25 +18,29 @@ Required Permissions: **Cloud Analytics** \(part of 'Standard User' preset role\
 
 Add your report to a dashboard by clicking the 'Add to dashboard' icon in the upper right-hand corner of the report.
 
-This will make the report addable from your [Widgets Library](widgets-overview.md).
-
-![](../.gitbook/assets/addtowidgetlibrary.jpg)
+![](../.gitbook/assets/addwidgetsnew.jpg)
 
 {% hint style="warning" %}
-Only chart-based reports can be added to your dashboards. The table-based and heatmap-based reports are currently not supported by dashboards.
+Only chart-based reports can be added to your dashboards. Table-based and heatmap-based reports are currently not supported in dashboards.
 {% endhint %}
 
-Next, access any of your dashboards and open your Widgets Library by clicking on the "+" in the lower-right corner of your screen.
+Next, select which dashboard\(s\) you'd like to add the report to. You may also toggle the report to be addable from the [Widget Library](widgets-overview.md).
 
-![](../.gitbook/assets/addwidgets.jpg)
+![](../.gitbook/assets/addwidgetsnew2.jpg)
 
-Finally, scroll down a bit until you see the "**Report Widgets**", and click on the report\(s\) you'd like to add to your dashboard.
+Additionally, you may also add a report to a new, yet-to-be-created dashboard. 
 
-![](../.gitbook/assets/reportswidgets.jpg)
+To add the report to a new dashboard, click on the "**NEW DASHBOARD**" button, give your dashboard a name, and click "**Save**".
+
+![](../.gitbook/assets/new-dashboard.jpg)
+
+Check the box of the newly-created dashboard to add your report there as well.
+
+![](../.gitbook/assets/new-dashboard-2.jpg)
+
+Finally, navigate to your dashboard\(s\) to view the report\(s\) you added.
+
+![](../.gitbook/assets/customizewidgetdashboard.gif)
 
 From there, you're free to [customize](customizing-dashboards.md) the size and arrangement of the widgets as you see fit. Note that report data displayed in the widget will refresh every four hours. 
-
-Limitations
-
-* Only reports with chart visualizations \(i.e. not tables\) can be added as widgets.
 

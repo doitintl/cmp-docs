@@ -15,9 +15,10 @@ Without configuring anything, you'll have the most important BigQuery insights b
 If successfully uploaded, you will see:
 
 * Either a Healthy or Partial ****value underneath the Status column in your Configured Accounts widget, and
-* Healthy status next to "BigQuery FinOps" under the Features widget.
+* Healthy status next to "BigQuery FinOps" in the Features widget.
+* **\[Optional\]** Healthy status next to "BigQuery FinOps Advanced" in the Features widget
 
-![](../.gitbook/assets/cmp_gcp_partialpermissions%20%281%29.jpg)
+![](../.gitbook/assets/cleanshot-2020-12-28-at-18.22.58.jpg)
 
 ### Setup
 
@@ -65,6 +66,8 @@ Clicking on one of the results in the BigQuery Usage Explorer widget will open a
   
 Click on a specific table type to see what are the most frequently-scanned tables within that type.
 
+Note on the BigQuery FinOps Advanced 
+
 ### BigQuery Recommendation Types
 
 Below is a list of the recommendation categories you'll see in the BigQuery Recommendations widget, and how to use the information contained within each recommendation.
@@ -87,7 +90,21 @@ Oftentimes we get asked what the non-read-only permissions are for, and so we'd 
 
 **What are the permissions we are referring to?**
 
-- bigquery.datasets.create- logging.sinks.create- bigquery.jobs.create 
+bigquery.datasets.create, logging.sinks.create, bigquery.jobs.create, and bigquery.tables.getData
+
+**Why do you separate between BigQuery FinOps and BigQuery FinOps Advanced permissions?**
+
+We require bigquery.tables.getData in order to provide clustering recommendations, and this is separated from the permissions required under the BigQuery FinOps feature.
+
+This allows us to query your BigQuery tables and determine your top 20 non-clustered tables, which field\(s\) are the best candidates to cluster those tables by, and in what order.
+
+More specifically, this helps us identify the cardinality of the columns in your top 20 non-clustered tables which get referenced in the WHERE clause and are possible to cluster on. Knowing how many distinct elements exist in each column enables us to compute the average chunk size and see what the best candidates in terms of savings would be.**\*\***
+
+However, you can still use and benefit from the BigQuery FinOps Dashboard without receiving clustering recommendations. That's why we separate the two.
+
+{% hint style="info" %}
+**\*\***Given that you execute **similar queries** as you did during the previous 30 days, and reference fields **in the order we recommend**.
+{% endhint %}
 
 **What datasets are you creating, where and for what purpose?** 
 
@@ -107,7 +124,7 @@ We have two main processes, once of which runs queries and the other not: 1\) En
 
 View the bite-sized video below for a quick tutorial on the BigQuery FinOps Dashboard.
 
-{% embed url="https://www.loom.com/share/bfd572ece0494386938a061b4d81cf47?sharedAppSource=team\_library" %}
+{% embed url="https://www.loom.com/share/9f660708f96d4b578e0b597e88eb666d?sharedAppSource=personal\_library" %}
 
 
 

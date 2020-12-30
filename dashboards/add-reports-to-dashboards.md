@@ -44,3 +44,7 @@ From there, you're free to [customize](customizing-dashboards.md) the size and a
 
 Finally, if you'd like to quickly navigate to your report to investigate further or edit something, you may click on the report's name in the widget.
 
+{% embed url="https://www.loom.com/share/4f125260e1214c6f9b85002ca13e6ade?sharedAppSource=personal\_library" %}
+
+
+

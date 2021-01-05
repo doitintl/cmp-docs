@@ -2,7 +2,7 @@
 description: How to purchase AWS EC2 Flexible Reservations and monitor their utilization
 ---
 
-# Flexible Reservations
+# Purchase Flexible Reservations
 
 ### Overview
 

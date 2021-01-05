@@ -1,0 +1,10 @@
+AccountID,Region,InstanceType,NumInstances,OperatingSystem,Note,Recurring
+123456789012,eu-west-1,c5.2xlarge,8,Linux/UNIX,Production Nodes,2021-03
+123456789012,us-east-1,c3.large,1,Windows,For Tableau,2021-11
+123456789012,us-east-1,r5.12xlarge,7,Windows/SQL.Std,,
+123456789012,eu-west-1,c5n.2xlarge,2,Windows BYOL,,2021-11
+123456789012,us-east-2,r4.4xlarge,5,Windows/SQL.Ent,,
+987654321091,us-west-2,t3a.xlarge,6,Windows/SQL.Web,For GitLab Instances,2021-02
+987654321091,eu-west-1,r3.4xlarge,4,Linux with SQL Std,,
+987654321091,eu-central-1,t2.large,7,Linux with SQL Web,QA in Jenkins,
+987654321091,us-west-2,i3.large,7,Linux with SQL Ent,,2021-11

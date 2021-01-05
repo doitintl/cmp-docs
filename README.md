@@ -73,7 +73,7 @@ AWS Reserved Instances \(RIs\) offer you between 30-70% savings on compute costs
 
 However getting RIs usage perfect is hard, because it relies on you being able to predict the future. Sometimes your predictions turn out wrong because usage needs suddenly change. As a result, 
 
-[Flexible Reserved Instances](https://help.doit-intl.com/hc/en-us/articles/360043156112-Flexible-Reserved-Instances-RIs-) in the CMP allow customers to commit to RIs in one-month intervals while _still_ getting a 22% savings over on-demand prices.
+[Flexible Reserved Instances](flexible-reservations/flexri.md) in the CMP allow customers to commit to RIs in one-month intervals while _still_ getting a 22% savings over on-demand prices.
 
 This means you can reduce lock-in risk for your less-predictable workloads.
 
@@ -83,9 +83,9 @@ Placing an order for a Flex RI for the following month takes all but a few click
 
 ### BigQuery FinOps
 
-As powerful as BQ is, it comes at a high cost depending on your analysts’ behavior and how your BigQuery architecture is set up. Adding on to this, trying to identify BigQuery resource inefficiencies without knowing _what_ you're looking for can be a huge timesuck.
+As powerful as BQ is, it comes at a high cost depending on your analysts’ behavior and how your BigQuery architecture is set up. Adding on to this, trying to identify BigQuery resource inefficiencies without knowing _what_ you're looking for can be a huge time-suck.
 
-As a result, we created the [BigQuery FinOps](https://help.doit-intl.com/hc/en-us/articles/360040580752-BigQuery-FinOps-Dashboard), your Swiss Army knife for highlighting inefficiencies in your team's BigQuery usage.
+As a result, we created the [BigQuery FinOps Dashboard](dashboards/bigquery-finops-dashboard.md), your Swiss Army knife for highlighting inefficiencies in your team's BigQuery usage.
 
 It analyzes your team’s BigQuery behavior, aggregate information, and display the most important statistics for you. Unlike alternative solutions and methods, BigQuery FinOps Dashboard brings important information TO you, without you having to configure anything.
 
@@ -95,7 +95,7 @@ One important aspect of the BigQuery FinOps Dashboard is the Recommendations wid
 
 Each recommendation category comes with further details on how to act on each recommendation.
 
-{% embed url="https://www.loom.com/share/bfd572ece0494386938a061b4d81cf47?sharedAppSource=team\_library" %}
+{% embed url="https://www.loom.com/share/9f660708f96d4b578e0b597e88eb666d?sharedAppSource=personal\_library" %}
 
 ## Cloud Enablement
 
@@ -203,13 +203,13 @@ Additionally, you can view your order history of all licenses and subscriptions 
 
 CMP gives you capabilities unavailable in Google Cloud or AWS to customize _precisely_ how you'd like to billed via Billing Profiles, Invoices, and Invoice Buckets. 
 
-[**Billing Profiles**](https://help.doit-intl.com/hc/en-us/articles/360032254792-Set-Up-New-Billing-Profile) are for when your company has different entities requiring separate invoices. For instance, you may use a different payment method or currency depending on the entity.
+[**Billing Profiles**](invoices-and-payments/setting-up-a-new-billing-profile.md) are for when your company has different entities requiring separate invoices. For instance, you may use a different payment method or currency depending on the entity.
 
 In the CMP, customers can create as many Billing Profiles as required, per their company's needs.
 
 Additionally, whereas with Google Cloud or AWS you can only pay with a credit card, DoiT International customers have more options for customizing the payment method for their Billing Profile\(s\) including Credit Card, Wire, Bill.com, and ACH. 
 
-[**Invoices**](https://help.doit-intl.com/hc/en-us/articles/360032254812-Manage-Invoices) across all cloud platforms and their current statuses can be easily accessed using the CMP.
+[**Invoices**](invoices-and-payments/managing-invoices.md) across all cloud platforms and their current statuses can be easily accessed using the CMP.
 
 From the Invoices page, you can:
 
@@ -220,7 +220,7 @@ From the Invoices page, you can:
 
 Any tags placed on assets will also appear in invoices so you can more easily identify invoice items.
 
-[**Invoice Bucketing**](https://help.doit-intl.com/hc/en-us/articles/360033254111--Change-Invoice-Settings) ****lets you create custom "buckets" and assign specific assets to those buckets.
+[**Invoice Bucketing**](invoices-and-payments/changing-invoice-settings.md) ****lets you create custom "buckets" and assign specific assets to those buckets.
 
 This is especially useful when you have different cost centers such as R&D or Operations using different assets and want to bill them separately.
 
@@ -239,7 +239,7 @@ Use User Management to:
 * [Add colleagues](https://help.doit-intl.com/hc/en-us/articles/360032246952-Create-Users) to your CMP team.
 * Management Billing Profile assignments.
 * Configure notifications for alerts like payment reminders, new invoices, and more.
-* [Grant permissions](https://help.doit-intl.com/hc/en-us/articles/360033254031-User-Permissions) to access various CMP features.
+* [Set up and grant roles ](user-management/manage-roles.md)that give access various CMP features.
 
 ### Managed Google Cloud and Amazon Web Services Support
 

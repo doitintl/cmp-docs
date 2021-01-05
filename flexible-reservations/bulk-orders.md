@@ -14,6 +14,11 @@ Then, select "Upload Orders" and upload the CSV file with your order information
 
 ![](../.gitbook/assets/bulkri2.jpg)
 
+The following fields are optional and don't need to be filled for your CSV file to be processed:
+
+* Note
+* Recurring
+
 To ensure your CSV file is structured properly, we recommend downloading the template below and using it to format your orders.
 
 {% file src="../.gitbook/assets/flexri-bulk-upload-template.csv" caption="Flex RI Bulk Upload Template" %}

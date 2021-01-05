@@ -4,9 +4,7 @@ description: managing your Flexible Reservations in bulk import
 
 # Bulk Upload FlexRI Orders
 
-When you have a lot of Flex RI orders to place for the coming month, bulk uploading your orders may save you lots of time.
-
-From within the CMP, you can make as many orders as you want by uploading a CSV file.
+When you have a lot of Flex RI orders to place for the coming month, bulk uploading your orders may save you lots of time. From within the CMP, you can make as many orders as you want by uploading a CSV file.
 
 Begin by navigating to the Flex RIs page, and click on the vertical ellipsis \(**⋮**\) at the top-right of your screen.
 

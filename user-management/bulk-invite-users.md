@@ -1,3 +1,7 @@
+---
+description: How to bulk invite users to Cloud Management Platform from CSV
+---
+
 # Bulk Invite Users
 
 Whether you're just creating your team in the CMP or simply want to add a lot of new teammates at once, bulk inviting users will save you lots of time here. From within the CMP, you can invite as many users as you want by uploading a CSV file.

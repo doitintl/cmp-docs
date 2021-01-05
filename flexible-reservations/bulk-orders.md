@@ -1,5 +1,5 @@
 ---
-description: managing your Flexible Reservations in bulk import
+description: Managing your Flexible Reservations via bulk import
 ---
 
 # Bulk Upload FlexRI Orders

@@ -6,7 +6,9 @@ description: How to purchase AWS EC2 Flexible Reservations and monitor their uti
 
 ### Overview
 
-Flexible Reserved Instances provide up to a 22% discount over on-demand EC2 pricing by making 30-day commitments. In order to use Flexible Reservations, your AWS account/s should be consolidated with DoiT International billing organization. DoiT International is a global [AWS Advanced Channel Reseller](https://partners.amazonaws.com/partners/001E000001HPlIAIA1/).
+Flexible Reserved Instances let you commit to EC2 Reserved Instances in one-month intervals while still sharing in the AWS-listed RI commitment discount. With Flex RIs, you'll eliminate RI lock-in risk for your less predictable workloads.
+
+In order to use Flexible Reservations, your AWS account/s should be consolidated with DoiT International billing organization. DoiT International is a global [AWS Advanced Channel Reseller](https://partners.amazonaws.com/partners/001E000001HPlIAIA1/).
 
 {% hint style="info" %}
 Required Permissions: **Flexible RI Admin**

@@ -1,4 +1,8 @@
-# Bulk Upload Flex RI Orders
+---
+description: managing your Flexible Reservations in bulk import
+---
+
+# Bulk Upload FlexRI Orders
 
 When you have a lot of Flex RI orders to place for the coming month, bulk uploading your orders may save you lots of time.
 

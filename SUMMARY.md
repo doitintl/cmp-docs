@@ -103,6 +103,7 @@
 * [Creating a New User](user-management/creating-a-new-user.md)
 * [Manage Roles](user-management/manage-roles.md)
 * [User Permissions Explained](user-management/user-permissions-explained.md)
+* [Bulk Invite Users](user-management/bulk-invite-users.md)
 
 ## Notifications
 

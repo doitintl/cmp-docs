@@ -1,0 +1,10 @@
+userEmail,firstName,lastName,userPhone,phoneExtension,jobFunction,billingProfilesAssignments,userRole,notifyInvoices,notifyAnomalies,notifyPayments,notifyCredits,notifyQuotas,notifyIssues,anomalyThreshold
+frank@acme.com,Frank,Reynolds,+47 58 571 5915,,Executive Team,"Egg Ltd., Patty's Pub",Admin,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,Critical
+dennis@acme.com,Dennis,Reynolds,+33 58 571 5915,2425,Data Engineer/Data Analysts,"Dennis Systems Inc., Patty's Pub",IT Manager,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,
+deandra@acme.com,Deandra,Reynolds,1435435,,Finance / Accounting,"Eagle Financial, Patty's Pub",Finance User,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,Critical
+mac@acme.com,Ronald,Macdonald,,,Founder,Egg Ltd,Admin,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,Critical
+charlie@acme.com,Charlie,Day,,,Legal / Purchasing,"Eagle Financial, Patty's Pub",Power User,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,Warning
+cricket@acme.com,Matthew,Cricket,+1 415 918 1243,,Management,"Dennis Systems Inc., Patty's Pub",Power User,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,Critical
+artemis@acme.com,Artemis,Doe,145346435,,Sales / Marketing,Patty's Pub,Standard User,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,Critical
+carmen@acme.com,Carmen,Belinga,+1 415 203 2791,,Software / Ops Engineer,Patty's Pub,Support User,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,
+ruby@acme.com,Ruby,Taft,,,Sales / Marketing,Patty's Pub,Support User,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,

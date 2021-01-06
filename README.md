@@ -62,7 +62,7 @@ When you create an instance in Google Cloud and it is under-utilized, you are pa
 With Instance Rightsizing for Google Cloud, you will:
 
 * Get notified of idle resources across **all** projects, and potential savings from rightsizing.
-* [Identify and delete and/or modify idle VMs](https://help.doit-intl.com/hc/en-us/articles/360039630271-Rightsizing-for-Google-Cloud) in two clicks.
+* [Identify and delete and/or modify idle VMs](dashboards/rightsizing-for-google-cloud.md) in two clicks.
 * Never pay for underutilized Google Compute instances again.
 
 {% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team\_library" %}
@@ -103,7 +103,7 @@ Cloud sandboxes \(or DCEs, - disposable cloud environments\) offer engineering t
 
 Cloud Sandbox for Google Cloud gives admins and developers the governance and autonomy they both need, respectively, all while connecting to their Google Cloud Organization.
 
-First, [create a sandbox policy](https://help.doit-intl.com/hc/en-us/articles/360042369611-Configure-A-Policy-For-Sandbox-Accounts) to automate sandbox management. With a policy set up, you can:
+First, [create a sandbox policy](cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md) to automate sandbox management. With a policy set up, you can:
 
 * Connect to your Google Cloud billing account, organization, and IAM folder.
 * Set sandbox budgets.
@@ -111,7 +111,7 @@ First, [create a sandbox policy](https://help.doit-intl.com/hc/en-us/articles/36
 * Limit the number of sandboxes per user.
 * Give your sandbox names a stable naming convention.
 
-Once a policy is created, developers are free to [create cloud sandbox environments](https://help.doit-intl.com/hc/en-us/articles/360042612671-Create-Google-Cloud-Sandbox-Accounts) themselves. No more submitting tickets just to get a new environment provisioned by an SRE. Finally, when sandboxes are up and running, you can monitor them all from a central hub.
+Once a policy is created, developers are free to [create cloud sandbox environments](cloud-sandbox-management/create-gcp-sandbox-accounts.md) themselves. No more submitting tickets just to get a new environment provisioned by an SRE. Finally, when sandboxes are up and running, you can monitor them all from a central hub.
 
 {% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team\_library" %}
 
@@ -121,7 +121,7 @@ Every cloud provider has resource quotas for things like VPCs, CPU cores, and mo
 
 However, sometimes your quota limits can, without warning, be hit by a surge of demand that causes you to hit those quotas. When this happens, you're forced to wait for your ticket to be addressed.
 
-With Quota Monitoring for [Google Cloud](google-cloud/google-cloud-quotas.md), and [AWS](https://help.doit-intl.com/hc/en-us/articles/360038791071-AWS-Service-Limits-Quotas-Alerts) you can stay on top of your cloud quotas with proactive monitoring. You'll get notified when you're approaching quotas.
+With Quota Monitoring for [Google Cloud](google-cloud/google-cloud-quotas.md), and [AWS](amazon-web-services/aws-quotas.md) you can stay on top of your cloud quotas with proactive monitoring. You'll get notified when you're approaching quotas.
 
 This way, you'll keep services always running by adjusting limits ahead of time.
 
@@ -131,7 +131,7 @@ With so many moving parts in the cloud, it’s critical to keep a finger on the 
 
 As a result, critical staff resources are wasted manually monitoring for and identifying the scope & source of problems.
 
-[Cloud cost anomaly detection](https://help.doit-intl.com/anomaly-detection/viewing-your-google-cloud-cost-anomalies) offers end-to-end **autonomous monitoring** of spikes in your  AWS & Google Cloud usage & billing, seamlessly, across all your projects and services.
+[Cloud cost anomaly detection](anomaly-detection/viewing-your-google-cloud-cost-anomalies.md) offers end-to-end **autonomous monitoring** of spikes in your  AWS & Google Cloud usage & billing, seamlessly, across all your projects and services.
 
 Available to DoiT customers right from the CMP, it also offers:
 
@@ -191,7 +191,7 @@ From your Asset Management screen, you can:
 * View all cloud subscriptions in one place.
 * [Create a new Google Cloud Billing Account](google-cloud/create-google-cloud-billing-account.md) and/or an [AWS account](amazon-web-services/create-an-aws-account.md).
 * [Invite an existing AWS account](amazon-web-services/invite-existing-aws-account.md)
-* [Purchase additional seats for G Suite](https://help.doit-intl.com/hc/en-us/articles/360032598271-Purchase-G-Suite-Licenses) and/or [Office 365](https://help.doit-intl.com/hc/en-us/articles/360032598391-Purchase-Office-365-Licenses) yourself.
+* [Purchase additional seats for G Suite](g-suite-and-workspace/purchasing-g-suite-licenses.md) and/or [Office 365](microsoft-office-365/purchasing-office-365-licenses.md) yourself.
 * Automate subscription management with [auto-provisioning](https://help.doit-intl.com/hc/en-us/articles/360038041751-Configure-Auto-Increase-for-G-Suite-Subscriptions) for G Suite, guaranteeing there is an open seat at all times.
 * [Tag Assets](assets-and-contracts/tag-assets.md) for classification and invoicing purposes \(e.g. team name, cost center, location, etc.\).
 
@@ -224,7 +224,7 @@ This is especially useful when you have different cost centers such as R&D or Op
 
 With invoice buckets, you will receive separate invoices for each invoice bucket, billed to the billing profile it is associated with. 
 
-[Go here](https://help.doit-intl.com/hc/en-us/sections/360006391152-Invoices-Payments) for the full list of your billing and payment related capabilities.
+[Go here](invoices-and-payments/managing-invoices.md) for the full list of your billing and payment related capabilities.
 
 ### Contract Management
 
@@ -234,7 +234,7 @@ Via the Contracts page, you get self-service access to all cloud contracts you a
 
 Use User Management to:
 
-* [Add colleagues](https://help.doit-intl.com/hc/en-us/articles/360032246952-Create-Users) to your CMP team.
+* [Add colleagues](user-management/creating-a-new-user.md) to your CMP team.
 * Management Billing Profile assignments.
 * Configure notifications for alerts like payment reminders, new invoices, and more.
 * [Set up and grant roles ](user-management/manage-roles.md)that give access various CMP features.

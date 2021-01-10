@@ -16,7 +16,7 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start by accessing your Office 365-based Assets from the menu on the left-hand side of the page and clicking on Assets.
 
-![](../.gitbook/assets/assets-icon.png)
+![](../.gitbook/assets/assets-icon-1-%20%284%29%20%283%29.png)
 
 Once you're at the Assets page, switch to the Office 365 tab.
 

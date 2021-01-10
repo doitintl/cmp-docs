@@ -60,7 +60,7 @@ Give the Role a name \(i.e., 'doitintl'\) and click on 'Create role'.
 
 The role has been created successfully. 
 
-![](../.gitbook/assets/role-created-successfully.png)
+![](../.gitbook/assets/role-created-successfully%20%281%29.png)
 
 After you have created the role, click on the role name which brings you to the summary page. 
 

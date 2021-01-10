@@ -20,7 +20,7 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main dashboard, click on the edit icon next to the Billing Profile of which you want to update.
 
-![](../.gitbook/assets/update-billing-profile%20%283%29.png)
+![](../.gitbook/assets/update-billing-profile-2-%20%284%29.png)
 
 Once you're at the Billing Profile Settings page, switch to the 'Payment Methods' tab.
 

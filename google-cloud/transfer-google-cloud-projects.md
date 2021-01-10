@@ -28,7 +28,7 @@ Once you're at the **Assets** page, please switch to the Google Cloud tab.
 
 To transfer your projects, locate your new Google Cloud billing account with DoiT International \(doit.budgetao.com in this example\), and click on the three-dots menu on the right-hand side of the widget. Choose 'Transfer Projects' to start the wizard.
 
-![](../.gitbook/assets/transfer-projects1%20%281%29.png)
+![](../.gitbook/assets/transfer-projects1%20%281%29%20%281%29.png)
 
 Acknowledge the Marketplace Apps consent and click "Start":
 

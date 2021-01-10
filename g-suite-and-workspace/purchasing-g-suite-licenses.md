@@ -16,11 +16,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start with accessing the G Suite based Assets from the menu on the left-hand side of the page and clicking on Assets.
 
-![](../.gitbook/assets/assets-icon.png)
+![](../.gitbook/assets/assets-icon-1-%20%284%29%20%283%29.png)
 
 Once you're at the Assets page, switch to the G Suite tab.
 
-![](../.gitbook/assets/g-suite%20%281%29.png)
+![](../.gitbook/assets/g-suite%20%282%29%20%282%29.png)
 
 Locate the subscription you'd like to add licenses for and click the **+** icon to add as many licenses as needed. 
 

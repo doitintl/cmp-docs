@@ -15,7 +15,7 @@ Essentially, billing records that don’t align with your anticipated spending b
 
 To manage your notifications, click your profile icon in the upper-right corner of the page header, then select 'Profile'**.**
 
-![](../.gitbook/assets/profile.png)
+![](../.gitbook/assets/profile-1-%20%282%29%20%281%29.png)
 
 By default, the threshold for email alerts is set to 'Warning', however, you can overwrite it to reduce the number of emails you receive overtime.
 

@@ -18,11 +18,11 @@ You will see an **OrganizationAccountAccessRole** in the new AWS account. This r
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and Access the 'Create AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
 
-![](../.gitbook/assets/assets-icon-1-%20%282%29.png)
+![](../.gitbook/assets/assets-icon-1-%20%284%29%20%284%29.png)
 
 On the right-hand side of the page, click the bottom facing arrow and choosing 'Create Account'.
 
-![](../.gitbook/assets/aws-create-account-doit%20%281%29.png)
+![](../.gitbook/assets/aws-create-account-doit%20%281%29%20%281%29.png)
 
 Choose the Billing Profile to which you're creating the account for while choosing the name of the account to which the _root email_ is associated with.
 

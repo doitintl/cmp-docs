@@ -14,7 +14,7 @@ _\* This is optional. However, without the permissions granted here, you will ha
 
 _Please note that if the status reads 'Unhealthy', you may be lacking permissions. Refer back to the_ [Connect Your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) _article on how to configure your account._  
 
-![](../.gitbook/assets/cmp_gcp_partialpermissions.jpg)
+![](../.gitbook/assets/cmp_gcp_partialpermissions%20%281%29.jpg)
 
 Once that's been set up, you can add the 'Recommendations' widget to any of your dashboards within the Cloud Management Platform. 
 

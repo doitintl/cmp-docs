@@ -7,7 +7,7 @@ description: Overview of DoiT International Cloud Management Platform
 **Welcome to DoiT International's Help Center for all things Cloud Management Platform!**
 
 {% hint style="info" %}
-You can request changes to articles or report issues via our [public GitHub repository](https://github.com/doitintl/cmp-docs) by submitting a pull request or creating an issue. 
+You can request changes to articles or report issues via our [public GitHub repository](https://github.com/doitintl/cmp-docs) by submitting a pull request or creating an issue.
 {% endhint %}
 
 But for now, let's go over what exactly the CMP is and how _you_ can benefit from using it.
@@ -29,9 +29,7 @@ Cloud Reports give you instant visibility into your Google Cloud and AWS costs w
 * [Forecast your cloud spend](cloud-analytics/forecasting.md) across all time ranges and any cloud services
 * Cross-check your SUD/CUD credits with by-the-hour reporting.
 
-{% embed url="https://www.loom.com/share/3bb89b9c624a4a52a2ecfbb61a56b4b8" %}
-
-
+{% embed url="https://www.loom.com/share/3bb89b9c624a4a52a2ecfbb61a56b4b8" caption="" %}
 
 ### Cost Attributions
 
@@ -39,7 +37,7 @@ Attributions are a flexible way to group resources and their associated costs, h
 
 You may have various components of your application\(s\) spread across different projects, using different services. Attributions allow you to combine everything into something coherent.
 
-{% embed url="https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883?sharedAppSource=team\_library" %}
+{% embed url="https://www.loom.com/share/8d36dbd796c84d51a26b3f836226c883?sharedAppSource=team\_library" caption="" %}
 
 ## Cloud Cost Optimization
 
@@ -65,19 +63,19 @@ With Instance Rightsizing for Google Cloud, you will:
 * [Identify and delete and/or modify idle VMs](dashboards/rightsizing-for-google-cloud.md) in two clicks.
 * Never pay for underutilized Google Compute instances again.
 
-{% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team\_library" %}
+{% embed url="https://www.loom.com/share/cecfc1a7f3d84240a5be922e27c0ac56?sharedAppSource=team\_library" caption="" %}
 
 ### Flexible Reserved Instances
 
 AWS Reserved Instances \(RIs\) offer you between 30-70% savings on compute costs in exchange for a one or three-year commitment. Typically, you’d use RIs for predictable workloads, and pay on-demand pricing for the less predictable.
 
-However getting RIs usage perfect is hard, because it relies on you being able to predict the future. Sometimes your predictions turn out wrong because usage needs suddenly change. As a result, 
+However getting RIs usage perfect is hard, because it relies on you being able to predict the future. Sometimes your predictions turn out wrong because usage needs suddenly change. As a result,
 
 [Flexible Reserved Instances](flexible-reservations/flexri.md) in the CMP let you commit to EC2 Reserved Instances in one-month intervals while still sharing in the AWS-listed RI commitment discount. With Flex RIs, you'll eliminate RI lock-in risk for your less predictable workloads.
 
 Placing an order for a Flex RI for the following month takes all but a few clicks, and you can easily monitor their performance from a central hub in the CMP.
 
-{% embed url="https://www.loom.com/share/7385b68facec49569fcbc3d377f05fbf" %}
+{% embed url="https://www.loom.com/share/7385b68facec49569fcbc3d377f05fbf" caption="" %}
 
 ### BigQuery FinOps
 
@@ -87,13 +85,13 @@ As a result, we created the [BigQuery FinOps Dashboard](dashboards/bigquery-fino
 
 It analyzes your team’s BigQuery behavior, aggregate information, and display the most important statistics for you. Unlike alternative solutions and methods, BigQuery FinOps Dashboard brings important information TO you, without you having to configure anything.
 
-Below you will see the widgets of the dashboard that provide you with insights into your organization's BigQuery usage statistics. 
+Below you will see the widgets of the dashboard that provide you with insights into your organization's BigQuery usage statistics.
 
 One important aspect of the BigQuery FinOps Dashboard is the Recommendations widget, which offers smart recommendations around the nature of how your datasets, tables, and queries are structured.
 
 Each recommendation category comes with further details on how to act on each recommendation.
 
-{% embed url="https://www.loom.com/share/9f660708f96d4b578e0b597e88eb666d?sharedAppSource=personal\_library" %}
+{% embed url="https://www.loom.com/share/9f660708f96d4b578e0b597e88eb666d?sharedAppSource=personal\_library" caption="" %}
 
 ## Cloud Enablement
 
@@ -113,7 +111,7 @@ First, [create a sandbox policy](cloud-sandbox-management/configuring-a-policy-f
 
 Once a policy is created, developers are free to [create cloud sandbox environments](cloud-sandbox-management/create-gcp-sandbox-accounts.md) themselves. No more submitting tickets just to get a new environment provisioned by an SRE. Finally, when sandboxes are up and running, you can monitor them all from a central hub.
 
-{% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team\_library" %}
+{% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team\_library" caption="" %}
 
 ### Quota Monitoring for Google Cloud and AWS
 
@@ -131,7 +129,7 @@ With so many moving parts in the cloud, it’s critical to keep a finger on the 
 
 As a result, critical staff resources are wasted manually monitoring for and identifying the scope & source of problems.
 
-[Cloud cost anomaly detection](anomaly-detection/viewing-your-google-cloud-cost-anomalies.md) offers end-to-end **autonomous monitoring** of spikes in your  AWS & Google Cloud usage & billing, seamlessly, across all your projects and services.
+[Cloud cost anomaly detection](anomaly-detection/viewing-your-google-cloud-cost-anomalies.md) offers end-to-end **autonomous monitoring** of spikes in your AWS & Google Cloud usage & billing, seamlessly, across all your projects and services.
 
 Available to DoiT customers right from the CMP, it also offers:
 
@@ -140,9 +138,7 @@ Available to DoiT customers right from the CMP, it also offers:
 * Fine-tune alerts by training them with your direct feedback.
 * Real-time analysis of workload activity 
 
-{% embed url="https://www.loom.com/share/c5005c6d4af9468f9df0b00ca5f43655" %}
-
-
+{% embed url="https://www.loom.com/share/c5005c6d4af9468f9df0b00ca5f43655" caption="" %}
 
 ### Accessing DoiT Support and Advisory
 
@@ -154,17 +150,13 @@ Within the CMP you can:
 * [Escalate](tickets/escalating-support-requests.md) support requests
 * [Share](tickets/ticket-sharing.md) support requests with others
 
-{% embed url="https://www.loom.com/share/ec2e0bca53fc46ef80061dd96be2f1a0?sharedAppSource=team\_library" %}
-
-
-
-
+{% embed url="https://www.loom.com/share/ec2e0bca53fc46ef80061dd96be2f1a0?sharedAppSource=team\_library" caption="" %}
 
 ### Perks
 
 [Perks](perks/perks.md) are service-based benefits available to DoiT International customers at no extra cost, including workshops, training, cost optimization sessions, case studies, and co-produced webinars. They can easily be browsed and requested on-demand from within the CMP.
 
-{% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team\_library" %}
+{% embed url="https://www.loom.com/share/9ff183270cb84e32817818589a80d37e?sharedAppSource=team\_library" caption="" %}
 
 ## Cloud Productivity
 
@@ -199,13 +191,13 @@ Additionally, you can view your order history of all licenses and subscriptions 
 
 ### Billing Profiles, Invoices, and Invoice Buckets
 
-CMP gives you capabilities unavailable in Google Cloud or AWS to customize _precisely_ how you'd like to billed via Billing Profiles, Invoices, and Invoice Buckets. 
+CMP gives you capabilities unavailable in Google Cloud or AWS to customize _precisely_ how you'd like to billed via Billing Profiles, Invoices, and Invoice Buckets.
 
 [**Billing Profiles**](invoices-and-payments/setting-up-a-new-billing-profile.md) are for when your company has different entities requiring separate invoices. For instance, you may use a different payment method or currency depending on the entity.
 
 In the CMP, customers can create as many Billing Profiles as required, per their company's needs.
 
-Additionally, whereas with Google Cloud or AWS you can only pay with a credit card, DoiT International customers have more options for customizing the payment method for their Billing Profile\(s\) including Credit Card, Wire, Bill.com, and ACH. 
+Additionally, whereas with Google Cloud or AWS you can only pay with a credit card, DoiT International customers have more options for customizing the payment method for their Billing Profile\(s\) including Credit Card, Wire, Bill.com, and ACH.
 
 [**Invoices**](invoices-and-payments/managing-invoices.md) across all cloud platforms and their current statuses can be easily accessed using the CMP.
 
@@ -218,11 +210,11 @@ From the Invoices page, you can:
 
 Any tags placed on assets will also appear in invoices so you can more easily identify invoice items.
 
-[**Invoice Bucketing**](invoices-and-payments/changing-invoice-settings.md) ****lets you create custom "buckets" and assign specific assets to those buckets.
+[**Invoice Bucketing**](invoices-and-payments/changing-invoice-settings.md) _\*\*_lets you create custom "buckets" and assign specific assets to those buckets.
 
 This is especially useful when you have different cost centers such as R&D or Operations using different assets and want to bill them separately.
 
-With invoice buckets, you will receive separate invoices for each invoice bucket, billed to the billing profile it is associated with. 
+With invoice buckets, you will receive separate invoices for each invoice bucket, billed to the billing profile it is associated with.
 
 [Go here](invoices-and-payments/managing-invoices.md) for the full list of your billing and payment related capabilities.
 
@@ -247,6 +239,4 @@ Within the CMP you can resolve your cloud issues quickly with hyper-responsive a
 * View open or historical tickets and their statuses.
 * [Share tickets](tickets/ticket-sharing.md) with other team members.
 * Stay up to date on any [known issues](tickets/cloud-infrastructure-known-issues.md) across all clouds you use.
-
-
 

@@ -4,7 +4,7 @@ Customers can be notified when a new invoice has been created by enabling the al
 
 In order to enable or disable the notification itself, click your profile icon in the upper-right corner of the page header, then select **Profile.**
 
-![](../.gitbook/assets/profile-1-%20%281%29.png)
+![](../.gitbook/assets/profile-1-%20%282%29%20%282%29.png)
 
 In the Profile dialog, you will find the '**New Invoices**' notification setting.
 

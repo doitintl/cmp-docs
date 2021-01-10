@@ -18,7 +18,7 @@ Start with accessing `Invoices` from the menu on the left-hand side of the page 
 
 To download the invoice summary as a CSV file, click the download icon in the top-right corner of the page.
 
-![](../.gitbook/assets/download-csm-summary.png)
+![](../.gitbook/assets/download-csm-summary%20%281%29.png)
 
 
 

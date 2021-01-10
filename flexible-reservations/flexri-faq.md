@@ -40,3 +40,15 @@ Our team is working on a FlexRI Auto-Pilot. Once available, Auto-Pilot will auto
 
 Right now, we support Linux and Windows-based \(including with Microsoft SQL Server\) operating systems. RedHat Enterprise Linux \(RHEL\) and SuSe Enterprise Linux \(SLES\) are not yet supported. 
 
+## How FlexRIs are different from Reserved Instances or Saving Plans?
+
+In general, while Flexible Reservations do not yield as much discount as AWS Reserved Instances, you're not at risk of underutilizing reservations for longer than 1-month periods.
+
+| Feature | DoiT FlexRIs | AWS RIs | AWS Saving Plans |
+| :--- | :--- | :--- | :--- |
+| Minimum commitment period | 1-month | 12-months | 12-months |
+| Automatic renewal | yes | no | no |
+| Regional | Yes | Yes | No |
+| Instance Type-specific | Yes | Yes | No |
+| Cover non-EC2 workloads | No | No | Lambda, Fargate |
+

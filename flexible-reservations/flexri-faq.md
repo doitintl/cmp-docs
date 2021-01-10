@@ -2,7 +2,7 @@
 description: Frequently asked questions about Flexible Reservations
 ---
 
-# FlexRI FAQ
+# Flexible Reservations FAQ
 
 ### Overview
 

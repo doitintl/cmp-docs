@@ -34,5 +34,9 @@ We are actively working on providing recommendations based on your EC2 usage pat
 
 ## Can you find a way to provide a discount based on consumption?
 
-Our team is working on a FlexRI Auto-Pilot. Once available, Auto-Pilot will automatically implement recommendations, always optimizing for cost. Under this model, you won't need to think what Flexible Reservations to purchase or to what hourly spend you're willing to commit. 
+Our team is working on a FlexRI Auto-Pilot. Once available, Auto-Pilot will automatically implement recommendations, always optimizing for cost. Under this model, you won't need to think about which Flexible Reservations to purchase or to what hourly spend you're willing to commit. 
+
+## Do you support any Operating System?
+
+Right now, we support Linux and Windows-based \(including with Microsoft SQL Server\) operating systems. RedHat Enterprise Linux \(RHEL\) and SuSe Enterprise Linux \(SLES\) are not yet supported. 
 

@@ -73,7 +73,7 @@ We do not provide your data to any 3rd party, with the exceptions listed below r
 
 EU and GDPR Compliance - we have many customers in the European Economic Area and we handle your data in compliance with the General Data Protection Regulation \(GDPR\) \[3\].
 
-We're working towards completing our SOC 2 Type 2 audit. We anticipate the Type 2 report being available later in 2020.
+We're working towards completing our SOC 2 Type 2 audit. We anticipate the Type 2 report being available at the beginning of Q2, 2021.
 
 ### External references <a id="h_923e9d39-0606-471f-bbb3-2f899c859d8c"></a>
 

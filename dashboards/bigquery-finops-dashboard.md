@@ -124,7 +124,7 @@ We have two main processes, once of which runs queries and the other not: 1\) En
 
 View the bite-sized video below for a quick tutorial on the BigQuery FinOps Dashboard.
 
-{% embed url="https://www.loom.com/share/9f660708f96d4b578e0b597e88eb666d?sharedAppSource=personal\_library" %}
+{% embed url="https://youtu.be/7r1WfwnBAA4" %}
 
 
 

@@ -93,7 +93,9 @@ One important aspect of the BigQuery FinOps Dashboard is the Recommendations wid
 
 Each recommendation category comes with further details on how to act on each recommendation.
 
-{% embed url="https://www.loom.com/share/9f660708f96d4b578e0b597e88eb666d?sharedAppSource=personal\_library" caption="" %}
+{% embed url="https://youtu.be/7r1WfwnBAA4" %}
+
+
 
 ## Cloud Enablement
 
@@ -140,7 +142,9 @@ Available to DoiT customers right from the CMP, it also offers:
 * Fine-tune alerts by training them with your direct feedback.
 * Real-time analysis of workload activity 
 
-{% embed url="https://www.loom.com/share/c5005c6d4af9468f9df0b00ca5f43655" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=h6V7XfhsdmY&list=PLEBxNMZ7Mu3\_hmB2I2LXcDSYt1SXcjwMz&index=1" %}
+
+
 
 ### Accessing DoiT Support and Advisory
 

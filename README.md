@@ -75,7 +75,9 @@ However getting RIs usage perfect is hard, because it relies on you being able t
 
 Placing an order for a Flex RI for the following month takes all but a few clicks, and you can easily monitor their performance from a central hub in the CMP.
 
-{% embed url="https://www.loom.com/share/7385b68facec49569fcbc3d377f05fbf" caption="" %}
+{% embed url="https://youtu.be/Si6mZvn-z7I" %}
+
+
 
 ### BigQuery FinOps
 

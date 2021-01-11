@@ -71,7 +71,7 @@ The optional "Flexible RI Underutilization" will state the amount deducted from 
 
 View the bite-sized video below for a closer look at purchasing and viewing your Flex RIs.
 
-{% embed url="https://www.loom.com/share/7385b68facec49569fcbc3d377f05fbf" %}
+{% embed url="https://youtu.be/Si6mZvn-z7I" %}
 
 
 

@@ -12,6 +12,10 @@ If you don't want to give a user full access to the Cloud Management Platform, y
 Required permission to manage and assign roles: **User Manager**
 {% endhint %}
 
+{% hint style="warning" %}
+Prior to Roles, CMP users were manually assigned permissions. These legacy permissions are forward-compatible, so you will not lose access to any functionalities you previously had access to.
+{% endhint %}
+
 ### Pre-built roles
 
 There are a few pre-built roles in your account for your convenience. The easiest way to give user privileges is to assign pre-built roles. Each role grants one or more privileges that together, allow performing a common business function. For example, one role allows managing user accounts, another role manages financial aspects, another role manages IT functions, and so on.

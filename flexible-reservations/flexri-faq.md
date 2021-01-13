@@ -16,6 +16,10 @@ You would save as much as 80% of the discount granted by the applicable AWS Rese
 
 For example, AWS grants a 19.5 discount on reserved instances for instances from the m5 instance family in the us-west-1 region. FlexRI for this machine/region combination will provide you with a 15.6% \(19.5 \* 0.8\) discount but without the risk of committing to the entire year. 
 
+### Can I use FlexRIs if I am using AWS RIs or Saving Plans?
+
+Flexible reservations are applied to on-demand usage. Usage covered by AWS reserved instances or Savings Plans is excluded from our recommendations and the order user interface. 
+
 ### Can I buy FlexRI for 3 months?
 
 Yes. Flexible Reservation orders can be configured as "recurring" for any number of months. Recurring orders will be automatically recreated every month. 

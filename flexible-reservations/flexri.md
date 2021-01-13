@@ -2,7 +2,7 @@
 description: How to purchase AWS EC2 Flexible Reservations and monitor their utilization
 ---
 
-# Purchase Flexible Reservations
+# Flexible Reservations Overview
 
 ### Overview
 
@@ -45,7 +45,7 @@ At the top of the FlexRI page, you'll see four FlexRI Reporting metrics that giv
 
 * **Total Expected Savings** - the maximum amount you could have saved, given 100% utilization
 * **Actual Savings** - the amount you actually saved
-* **Flexible Reservation Utilization** - how well you are utilizing your Flexible Reserved Instances.
+* **Flexible Reservation Utilization** - a weighted FlexRI percentage of orders utilization
 * **YTD Savings** - the total saving across all your reservations, from the beginning of the current year.
 
 {% hint style="info" %}

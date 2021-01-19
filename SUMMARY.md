@@ -15,6 +15,7 @@
 * [Transfer Google Cloud Projects](google-cloud/transfer-google-cloud-projects.md)
 * [Link Google Cloud Organization](google-cloud/connect-google-cloud-service-account.md)
 * [Google Cloud Quotas](google-cloud/google-cloud-quotas.md)
+* [Configure Auto-Increase for Google Workspace Subscriptions](google-cloud/configure-auto-increase-for-google-workspace-subscriptions.md)
 
 ## Amazon Web Services
 

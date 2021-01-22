@@ -34,7 +34,7 @@ Sign in to the AWS account you'd like to integrate with CloudHealth with an IAM 
 10. Set Role Name to "CloudHealth"
 11. Click "Create Role"
 
-## Create Users
+### Create Users
 The first user will be an administrator we create for you. 
 
 Further users and administrators can be created by yourself in the [Cloudhealth Interface](https://apps.cloudhealthtech.com/users) as an Admin.

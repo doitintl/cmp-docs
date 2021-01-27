@@ -19,7 +19,6 @@
 
 ## Amazon Web Services
 
-* [Read-Only Acess](amazon-web-services/aws-ro-access.md)
 * [Invite Existing AWS Account](amazon-web-services/invite-existing-aws-account.md)
 * [Create An AWS Account](amazon-web-services/create-an-aws-account.md)
 * [Connect Your AWS IAM Role](amazon-web-services/add-your-amazon-web-services-iam-role.md)
@@ -65,6 +64,7 @@
 * [Escalating Support Requests](tickets/escalating-support-requests.md)
 * [Enable Ticket Sharing](tickets/ticket-sharing.md)
 * [Known Issues](tickets/cloud-infrastructure-known-issues.md)
+* [Read-Only Access to AWS](tickets/aws-ro-access.md)
 
 ## G Suite & Workspace
 

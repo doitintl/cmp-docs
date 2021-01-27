@@ -64,6 +64,7 @@
 * [Escalating Support Requests](tickets/escalating-support-requests.md)
 * [Enable Ticket Sharing](tickets/ticket-sharing.md)
 * [Known Issues](tickets/cloud-infrastructure-known-issues.md)
+* [Read-Only Access to GCP](tickets/gcp-ro-access.md)
 * [Read-Only Access to AWS](tickets/aws-ro-access.md)
 
 ## G Suite & Workspace

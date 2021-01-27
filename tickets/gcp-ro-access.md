@@ -26,9 +26,9 @@ gcloud projects add-iam-policy-binding cassandra-db-prod-289507 \
 
 For example, the above command, grants read-only access \(`--role=roles/viewer`\) to a group of engineers assigned with request \#38432 \( `--member="group:ticket-38432@cre.doit-intl.com"`\) to your Google Cloud project `cassandra-db-prod-289507`. 
 
-We will generate the command for you automatically and display it to you on the support center user interface:
+We will generate the command for you automatically and display it to you on the support center user interface.
 
-
+\[IMAGE\]
 
 ### Revoke Access
 

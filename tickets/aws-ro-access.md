@@ -1,6 +1,22 @@
 ---
-description: how to grant access for DoiT International to your AWS accounts
+description: how to securely grant DoiT International access to your AWS account
 ---
 
 # Read-Only Access to AWS
+
+DoiT International is committed to access transparency and access approval. When you open a technical support request with DoiT International, we may need to access your AWS account so we could help you in the most effective way, including to involve the AWS support team.
+
+### Important to Know
+
+* Your AWS account is not accessed for any reason other than to fulfill contractual obligations
+* Valid business justification required for any access by our engineering personnel
+* Approve or dismiss requests for DoiT employees access, working to support your service
+
+### How does it work?
+
+When you request technical support and create a new service request with DoiT International, you will be offered to grant DoiT International access to the AWS account set in your request.
+
+To make it easier for you, we have prepared an AWS CloudFormation stack you can deploy. Before deploying the CloudFormation stack, you can review it at https://doit-aws-ops-prod-templates.s3.amazonaws.com/doitmanagement.yaml
+
+The CloudFormation will create an IAM Policy and IAM Role the DoiT International engineers can use to access your AWS account. 
 

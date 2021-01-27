@@ -16,7 +16,7 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select the 'Invite AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
 
-![](../.gitbook/assets/assets-icon-1-%20%284%29%20%281%29.png)
+![](../.gitbook/assets/assets-icon-1-%20%284%29%20%285%29%20%281%29.png)
 
 Once you're at the Assets page, go to the right-hand side of the page and click on '**Invite Account**'.
 

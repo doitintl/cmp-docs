@@ -16,15 +16,15 @@ _Please note that you must be assigned access to the specific Billing Profile un
 
 From the main dashboard please select '**Manage Licenses & Assets**'.
 
-![](../.gitbook/assets/new-manage-licenses-2-%20%282%29.png)
+![](../.gitbook/assets/new-manage-licenses-2-%20%281%29%20%282%29.png)
 
 Another way to access the G Suite based Assets is via the menu on the left-hand side of the page and clicking on Assets.
 
-![](../.gitbook/assets/assets-icon-1-%20%284%29%20%282%29.png)
+![](../.gitbook/assets/assets-icon-1-%20%284%29%20%285%29%20%282%29.png)
 
 Once you're at the Assets page, switch to the G Suite tab and click on '**New Subscription**'.
 
-![](../.gitbook/assets/g-suite%20%282%29.png)
+![](../.gitbook/assets/g-suite%20%282%29%20%282%29.png)
 
 Select the domain for which you're adding a subscription and click 'Next'.
 

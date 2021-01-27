@@ -18,7 +18,7 @@ You will see an **OrganizationAccountAccessRole** in the new AWS account. This r
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and Access the 'Create AWS Account' from the menu on the left-hand side of the page and clicking on Assets.
 
-![](../.gitbook/assets/assets-icon-1-%20%284%29%20%284%29.png)
+![](../.gitbook/assets/assets-icon-1-%20%284%29%20%285%29%20%284%29.png)
 
 On the right-hand side of the page, click the bottom facing arrow and choosing 'Create Account'.
 

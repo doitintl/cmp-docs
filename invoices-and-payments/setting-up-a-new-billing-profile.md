@@ -20,13 +20,13 @@ From the main dashboard, locate the three-dots icon on the right-hand side of th
 
 Once there, you will be prompted to 'New Billing Profile' and start filling out the information about your company.
 
-![](../.gitbook/assets/create-new-billing-profile-2-.png)
+![](../.gitbook/assets/create-new-billing-profile-2-%20%281%29.png)
 
 After completing all the required fields in each section, you will be asked what payment method you'd like to use: Credit Card, Bill.com, Wire Transfer, or ACH Payment.
 
 Click **Submit** after you fill out the details.
 
-![](../.gitbook/assets/payment-method-and-currency%20%281%29%20%281%29.png)
+![](../.gitbook/assets/payment-method-and-currency%20%281%29%20%281%29%20%281%29.png)
 
 If you receive the following error, please try again.
 

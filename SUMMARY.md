@@ -19,6 +19,7 @@
 
 ## Amazon Web Services
 
+* [Read-Only Acess](amazon-web-services/aws-ro-access.md)
 * [Invite Existing AWS Account](amazon-web-services/invite-existing-aws-account.md)
 * [Create An AWS Account](amazon-web-services/create-an-aws-account.md)
 * [Connect Your AWS IAM Role](amazon-web-services/add-your-amazon-web-services-iam-role.md)

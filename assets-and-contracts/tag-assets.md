@@ -12,7 +12,7 @@ Required Permission**: Invoice Viewer**
 
 Access Assets from the menu on the left-hand side of the page and clicking on Assets.
 
-![CMP Home Dashboard](../.gitbook/assets/assets-icon-1-%20%284%29%20%285%29.png)
+![CMP Home Dashboard](../.gitbook/assets/assets-icon-1-%20%284%29%20%285%29%20%285%29.png)
 
 Once you're at the Assets page, switch to the relevant asset, locate the three-dots icon, and click on 'Tag Asset'.
 

@@ -18,11 +18,11 @@ Please note that you must be assigned access to the specific Billing Profile und
 
 From the main dashboard please select '**Manage Licenses & Assets**'.
 
-![](../.gitbook/assets/new-manage-licenses-2-%20%281%29.png)
+![](../.gitbook/assets/new-manage-licenses-2-%20%281%29%20%281%29.png)
 
 Once you're at the Assets page, switch to the G Suite tab.
 
-![](../.gitbook/assets/g-suite%20%282%29%20%281%29.png)
+![](../.gitbook/assets/g-suite%20%282%29%20%282%29%20%281%29.png)
 
 To upgrade to a higher edition, locate the G Suite subscription for which you want to upgrade, and click on the three-dots icon on the right-hand side of the widget. Then choose 'Change G Suite Edition'.
 

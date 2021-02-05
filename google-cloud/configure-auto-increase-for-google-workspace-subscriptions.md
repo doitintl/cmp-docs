@@ -1,8 +1,10 @@
 ---
-description: Set your Google Workspace seats to auto-increase
+description: >-
+  Set your Google Workspace seats to auto-increase when you've exhausted all
+  available licenses
 ---
 
-# Configure Auto-Increase for Google Workspace Subscriptions
+# Set Licenses to Auto-Increase
 
 Auto-increase for Google Workspace ensures that you'll always have enough licenses available as your team scales.
 

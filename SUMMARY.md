@@ -15,7 +15,7 @@
 * [Transfer Google Cloud Projects](google-cloud/transfer-google-cloud-projects.md)
 * [Link Google Cloud Organization](google-cloud/connect-google-cloud-service-account.md)
 * [Google Cloud Quotas](google-cloud/google-cloud-quotas.md)
-* [Configure Auto-Increase for Google Workspace Subscriptions](google-cloud/configure-auto-increase-for-google-workspace-subscriptions.md)
+* [Set Licenses to Auto-Increase](google-cloud/configure-auto-increase-for-google-workspace-subscriptions.md)
 
 ## Amazon Web Services
 
@@ -133,4 +133,8 @@
 
 * [Tag Assets](assets-and-contracts/tag-assets.md)
 * [Access Contracts](assets-and-contracts/accessing-your-contracts-with-doit.md)
+
+## Tutorials
+
+* [How to get GCS cost per bucket](tutorials/how-to-get-gcs-cost-per-bucket.md)
 

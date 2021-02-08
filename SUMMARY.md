@@ -121,6 +121,7 @@
 
 * [General Vendor Information](vendor-information/general-vendor-information.md)
 * [Data Access Policy](vendor-information/security-and-data-access-policy-for-cloud-management-platform.md)
+* [External Services We Use](vendor-information/external-services.md)
 
 ## APIs
 

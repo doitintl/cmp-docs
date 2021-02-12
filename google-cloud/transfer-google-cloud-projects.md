@@ -45,7 +45,7 @@ Please add the email address of the generated service account to your Google Clo
 If you do not add the service account to your Google Cloud Organization IAM, the following error will appear. 
 
 {% hint style="warning" %}
-If you incorrectly add the service account to one of your Google Project IAM and not the Organization IAM, the following error will appear: **Service Account Not Found in Organization IAM.**
+If you incorrectly add the service account to one of your Google Project IAM and not the Organization IAM, the following error will appear: _**Service Account Not Found in Organization IAM.**_
 {% endhint %}
 
 {% hint style="info" %}
@@ -80,6 +80,8 @@ If none of your projects were successfully transferred, you will see this messag
 
 ### **Troubleshooting**
 
+#### All / Some Projects Don't Transfer Successfully
+
 There are a few "edge case" situations in which some or all of your Google Cloud projects won't transfer successfully:
 
 1. The project\(s\) is associated with another Google Organization that the service account doesn’t have an access to.
@@ -96,6 +98,29 @@ project-id-3, error-code
 ```
 
 From here you can troubleshoot the project\(s\) that have "error-code" for one of the two "edge case" situations we described above.
+
+#### Accidentally Added Service Account at the Project Level
+
+As mentioned above, you will get an error if you add your service account to at the Project level and not the Organization level. The error will look something like: _**"Service Account Not Found in Organization IAM"**_
+
+To fix this, first make sure the person doing this is an Organization Billing Admin, and that they are a Project Owner in Cloud Console.
+
+Next, have them copy the DoiT Billing ID for their Google Cloud asset in the CMP. To do so, **\[1\]** click on Assets in the left-hand navigation bar. 
+
+Then click on the **\[2\]** "Google Cloud" tab. Finally, copy the string that follows **\[3\]** "ID:" in the Google Cloud asset.
+
+![](../.gitbook/assets/billingtransferfix.jpg)
+
+Finally, have them perform the following in [Cloud Shell](https://cloud.google.com/shell):
+
+```text
+gcloud auth list # confirm the correct user
+export BILLING="<paste DoiT billing ID here in quotes>"
+export PROJECT_ID=$(gcloud config get-value project)
+gcloud beta billing projects link --billing-account=$BILLING $PROJECT_ID
+```
+
+### Video
 
 The following video shows you how to Transfer Google Cloud Projects.
 

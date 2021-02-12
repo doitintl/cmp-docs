@@ -10,13 +10,15 @@ description: >-
 
 To change the Cloud Billing account for a project, you need to be able to move a project from your existing Cloud Billing account to another Cloud Billing account provided by DoiT International. To accomplish this task, you need permissions adequate to unlink the project from the existing Cloud Billing account AND to link the project to the target Cloud Billing account. Unfortunately, it is a manual process and requires a repetitive, one-by-one, transfer operation for each project. [Learn more.](https://cloud.google.com/billing/docs/how-to/modify-project#change_the_billing_account_for_a_project) 
 
-As part of the Cloud Management Platform, DoiT International has developed a Project Transfer Tool, to assist you with bulk transferring all of your existing Google Cloud projects to the billing account assigned to you by DoiT International.
+To make this process _much faster_, DoiT International developed a Project Transfer Tool in the Cloud Managemente Platform to help you bulk-transfer all of your existing Google Cloud projects to the billing account assigned to you by DoiT International.
 
 {% hint style="danger" %}
 Changing the billing account linked to a project could disable and result in data loss for any partner-managed services purchased through Google Cloud Marketplace. [Learn more](https://cloud.google.com/marketplace/docs/understanding-billing#changing_a_projects_billing_account)
 {% endhint %}
 
-### Instructions
+Let's see how this is done.
+
+### Get Service Account from CMP
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and select '**Manage Licenses & Assets**' from the main dashboard:
 
@@ -34,13 +36,43 @@ Acknowledge the Marketplace Apps consent and click "Start":
 
 ![](../.gitbook/assets/transfer-gcp.png)
 
-After you begin the transfer process, a dedicated Google Cloud service account will be generated to facilitate the transfer process. _Please note the service account name, you will need it for the next step._
+After you begin the transfer process, a dedicated Google Cloud service account will be generated to facilitate the transfer process. 
+
+Finally, **copy the service account name**. You will need it for the next step.
 
 ![](../.gitbook/assets/transfer-projects3.png)
 
-Please add the email address of the generated service account to your Google Cloud Organization IAM Policy and attach the Billing Administrator role. You can do so by copying the service account and entering it as a new member of your organization in the Google Cloud Console.
+### Add Service Account to Org-level Billing Account
 
-![](../.gitbook/assets/transfer-projects4.png)
+Per the instructions from the image above, we'll need to add the service account to your Google Cloud Organization IAM Policy with the "Billing Administrator" role.
+
+First, navigate to your Google Cloud Console and click on "**Billing**"
+
+![](../.gitbook/assets/screen-shot-2021-02-12-at-11.28.16-am.png)
+
+Next, click on "**Manage Billing Accounts**"
+
+![](../.gitbook/assets/screen-shot-2021-02-12-at-11.28.26-am.png)
+
+Make sure your organization is selected. Then select the billing account you want to edit.
+
+![](../.gitbook/assets/step3.jpg)
+
+
+
+In the Billing Overview screen, select "Manage" on the right.
+
+![](../.gitbook/assets/screen-shot-2021-02-12-at-11.29.23-am.png)
+
+
+
+Then, click the "**Show Info**" panel at the top-right to manage billing account members. From there, click "**Add Member**".
+
+![](../.gitbook/assets/addmemberprojectransfer.jpg)
+
+Finally, paste the service account you copied earlier from the CMP Project Transfer tool and add the "Billing Account User" role as shown below. Then click "Save".
+
+![](../.gitbook/assets/screen-shot-2021-02-12-at-11.30.30-am.png)
 
 If you do not add the service account to your Google Cloud Organization IAM, the following error will appear. 
 
@@ -51,6 +83,8 @@ If you incorrectly add the service account to one of your Google Project IAM and
 {% hint style="info" %}
 If you don't have access to your Google Cloud Organization IAM, the Transfer Tool will provide you with a command you can send to your colleague who has the Organization IAM permission.
 {% endhint %}
+
+### Transfer your Projects
 
 Select the projects you want to transfer to your new Google Cloud Billing Account with DoiT International.
 

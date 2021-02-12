@@ -10,9 +10,7 @@ _**Note:** If you're new to Budgets and/or aren't familiar with Attributions we 
 
 Setting budgets and forecasting IT spend is a well-established FinOps practice, ensuring that you won’t get surprised by your cloud bill.
 
-Within the Cloud Management Platform you can set Budgets using [Attributions](attributing-cloud-spend.md), custom-defined groupings of cloud resources \(accounts, services, etc.\) that map to your organizational and financial reporting structure.
-
-Let’s see how Budgets work.
+Within the Cloud Management Platform, you can set Budgets using [Attributions](attributing-cloud-spend.md), custom-defined groupings of cloud resources \(accounts, services, etc.\) that map to your organizational and financial reporting structure.
 
 {% hint style="info" %}
 Required Permissions: **Cloud Analytics**
@@ -20,9 +18,9 @@ Required Permissions: **Cloud Analytics**
 
 ### Creating budgets
 
-Go to the main Budgets page by clicking on the \[1\] Cloud Analytics icon in the left-hand navigation panel, and then clicking on the \[2\] Budgets tab .
+Go to the main Budgets page by clicking on the \[1\] Cloud Analytics icon in the left-hand navigation panel, and then clicking on the \[2\] Budgets tab.
 
-You will see a list of your team’s Budgets that you’ve created, been shared on, or have been made public, if there are any.
+You will see a list of your team’s Budgets that you’ve created, been shared on, or have been made public if there are any.
 
 To create a new Budget, click the \[3\] “**+ NEW BUDGET**”  button. 
 
@@ -32,7 +30,7 @@ To create a new Budget, click the \[3\] “**+ NEW BUDGET**”  button.
 
 After giving your Budget a suitable name, set the Budget’s scope by selecting the Attribution\(s\) your Budget will be allocated to. As mentioned earlier, [Attributions](attributing-cloud-spend.md) let you group any combination of cloud resources \(and their associated costs\) so you can better relate cloud costs to your financial reporting structure.
 
-Next, select the Budget type, time interval, and start date. If you’re configuring a Fixed Budget, you’ll need to set the end date as well. After defining the above, it’s time to set your Budget’s amount, or upper limit. Before entering a number, it might be helpful to see what the last period’s cost was for reference. 
+Next, select the Budget type, time interval, and start date. If you’re configuring a Fixed Budget, you’ll need to set the end date as well. After defining the above, it’s time to set your Budget’s amount or upper limit. Before entering a number, it might be helpful to see what the last period’s cost was for reference. 
 
 Click on the “**Refresh**” icon to view your last period’s cost, given the Budget scope, time interval, and date\(s\) you’ve selected.
 
@@ -43,7 +41,7 @@ After refreshing and setting a Budget amount, two visual bars will appear below:
 * **Current Spend:** Your current spend relative to alert thresholds \(next section\) you've set.
 * **Forecasted Spend:** How much you are forecasted to spend by the end of the Budget period.
 
-Lastly, if you’re configuring a recurring Budget, you have the option to factor in growth in spend for subsequent periods. This will adjust your Budget amount in future periods, increasing it by a growth percentage rate set by you.
+Lastly, if you’re configuring a recurring Budget, you have the option to factor in growth in spending for subsequent periods. This will adjust your Budget amount in future periods, increasing it by a growth percentage rate set by you.
 
 Enable this by checking the “Allow growth in recurring budget periods” box, and then enter in a % growth rate for each subsequent period.
 
@@ -53,7 +51,7 @@ Enable this by checking the “Allow growth in recurring budget periods” box, 
 
 After configuring your Budget, you can set up to three Budget thresholds. By default, thresholds are set at 50%, 85%, and 95% of your Budget amount, but you can modify any of the percentages as you wish.
 
-You will see the corresponding amount each threshold, and the forecasted date that you will reach each threshold.
+You will see the corresponding amount for each threshold, and the forecasted date that you will reach each threshold.
 
 Setting thresholds is useful especially when setting up Budget alerts.
 

@@ -2,7 +2,7 @@
 description: Track your cloud spend against your planned spend.
 ---
 
-# Set Budgets and Budget Alerts
+# Manage Budgets
 
 {% hint style="success" %}
 _**Note:** If you're new to Budgets and/or aren't familiar with Attributions we recommend reading our post on_ [_Creating Attributions_](attributing-cloud-spend.md) _before reading further._

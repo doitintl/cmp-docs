@@ -46,7 +46,7 @@
 * [Forecasting](cloud-analytics/forecasting.md)
 * [Export Cloud Analytics Reports](cloud-analytics/exporting-cloud-reports.md)
 * [Schedule Report Email Delivery](cloud-analytics/schedule-report.md)
-* [Set Budgets and Budget Alerts](cloud-analytics/set-budgets-and-budget-alerts.md)
+* [Manage Budgets](cloud-analytics/manage-budgets.md)
 
 ## Dashboards & Widgets <a id="dashboards"></a>
 

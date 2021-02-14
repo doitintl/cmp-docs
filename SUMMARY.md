@@ -15,7 +15,7 @@
 * [Transfer Google Cloud Projects](google-cloud/transfer-google-cloud-projects.md)
 * [Link Google Cloud Organization](google-cloud/connect-google-cloud-service-account.md)
 * [Google Cloud Quotas](google-cloud/google-cloud-quotas.md)
-* [Set Licenses to Auto-Increase](google-cloud/configure-auto-increase-for-google-workspace-subscriptions.md)
+* [Billing Export](google-cloud/gcp-billing-export.md)
 
 ## Amazon Web Services
 
@@ -75,6 +75,7 @@
 * [Purchasing G Suite Licenses](g-suite-and-workspace/purchasing-g-suite-licenses.md)
 * [Add a New G Suite Subscription](g-suite-and-workspace/add-a-new-g-suite-subscription.md)
 * [Upgrading G Suite Subscription](g-suite-and-workspace/upgrading-your-g-suite-edition.md)
+* [Set Licenses to Auto-Increase](g-suite-and-workspace/configure-auto-increase-for-google-workspace-subscriptions.md)
 
 ## Microsoft Office 365
 

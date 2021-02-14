@@ -131,7 +131,8 @@ If you need to delete the scheduled report, please use the Delete button on the 
 A few limitations exist for scheduled reports:
 
 * Each report can only have a single email delivery schedule
+* Preset reports cannot be scheduled. You can [clone](cloning-and-or-customizing-cloud-reports.md#clone-reports) the report though and schedule it.
 * The person who scheduled the report is always included in the email
-* The minimum interval for a scheduled report is 24 hours. In other words, you can't schedule a report to be delivered more than once a day.
-* Only chart-based reports can be scheduled \(i.e. no tables or heatmaps\)
+* You can't schedule a report to be delivered more than once a day.
+* Only chart-based reports can be scheduled \(i.e. no tables or heatmaps at this time\)
 

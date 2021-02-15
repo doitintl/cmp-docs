@@ -18,7 +18,7 @@ Cloud Management Platform can automatically export detailed Google Cloud billing
 To query the Google Cloud Billing data in BigQuery, you need to specify the table name in the FROM clause. The table name is determined using three values: project.dataset.BQ\_table\_name.
 
 * Project is always `doitintl-cmp-gcp-data`
-* dataset is `gcp_billing_` concatenated with the name of your Google Billing account. Dashes in the billing account ID should be replaced with underscores. For example, if your Google Billing Account ID is 006C3F-3613C3-8C2169, the dataset name would be  `gcp_billing_006C3F_3613C3_8C2169`
+* dataset is `gcp_billing_` concatenated with the name of your Google Billing account. Dashes in the billing account ID should be replaced with underscores. For example, if your Google Billing Account ID is 006C3F-3613C3-2A2169, the dataset name would be  `gcp_billing_006C3F_3613C3_2A2169`
 * BQ\_table\_name is `gcp_billing`
 
 ### Sample Queries
@@ -34,7 +34,7 @@ SELECT
       FROM
         UNNEST(credits) AS credit))) AS cost
 FROM
-  `doitintl-cmp-gcp-data.gcp_billing_006C3F_3613C3_8C2169.gcp_billing`
+  `doitintl-cmp-gcp-data.gcp_billing_006C3F_3613C3_2A2169.gcp_billing`
 WHERE
   DATE(export_time) >= "2020-01-01"
 GROUP BY

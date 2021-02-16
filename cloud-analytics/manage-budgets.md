@@ -24,7 +24,7 @@ You will see a list of your team’s Budgets that you’ve created, been shared 
 
 To create a new Budget, click the \[3\] “**+ NEW BUDGET**”  button. 
 
-![](../.gitbook/assets/cleanshot-2021-02-10-at-15.20.46.jpg)
+![](../.gitbook/assets/budgets1.jpg)
 
 ### Configure your Budget
 
@@ -34,7 +34,7 @@ Next, select the Budget type, time interval, and start date. If you’re configu
 
 Click on the “**Refresh**” icon to view your last period’s cost, given the Budget scope, time interval, and date\(s\) you’ve selected.
 
-![](../.gitbook/assets/refreshbudget1.gif)
+![](../.gitbook/assets/refreshbudget.gif)
 
 After refreshing and setting a Budget amount, two visual bars will appear below:
 
@@ -45,7 +45,7 @@ Lastly, if you’re configuring a recurring Budget, you have the option to facto
 
 Enable this by checking the “Allow growth in recurring budget periods” box, and then enter in a % growth rate for each subsequent period.
 
-![](../.gitbook/assets/cleanshot-2021-02-10-at-15.31.39.jpg)
+![](../.gitbook/assets/growthbudget.jpg)
 
 ### Set Budget Thresholds
 
@@ -59,7 +59,7 @@ Setting thresholds is useful especially when setting up Budget alerts.
 Note: In order to see forecasted dates for Budget thresholds, you need to click the "Refresh" button after setting a Budget amount.
 {% endhint %}
 
-![](../.gitbook/assets/cleanshot-2021-02-10-at-15.42.46.jpg)
+![](../.gitbook/assets/budgets3.jpg)
 
 ### Sharing Budgets
 
@@ -82,7 +82,7 @@ Once you've entered the email\(s\) of who you're sharing your Budget with, click
 Sharing someone on your Budget does not mean they will be alerted when usage thresholds are exceeded. 
 {% endhint %}
 
-![](../.gitbook/assets/adduserbudget.gif)
+![](../.gitbook/assets/budgets4.gif)
 
 #### Changing a user’s Budget permission
 
@@ -94,11 +94,11 @@ Then make a selection and click "Save" to apply the changes.
 
 Alerts help notify yourself and others when you exceed a Budget threshold.
 
-To add someone as a recipient of an email alert notification, enter their email in the “Send to” text box in the “Sharing & Alerting” widget.
+To add someone as a recipient of an email alert notification, enter their email in the “Send to” text box in the “Sharing & Alerting” widget. If they haven't been shared on the Budget already, you will be asked to share it with them first before being able to subscribe them to the Budget's alert.
 
 You will see a confirmation in the lower-left corner of your screen when someone has been successfully subscribed to your Budget’s email alerts.
 
-![](../.gitbook/assets/cleanshot-2021-02-10-at-15.44.40.jpg)
+![](../.gitbook/assets/budgets5.jpg)
 
 When you exceed a Budget threshold, you’ll receive an email detailing:
 

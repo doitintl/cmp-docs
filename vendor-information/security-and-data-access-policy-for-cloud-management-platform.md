@@ -31,9 +31,9 @@ _Note: While this provides us permissions to read info about your resources, non
   
 
 * _compute.instances.setMachineType, compute.instances.stop, compute.instances.start_   Required for Instance [Rightsizing](../dashboards/rightsizing-for-google-cloud.md) functionality to implement the recommended changes.  
-* _serviceusage.services.enable_  Used to enable required APIs in projects \(such as the [Recommender API](https://cloud.google.com/recommender/docs/reference/rest)\)  
+* _serviceusage.services.enable, serviceusage.services.get, serviceusage.services.list, serviceusage.services.use_  Used to check the status of the required APIs and use them in projects \(such as the [Recommender API](https://cloud.google.com/recommender/docs/reference/rest)\)  
 * _logging.sinks.create, bigquery.datasets.create, logging.sinks.get, bigquery.datasets.get, bigquery.tables.get, bigquery.tables.list, bigquery.jobs.get, bigquery.jobs.list, bigquery.jobs.listAll, bigquery.jobs.create_  Required for the [BigQuery FinOps Dashboard](../dashboards/bigquery-finops-dashboard.md) to get actionable cost optimization recommendations for your Google BigQuery environment.  
-* _container.clusters.list, container.clusters.get, bigquery.transfers.update_  Required to list your cluster configuration and run analysis queries so we can display GKE cost analytics.
+* _container.clusters.list, container.clusters.get_  Required to list your clusters for their GKE usage metering export configuration used to enable GKE reports in cloud analytics.
 
 ### What we store <a id="h_a0f898d0-5b4d-4976-94da-9babbed3ebc6"></a>
 

@@ -26,10 +26,13 @@ Complete your Flexible Reserved Instances order by providing the following infor
 | :--- | :--- |
 | Account | AWS account for this order |
 | Region | AWS region for this order |
-| Instance | note, only instances not associated with existing reservations or saving plans are shown |
+| Instance Type | note, only instances not associated with existing reservations or saving plans are shown |
+| Operating System | **Options include:** Linux/UNIX, Windows, Windows/SQL.Std, Windows BYOL, Windows/SQL.Ent, Windows/SQL.Web |
 | Qty | how many instances of the selected "Instance Type" the order should include |
 | Recurring | For orders with a recurring basis, select the last month you want this order to go  |
 | Notes | Use notes to give more context to your order such as PO numbers, workload names, etc. |
+
+![](../.gitbook/assets/image%20%286%29.png)
 
 Click "Submit" and your order will be created and become visible in the list:
 

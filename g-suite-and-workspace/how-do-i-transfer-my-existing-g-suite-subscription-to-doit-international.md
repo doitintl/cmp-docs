@@ -26,5 +26,20 @@ To transfer the management of your existing G Suite setup you will need to retri
 * [ ] Click Copy Code.
 * [ ] [Submit a ticket](http://support.doit-intl.com/) to our G Suite team with the Transfer Token requesting our team complete the transfer of your G Suite service over to DoiT International. Leave it to us, our team will respond to you once the transfer is complete! 
 
+**When submitting a ticket, please provide the answers to the following questions:**
+
+* [ ] Company official name: 
+* [ ] Primary domain for G Suite: 
+* [ ] Contact person's full name:
+* [ ] Contact person's email:
+* [ ] Contact person's phone \#:
+* [ ] \[Optional\] Alternate \(non-domain\) email for account reset/activations:
+* [ ] Current G Suite plan:
+* [ ] Which Google Workspace plan are you upgrading to?:
+* [ ] Number of Licenses?:
+* [ ] Payment plan \(Flex/Annual\):
+
 _Transfer Tokens expire 14 days after being generated, if your token expires, sign in again and repeat the steps above._ 
+
+\_\_
 

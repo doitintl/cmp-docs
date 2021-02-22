@@ -110,6 +110,12 @@ Here is what a typical alert looks like:
 
 ![](../.gitbook/assets/budgetalert.jpg)
 
+### Video Walkthrough
+
+Watch Budgets in action in the video below:
+
+{% embed url="https://www.loom.com/share/d168291816dd41c694cb56d71c7a2834?sharedAppSource=personal\_library" %}
+
 
 
 

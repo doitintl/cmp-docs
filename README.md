@@ -41,19 +41,7 @@ You may have various components of your application\(s\) spread across different
 
 ## Cloud Cost Optimization
 
-### AWS-to-GCP TCO Analysis Report
-
-As a DoiT International customer, you can [compare the Total Cost of Ownership \(TCO\)](amazon-web-services/aws-migration-tco-analysis.md) of your AWS assets vs. Google Cloud, directly from the Cloud Management Platform using your AWS invoice data in CSV format.
-
-Within seconds of uploading your AWS invoice, you'll see what your potential Google Cloud costs \(and savings\) would be if you ran the same compute workloads there.
-
-Inside the report you'll find:
-
-* Instances w/ break-down by region
-* Usage in hours
-* Estimated savings \(or extra spend\) per instance type 
-
-### Instance Rightsizing for Google Cloud
+### Rightsizing for Google Cloud
 
 When you create an instance in Google Cloud and it is under-utilized, you are paying more than you should as a result of idle resources.
 
@@ -117,7 +105,7 @@ Once a policy is created, developers are free to [create cloud sandbox environme
 
 {% embed url="https://www.loom.com/share/2e2adffc48464c0189b87e4750e7b7d3?sharedAppSource=team\_library" caption="" %}
 
-### Quota Monitoring for Google Cloud and AWS
+### Cloud Quota Monitoring
 
 Every cloud provider has resource quotas for things like VPCs, CPU cores, and more. If you'd like to change that quota, you can request more, and typically cloud vendors will approve it. However, this takes hours to days.
 
@@ -127,7 +115,7 @@ With Quota Monitoring for [Google Cloud](google-cloud/google-cloud-quotas.md), a
 
 This way, you'll keep services always running by adjusting limits ahead of time.
 
-### Anomaly Detection for AWS and Google Cloud
+### Cost Anomalies 
 
 With so many moving parts in the cloud, it’s critical to keep a finger on the pulse of your costs. However, unless IT regularly monitors cloud spend, sudden spikes in resource costs can remain undetected for weeks — until the monthly bill arrives.
 
@@ -146,7 +134,7 @@ Available to DoiT customers right from the CMP, it also offers:
 
 
 
-### Accessing DoiT Support and Advisory
+### Cloud Support and Advisory
 
 As a DoiT International customer, you have access to 80+ battle-tested senior cloud engineers around the globe with over 200 certifications between them.
 
@@ -195,7 +183,7 @@ From your Asset Management screen, you can:
 
 Additionally, you can view your order history of all licenses and subscriptions across all of your cloud products.
 
-### Billing Profiles, Invoices, and Invoice Buckets
+### Advanced Billing
 
 CMP gives you capabilities unavailable in Google Cloud or AWS to customize _precisely_ how you'd like to billed via Billing Profiles, Invoices, and Invoice Buckets.
 
@@ -235,9 +223,9 @@ Use User Management to:
 * [Add colleagues](user-management/creating-a-new-user.md) to your CMP team.
 * Management Billing Profile assignments.
 * Configure notifications for alerts like payment reminders, new invoices, and more.
-* [Set up and grant roles ](user-management/manage-roles.md)that give access various CMP features.
+* [Set up and grant roles ](user-management/manage-roles.md)that give access to various CMP features.
 
-### Managed Google Cloud and Amazon Web Services Support
+### Managed Cloud Support
 
 Within the CMP you can resolve your cloud issues quickly with hyper-responsive and unlimited support from DoiT International— **at no extra cost**.
 

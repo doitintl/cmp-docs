@@ -23,7 +23,6 @@
 * [Create An AWS Account](amazon-web-services/create-an-aws-account.md)
 * [Connect Your AWS IAM Role](amazon-web-services/add-your-amazon-web-services-iam-role.md)
 * [AWS Cost Allocation Tags](amazon-web-services/supported-aws-cost-allocation-tags.md)
-* [AWS Migration TCO Analysis](amazon-web-services/aws-migration-tco-analysis.md)
 * [Set up CloudHealth](amazon-web-services/set-up-cloudhealth.md)
 * [AWS Quotas](amazon-web-services/aws-quotas.md)
 

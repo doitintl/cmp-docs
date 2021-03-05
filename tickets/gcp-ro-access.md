@@ -28,7 +28,7 @@ For example, the above command, grants read-only access \(`--role=roles/viewer`\
 
 We will generate the command for you automatically and display it to you on the support center user interface.
 
-\[IMAGE\]
+![](../.gitbook/assets/image-41-.png)
 
 ### Revoke Access
 

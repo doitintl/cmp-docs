@@ -135,6 +135,7 @@
 ## Assets & Contracts
 
 * [Tag Assets](assets-and-contracts/tag-assets.md)
+* [Assign Assets to Billing Profiles](assets-and-contracts/assign-assets-to-billing-profiles.md)
 * [Access Contracts](assets-and-contracts/accessing-your-contracts-with-doit.md)
 
 ## Tutorials

@@ -10,10 +10,6 @@ _**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report 
 
 Before discussing how to share a Cloud Report, let's briefly review roles and permissions. 
 
-{% hint style="info" %}
-In order for anyone to see a report that you're sharing, they must have been granted the "**Cloud Analytics**" CMP permission.
-{% endhint %}
-
 #### Available Sharing Permissions:
 
 * **Viewer**: Sees the report in "read-only" mode. Can only modify "Metric" and the chart type. 

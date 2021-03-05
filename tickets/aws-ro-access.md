@@ -16,6 +16,8 @@ DoiT International is committed to access transparency and access approval. When
 
 When you request technical support and create a new service request with DoiT International, you will be offered to grant DoiT International access to the AWS account set in your request.
 
+![](../.gitbook/assets/image-43-.png)
+
 To make it easier for you, we have prepared an AWS CloudFormation stack you can run from here [https://l.doit-intl.com/aws-ops-cfn](https://l.doit-intl.com/aws-ops-cfn)
 
 Before deploying the AWS CloudFormation stack, you can download and review it at [https://doit-aws-ops-prod-templates.s3.amazonaws.com/doitmanagement.yaml](https://doit-aws-ops-prod-templates.s3.amazonaws.com/doitmanagement.yaml)

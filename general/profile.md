@@ -4,47 +4,55 @@ description: How to update your user profile on Cloud Management Platform
 
 # Your Profile
 
-You can access and edit your user profile to adjust your personal details and/or notifications settings. 
+You can access and edit your user profile to adjust your personal details and/or notifications settings. To access your profile settings, click your profile icon in the upper-right corner of the page header, then select **Profile.**
 
-**To Access your Profile** 
+![](../.gitbook/assets/image%20%2811%29.png)
 
-Click your profile icon in the upper-right corner of the page header, then select **Profile.**
+You will be taken to a Profile page, where you'll find the following tabs:
 
-![](../.gitbook/assets/profile-2-.png)
+* Profile
+* Permissions
+* Notifications
+* API
 
-In the Profile dialog, you will find the following fields which can all be edited.
+Let's go over what can be configured in each tab.
 
-![](../.gitbook/assets/my-profile.png)
+### Profile
 
-### **Email Address**
+* **First / Last Name**
+* **Job Function**
+* **Phone Number**
+* **Default Dashboard** - the default dashboard that appears in your "Home" page whenever you log in.
 
-You can update your email address. This email is used for login, sending email notifications \(see Notification Settings\).
+![](../.gitbook/assets/image%20%287%29.png)
 
-### **First Name** and **Last Name**
 
-Update your first and last name
 
-### **Phone Number**
+### Permissions
 
-Your phone number. You can either type the country code or use the country drop-down menu to select your country.
+This is where you can view your [CMP Role](../user-management/manage-roles.md) \(and the associated permissions that come with it\) and assign yourself to any [Billing Profiles](../invoices-and-payments/setting-up-a-new-billing-profile.md) \(if you have the Admin role\).
 
-### **Job Function**
+![](../.gitbook/assets/image%20%288%29.png)
 
-Please select your job function at the organization. This helps us personalize the dashboard according to your part of the organization. 
-
-### **Notification Settings**
+### **Notifications**
 
 You can request to be notified on the following events:
 
 **New Invoices** - an email will be sent when a new invoice is uploaded to the Cloud Management Platform
 
-**Payment Reminders** - an email will be sent reminding the user to pay the invoice. There are three different instances of when notifications are sent:
+**Credits Utilization** - request to be notified when your credits are 75% exhausted and then again once they have been fully exhausted.
+
+**Cloud Quota Utilization** - notifies you when you exceed 50% usage of any of your Google Cloud and/or AWS service quotas.
+
+**Cost Anomalies** - request to be notified when our system detects abnormal usage of your cloud platform \(i.e., AWS and/or Google Cloud\). Additionally, you can set at which threshold \(Information, Warning, Critical\) you'd like to be notified.
+
+**Payment Due/Overdue** - an email will be sent reminding the user to pay the invoice. There are three different instances of when notifications are sent:
 
 1. [ ] The first reminder is sent seven days before an invoice is due.
 2. [ ] The second reminder is sent four days after the invoice's due date.
 3. [ ] The third reminder is sent 10 days after the invoice's due date.
 
-**Cost Anomalies** - request to be notified when our system detects abnormal usage of your cloud platform \(i.e., AWS or Google Cloud\).
+**Cloud** [**Known Issues**](../tickets/cloud-infrastructure-known-issues.md) ****- get alerted whenever there is an infrastructure issue with Google Cloud and/or AWS that may affect your own workloads.
 
-**Credit Alerts** - request to be notified when your credits are nearly exhausted and have been exhausted.
+![](../.gitbook/assets/image%20%289%29.png)
 

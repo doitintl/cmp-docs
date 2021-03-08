@@ -15,7 +15,7 @@ Available Permissions:
 * Access the Settings page via the left-hand navigation bar
 * [Upload Google Cloud service key](../google-cloud/connect-google-cloud-service-account.md)
 * Add AWS ARN
-* Set up Slack channel integration for alerts on [cost anomalies](../anomaly-detection/viewing-your-google-cloud-cost-anomalies.md) and [known issues](../tickets/cloud-infrastructure-known-issues.md)
+* Set up Slack channel integration for alerts on [cost anomalies](../anomaly-detection/cloud-anomalies.md) and [known issues](../tickets/cloud-infrastructure-known-issues.md)
 
 **Billing Profiles Assignments**
 

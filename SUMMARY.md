@@ -102,7 +102,7 @@
 
 ## Anomaly Detection
 
-* [View Cost Anomalies](anomaly-detection/viewing-your-google-cloud-cost-anomalies.md)
+* [View Cost Anomalies](anomaly-detection/cloud-anomalies.md)
 
 ## User Management
 

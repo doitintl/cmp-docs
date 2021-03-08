@@ -8,7 +8,7 @@ description: >-
 
 If you have a shared Slack channel with DoiT International, you may now opt-in to receive alerts for:
 
-* Detected [cost anomalies](../anomaly-detection/viewing-your-google-cloud-cost-anomalies.md)
+* Detected [cost anomalies](../anomaly-detection/cloud-anomalies.md)
 * [Known Issues](../tickets/cloud-infrastructure-known-issues.md) in Google Cloud and AWS
 
 To set up notifications, navigate to the Settings page from your lefthand navigation panel. Then click on the "Slack" tab.

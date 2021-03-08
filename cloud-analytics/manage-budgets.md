@@ -114,7 +114,9 @@ Here is what a typical alert looks like:
 
 Watch Budgets in action in the video below:
 
-{% embed url="https://www.loom.com/share/d168291816dd41c694cb56d71c7a2834?sharedAppSource=personal\_library" %}
+{% embed url="https://www.loom.com/share/3588cdf27fd84f7fab8e96ea91b7d7f9?sharedAppSource=personal\_library" %}
+
+
 
 
 

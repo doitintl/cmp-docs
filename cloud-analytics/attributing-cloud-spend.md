@@ -50,13 +50,15 @@ Once you've set a condition, a quick preview will appear showing your attributio
 
 Using our example from above, we will also create similar attributions for dev and ops teams.
 
-_**Note:** You should not set multiple separate conditions with the same field — unless there is an exclusion set up in one of those conditions._
+{% hint style="info" %}
+You should **not** set multiple separate conditions with the same field — unless there is an exclusion set up in one of those conditions.
+{% endhint %}
 
 ### Using Attributions in Cloud Analytics Reports
 
-Finally, once an attribution is created, you'll be able to use it your Cloud Analytics Reports by simply adding attributions to your dimensions or break-out/group-by dimensions.
+Finally, once an attribution is created, you'll be able to use it your Cloud Analytics Reports by  adding the Attributions chip to the break-out/group-by section, or by filtering them.
 
-Note the "Attribution" chip on the Report:
+Note the "Attribution" chip in the group-by section for Report below:
 
 ![](../.gitbook/assets/attributions_cloudreports-2.jpg)
 

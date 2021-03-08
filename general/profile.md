@@ -56,3 +56,11 @@ You can request to be notified on the following events:
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
+### API
+
+This is where you go to generate your API key in order to [programmatically access several CMP features](../apis/developer-hub.md).
+
+After you generate your key, copy and store it somewhere handy, as we won't show it again after you leave the API page.
+
+![](../.gitbook/assets/image%20%2816%29.png)
+

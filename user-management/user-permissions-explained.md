@@ -4,6 +4,10 @@ User Permissions designate the type of access given to users that enables them t
 
 Available Permissions:
 
+{% hint style="info" %}
+Raising support or consulting requests doesn't require any permission or role. 
+{% endhint %}
+
 **Users Manager**
 
 * Create Users

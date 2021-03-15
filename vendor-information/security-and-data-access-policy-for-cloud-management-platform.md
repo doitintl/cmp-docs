@@ -16,26 +16,76 @@ This document outlines what customer data we access, why we do that, what data w
 * Compliance
 * External references
 
-### What we access - Google Cloud <a id="h_7bc78dd6-eab0-4188-bf00-b0017561511f"></a>
+### What we access <a id="h_7bc78dd6-eab0-4188-bf00-b0017561511f"></a>
 
 The list below denotes all permissions we require to your Google Cloud Organization and why.
 
 _Note: While this provides us permissions to read info about your resources, none of these allow us to access your data, such as GCS objects or a BigQuery table's data._
 
-* _resourcemanager.organizations.get, resourcemanager.organizations.getIamPolicy, resourcemanager.folders.get, resourcemanager.folders.list, resourcemanager.projects.get, resourcemanager.projects.list_  Used to get information about your Google Cloud resource hierarchy and correlate it with billing.  
-* _resourcemanager.projects.create_  Required for [CMP Sandbox](../cloud-sandbox-management/create-gcp-sandbox-accounts.md) functionality.  
-* _recommender.computeInstanceMachineTypeRecommendations.list, compute.instances.list_
+The following permissions are used to get information about your Google Cloud resource hierarchy and correlate it with billing.
 
-  
-  Required to provide you with [Rightsizing](../dashboards/rightsizing-for-google-cloud.md) Recommendations for your Google Compute Engine instances.  
-  
+```text
+resourcemanager.organizations.get
+resourcemanager.organizations.getIamPolicy
+resourcemanager.folders.get
+resourcemanager.folders.list
+resourcemanager.projects.get
+resourcemanager.projects.list
+```
 
-* _compute.instances.setMachineType, compute.instances.stop, compute.instances.start_   Required for Instance [Rightsizing](../dashboards/rightsizing-for-google-cloud.md) functionality to implement the recommended changes.  
-* _serviceusage.services.enable, serviceusage.services.get, serviceusage.services.list, serviceusage.services.use_  Used to check the status of the required APIs and use them in projects \(such as the [Recommender API](https://cloud.google.com/recommender/docs/reference/rest)\)  
-* _logging.sinks.create, bigquery.datasets.create, logging.sinks.get, bigquery.datasets.get, bigquery.tables.get, bigquery.tables.list, bigquery.jobs.get, bigquery.jobs.list, bigquery.jobs.listAll, bigquery.jobs.create_  Required for the [BigQuery FinOps Dashboard](../dashboards/bigquery-finops-dashboard.md) to get actionable cost optimization recommendations for your Google BigQuery environment.  
-* _container.clusters.list, container.clusters.get_  Required to list your clusters for their GKE usage metering export configuration used to enable GKE reports in cloud analytics.
+The following permission is required for [CMP Sandbox](../cloud-sandbox-management/create-gcp-sandbox-accounts.md) functionality \(create Google Cloud projects\)
 
-### What we store <a id="h_a0f898d0-5b4d-4976-94da-9babbed3ebc6"></a>
+```text
+resourcemanager.projects.create
+```
+
+The following permissions are required to provide you with [Rightsizing](../dashboards/rightsizing-for-google-cloud.md) Recommendations for your Google Compute Engine instances across your entire organization
+
+```text
+recommender.computeInstanceMachineTypeRecommendations.list
+compute.instances.list
+```
+
+The following set of permissions required for implementing [Rightsizing](../dashboards/rightsizing-for-google-cloud.md) recommendations:
+
+```text
+compute.instances.setMachineType
+compute.instances.stop
+compute.instances.start 
+```
+
+The following permissions are used to check the status \(and enable if required\) Google Cloud APIs \(such as the [Recommender API](https://cloud.google.com/recommender/docs/reference/rest)\)
+
+```text
+serviceusage.services.enable
+serviceusage.services.get
+serviceusage.services.list
+serviceusage.services.use
+```
+
+The following permissions are required for the [BigQuery FinOps Dashboard](../dashboards/bigquery-finops-dashboard.md) to get actionable cost optimization recommendations for your Google BigQuery environment.
+
+```text
+logging.sinks.create
+bigquery.datasets.create
+logging.sinks.get
+bigquery.datasets.get
+bigquery.tables.get
+bigquery.tables.list
+bigquery.jobs.get
+bigquery.jobs.list
+bigquery.jobs.listAll
+bigquery.jobs.create
+```
+
+The following permissions are required to list your clusters for their GKE usage metering export configuration used to enable GKE reports in cloud analytics.
+
+```text
+container.clusters.list
+container.clusters.get
+```
+
+### What we store
 
 We only store data required for CMP functionality.
 
@@ -66,8 +116,8 @@ Service Account keys are only used by backend systems to retrieve relevant data 
 
 We do not provide your data to any 3rd party, with the exceptions listed below required for core CMP functionality.
 
-* **CMP Support** - We use Zendesk as a backend for support ticketing functionality. All ticket related data are stored in Zendedsk and retrieved using Zendesk APIs \[1\].
-* **Payments** - We use Stripe for payments. All payment related data \(such as Credit card or bank account details\) are stored in the Stripe platform and used via Stripe APIs \[2\].
+* **CMP Support** - We use Zendesk as a backend for support ticketing functionality. All ticket-related data are stored in Zendedsk and retrieved using Zendesk APIs \[1\].
+* **Payments** - We use Stripe for payments. All payment-related data \(such as Credit card or bank account details\) are stored in the Stripe platform and used via Stripe APIs \[2\].
 
 ### Compliance <a id="h_cb4c8c24-7b2b-4458-b890-8c866b99aee6"></a>
 

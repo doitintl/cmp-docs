@@ -54,7 +54,7 @@ Right now, we support Linux and Windows-based \(including with Microsoft SQL Ser
 
 In general, while Flexible Reservations do not yield as much discount as AWS Reserved Instances, you're not at risk of underutilizing reservations for longer than 1-month periods.
 
-| Feature | DoiT FlexRIs | AWS RIs | AWS Saving Plans |
+| Feature | DoiT FlexRIs | AWS RIs | AWS Compute Saving Plans |
 | :--- | :--- | :--- | :--- |
 | Minimum commitment period | 1-month | 12-months | 12-months |
 | Automatic renewal | yes | no | no |
@@ -65,4 +65,12 @@ In general, while Flexible Reservations do not yield as much discount as AWS Res
 ### Which regions are supported with Flexible Reservations?
 
 As of the first quarter of 2021, Flexible Reservations are available in 7 AWS regions with more regions becoming available later this year. Please see our [supported regions matrix](https://help.doit-intl.com/flexible-reservations/flexri-regions) for more details.
+
+### How do FlexRIs Recommendations work? \*Beta\*
+
+FlexRIs Recommendations provides clients a list of machines to commit to for the proceeding month. In the background, DoiT monitors your historical EC2 usage and locates EC2 machines that are not covered by any discount regime \(Savings Plans, AWS RIs etc\) and that were not yet ordered for the following month. DoiT will run an algorithm to find the optimal coverage based on the instances' size, region, normalized units, account, operating system and family type.
+
+Upon accepting a recommendation a new order will be created for the following month and the recommendation will be recalculated. Please notice that since some machines are eligible for size-flexibility, ordering a machine from the same family type can affect the recommendation on others. For example: ordering 1 x r5.2xlarge Linux in us-east-1 is equivalent to ordering 2 x  r5.xlarge. of the same type Upon making an order of an r5.2xlarge you may see that r5.xlarge may be eliminated from the recommendations since the first machine covers the exact same workload.
+
+
 

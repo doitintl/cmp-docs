@@ -4,7 +4,15 @@ description: Security and Data Access Policy for Cloud Management Platform
 
 # CMP Data Access Policy
 
-This document outlines what customer data we access, why we do that, what data we store, and how we do that.
+This document outlines what customer data Cloud Management Platform accesses, why, what data is stored, and how we do that. **If you're not using DoiT Cloud Management Platform for the following features, this article doesn't apply.**
+
+Enterprise Cloud Accounts \(formerly Sandboxes\)
+
+* ASG Optimizer
+* Google Cloud Rightsizing
+* Google Kubernetes Engine Metering
+* BigQuery FinOps
+* Google Cloud and/or AWS Proactive Quota Monitoring
 
 **TL;DR:** We only access data required for Cloud Management Platform \(CMP\) functionality. We store and handle your data in a secure way, encrypted in transit and at rest. We do not provide the data to any 3rd party, with the exceptions required for core CMP functionality and listed below.
 
@@ -95,10 +103,10 @@ All data we handle are encrypted in transit using industry-standard protocols li
 
 All data we store are encrypted at rest:
 
-* **BigQuery** - using Google-managed encryption keys and Advanced Encryption Standard \(AES\).
-* **Firestore** - using Google-managed encryption keys and AES.
-* **Cloud Storage** - using Google-managed encryption keys and AES
-* **Service Account Keys** - encrypted using GCP KMS and keys we manage.
+* **Google BigQuery** - using Google-managed encryption keys and Advanced Encryption Standard \(AES\)
+* **Google Firestore** - using Google-managed encryption keys and AES
+* **Google Cloud Storage** - using Google-managed encryption keys and AES
+* **Service Account Keys** - encrypted using Google Cloud KMS and stored in Google Secret Manager
 
 ### Who can access your data? <a id="h_e71c7f53-d7e9-4273-a1cc-49e6714bbfa6"></a>
 
@@ -117,7 +125,7 @@ We do not provide your data to any 3rd party, with the exceptions listed below r
 
 EU and GDPR Compliance - we have many customers in the European Economic Area and we handle your data in compliance with the General Data Protection Regulation \(GDPR\) \[3\].
 
-We're working towards completing our SOC 2 Type 2 audit. We anticipate the Type 2 report being available at the beginning of Q2, 2021.
+We're working towards completing our SOC 2 Type 2 audit. We anticipate the Type 2 report being available during Q2, 2021.
 
 ### External references <a id="h_923e9d39-0606-471f-bbb3-2f899c859d8c"></a>
 

@@ -2,25 +2,19 @@
 description: Security and Data Access Policy for Cloud Management Platform
 ---
 
-# Data Access Policy
+# CMP Data Access Policy
 
 This document outlines what customer data we access, why we do that, what data we store, and how we do that.
 
 **TL;DR:** We only access data required for Cloud Management Platform \(CMP\) functionality. We store and handle your data in a secure way, encrypted in transit and at rest. We do not provide the data to any 3rd party, with the exceptions required for core CMP functionality and listed below.
 
-* What we access - Google Cloud
-* What we store
-* How we handle and store your data
-* Who can access your data
-* 3rd parties
-* Compliance
-* External references
-
 ### What we access <a id="h_7bc78dd6-eab0-4188-bf00-b0017561511f"></a>
 
 The list below denotes all permissions we require to your Google Cloud Organization and why.
 
-_Note: While this provides us permissions to read info about your resources, none of these allow us to access your data, such as GCS objects or a BigQuery table's data._
+{% hint style="info" %}
+_While this provides us permissions to read info about your resources, none of these allow us to access your data, such as GCS objects or a BigQuery table's data._
+{% endhint %}
 
 The following permissions are used to get information about your Google Cloud resource hierarchy and correlate it with billing.
 

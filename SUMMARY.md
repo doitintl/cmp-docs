@@ -41,6 +41,7 @@
 * [Share Cloud Analytics Reports](cloud-analytics/sharing-cloud-reports.md)
 * [Clone Cloud Analytics Reports](cloud-analytics/cloning-and-or-customizing-cloud-reports.md)
 * [Understanding Aggregations](cloud-analytics/using-aggregations-in-cloud-reports.md)
+* [Understanding "Minor Values"](cloud-analytics/minor-values.md)
 * [Trend Analysis](cloud-analytics/trend-analysis.md)
 * [Forecasting](cloud-analytics/forecasting.md)
 * [Export Cloud Analytics Reports](cloud-analytics/exporting-cloud-reports.md)

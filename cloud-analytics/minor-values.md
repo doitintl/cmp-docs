@@ -8,7 +8,7 @@ To make reports more human-readable, very small values are removed by default fr
 
 While this is very useful for performing cloud cost analytics, it may cause reports not to match the invoices, though by a very small amount \(usually far less than US$1\).
 
-To make Cloud Analytics reports show these "minor values", please enable "Minor Values" filter and run the report again.
+To make Cloud Analytics reports show "minor values", please enable the "Minor Values" filter and run the report again.
 
 ![Cloud Analytics Report with Minor Values filter disabled](../.gitbook/assets/show-minor-values.png)
 

@@ -14,7 +14,7 @@ In order to use Flexible Reservations, your AWS account/s should be consolidated
 Required Permissions: **Flexible RI Admin**
 {% endhint %}
 
-### How-To Purchase FlexRIs
+### How to purchase Flex RIs
 
 To begin, click the 'Flexible RIs' icon on the left-hand side of the page. Once you're at the Flexible Reserved Instances page, click on 'New Order', located on the right-hand side of the page.
 
@@ -42,9 +42,9 @@ Click "Submit" and your order will be created and become visible in the list:
 Please note that new orders and editing previous orders can only be submitted up to the 25th day of the month. After that date, orders will become **Pending** while we conduct an internal review before activating your Flexible Reservations.
 {% endhint %}
 
-### Monitoring FlexRIs
+### Monitoring Flex RIs
 
-At the top of the FlexRI page, you'll see four FlexRI Reporting metrics that give you a high-level overview of your past and existing FlexRI purchases:
+At the top of the Flex RI page, you'll see four Flex RI Reporting metrics that give you a high-level overview of your past and existing Flex RI purchases:
 
 * **Total Expected Savings** - the maximum amount you could have saved, given 100% utilization
 * **Actual Savings** - the amount you actually saved
@@ -52,16 +52,25 @@ At the top of the FlexRI page, you'll see four FlexRI Reporting metrics that giv
 * **YTD Savings** - the total saving across all your reservations, from the beginning of the current year.
 
 {% hint style="info" %}
-Note: The first three metrics are based on what is shown in the table, meaning taking into account any filters you've set on your orders. The last metric takes _every_ FlexRI order into account when calculating the number.
+Note: The first three metrics are based on what is shown in the table, meaning taking into account any filters you've set on your orders. The last metric takes _every_ Flex RI order into account when calculating the number.
 {% endhint %}
 
-To view information on a specific order, click on the arrow next to an active or retired order to expand your order and view details further. 
+#### Flex RI Order Statuses
 
-You can see the difference between the on-demand price per hour vs. the FlexRI, and further inspecting the utilization graph for additional details of your flexible reservation.
+Under the "Status" column, Flex RI orders can have four possible values:
+
+* **New**: the order was made, but goes into effect in the following month or beyond \(if a recurring purchase is set up\). New orders can be modified until the third-to-last business day of the month prior to when they go into effect.
+* **Active**: the Flex RI order is currently being applied to the instance\(s\) specified
+* **Retired**: the order is past its expiration date
+* **Canceled**: the order was cancelled and never applied
+
+To view usage statistics on a specific order, click on the arrow next to an active or retired order to expand your order and view more details.
+
+You can see the difference between the on-demand price per hour vs. the Flex RI, and further inspect the utilization graph for additional details on your flexible reservation.
 
 ![](../.gitbook/assets/viewflexriorder.jpg)
 
-### FlexRIs Invoices
+### Flex RI Invoices
 
 For each order of Flexible Reservations, you'll see one or both of the following lines on your monthly invoice:
 

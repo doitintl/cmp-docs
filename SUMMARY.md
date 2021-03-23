@@ -32,6 +32,7 @@
 * [Flexible Reservations FAQ](flexible-reservations/flexri-faq.md)
 * [Supported Regions](flexible-reservations/flexri-regions.md)
 * [Bulk Upload FlexRI Orders](flexible-reservations/bulk-orders.md)
+* [Flex RI Recommendations](flexible-reservations/flex-ri-recommendations.md)
 
 ## Cloud Analytics
 

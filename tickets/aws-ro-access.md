@@ -22,7 +22,7 @@ To make it easier for you, we have prepared an AWS CloudFormation stack you can 
 
 Before deploying the AWS CloudFormation stack, you can download and review it at [https://doit-aws-ops-prod-templates.s3.amazonaws.com/doitmanagement.yaml](https://doit-aws-ops-prod-templates.s3.amazonaws.com/doitmanagement.yaml)
 
-The CloudFormation will create an IAM Policy and IAM Role the DoiT International engineers can use to access your AWS account. 
+The CloudFormation will create an IAM Policy and IAM Role the DoiT International engineers can use to access your AWS account. The effective policy attached to the role is [SecurityAudit](https://console.aws.amazon.com/iam/home#policies/arn:aws:iam::aws:policy/SecurityAudit).
 
 The CloudFormation will use a small AWS Lambda function to notify our system of the created role so that we can add it to our system automatically, this saves you copying and pasting. You can see in the CloudFormation that the Lambda runs with very restricted permissions to just serve this purpose.
 

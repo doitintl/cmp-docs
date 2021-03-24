@@ -89,11 +89,11 @@ You can easily identify your orders by filtering for orders that have Status == 
 
 Then click on the "Edit Order" icon next to the order you wish to modify.
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 Here you can modify any aspect of your order, including number of instances. 
 
 You can also make the order a recurring purchase up to a certain month and year, or modify the Order Notes to give the Flex RI purchase more context.
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 

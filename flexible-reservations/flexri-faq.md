@@ -14,7 +14,7 @@ In order to use Flexible Reservations, your AWS account/s should be consolidated
 
 You would save as much as 80% of the discount granted by the applicable AWS Reserved Instance 1-year Full Upfront.
 
-For example, AWS grants a 19.5 discount on reserved instances for instances from the m5 instance family in the us-west-1 region. FlexRI for this machine/region combination will provide you with a 15.6% \(19.5 \* 0.8\) discount but without the risk of committing to the entire year. 
+For example, AWS grants a 19.5% discount on reserved instances for instances from the m5 instance family in the us-west-1 region. FlexRI for this machine/region combination will provide you with a 15.6% \(19.5% \* 0.8\) discount but without the risk of committing to the entire year. 
 
 ### Can I use FlexRIs if I am using AWS RIs or Saving Plans?
 

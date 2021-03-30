@@ -39,7 +39,7 @@ Click "Submit" and your order will be created and become visible in the list:
 ![](../.gitbook/assets/flexriordersuccess.jpg)
 
 {% hint style="info" %}
-Please note that new orders and editing previous orders can only be submitted up to the 25th day of the month. After that date, orders will become **Pending** while we conduct an internal review before activating your Flexible Reservations.
+Please note that new orders and editing previous orders can only be submitted up until the last 72 hours of the current month. After that date, orders will become **Pending** while we conduct an internal review before activating your Flexible Reservations.
 {% endhint %}
 
 ### Monitoring Flex RIs

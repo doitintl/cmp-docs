@@ -75,7 +75,7 @@ This will open an Order Confirmation pop-up which lets you know:
 * How much you _would_ pay if you continued using on-demand instances, and
 * Your anticipated savings, expressed in percentages, given your selected recommendations
 
-After reviewing, click "Confirm" to place your order. You will still be able to edit your orders up until the third-to-last business day of the current month.
+After reviewing, click "Confirm" to place your order. You will still be able to edit your orders up until the last 72 hours of the current month.
 
 ![](../.gitbook/assets/image%20%2818%29.png)
 

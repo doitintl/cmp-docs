@@ -83,7 +83,7 @@ After reviewing, click "Confirm" to place your order. You will still be able to 
 
 To view, edit, or cancel your Flex RI orders, switch to the Orders tab. 
 
-As with purchasing Flex RIs, you can modify your orders up until the third-to-last business day of the month.
+As with purchasing Flex RIs, you can modify your orders up until the final 72 hours of the current month.
 
 You can easily identify your orders by filtering for orders that have Status ==  New, and have your Email associated with it. By default, all purchases made via the Recommendations tab will have "Based on FlexRI Recommendation" under Order Notes as well.
 

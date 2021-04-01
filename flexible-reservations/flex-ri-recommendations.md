@@ -75,7 +75,7 @@ This will open an Order Confirmation pop-up which lets you know:
 * How much you _would_ pay if you continued using on-demand instances, and
 * Your anticipated savings, expressed in percentages, given your selected recommendations
 
-After reviewing, click "Confirm" to place your order. You will still be able to edit your orders up until the last 72 hours of the current month.
+After reviewing, click "Confirm" to place your order. You will still be able to edit your orders up until the last 24 hours of the current month.
 
 ![](../.gitbook/assets/image%20%2818%29.png)
 
@@ -83,7 +83,7 @@ After reviewing, click "Confirm" to place your order. You will still be able to 
 
 To view, edit, or cancel your Flex RI orders, switch to the Orders tab. 
 
-As with purchasing Flex RIs, you can modify your orders up until the final 72 hours of the current month.
+As with purchasing Flex RIs, you can modify your orders up until the final 24 hours of the current month.
 
 You can easily identify your orders by filtering for orders that have Status ==  New, and have your Email associated with it. By default, all purchases made via the Recommendations tab will have "Based on FlexRI Recommendation" under Order Notes as well.
 

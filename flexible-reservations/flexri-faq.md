@@ -6,15 +6,15 @@ description: Frequently asked questions about Flexible Reservations
 
 ### Overview
 
-Flexible Reserved Instances let you commit to EC2 Reserved Instances in one-month intervals while still getting 80% of the AWS-listed Reserved Instance discount. With Flex RIs, you'll eliminate RI lock-in risk for your less predictable workloads.
+Flexible Reserved Instances let you commit to EC2 Reserved Instances in one-month intervals while still getting 80%+ of the AWS-listed Reserved Instance discount. With Flex RIs, you'll eliminate RI lock-in risk for your less predictable workloads.
 
 In order to use Flexible Reservations, your AWS account/s should be consolidated with the DoiT International billing organization. DoiT International is a global [AWS Advanced Channel Reseller](https://partners.amazonaws.com/partners/001E000001HPlIAIA1/).
 
 ### How much can I save every month?
 
-You would save as much as 80% of the discount granted by the applicable AWS Reserved Instance 1-year Full Upfront.
+You can realize 80%+ of the discount granted by the applicable AWS Reserved Instance 1-year Full Upfront.
 
-For example, AWS grants a 19.5% discount on reserved instances for instances from the m5 instance family in the us-west-1 region. FlexRI for this machine/region combination will provide you with a 15.6% \(19.5% \* 0.8\) discount but without the risk of committing to the entire year. 
+For example, AWS grants a 19.5% discount on reserved instances for instances from the m5 instance family in the us-west-1 region. A FlexRI for this machine/region combination will provide you with a 15.6% \(19.5% \* 0.8\) discount but without the risk of committing to the entire year. 
 
 ### Can I use FlexRIs if I am using AWS RIs or Saving Plans?
 
@@ -24,7 +24,7 @@ Flexible reservations are applied to on-demand usage. Usage covered by AWS reser
 
 Yes. Flexible Reservation orders can be configured as "recurring" for any number of months. Recurring orders will be automatically recreated every month. 
 
-### Can I send a report to the CFO with the actual saving
+### Can I send a report to the CFO with the actual realized savings?
 
 We display actual savings on our FlexRI dashboard. Your CFO would have access to this dashboard and would be able to monitor the utilization as well as the actual savings yielded by the Flexible Reservations.
 
@@ -32,7 +32,7 @@ We display actual savings on our FlexRI dashboard. Your CFO would have access to
 
 ### Do you send an expiration reminder before the end of the month?
 
-About 5 days before the existing Flexible Reservation/s would expire \(unless there is a "recurring" setting enabled\), we will send you an email with a summary of all expiring flexible reservations.
+About 5 days before the existing Flexible Reservation/s expires \(unless there is a "recurring" setting enabled\), we will send you an email with a summary of all expiring flexible reservations.
 
 ### How the discount is calculated exactly?
 

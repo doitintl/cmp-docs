@@ -1,30 +1,30 @@
 ---
-description: How to unlock GKE cost data and make it available for analysis in the CMP
+description: >-
+  How to unlock Google Kubernetes Engine cost data and make it available in
+  Cloud Analytics
 ---
 
 # GKE Cost Analytics
 
-GKE Cost Analytics in the CMP helps you demystify your GKE spend. With real-time visibility into GKE spend, you'll be able to:
+GKE Cost Analytics in the CMP helps you demystify your Google Kubernetes Engine \(GKE\) spend. With real-time visibility into GKE spend, you'll be able to:
 
-* Accurately track TCO of K8s workloads across teams, product lines, etc.
-* Plan better with realistic K8s [budgets](manage-budgets.md) 
+* Accurately track TCO of Kubernetes-based workloads across teams, product lines, etc.
+* Plan better with realistic Kubernetes-based [budgets](manage-budgets.md) 
 * [Forecast](forecasting.md) and [identify trends](trend-analysis.md) across any/all K8s primitives in one click.
 
 Enabling GKE Cost Analytics involves three main steps:
 
-1. Connect your Google Cloud Organization to the DoiT CMP via a service account, with the permissions required to enable the "GKE Cost Analytics" feature.
-2. Enable GKE Usage Metering for your GKE clusters in the Google Cloud console.
-3. Grant the "BigQuery" Data Viewer" role to the DoiT CMP service account generated in step one.
+1. Connect your Google Cloud Organization by uploading a service account
+2. Enable GKE Usage Metering for your GKE clusters in the Google Cloud console or CloudSDK
+3. Grant the "BigQuery" Data Viewer" role to the service account \(generated in step 1\)
 
 {% hint style="info" %}
 You may have already executed some or all of these steps. However, unless ALL steps have been taken, the GKE Cost Analytics feature will not function correctly in the DoiT CMP.
 {% endhint %}
 
-## Step 1 - Enable the GKE Cost Analytics feature in the DoiT CMP
+## Step 1 - Enable the GKE Cost Analytics
 
-In order to do this, you will need to [connect your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) to the DoiT CMP.
-
-First, navigate to the Settings page via the gear icon in your lefthand navigation panel. 
+In order to do this, you will need to [connect your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) to the CMP. Please, navigate to the Settings page via the gear icon in your lefthand navigation panel. 
 
 Then check the box\(es\) of the additional features you'd like to enable, making sure to select "GKE Cost Analytics" here. 
 
@@ -71,8 +71,8 @@ Note: Datasets to which the Service Account email is not granted this permission
 
 ## Current Limitations
 
-* GKE Reports will only show data from the day that all of the steps were completed. We may be able to load historical data upon request \(i.e. “backfill”\) 
+* GKE Reports will only show data from the day that all of the steps were completed. We may be able to load historical data upon request \(i.e. “backfill”\). Please contact support to file a backfill request. 
 * If you did not have “GKE Usage Metering” enabled until now, we will not be able to show historical data for GKE reports. 
 * It will take a few hours from the moment you complete all steps until you will be able to use GKE Reports in Cloud Analytics. Usually, this process will take around 4 hours. 
-* GKE reports are not compatible with all of the fields of “regular” billing reports. For example, you will not be able to create a report that is based on the “GKE Cluster” field and the “Zone” field. You also cannot combine both Google Cloud Labels and GKE Labels in the same report.
+* GKE reports are not compatible with some of the dimensions. For example, you will not be able to create a report that is based on the “GKE Cluster” field and the “Zone” field. You also cannot combine both Google Cloud Labels and GKE Labels in the same report.
 

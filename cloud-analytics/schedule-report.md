@@ -35,7 +35,7 @@ Begin by opening a report that you have "Owner" access to. Then, click on the ma
 
 If you've included someone who doesn't have access to the report, you will be asked to add that user to the report. You can choose whether to grant the "Viewer" or "Editor" access.
 
-![](../.gitbook/assets/scheduledreportinvite.jpg)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 ### About Cron Expressions
 

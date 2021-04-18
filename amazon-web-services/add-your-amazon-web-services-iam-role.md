@@ -8,6 +8,10 @@ By connecting your AWS account/s, you will unlock additional functionalities suc
 
 In order to connect your AWS account\(s\) to the Cloud Management Platform, you will need to create an AWS IAM Role and attach an IAM Policy to it. Once you create a role, you'll need to add the Role ARN to the Cloud Management Platform. 
 
+{% hint style="warning" %}
+Looking for instructions on [how to set up CloudHealth IAM role](https://help.cloudhealthtech.com/quickstart/linked-account)? 
+{% endhint %}
+
 {% hint style="info" %}
 Required Permission**: Manage Settings**
 {% endhint %}

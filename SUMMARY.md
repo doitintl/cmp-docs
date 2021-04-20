@@ -126,6 +126,7 @@
 * [General Vendor Information](vendor-information/general-vendor-information.md)
 * [CMP Data Access Policy](vendor-information/security-and-data-access-policy-for-cloud-management-platform.md)
 * [External Services We Use](vendor-information/external-services.md)
+* [Exchange rates](vendor-information/exchange-rates.md)
 
 ## APIs
 

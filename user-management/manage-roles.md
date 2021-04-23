@@ -67,6 +67,178 @@ There are a few pre-built roles in your account for your convenience. The easies
 
 Has access to all features in the Cloud Management Platform and the CMP API, and can manage every aspect of your organization's account. 
 
+
+
+**Summary: Pre-built Roles and Permissions** 
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:center"></th>
+      <th style="text-align:center"></th>
+      <th style="text-align:center"><b>PREBUILT</b>
+      </th>
+      <th style="text-align:center"><b>ROLES</b>
+      </th>
+      <th style="text-align:center"></th>
+      <th style="text-align:center"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">PERMISSIONS</td>
+      <td style="text-align:center"><b>Admin</b>
+      </td>
+      <td style="text-align:center">
+        <p><b>Finance</b>
+        </p>
+        <p><b>User</b>
+        </p>
+      </td>
+      <td style="text-align:center">
+        <p><b>IT</b>
+        </p>
+        <p><b>Manager</b>
+        </p>
+      </td>
+      <td style="text-align:center">
+        <p><b>Power</b>
+        </p>
+        <p><b>User</b>
+        </p>
+      </td>
+      <td style="text-align:center">
+        <p><b>Standard</b>
+        </p>
+        <p><b>User</b>
+        </p>
+      </td>
+      <td style="text-align:center">
+        <p><b>superQuery</b>
+        </p>
+        <p><b>User</b>
+        </p>
+      </td>
+      <td style="text-align:left"><em><b>DESCRIPTION</b></em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Billing Profile Admin</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"><em>Create, view and manage billing profiles</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Cloud Analytics</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"><em>Create and access Cloud Analytics reports</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Flexible RI Admin</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&lt;em&gt;&lt;/em&gt;</td>
+      <td style="text-align:left"><em>Purchase and manage Flexible Reservations orders</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Invoice Viewer</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&lt;em&gt;&lt;/em&gt;</td>
+      <td style="text-align:left"><em>View and pay invoices</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Licenses Manager</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"><em>Purchase and manage Google Workspace and Office 365 licenses</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Manage Settings</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"><em>Manage your Cloud Management Platform account settings</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Sandbox Admin</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"><em>Create and manage organization sandbox policy</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Sandbox User</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"><em>Create sandboxes governed by a company sandbox policy</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Users Manager</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:left"><em>Create, delete and manage users and roles</em>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">superQuery</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:left"><em>Access to the superQuery IDE</em>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### 
+
 ### Custom Roles
 
 If one of the built-in roles doesn't work for you, you can create a custom role with your own set of permissions. To create a custom user role, select the "Users and Roles" icon in the lefthand navigation bar.

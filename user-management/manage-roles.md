@@ -67,63 +67,49 @@ There are a few pre-built roles in your account for your convenience. The easies
 
 Has access to all features in the Cloud Management Platform and the CMP API, and can manage every aspect of your organization's account. 
 
-
-
 **Summary: Pre-built Roles and Permissions** 
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:center"></th>
-      <th style="text-align:center"></th>
-      <th style="text-align:center"><b>PREBUILT</b>
+      <th style="text-align:left">Permissions</th>
+      <th style="text-align:center"><b>Admin</b>
       </th>
-      <th style="text-align:center"><b>ROLES</b>
-      </th>
-      <th style="text-align:center"></th>
-      <th style="text-align:center"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">PERMISSIONS</td>
-      <td style="text-align:center"><b>Admin</b>
-      </td>
-      <td style="text-align:center">
+      <th style="text-align:center">
         <p><b>Finance</b>
         </p>
         <p><b>User</b>
         </p>
-      </td>
-      <td style="text-align:center">
+      </th>
+      <th style="text-align:center">
         <p><b>IT</b>
         </p>
         <p><b>Manager</b>
         </p>
-      </td>
-      <td style="text-align:center">
+      </th>
+      <th style="text-align:center">
         <p><b>Power</b>
         </p>
         <p><b>User</b>
         </p>
-      </td>
-      <td style="text-align:center">
+      </th>
+      <th style="text-align:center">
         <p><b>Standard</b>
         </p>
         <p><b>User</b>
         </p>
-      </td>
-      <td style="text-align:center">
+      </th>
+      <th style="text-align:center">
         <p><b>superQuery</b>
         </p>
         <p><b>User</b>
         </p>
-      </td>
-      <td style="text-align:left"><em><b>DESCRIPTION</b></em>
-      </td>
+      </th>
+      <th style="text-align:left"> <em><b>DESCRIPTION</b></em> 
+      </th>
     </tr>
+  </thead>
+  <tbody>
     <tr>
       <td style="text-align:left">Billing Profile Admin</td>
       <td style="text-align:center">&#x2714;</td>
@@ -236,8 +222,6 @@ Has access to all features in the Cloud Management Platform and the CMP API, and
     </tr>
   </tbody>
 </table>
-
-### 
 
 ### Custom Roles
 

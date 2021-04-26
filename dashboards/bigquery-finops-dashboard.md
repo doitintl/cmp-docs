@@ -6,7 +6,7 @@ description: >-
 
 # BigQuery FinOps Dashboard
 
-### Overview
+## Overview
 
 BigQuery FinOps is your Swiss army knife for highlighting inefficiencies in your organization's BigQuery usage, and its insights are displayed in the **BigQuery FinOps Dashboard,** located in your [Cloud Management Platform](../).
 
@@ -20,7 +20,7 @@ If successfully uploaded, you will see:
 
 ![](../.gitbook/assets/cleanshot-2020-12-28-at-18.22.58.jpg)
 
-### Setup
+## Setup
 
 Once the Google Cloud Service Account setup is complete, click the **'**Attach' button and choose the BigQuery FinOps dashboard from the list.
 
@@ -36,11 +36,13 @@ Your BigQuery data isn't backfilled, so the data you'll see will be based on act
 
 Once available, you'll see the dashboard appear with the statistics of your organization's BigQuery usage.
 
-### Understanding the BigQuery FinOps Dashboard
+## Understanding the BigQuery FinOps Dashboard
 
 The BigQuery FinOps dashboard \(reference image below\) is compiled of widgets that will provide you more insight into your organization's statistics.
 
 ![](../.gitbook/assets/bqfinopsnew.jpg)
+
+### Elements of the Dashboard
 
 Below is a list of the elements that make up your BigQuery FinOps dashboard, with an understanding of their purpose:
 
@@ -84,15 +86,15 @@ Below is a list of the recommendation categories you'll see in the BigQuery Reco
 
 **Limit query jobs** - Reduce job execution frequency of the listed jobs under the "Query ID" column by the percentage you choose on the slider, and view the associated savings of each reduced job under the "Savings by Reducing Jobs" column.
 
-### BigQuery FinOps Frequently Asked Questions \(FAQ\)
+## BigQuery FinOps Frequently Asked Questions \(FAQ\)
 
 Oftentimes we get asked what the non-read-only permissions are for, and so we'd like to share more about how it plays into the process of creating your BigQuery FinOps Dashboard. 
 
-**What are the permissions we are referring to?**
+### **What are the permissions we are referring to?**
 
 bigquery.datasets.create, logging.sinks.create, bigquery.jobs.create, and bigquery.tables.getData
 
-**Why do you separate between BigQuery FinOps and BigQuery FinOps Advanced permissions?**
+### **Why do you separate between BigQuery FinOps and BigQuery FinOps Advanced permissions?**
 
 We require bigquery.tables.getData in order to provide clustering recommendations, and this is separated from the permissions required under the BigQuery FinOps feature.
 
@@ -106,15 +108,15 @@ However, you can still use and benefit from the BigQuery FinOps Dashboard withou
 **\*\***Given that you execute **similar queries** as you did during the previous 30 days, and reference fields **in the order we recommend**.
 {% endhint %}
 
-**What datasets are you creating, where and for what purpose?** 
+### **What datasets are you creating, where and for what purpose?** 
 
 A dataset called **doitintl-cmp-bq** is created in the billing project attached to the service account you add to the CMP. 
 
-**What log sinks are you creating, where and for what purpose?** 
+### **What log sinks are you creating, where and for what purpose?** 
 
 A sink for query jobs is created in the same project as \(1\). This sink pushes all your bigquery jobs into a table under &lt;PROJECTID&gt;.doitintl-cmp-bq. **cl oudaudit\_googleapis\_com\_data\_ access** 
 
-**What queries will you be running, where, and for what purpose?**
+### **What queries will you be running, where, and for what purpose?**
 
 We have two main processes, once of which runs queries and the other not: 1\) Enrichment process: We take the data from doitintl-cmp-bq. **cloudaudit\_ googleapis\_com\_data\_access**  and create a new table doitintl-cmp-bq.**enrichedJobs**. This is done at no cost to you, but rather an algorithmic and API based enrichment from our side to have a clean dataset to work with in the processes that follow. 2\) BigQuery Finops process: We create a few UDF's under the doitintl-cmp-bq dataset, as well as two more derived tables called **pegUtilsT2** and **queries.**  These support the FinOps in running over aggregated data, rather than raw data.  The following queries are executed as part of the process \(2\) above:
 
@@ -123,6 +125,14 @@ We have two main processes, once of which runs queries and the other not: 1\) En
 * Daily run of FinOps calculation queries to provide the richly detailed information you see in the CMP on your BigQuery usage.
 
 View the bite-sized video below for a quick tutorial on the BigQuery FinOps Dashboard.
+
+### What does it mean when I see "Not yet allocated" in the Cost Explorer?
+
+You will see "not yet allocated" when analyzing dimensions like Projects in the BigQuery Explorer when we aren't able to detect which table a query is scanning.
+
+This could be because of queries like "SELECT 1" or queries we aren't able to parse due to complexity \(parser times out\), or it uses a function/statement which we don't support yet.
+
+![](../.gitbook/assets/image%20%2829%29.png)
 
 {% embed url="https://youtu.be/7r1WfwnBAA4" %}
 

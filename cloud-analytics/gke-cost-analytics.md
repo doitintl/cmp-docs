@@ -75,11 +75,11 @@ Once everything is set up, your team's GKE metering data can be analyzed using t
 
 To start, open a new Report. You should see new GKE dimensions appear alongside your other billing dimensions, as highlighted below.
 
-![GKE billing dimensions you can analyze in Cloud Analytics Reports](../.gitbook/assets/image%20%2830%29.png)
+![GKE billing dimensions you can analyze in Cloud Analytics Reports](../.gitbook/assets/image%20%2831%29.png)
 
 You will also find any GKE labels in the Labels chip, under the "GKE Labels" header in the dropdown.
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 Drag a GKE chip or a GKE label chip into the "Group By" or "Dimensions" section to start understanding the real costs of running Kubernetes-based workloads on Google Kubernetes Engine.
 

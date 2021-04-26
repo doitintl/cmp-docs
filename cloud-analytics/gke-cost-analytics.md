@@ -69,6 +69,20 @@ Then enter the service account email in the "Add members" field. Finally, grant 
 Note: Datasets to which the Service Account email is not granted this permission will not be available in the GKE Cost Analytics feature of the DoiT CMP.
 {% endhint %}
 
+## Analyzing GKE Cost Data in the CMP
+
+Once everything is set up, your team's GKE metering data can be analyzed using the CMP's [Cloud Analytics](create-cloud-report.md) functionality.
+
+To start, open a new Report. You should see new GKE dimensions appear alongside your other billing dimensions, as highlighted below.
+
+![GKE billing dimensions you can analyze in Cloud Analytics Reports](../.gitbook/assets/image%20%2830%29.png)
+
+You will also find any GKE labels in the Labels chip, under the "GKE Labels" header in the dropdown.
+
+![](../.gitbook/assets/image%20%2829%29.png)
+
+Drag a GKE chip or a GKE label chip into the "Group By" or "Dimensions" section to start understanding the real costs of running Kubernetes-based workloads on Google Kubernetes Engine.
+
 ## Current Limitations
 
 * GKE Reports will only show data from the day that all of the steps were completed. We may be able to load historical data upon request \(i.e. “backfill”\). Please contact support to file a backfill request. 

@@ -1,12 +1,16 @@
 ---
-description: Unlock additional Cloud Management Platform features by adding AWS IAM role
+description: >-
+  Unlock additional Cloud Management Platform features by linking your AWS
+  account
 ---
 
-# Connect Your AWS IAM Role
+# Link your AWS Account
 
-By connecting your AWS account/s, you will unlock additional functionalities such as proactive resource quota monitoring and more.
+By linking your AWS account/s, you will unlock additional functionalities such as proactive resource quota monitoring and more.
 
-In order to connect your AWS account\(s\) to the Cloud Management Platform, you will need to create an AWS IAM Role and attach an IAM Policy to it. Once you create a role, you'll need to add the Role ARN to the Cloud Management Platform. 
+In order to link your AWS account\(s\) to the Cloud Management Platform, you will need to create an AWS IAM Role and attach IAM Policies to it. The policies you need to attach depend on the feature\(s\) you'd like to enable.
+
+In this article, we will go over how to create an IAM role with the required policies 1\) automatically via CloudFormation and 2\) manually.
 
 {% hint style="warning" %}
 Looking for instructions on [how to set up CloudHealth IAM role](https://help.cloudhealthtech.com/quickstart/linked-account)? 
@@ -16,15 +20,52 @@ Looking for instructions on [how to set up CloudHealth IAM role](https://help.cl
 Required Permission**: Manage Settings**
 {% endhint %}
 
-## Get AWS Account \# and External ID 
+Both the automatic and manual set up process start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and navigating to the Settings page via the gear icon in your lefthand navigation panel. 
 
-Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and navigate to the Settings page via the gear icon in your lefthand navigation panel. 
+Then switch to the Amazon Web Services tab, and click on the "Link Account" button.
 
-![](../.gitbook/assets/awssettings.jpg)
+![](../.gitbook/assets/image%20%2842%29.png)
 
-Switch to the Amazon Web Services tab, and note the "AWS Account" and "External ID", as you'll need them for the next steps. 
+## Automatically Link AWS Account
 
-![](../.gitbook/assets/connectaws_before.jpg)
+Select the "**Create a role automatically**" radio button, then check the boxes next to the features you'd like to enable for this AWS account. 
+
+To explore what AWS policies each feature requires, click the "**v**" button to the left of the feature name to uncollapse the list of policies.
+
+![](../.gitbook/assets/image%20%2854%29.png)
+
+There are two options for creating the role with this method:
+
+1. Creating a stack in CloudFormation
+2. Copy + Pasting a command in CloudShell
+
+### Option 1: Create stack in CloudFormation
+
+After selecting the features, click on "**Link Account**". This will open AWS CloudFormation in a new tab, so you can create a stack template that'll generate the role with the requisite permissions. Before opening CloudFormation, you will be asked to confirm the action again by clicking "**Link Account**".
+
+![](../.gitbook/assets/image%20%2835%29.png)
+
+A preconfigured stack template like the one below will appear in your CloudFormation tab. 
+
+Review the details, then under "Capabilities" mark the _‘I acknowledge that AWS CloudFormation might create IAM resources with custom names’_ checkbox. Finally, click on the **‘Create stack**’ button.
+
+![](../.gitbook/assets/image%20%2837%29.png)
+
+Within approximately 30 seconds of creating the stack, the Settings page in CMP will update, showing your linked AWS account with a "**Healthy**" status next to it if the link attempt was successful. 
+
+### Option 2: Create role via CLI
+
+If you prefer to run the commands yourself in AWS CloudShell, click on the "**Prefer CLI?**" button instead. A pop-up will appear with the commands you should run to generate the role with the requisite policies for the features you selected. After running the command, it may take up to 30 seconds for the account to link to the CMP.
+
+![](../.gitbook/assets/image%20%2839%29.png)
+
+Within approximately 30 seconds of running the command, the Settings page in CMP will update, showing your linked AWS account with a "**Healthy**" status next to it if the link attempt was successful.
+
+## Manually Link AWS Account
+
+Select the "**Create a role manually**" radio button, then note the listed "AWS Account" and "External ID", as you'll need them for a later step.
+
+![](../.gitbook/assets/image%20%2838%29.png)
 
 ### Creating an AWS IAM Role
 
@@ -38,41 +79,127 @@ Enter the AWS Account ID and External ID you've noted in the previous step. You 
 
 ![](../.gitbook/assets/account-and-external-id.png)
 
-Click on 'Create policy', which will open a separate tab where you'll be creating the policy. 
+This will take you to a page where you can select built-in policies and/or create a new one.
+
+Currently, there are two features you can enable for a linked AWS account: **Core** and **Quotas**. 
+
+**Core** permissions are for a minimum set of read-only permissions we need as a foundation for many CMP features. As such, it is checked by default.
+
+For Core, you need to add three built-in policies:
+
+* SecurityAudit
+* Billing
+* AWSSavingsPlansReadOnlyAccess
+
+To add permissions for other features, you'll need to create a new policy. If you wish to enable this feature, click "**Create policy**".
 
 ![](../.gitbook/assets/create-policy-in-role.png)
 
-Switch to the "JSON" tab and copy-paste the list of required permissions as a JSON file from [here](https://storage.googleapis.com/hello-static-assets/cloudhealth/cloud-accounts-iam-policy.json). After the JSON is pasted, click on 'Review policy'.
+### Creating new policies
 
-![](../.gitbook/assets/json-policy.png)
+#### [Quota Monitoring](aws-quotas.md)
 
-Give the policy a name \(i.e., 'doitintl'\) and click on 'Create policy'.
+A new tab will open for you to create the policy. Switch to the "JSON" tab and copy-paste the following list of required permissions as a JSON file:
 
-![](../.gitbook/assets/review-policy-in-role.png)
+```text
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "support:DescribeTrustedAdvisorCheckSummaries",
+        "support:DescribeTrustedAdvisorCheckRefreshStatuses",
+        "support:DescribeTrustedAdvisorChecks",
+        "support:DescribeSeverityLevels",
+        "support:RefreshTrustedAdvisorCheck",
+        "support:DescribeSupportLevel",
+        "support:DescribeCommunications",
+        "support:DescribeServices",
+        "support:DescribeIssueTypes",
+        "support:DescribeTrustedAdvisorCheckResult",
+        "trustedadvisor:DescribeNotificationPreferences",
+        "trustedadvisor:DescribeCheckRefreshStatuses",
+        "trustedadvisor:DescribeCheckItems",
+        "trustedadvisor:DescribeAccount",
+        "trustedadvisor:DescribeAccountAccess",
+        "trustedadvisor:DescribeChecks",
+        "trustedadvisor:DescribeCheckSummaries"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
 
-The policy has been created successfully.  
+After the JSON for the new policy you want to create is pasted, click "**Next: Tags**". If you aren't adding tags to this role, then you may proceed by clicking on "**Next: Review**" 
 
-![](../.gitbook/assets/doit-permissions-created.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
-Revert back to your original tab where the workflow first began, and refresh the page. Your newly created policy will appear in the list \(type the policy name in the search bar\). Select it and you may skip to Step \#4. 
+Give your policy an identifiable name, like "doit\_intl\_quotas" in the case of the Quota Monitoring feature, and a description if necessary. Then click on "**Create Policy**".
+
+![](../.gitbook/assets/image%20%2848%29.png)
+
+If the policy was successfully created, you'll be taken to the IAM Policies page and see a success message at the top like the following:
+
+![](../.gitbook/assets/image%20%2843%29.png)
+
+### Select all policies and confirm role
+
+Once any custom policies \(if necessary\) have been created, revert back to your original tab where the workflow first began, and click the Refresh icon towards the top-right of the policies box. Any newly-created policies will now appear in the search list.
+
+Select all created policies for the features you want to enable in addition to the three built-in policies required for Core features, then click "**Next: Tags**".
+
+If you aren't adding tags to this role, then you may proceed by clicking on "**Next: Review**" from the "Add Tags" page.
 
 ![](../.gitbook/assets/choose-policy.png)
 
-Give the Role a name \(i.e., 'doitintl'\) and click on 'Create role'.
+Give the Role an identifiable name \(ex. 'doit-intl-cmp-role'\), review the selected policies, and click on "**Create role**". 
 
-![](../.gitbook/assets/name-aws-permission-role.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
-The role has been created successfully. 
+If the role was created successfully, you'll be taken back to the main Roles page and see your Role in the list.
 
-![](../.gitbook/assets/role-created-successfully%20%281%29.png)
+After you have created the role, click on the role name to bring you to its summary page. Copy the value next to "**Role ARN**"
 
-After you have created the role, click on the role name which brings you to the summary page. 
+![](../.gitbook/assets/image%20%2833%29.png)
 
-![](../.gitbook/assets/policy-has-been-attached.png)
+Finally, copy and paste the Role ARN to the Cloud Management Platform and click 'Add'. 
 
-## Add IAM Role to the Cloud Management Platform 
+If the status of your AWS account within the Cloud Management Platform appears as 'Healthy', it means the role was added successfully.
 
-The final step is to copy-paste the Role ARN to the Cloud Management Platform and click 'Add'. If the status of your AWS account within the Cloud Management Platform appears as 'Healthy', it means the role was added successfully.
+![](../.gitbook/assets/image%20%2853%29.png)
 
-![](../.gitbook/assets/awsconnect_2.jpg)
+## Editing Linked Accounts
+
+### Unlinking an account
+
+If you want to unlink an account, click on the "Unlink" button in the row corresponding to the account.
+
+![](../.gitbook/assets/image%20%2846%29.png)
+
+### Modifying feature access
+
+#### Adding a feature
+
+If, after linking your AWS account, you'd like to update your role with additional permissions for a new feature, click on the "Edit" button in the row corresponding to the account.
+
+![](../.gitbook/assets/image%20%2834%29.png)
+
+Then, check the box of any new feature\(s\) you'd like to add permissions for.
+
+![](../.gitbook/assets/image%20%2852%29.png)
+
+There are two options for updating your role:
+
+1. [Creating a stack in CloudFormation](add-your-amazon-web-services-iam-role.md#option-1-create-stack-in-cloudformation)
+2. [Copy + Pasting a command in CloudShell](add-your-amazon-web-services-iam-role.md#option-2-create-role-via-cli)
+
+Both methods are detailed above \(and hyperlinked\) in the section on linking your AWS account automatically. 
+
+The flows are essentially the same as described above, except instead of creating a new role you are simply updating a role you've already created.
+
+#### Removing a feature
+
+To remove a feature that a linked account has access to, go to the IAM page in the AWS console. Then, detach the policy or policies associated with the feature in that linked account's role.
 

@@ -42,7 +42,21 @@ Finally, **copy the service account name**. You will need it for the next step.
 
 ![](../.gitbook/assets/transfer-projects3.png)
 
-### Add Service Account to Org-level Billing Account
+### Grant permissions to the service account
+
+To ensure transfer wizard sees all of your projects let's grant "Billing Administrator" role for service account **both** on your current billing account and your GCP Organization
+
+#### Grant permissions for GCP Organization
+
+* Go to GCP [Resource Manager](https://console.cloud.google.com/cloud-resource-manager)
+* Select your organization
+* On the permissions info panel on the right, add the service account email as Billing Administrator Administrator
+
+![](../.gitbook/assets/image%20%2855%29.png)
+
+![](../.gitbook/assets/image%20%2857%29.png)
+
+#### Grant permissions for Billing Account
 
 Per the instructions from the image above, we'll need to add the service account to your Google Cloud Organization IAM Policy with the "Billing Administrator" role.
 
@@ -70,9 +84,9 @@ Then, click the "**Show Info**" panel at the top-right to manage billing account
 
 ![](../.gitbook/assets/addmemberprojectransfer.jpg)
 
-Finally, paste the service account you copied earlier from the CMP Project Transfer tool and add the "Billing Account User" role as shown below. Then click "Save".
+Finally, paste the service account you copied earlier from the CMP Project Transfer tool and add the "Billing Account Administrator" role as shown below. Then click "Save".
 
-![](../.gitbook/assets/screen-shot-2021-02-12-at-11.30.30-am.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 If you do not add the service account to your Google Cloud Organization IAM, the following error will appear. 
 

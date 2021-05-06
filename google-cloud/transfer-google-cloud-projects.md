@@ -44,7 +44,13 @@ Finally, **copy the service account name**. You will need it for the next step.
 
 ### Grant permissions to the service account
 
-To ensure transfer wizard sees all of your projects let's grant "Billing Administrator" role for service account **both** on your current billing account and your GCP Organization
+To ensure transfer wizard sees all of your projects let's grant "Billing Administrator" role for service account **both** on your current billing account and your GCP Organization.
+
+You can either run gcloud CLI commands as listed in the wizard:
+
+![Expand to see gcloud commands for granting the access](../.gitbook/assets/image%20%2858%29.png)
+
+Or follow the detailed instructions below grant the access using GCP Console UI.
 
 #### Grant permissions for GCP Organization
 
@@ -151,22 +157,7 @@ From here you can troubleshoot the project\(s\) that have "error-code" for one o
 
 As mentioned above, you will get an error if you add your service account to at the Project level and not the Organization level. The error will look something like: _**"Service Account Not Found in Organization IAM"**_
 
-To fix this, first make sure the person doing this is an Organization Billing Admin, and that they are a Project Owner in Cloud Console.
-
-Next, have them copy the DoiT Billing ID for their Google Cloud asset in the CMP. To do so, **\[1\]** click on Assets in the left-hand navigation bar. 
-
-Then click on the **\[2\]** "Google Cloud" tab. Finally, copy the string that follows **\[3\]** "ID:" in the Google Cloud asset.
-
-![](../.gitbook/assets/billingtransferfix.jpg)
-
-Finally, have them perform the following in [Cloud Shell](https://cloud.google.com/shell):
-
-```text
-gcloud auth list # confirm the correct user
-export BILLING="<paste DoiT billing ID here in quotes>"
-export PROJECT_ID=$(gcloud config get-value project)
-gcloud beta billing projects link --billing-account=$BILLING $PROJECT_ID
-```
+To fix the situation please grant the service account Billing Account Admin role at the Organization level as described above and try again.
 
 ### Video
 

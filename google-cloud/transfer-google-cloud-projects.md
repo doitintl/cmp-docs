@@ -8,7 +8,7 @@ description: >-
 
 ### Overview
 
-To change the Cloud Billing account for a project, you need to be able to move a project from your existing Cloud Billing account to another Cloud Billing account provided by DoiT International. To accomplish this task, you need permissions adequate to unlink the project from the existing Cloud Billing account AND to link the project to the target Cloud Billing account. Unfortunately, it is a manual process and requires a repetitive, one-by-one, transfer operation for each project. [Learn more.](https://cloud.google.com/billing/docs/how-to/modify-project#change_the_billing_account_for_a_project) 
+To change the Cloud Billing account for a project, you need to be able to move a project from your existing Cloud Billing account to another Cloud Billing account provided by DoiT International. To accomplish this task, you need permissions adequate to unlink the project from the existing Cloud Billing account AND to link the project to the target Cloud Billing account. Unfortunately, it is a manual process and requires a repetitive, one-by-one, transfer operation for each project. [Learn more.](https://cloud.google.com/billing/docs/how-to/modify-project#to_change_the_projects_account_do_the_following) 
 
 To make this process _much faster_, DoiT International developed a Project Transfer Tool in the Cloud Managemente Platform to help you bulk-transfer all of your existing Google Cloud projects to the billing account assigned to you by DoiT International.
 

@@ -6,6 +6,8 @@ Please mind the Google Marketplace [note](./).
 
 Please follow the below steps to switch your Google Cloud projects to use DoiT-provided billing account.
 
+### The steps
+
 * Go to [https://console.cloud.google.com/billing](https://console.cloud.google.com/billing)
 * Make sure your organization is selected and then click on your the billing account from the list
 
@@ -29,7 +31,7 @@ Within an hour, your transferred projects will appear in DoiT [Cloud Management 
 
 ![](../../.gitbook/assets/image%20%2861%29.png)
 
-## Troubleshooting
+### Troubleshooting
 
 **I don't see any billing accounts in my Google Cloud Organization**
 

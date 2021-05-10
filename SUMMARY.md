@@ -12,7 +12,9 @@
 ## Google Cloud
 
 * [Create Google Billing Account](google-cloud/create-google-cloud-billing-account.md)
-* [Transfer Google Cloud Projects](google-cloud/transfer-google-cloud-projects.md)
+* [Transfer Google Cloud Projects](google-cloud/transfer-google-cloud-projects/README.md)
+  * [Transfer manually](google-cloud/transfer-google-cloud-projects/transfer-manually.md)
+  * [Bulk Transfer using Wizard](google-cloud/transfer-google-cloud-projects/bulk-transfer-using-wizard.md)
 * [Link Google Cloud Organization](google-cloud/connect-google-cloud-service-account.md)
 * [Google Cloud Quotas](google-cloud/google-cloud-quotas.md)
 * [Billing Export](google-cloud/gcp-billing-export.md)

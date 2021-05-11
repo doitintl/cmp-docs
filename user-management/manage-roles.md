@@ -243,3 +243,13 @@ Select the role you'd like to delete and click the "Remove" button. You will nee
 You can't remove built-in roles.
 {% endhint %}
 
+### Setting a Default Role
+
+A default role is the role a new user on your team is auto-provisioned, until a role is explicitly set by an admin. Both pre-built and custom roles can be designated as a default role.
+
+To set a role as the default role for your team, click on a role from your list and then click the "Make Default" button at the top-right corner of the page.
+
+Finally, click "Confirm".
+
+![](../.gitbook/assets/image%20%2867%29.png)
+

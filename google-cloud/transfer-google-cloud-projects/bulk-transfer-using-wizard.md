@@ -147,5 +147,7 @@ To fix the situation please grant the service account Billing Account Admin role
 
 The following video shows you how to Transfer Google Cloud Projects.
 
-{% embed url="https://www.loom.com/share/c93a3375cbf447a7ae7027ffb9095973" %}
+{% embed url="https://www.loom.com/share/35299f0634e849a2821155c7488faedd" %}
+
+
 

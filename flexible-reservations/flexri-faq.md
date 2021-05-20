@@ -42,7 +42,7 @@ The discount is calculated by applying 80% on the applicable AWS Reserved Instan
 
 Yes. [**Flex RI Recommendations**](flex-ri-recommendations.md) identifies your AWS EC2 instances that aren't covered by a billing discount mechanism \(RIs, Savings Plans, etc.\), and calculates the ideal number of Flex RIs recommended to optimize your spend. You can then purchase these Flex RIs from DoiT in just a few clicks.
 
-### How do Flex RI Recommendations work? \*Beta\*
+### How do Flex RI Recommendations work? 
 
 FlexRIs Recommendations provides clients a list of machines to commit to for the proceeding month. In the background, DoiT monitors your historical EC2 usage and locates EC2 machines that are not covered by any discount regime \(Savings Plans, AWS RIs etc\) and that were not yet ordered for the following month. DoiT will run an algorithm to find the optimal coverage based on the instances' size, region, normalized units, account, operating system and family type.
 
@@ -50,7 +50,7 @@ Upon accepting a recommendation a new order will be created for the following mo
 
 ### Can you find a way to provide a discount based on consumption?
 
-Our team is working on a FlexRI Auto-Pilot. Once available, Auto-Pilot will automatically implement recommendations, always optimizing for cost. Under this model, you won't need to think about which Flexible Reservations to purchase or to what hourly spend you're willing to commit. 
+Our team is working on a new FlexRI feature that  once available, will automatically implement recommendations, always optimizing for cost. Under this model, you won't need to think about which Flexible Reservations to purchase or to what hourly spend you're willing to commit. 
 
 ### Do you support any Operating System?
 

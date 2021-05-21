@@ -33,6 +33,10 @@ Please review the table partitioning and clustering schema to allow query optimi
 | Partition filter | Required |
 | Clustered by | project\_id, service\_description, sku\_description |
 
+{% hint style="warning" %}
+**Request Access** - You will need to request access to the billing export table by opening a support request at https://support.doit-intl.com. Please provide your Google user or service account you'd like to use when querying the billing export table
+{% endhint %}
+
 ### Sample Queries
 
 This query shows the invoice total for each month since Jan 2020, as a sum of regular costs, credits, adjustments, and rounding errors.

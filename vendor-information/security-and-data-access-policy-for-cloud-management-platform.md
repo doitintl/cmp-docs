@@ -6,13 +6,12 @@ description: Security and Data Access Policy for Cloud Management Platform
 
 This document outlines what customer data Cloud Management Platform accesses, why, what data is stored, and how we do that. **If you're not using DoiT Cloud Management Platform for the following features, this article doesn't apply.**
 
-Enterprise Cloud Accounts \(formerly Sandboxes\)
-
-* ASG Optimizer
+* Enterprise Cloud Accounts \(formerly Sandboxes\)
 * Google Cloud Rightsizing
 * Google Kubernetes Engine Metering
 * BigQuery FinOps
 * Google Cloud and/or AWS Proactive Quota Monitoring
+* AWS ASG Optimizer
 
 **TL;DR:** We only access data required for Cloud Management Platform \(CMP\) functionality. We store and handle your data in a secure way, encrypted in transit and at rest. We do not provide the data to any 3rd party, with the exceptions required for core CMP functionality and listed below.
 
@@ -85,6 +84,47 @@ The following permissions are required to list your clusters for their GKE usage
 ```text
 container.clusters.list
 container.clusters.get
+```
+
+The following policies/permissions are required to proactively monitor AWS Quotas, access to the billing data, as well as the security posture of your AWS accounts:
+
+```text
+arn:aws:iam::aws:policy/SecurityAudit
+arn:aws:iam::aws:policy/AWSSavingsPlansReadOnlyAccess
+arn:aws:iam::aws:policy/job-function/Billing
+support:DescribeTrustedAdvisorCheckSummaries
+support:DescribeTrustedAdvisorCheckRefreshStatuses
+support:DescribeTrustedAdvisorChecks
+support:DescribeSeverityLevels
+support:RefreshTrustedAdvisorCheck
+support:DescribeSupportLevel
+support:DescribeCommunications
+support:DescribeServices
+support:DescribeIssueTypes
+support:DescribeTrustedAdvisorCheckResult
+trustedadvisor:DescribeNotificationPreferences
+trustedadvisor:DescribeCheckRefreshStatuses
+trustedadvisor:DescribeCheckItems
+trustedadvisor:DescribeAccount
+trustedadvisor:DescribeAccountAccess
+trustedadvisor:DescribeChecks
+trustedadvisor:DescribeCheckSummaries
+```
+
+AWS ASG Optimizer analyzes your Auto Scaling Groups based on cost and usage and get recommendations to replace on-demand EC2 instances with Spot instances.
+
+```text
+autoscaling:BatchDeleteScheduledAction
+autoscaling:BatchPutScheduledUpdateGroupAction
+autoscaling:CreateOrUpdateTags
+autoscaling:UpdateAutoScalingGroup
+autoscaling:Describe*
+cloudformation:ListStacks
+cloudformation:Describe*
+ec2:CreateLaunchTemplate
+ec2:CreateLaunchTemplateVersion
+ec2:ModifyLaunchTemplate
+ec2:RunInstances
 ```
 
 ### What we store

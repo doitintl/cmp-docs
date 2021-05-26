@@ -6,7 +6,11 @@ description: >-
 
 # Billing Export
 
-Cloud Management Platform can automatically export detailed Google Cloud billing data \(such as usage, cost estimates, and pricing data\) to a BigQuery table. Then you can access your Cloud Billing data from BigQuery for detailed analysis or use a tool like Looker to visualize your data.
+{% hint style="info" %}
+Customers willing to export their Google Cloud billing data are advised to [Set up Cloud Billing data export to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery-setup). Note, you will need to have a Billing Account Administrator role for the target Cloud Billing account.
+{% endhint %}
+
+Cloud Management Platform can automatically export detailed  billing data \(such as usage, cost estimates, and pricing data\) to a BigQuery table. Then you can access your billing data from BigQuery for detailed analysis or use a tool such as Looker to visualize your data.
 
 ### Data Availability
 

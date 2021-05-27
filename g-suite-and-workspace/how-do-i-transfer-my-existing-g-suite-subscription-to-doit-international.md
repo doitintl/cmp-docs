@@ -15,7 +15,7 @@ To transfer the management of your existing G Suite setup you will need to retri
 * [ ] You will be asked to enter the reseller’s public identifier
 
 {% hint style="info" %}
-🇺🇸US customers, please use **`C02dk8ht9`** as reseller’s public identifier
+🇺🇸US & AU 🇦🇺customers, please use **`C02dk8ht9`** as reseller’s public identifier
 {% endhint %}
 
 {% hint style="warning" %}

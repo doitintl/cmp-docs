@@ -1,7 +1,7 @@
 ---
 description: >-
-  This page provides some examples of how to set up and query the Cloud Billing
-  data exported to and stored in BigQuery.
+  How to set up and query the internal CMP billing data to build your own
+  dashboards or get programmatic access
 ---
 
 # Billing Export
@@ -11,6 +11,10 @@ Customers willing to export their Google Cloud billing data are advised to [Set 
 {% endhint %}
 
 Cloud Management Platform can automatically export detailed  billing data \(such as usage, cost estimates, and pricing data\) to a BigQuery table. Then you can access your billing data from BigQuery for detailed analysis or use a tool such as Looker to visualize your data.
+
+{% hint style="warning" %}
+**Request Access** - You will need to request access to the billing export table by opening a support request at [https://support.doit-intl.com](https://support.doit-intl.com). Please provide your Google user or service account you'd like to use when querying the billing export table
+{% endhint %}
 
 ### Data Availability
 
@@ -36,10 +40,6 @@ Please review the table partitioning and clustering schema to allow query optimi
 | Partitioned on field | export\_time |
 | Partition filter | Required |
 | Clustered by | project\_id, service\_description, sku\_description |
-
-{% hint style="warning" %}
-**Request Access** - You will need to request access to the billing export table by opening a support request at [https://support.doit-intl.com](https://support.doit-intl.com). Please provide your Google user or service account you'd like to use when querying the billing export table
-{% endhint %}
 
 ### Sample Queries
 

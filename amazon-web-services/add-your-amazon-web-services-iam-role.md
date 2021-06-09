@@ -133,6 +133,16 @@ A new tab will open for you to create the policy. Switch to the "JSON" tab and c
 }
 ```
 
+
+
+![](../.gitbook/assets/cleanshot-2021-06-09-at-15.12.51.jpg)
+
+After the JSON for the new policy you want to create is pasted, click "**Next: Tags**". If you aren't adding tags to this role, then you may proceed by clicking on "**Next: Review**".
+
+Finally, give your policy an identifiable name, like "spot0\_policy", and a description if necessary. Then click on "**Create Policy**".
+
+![](../.gitbook/assets/cleanshot-2021-06-09-at-15.11.55.jpg)
+
 #### [Quota Monitoring](aws-quotas.md)
 
 A new tab will open for you to create the policy. Switch to the "JSON" tab and copy-paste the following list of required permissions as a JSON file:

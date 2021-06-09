@@ -23,7 +23,7 @@ For circumstances like these, we've added Service Limit and Quota Monitoring to 
 ## Setting up requisite permissions for Quota Monitoring
 
 {% hint style="success" %}
-Read [this article](add-your-amazon-web-services-iam-role.md) to see how to link your AWS IAM Role, and specifically [this section](www.help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#quota-monitoring) to see how to give the requisite permissions for AWS Quota Monitoring.
+Read [this article](add-your-amazon-web-services-iam-role.md) to see how to link your AWS IAM Role, and specifically [this section](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#quota-monitoring) to see how to give the requisite permissions for AWS Quota Monitoring.
 {% endhint %}
 
 ## Adding the Quotas widget to your dashboard

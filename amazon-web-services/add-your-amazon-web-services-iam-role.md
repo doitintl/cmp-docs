@@ -97,6 +97,42 @@ To add permissions for other features, you'll need to create a new policy. If yo
 
 ### Creating new policies
 
+#### **Spot0**
+
+A new tab will open for you to create the policy. Switch to the "JSON" tab and copy-paste the following list of required permissions as a JSON file:
+
+```text
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "ec2:CreateLaunchTemplate",
+                "ec2:CreateLaunchTemplateVersion",
+                "autoscaling:BatchDeleteScheduledAction",
+                "autoscaling:BatchPutScheduledUpdateGroupAction",
+                "autoscaling:CreateOrUpdateTags",
+                "autoscaling:UpdateAutoScalingGroup",
+                "ec2:ModifyLaunchTemplate",
+                "ec2:RunInstances",
+                "autoscaling:Describe*",
+                "cloudformation:ListStacks",
+                "cloudformation:Describe*",
+                "ec2:Describe*",
+                "iam:PassRole",
+                "events:PutRule",
+                "events:PutTargets",
+                "events:PutEvents",
+                "autoscaling:AttachInstances",
+                "ec2:TerminateInstances"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}
+```
+
 #### [Quota Monitoring](aws-quotas.md)
 
 A new tab will open for you to create the policy. Switch to the "JSON" tab and copy-paste the following list of required permissions as a JSON file:

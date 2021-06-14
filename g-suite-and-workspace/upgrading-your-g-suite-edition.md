@@ -9,7 +9,7 @@ description: >-
 As a customer, you are able to upgrade your G Suite subscription to get more business features and administrator controls. 
 
 {% hint style="info" %}
-Required Permission: **Licenses Manager**
+Required Permission: **Asset Manager**
 {% endhint %}
 
 {% hint style="warning" %}

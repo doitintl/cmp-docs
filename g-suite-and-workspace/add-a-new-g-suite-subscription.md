@@ -9,7 +9,7 @@ description: >-
 If you would like to purchase a new G Suite subscription, you can do so through the Cloud Management Platform.
 
 {% hint style="info" %}
-Required Permission: **Asset Manager**
+Required Permission: **Assets Manager**
 {% endhint %}
 
 _Please note that you must be assigned access to the specific Billing Profile under which the domain is managed in order to purchase a new subscription._

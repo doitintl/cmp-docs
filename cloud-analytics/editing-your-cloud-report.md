@@ -11,9 +11,15 @@ There are several types of edits you can make to your Cloud Report:
 * Modifying the time interval and/or range
 * Filtering dimensions
 
-Most of these are self-explanatory, as you would simply make your changes the same way you made your original selection. Let's briefly go over your metric options and how to filter your dimensions.
+Most of these are self-explanatory, as you would simply make your changes the same way you made your original selection. 
 
-## **Metric Options**
+Let's briefly go over your options for editing reports, highlighted below.
+
+![](../.gitbook/assets/cleanshot-2021-06-14-at-14.20.30.jpg)
+
+## Report Settings
+
+### Metric
 
 **Cost:** Analyze your reports on a basis of how much your selected dimensions cost you.
 
@@ -21,9 +27,29 @@ Most of these are self-explanatory, as you would simply make your changes the sa
 
 **Savings:** Analyze your reports and selected dimensions on a savings basis. These savings come as a result of your commercial agreement with Google Cloud and the agreed-upon discount between your company and DoiT International.
 
+### Aggregation
+
+Use aggregations to summarize how you view your reports. [Read more on aggregations](https://help.doit-intl.com/cloud-analytics/using-aggregations-in-cloud-reports).
+
+### View As
+
+This is where you select how your report is visualized.
+
+### ML Features
+
+Use this to perform advanced analysis in your reports with just a click. Use this to perform [Trend Analysis](https://help.doit-intl.com/cloud-analytics/trend-analysis) or to [create Forecasts](https://help.doit-intl.com/cloud-analytics/forecasting) is supported.
+
+### Time Interval & Range
+
+Specify the frequency in which data is aggregated and the date range for your report.
+
+### Currency
+
+Currency that the billing data is reported in \(Metric must be "Cost"\).
+
 ## **Filtering Dimension Values**
 
-To view a subset of your dimension's values, click on the dimension chip you'd like to filter. Then check the boxes next to the subsets you'd like to view in the report.
+To view a subset of your dimension's values, click on the chip you'd like to filter. Then check the boxes next to the subsets you'd like to view in the report.
 
 You may also exclude a selection of values, or limit results to a specific number of values arranged in descending order according to the Metric \(Cost**,** Usage, or Savings\) selected.
 

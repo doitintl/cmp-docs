@@ -13,7 +13,7 @@ The Cloud Billing accounts are used to define who pays for a given set of Google
 Use these instructions to create a Google Cloud Billing Account/s and link it to your company billing profile using the Cloud Management Platform. 
 
 {% hint style="info" %}
-Required Permissions**: Asset Manager**
+Required Permissions**: Assets Manager**
 {% endhint %}
 
 {% hint style="warning" %}

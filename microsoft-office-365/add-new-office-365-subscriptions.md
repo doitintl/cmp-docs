@@ -9,7 +9,7 @@ description: >-
 You can add a new Microsoft Office 365 subscription to your existing tenant, using the Cloud Management Platform.
 
 {% hint style="info" %}
-Required Permission: **Asset Manager**
+Required Permission: **Assets Manager**
 {% endhint %}
 
 {% hint style="warning" %}

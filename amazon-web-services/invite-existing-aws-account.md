@@ -7,7 +7,7 @@ description: Adding existing AWS accounts to DoiT International consolidated bil
 You can add existing AWS accounts to DoiT International's consolidated billing using the Cloud Management Platform.
 
 {% hint style="info" %}
-Required Permission**: Licenses Manager**
+Required Permission**: Asset Manager**
 {% endhint %}
 
 {% hint style="warning" %}

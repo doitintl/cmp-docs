@@ -13,7 +13,7 @@ All you have to do is set a threshold for the minimum number of Workspace licens
 {% hint style="info" %}
 At a minimum, to manage Google Workspace licenses, your [User Role](../user-management/manage-roles.md) must contain the following permission:
 
-* Licenses Manager
+* Assets Manager
 {% endhint %}
 
 {% hint style="warning" %}

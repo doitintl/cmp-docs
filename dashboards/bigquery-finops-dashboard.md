@@ -88,6 +88,10 @@ Below is a list of the recommendation categories you'll see in the BigQuery Reco
 
 **Limit query jobs** - Reduce job execution frequency of the listed jobs under the "Query ID" column by the percentage you choose on the slider, and view the associated savings of each reduced job under the "Savings by Reducing Jobs" column.
 
+{% hint style="info" %}
+The BigQuery Finops Dashboard does not currently reflects reservations and your job costs are displayed as on-demand. If you use reservations, please disregard the BigQuery Finops Dashboard's recommendations until we include reservations in our future release.
+{% endhint %}
+
 ## BigQuery FinOps Frequently Asked Questions \(FAQ\)
 
 Oftentimes we get asked what the non-read-only permissions are for, and so we'd like to share more about how it plays into the process of creating your BigQuery FinOps Dashboard. 
@@ -135,6 +139,8 @@ You will see "not yet allocated" when analyzing dimensions like Projects in the 
 This could be because of queries like "SELECT 1" or queries we aren't able to parse due to complexity \(parser times out\), or it uses a function/statement which we don't support yet.
 
 ![](../.gitbook/assets/image%20%2829%29.png)
+
+
 
 {% embed url="https://youtu.be/7r1WfwnBAA4" %}
 

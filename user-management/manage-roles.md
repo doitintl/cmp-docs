@@ -31,7 +31,7 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Privileges | Only users with privilege can:  |
 | :--- | :--- |
 | Support | create new and access existing technical support requests |
-| Manage Licenses | buy and manage Google Workspace and Office 365 Licenses |
+| Assets Manager | view and manage assets, including managing licenses |
 
 #### **Finance User**
 
@@ -41,6 +41,9 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Billing Profiles Admin  | create new and manage existing billing profiles, including payment method |
 | Invoice Viewer | access invoices |
 | Cloud Analytics | create new and access existing Cloud Analytics Reports |
+| Contracts Viewer | provides access to the commercial contracts |
+| Perks Viewer | access and request Perks |
+| Anomalies Viewer | access Cost and Usage Anomalies |
 
 #### **Standard User**
 
@@ -50,6 +53,12 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Cloud Analytics  | create new and access existing Cloud Analytics Reports |
 | Sandbox User | create disposable cloud environments \(sandboxes\) according to company policy |
 | superQuery | unlimited access to the superQuery IDE |
+| Contracts Viewer | provides access to the commercial contracts |
+| Perks Viewer | access and request Perks |
+| Anomalies Viewer | access Cost and Usage Anomalies |
+| Issues Viewer | access to cloud outage information |
+| Budgets Manager | create, delete and manage budgets |
+| Attributions Manager | create, delete and manage attributions |
 
 #### **Power User**
 
@@ -62,6 +71,12 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Sandbox Admin | set company [Sandbox policy](../cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md) for other users  |
 | FlexRI Admin | purchase and manage [flexible reservations](../flexible-reservations/flexri.md) |
 | Manage Settings | manage your Cloud Management Platform account settings |
+| Contracts Viewer | provides access to the commercial contracts |
+| Perks Viewer | access and request Perks |
+| Anomalies Viewer | access Cost and Usage Anomalies |
+| Issues Viewer | access to cloud outage information |
+| Budgets Manager | create, delete and manage budgets |
+| Attributions Manager | create, delete and manage attributions |
 
 #### **Admin**
 
@@ -109,9 +124,45 @@ Has access to all features in the Cloud Management Platform and the CMP API, and
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">Anomalies Viewer</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Assets Manager</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Attributions Manager</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">Billing Profile Admin</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Budgets Manager</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
@@ -119,84 +170,12 @@ Has access to all features in the Cloud Management Platform and the CMP API, and
     </tr>
     <tr>
       <td style="text-align:left">Cloud Analytics</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Flexible RI Admin</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&lt;em&gt;&lt;/em&gt;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Invoice Viewer</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
-      <td style="text-align:center">&lt;em&gt;&lt;/em&gt;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Licenses Manager</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Manage Settings</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Sandbox Admin</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Sandbox User</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Users Manager</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">superQuery</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center">&#x2714;</td>
-      <td style="text-align:center">&#x2714;</td>
     </tr>
   </tbody>
 </table>

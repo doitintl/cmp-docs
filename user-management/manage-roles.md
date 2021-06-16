@@ -40,7 +40,7 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Support | create new and access existing technical support requests |
 | Billing Profiles Admin  | create new and manage existing billing profiles, including payment method |
 | Invoice Viewer | access invoices |
-| Cloud Analytics | create new and access existing Cloud Analytics Reports |
+| Cloud Analytics | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report.md) |
 | Contracts Viewer | provides access to the commercial contracts |
 | Perks Viewer | access and request Perks |
 | Anomalies Viewer | access Cost and Usage Anomalies |
@@ -50,7 +50,7 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Privileges | Only users with privilege can:  |
 | :--- | :--- |
 | Support | create new and access existing technical support requests |
-| Cloud Analytics  | create new and access existing Cloud Analytics Reports |
+| Cloud Analytics  | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report.md) |
 | Sandbox User | create disposable cloud environments \(sandboxes\) according to company policy |
 | superQuery | unlimited access to the superQuery IDE |
 | Contracts Viewer | provides access to the commercial contracts |
@@ -125,35 +125,44 @@ Has access to all features in the Cloud Management Platform and the CMP API, and
   <tbody>
     <tr>
       <td style="text-align:left">Anomalies Viewer</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">Assets Manager</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">Attributions Manager</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
     </tr>
     <tr>
       <td style="text-align:left">Billing Profile Admin</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
@@ -161,21 +170,162 @@ Has access to all features in the Cloud Management Platform and the CMP API, and
     </tr>
     <tr>
       <td style="text-align:left">Budgets Manager</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Cloud Analytics</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contracts Viewer</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Flexible RI Admin</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Invoice Viewer</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Cloud Analytics</td>
+      <td style="text-align:left">Issues Viewer</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Manage Settings</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Sandbox Admin</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
       <td style="text-align:center"></td>
       <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Sandbox User</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Spot0</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Support Requester</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Users Manager</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">superQuery</td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
+      <td style="text-align:center"><b>&#x2713;</b>
+      </td>
     </tr>
   </tbody>
 </table>

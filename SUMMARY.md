@@ -36,6 +36,12 @@
 * [Bulk Upload FlexRI Orders](flexible-reservations/bulk-orders.md)
 * [Flex RI Recommendations](flexible-reservations/flex-ri-recommendations.md)
 
+## Spot Scaling
+
+* [Spot Scaling Overview](spot-scaling/spot-scaling.md)
+* [Setting Up Spot Scaling](spot-scaling/spot-scaling-setup.md)
+* [Spot Scaling FAQ](spot-scaling/spot-scaling-faq.md)
+
 ## Cloud Analytics
 
 * [Create Cloud Analytics Reports](cloud-analytics/create-cloud-report.md)
@@ -147,10 +153,4 @@
 ## Tutorials
 
 * [How to get GCS cost per bucket](tutorials/how-to-get-gcs-cost-per-bucket.md)
-
-## Spot Scaling
-
-* [Spot Scaling Overview](spot-scaling/spot0.md)
-* [Setting Up Spot Scaling](spot-scaling/setup.md)
-* [Spot Scaling FAQ](spot-scaling/faq.md)
 

@@ -1,8 +1,14 @@
+---
+description: autonomous cost optimization of EC2 fleets using Spot instances
+---
+
 # Spot Scaling Overview
 
 ## What is Spot Scaling?
 
-**Spot Scaling** proactively updates existing Auto-Scaling Groups \(ASGs\), replacing any on-demand EC2 instances with Spot instances. Simplifying ASG management while helping you maximize EC2 savings, Spot Scaling frees you and your team to focus more on core activities.
+Spot Scaling proactively monitors your AWS Auto-Scaling Groups \(ASGs\) and cleverly replaces some or all of on-demand EC2 instances with Spot instances using sophisticated AI-assisted analysis. By intelligently managing your ASGs, Spot Scaling takes care of your launch templates and configuration, mixed instances policies, and a myriad of other configuration settings so you can focus on core activities.
+
+To minimize interruptions, Spot Scaling will add more similar instance types and zones into your ASG configuration. Still, if there are no spot instances available, Spot Scaling will fall back to on-demand instances, ensuring the high availability of your systems.
 
 ## How does Spot Scaling work?
 

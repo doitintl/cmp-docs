@@ -7,7 +7,7 @@ description: Add more licenses to your existing G Suite or Google Workspace subs
 If you’re on the Annual or Flexible plans and use up all your licenses, you can easily purchase more. We increase your monthly payment to cover the new licenses. 
 
 {% hint style="info" %}
-Required Permission: **Licenses Manager**
+Required Permission: **Assets Manager**
 {% endhint %}
 
 {% hint style="warning" %}

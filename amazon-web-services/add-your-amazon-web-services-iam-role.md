@@ -81,7 +81,7 @@ Enter the AWS Account ID and External ID you've noted in the previous step. You 
 
 This will take you to a page where you can select built-in policies and/or create a new one.
 
-Currently, there are three features you can enable for a linked AWS account: **Core**, [**Quotas**](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#quota-monitoring), ****and **SpotScaling**
+Currently, there are three features you can enable for a linked AWS account: **Core**, [**Quotas**](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#quota-monitoring), ****and ****[**SpotScaling**](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#spot-scaling)\*\*\*\*
 
 **Core** permissions are for a minimum set of read-only permissions we need as a foundation for many CMP features. As such, it is checked by default.
 

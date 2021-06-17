@@ -81,7 +81,7 @@ Enter the AWS Account ID and External ID you've noted in the previous step. You 
 
 This will take you to a page where you can select built-in policies and/or create a new one.
 
-Currently, there are three features you can enable for a linked AWS account: **Core**, [**Quotas**](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#quota-monitoring), ****and ****[**Spot0**](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#spot0). 
+Currently, there are three features you can enable for a linked AWS account: **Core**, [**Quotas**](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#quota-monitoring), ****and **SpotScaling**
 
 **Core** permissions are for a minimum set of read-only permissions we need as a foundation for many CMP features. As such, it is checked by default.
 
@@ -139,7 +139,7 @@ A new tab will open for you to create the policy. Switch to the "JSON" tab and c
 
 After the JSON for the new policy you want to create is pasted, click "**Next: Tags**". If you aren't adding tags to this role, then you may proceed by clicking on "**Next: Review**".
 
-Finally, give your policy an identifiable name, like "spot0\_policy", and a description if necessary. Then click on "**Create Policy**".
+Finally, give your policy an identifiable name, like "spotscaling\_policy", and a description if necessary. Then click on "**Create Policy**".
 
 ![](../.gitbook/assets/cleanshot-2021-06-09-at-15.11.55.jpg)
 

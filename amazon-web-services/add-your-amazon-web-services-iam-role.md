@@ -97,7 +97,7 @@ To add permissions for other features, you'll need to create a new policy. If yo
 
 ### Creating new policies
 
-#### **Spot0**
+#### **Spot Scaling**
 
 A new tab will open for you to create the policy. Switch to the "JSON" tab and copy-paste the following list of required permissions as a JSON file:
 

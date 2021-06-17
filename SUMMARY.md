@@ -148,3 +148,9 @@
 
 * [How to get GCS cost per bucket](tutorials/how-to-get-gcs-cost-per-bucket.md)
 
+## Spot Scaling
+
+* [Spot Scaling Overview](spot-scaling/spot0.md)
+* [Set up and use Spot Scaling](spot-scaling/setup.md)
+* [Spot Scaling FAQ](spot-scaling/faq.md)
+

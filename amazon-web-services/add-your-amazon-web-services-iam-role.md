@@ -107,24 +107,28 @@ A new tab will open for you to create the policy. Switch to the "JSON" tab and c
     "Statement": [
         {
             "Action": [
+                "ec2:Describe*",
                 "ec2:CreateLaunchTemplate",
                 "ec2:CreateLaunchTemplateVersion",
-                "autoscaling:BatchDeleteScheduledAction",
-                "autoscaling:BatchPutScheduledUpdateGroupAction",
-                "autoscaling:CreateOrUpdateTags",
-                "autoscaling:UpdateAutoScalingGroup",
                 "ec2:ModifyLaunchTemplate",
                 "ec2:RunInstances",
+                "ec2:TerminateInstances",
+                "ec2:CreateTags",
+                "ec2:DeleteTags",
+                "ec2:CreateLaunchTemplateVersion",
+                "ec2:CancelSpotInstanceRequests",
+                "autoscaling:CreateOrUpdateTags",
+                "autoscaling:UpdateAutoScalingGroup",
                 "autoscaling:Describe*",
+                "autoscaling:AttachInstances",
+                "autoscaling:BatchDeleteScheduledAction",
+                "autoscaling:BatchPutScheduledUpdateGroupAction",
                 "cloudformation:ListStacks",
                 "cloudformation:Describe*",
-                "ec2:Describe*",
                 "iam:PassRole",
                 "events:PutRule",
                 "events:PutTargets",
-                "events:PutEvents",
-                "autoscaling:AttachInstances",
-                "ec2:TerminateInstances"
+                "events:PutEvents"
             ],
             "Resource": "*",
             "Effect": "Allow"

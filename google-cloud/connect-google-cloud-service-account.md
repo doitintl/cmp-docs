@@ -38,7 +38,19 @@ The `gcloud` commands vary according to the boxes of the features you checked
 
 ![](../.gitbook/assets/cmp_gcp_createserviceaccount2.jpg)
 
-Once finished, you have the key JSON file for your new service account.
+Once you finished to run the gcloud commands, you can download the key in the JSON file for your new service account.
+
+![Downloading the key from the terminal](../.gitbook/assets/image%20%2870%29.png)
+
+{% hint style="info" %}
+The gcloud command achieve the following: the service account is created in one of the projects in your organization, and then the permissions for this service account are given on the organization level.
+{% endhint %}
+
+Congrats! You have now created a new "doit\_cmp\_role" linked to the "DoiT CMP Service Account", under your organisation.
+
+![](../.gitbook/assets/image%20%2871%29.png)
+
+
 
 ## Upload the Service Account Key
 

@@ -1,8 +1,8 @@
 ---
-description: Frequently asked questions about FlexSave
+description: Frequently asked questions about FlexSave for Amazon Web Services
 ---
 
-# FlexSave FAQ
+# FlexSave for AWS FAQ
 
 ### Overview
 
@@ -16,13 +16,13 @@ In order to use FlexSave, your AWS account/s should be consolidated with the Doi
 
 ### How much can I save every month?
 
-You can realize 80%+ of the discount granted by the applicable AWS Reserved Instance 1-year Full Upfront.
+You can realize between 80% to a 100% of the discount granted by the applicable AWS Reserved Instance 1-year Full Upfront.
 
 For example, AWS grants a 19.5% discount on reserved instances for instances from the m5 instance family in the us-west-1 region. A FlexSave reservation for this machine/region combination will provide you with a 15.6% \(19.5% \* 0.8\) discount but without the risk of committing to the entire year. 
 
 ### Can I use FlexSave if I am using AWS RIs or Saving Plans?
 
-In [Manual Mode](overview.md#manual-mode), FlexSave reservations are applied to on-demand usage. Usage covered by AWS reserved instances or Savings Plans is excluded from our recommendations and the order user interface. 
+FlexSave reservations are applied to on-demand usage. Usage covered by AWS reserved instances or Savings Plans is excluded from our recommendations and the order user interface. 
 
 ### Can I buy FlexSave reservations for 3 months?
 

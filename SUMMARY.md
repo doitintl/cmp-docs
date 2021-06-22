@@ -28,13 +28,13 @@
 * [Set up CloudHealth](amazon-web-services/set-up-cloudhealth.md)
 * [AWS Quota Monitoring](amazon-web-services/aws-quotas.md)
 
-## FlexSave
+## FlexSave for AWS <a id="flexsave-aws"></a>
 
-* [FlexSave Overview](flexsave/overview.md)
-* [FlexSave FAQ](flexsave/faq.md)
-* [Supported Regions](flexsave/flexri-regions.md)
-* [Bulk Upload FlexSave Orders](flexsave/bulk-orders.md)
-* [FlexSave Recommendations](flexsave/recommendations.md)
+* [FlexSave for AWS Overview](flexsave-aws/overview.md)
+* [FlexSave for AWS FAQ](flexsave-aws/faq.md)
+* [Supported AWS Regions](flexsave-aws/flexri-regions.md)
+* [Bulk Upload FlexSave Orders](flexsave-aws/bulk-orders.md)
+* [FlexSave Recommendations](flexsave-aws/recommendations.md)
 
 ## Spot Scaling
 

@@ -1,8 +1,8 @@
 ---
-description: Supported Regions & Roadmap for FlexSave
+description: Supported by FlexSave for AWS Regions & Roadmap
 ---
 
-# Supported Regions
+# Supported AWS Regions
 
 ### Availability
 

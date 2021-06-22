@@ -2,7 +2,7 @@
 description: How to maximize your EC2 discounts without any commitments
 ---
 
-# FlexSave Overview
+# FlexSave for AWS Overview
 
 ## Overview
 

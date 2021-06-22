@@ -28,7 +28,7 @@ FlexSave Autopilot works by performing a sophisticated, AI-based analysis of you
 
 Navigate to FlexSave by clicking its icon on the left-hand navigation panel.
 
-\[image\]
+![](../.gitbook/assets/cleanshot-2021-06-22-at-11.30.57.jpg)
 
 You will land on the **AUTOPILOT** tab. From there, you'll see a preview of your team's potential savings for the following month if you enable FlexSave Autopilot.
 

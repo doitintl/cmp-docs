@@ -59,7 +59,7 @@ AWS Reserved Instances \(RIs\) offer you between 30-70% savings on compute costs
 
 However getting RIs usage perfect is hard, because it relies on you being able to predict the future. Sometimes your predictions turn out wrong because usage needs suddenly change. As a result, you're stuck overpaying for instances you need no more, or forced to re-sell it at a huge discount.
 
-[Flexible Reserved Instances](flexible-reservations/flexri.md) in the CMP let you commit to EC2 Reserved Instances in one-month intervals while still sharing in the AWS-listed RI commitment discount. With Flex RIs, you'll eliminate RI lock-in risk for your less predictable workloads.
+[Flexible Reserved Instances](flexsave/overview.md) in the CMP let you commit to EC2 Reserved Instances in one-month intervals while still sharing in the AWS-listed RI commitment discount. With Flex RIs, you'll eliminate RI lock-in risk for your less predictable workloads.
 
 Placing an order for a Flex RI for the following month takes all but a few clicks, and you can easily monitor their performance from a central hub in the CMP.
 

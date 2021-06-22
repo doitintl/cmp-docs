@@ -28,13 +28,13 @@
 * [Set up CloudHealth](amazon-web-services/set-up-cloudhealth.md)
 * [AWS Quota Monitoring](amazon-web-services/aws-quotas.md)
 
-## Flexible Reservations
+## FlexSave
 
-* [Flexible Reservations Overview](flexible-reservations/flexri.md)
-* [Flexible Reservations FAQ](flexible-reservations/flexri-faq.md)
-* [Supported Regions](flexible-reservations/flexri-regions.md)
-* [Bulk Upload FlexRI Orders](flexible-reservations/bulk-orders.md)
-* [Flex RI Recommendations](flexible-reservations/flex-ri-recommendations.md)
+* [FlexSave Overview](flexsave/overview.md)
+* [FlexSave FAQ](flexsave/faq.md)
+* [Supported Regions](flexsave/flexri-regions.md)
+* [Bulk Upload FlexSave Orders](flexsave/bulk-orders.md)
+* [FlexSave Recommendations](flexsave/recommendations.md)
 
 ## Spot Scaling
 

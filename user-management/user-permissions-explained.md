@@ -44,7 +44,7 @@ Available Permissions:
 
 **Flexible RI Admin**
 
-* Purchase [Flexible Reserved Instances](../flexible-reservations/flexri.md) and manage orders
+* Purchase [Flexible Reserved Instances](../flexsave/overview.md) and manage orders
 
 **Invoice Viewer**
 

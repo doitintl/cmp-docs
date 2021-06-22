@@ -46,12 +46,19 @@ Your ASG's current configuration is displayed under the "Current Values" column.
 
 ### Additional Spot Scaling Settings
 
-With Spot Scaling you have two additional options you can select when optimizing your ASG's configuration:
+With Spot Scaling you have two optional features you can turn on when optimizing your ASG's configuration:
 
 * **Keep my ASG up to date**: If turned on, Spot Scaling will automatically update the ASG's configuration to continuously maximize system runtime and spot-related EC2 savings. 
 * **Fallback to On-Demand**: When there aren't where enough unused EC2 instances to meet demand for Spot instances, Spot Scaling will automatically fallback to on-demand instances.
 
 ![](../.gitbook/assets/spotscalinggeneralsettings.jpg)
+
+### ASG Potential Savings Metrics
+
+To better understand your potential savings for each ASG Spot Scaling can optimize, you can see two metrics for each recommendation:
+
+* **Monthly Savings Potential**: How much Spot Scaling can save you if you apply its recommendation. 
+* **Monthly Saving Rate**: The percentage savings over on-demand you'll realize if you apply Spot Scaling's recommendation.
 
 ### Apply Recommendations
 
@@ -71,7 +78,9 @@ The values under the "Current Values" column will update, reflecting the changes
 
 ![](../.gitbook/assets/spotscalingrecapplied.jpg)
 
-Additionally, after applying a recommendation, your ASG will have a value of "Optimized" under the "Optimization Status" column.
+Additionally, once you apply a recommendation, the metrics appearing at the top will update, showing you the previous month's savings and the current month's savings. You will see a breakdown of hours and cost under each metric for both spot and on-demand instances.
+
+Finally, after applying a recommendation, your ASG will see a value of "Optimized" under the "Optimization Status" column.
 
 ![](../.gitbook/assets/spotscalingnowoptimized.jpg)
 

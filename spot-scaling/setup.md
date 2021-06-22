@@ -38,7 +38,7 @@ These ASGs will have a value of "Not Optimized" under the "Optimization Status" 
 
 ![](../.gitbook/assets/spotscalingnotoptimized.jpg)
 
-Click on the ASG to view its SpotScaling recommendation.
+Click on the ASG to view its Spot Scaling recommendation.
 
 ![](../.gitbook/assets/spotscalingclickasg.jpg)
 

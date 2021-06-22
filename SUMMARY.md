@@ -38,9 +38,9 @@
 
 ## Spot Scaling
 
-* [Spot Scaling Overview](spot-scaling/spot-scaling-overview.md)
-* [Setting Up Spot Scaling](spot-scaling/spot-scaling-setup.md)
-* [Spot Scaling FAQ](spot-scaling/spot-scaling-faq.md)
+* [Spot Scaling Overview](spot-scaling/overview.md)
+* [Setting Up Spot Scaling](spot-scaling/setup.md)
+* [Spot Scaling FAQ](spot-scaling/faq.md)
 
 ## Cloud Analytics
 

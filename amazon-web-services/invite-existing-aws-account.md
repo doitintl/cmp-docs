@@ -59,3 +59,49 @@ After signing in to the AWS Console and accepting the invitation, a final email 
 
 ![](../.gitbook/assets/iam-last-steps.png)
 
+## Frequently asked questions: 
+
+
+
+> I’ve performed all the requested steps but my information is not still there. What could have been wrong?
+
+Once successfully completed it takes 24-48 hours for the data to start flowing through from AWS, then our Cloud Management Platform will update. 
+
+
+
+> I have not received any invitation email. What could have gone wrong?
+
+1\) On your organization's page, check if you can see the invite: 
+
+![](../.gitbook/assets/image%20%2872%29.png)
+
+If you can't see that invite, check if you have left your organization as specified in the above "Multiple Accounts Under a Master Organization" steps. 
+
+2\) If you can see the invite on the organization's page, consider the following:  
+Is the invite on your spam folder? Did you enter the correct AWS account id when inviting the account?
+
+
+
+> I have followed all the steps, but my account is still showing under the "invites". What could be the reasons?
+
+![](../.gitbook/assets/image%20%2874%29.png)
+
+1\) If you do not have spends on your billing account, the account  will stay under “invites”. It is based on the fact that an entry/file \(CUR's\) is created and populated by AWS for our system to be able to see and parse it.
+
+If you have spends on your billing account, and after 48hours you still see the account under "invites", please [open a support ticket.](https://help.doit-intl.com/tickets/open-a-new-support-request) 
+
+
+
+> My CloudHealth status shows as "critical" or "unknown", what does it mean? 
+>
+> My payer account is showing as N/A, what does that mean?
+
+![](../.gitbook/assets/image%20%2873%29.png)
+
+  
+Actions to take : It means that your Cloudhealth configuration was not done properly: please [open a support ticket](https://help.doit-intl.com/tickets/open-a-new-support-request) if you see the  CloudHealth status as "critical" or "unknown", or if you see Payer Account: N/A.  
+The consequences are the following: 
+
+* Our Cloud Management Platform is not able to properly reflect your reservation data, and you cannot use the FlexRI and Spot0 services. 
+* It also means you will not be able to run reports on this asset, the reason being that the data is not flowing to our platform. 
+

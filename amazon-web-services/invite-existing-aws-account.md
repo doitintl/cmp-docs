@@ -63,7 +63,7 @@ After signing in to the AWS Console and accepting the invitation, a final email 
 
 > **I’ve performed all the requested steps but my information is not still there. What could have been wrong?**
 
-Once successfully completed it takes 24-48 hours for the data to start flowing through from AWS, then our Cloud Management Platform will update. 
+Once successfully completed it takes 24-72 hours for the data to start flowing through from AWS, then our Cloud Management Platform will update. 
 
 > **I have not received any invitation email. What could have gone wrong?**
 
@@ -82,7 +82,7 @@ Is the invite on your spam folder? Did you enter the correct AWS account id when
 
 1\) If you do not have spends on your billing account, the account  will stay under “invites”. It is based on the fact that an entry/file \(CUR's\) is created and populated by AWS for our system to be able to see and parse it.
 
-If you have spends on your billing account, and after 48hours you still see the account under "invites", please [open a support ticket.](https://help.doit-intl.com/tickets/open-a-new-support-request) 
+If you have spends on your billing account, and after 48 hours you still see the account under "invites", please [open a support ticket.](https://help.doit-intl.com/tickets/open-a-new-support-request) 
 
 > **My CloudHealth status shows as "critical" or "unknown", what does it mean? My payer account is showing as N/A, what does that mean?**
 

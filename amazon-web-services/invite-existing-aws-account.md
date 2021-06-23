@@ -71,7 +71,7 @@ If you have spends on your billing account, and after 48 hours you still see the
 
 
 
-> ### **I’ve performed all the requested steps, I have spends on my AWS billing account, but my information is not still there. What could be the reason ?**
+> ### **I’ve performed all the requested steps, I have spends on my AWS billing account, but my information is still not there. What could be the reason ?**
 
 Once successfully completed it takes 24-72 hours for the data to start flowing through from AWS, then our Cloud Management Platform will update. 
 
@@ -86,7 +86,9 @@ Once successfully completed it takes 24-72 hours for the data to start flowing t
 If you can't see that invite, check if you have left your organization as specified in the above "Multiple Accounts Under a Master Organization" steps. 
 
 2\) If you can see the invite on the organization's page, consider the following:  
-Is the invite on your spam folder? Did you enter the correct AWS account id when inviting the account?
+Is the invite on your spam folder? Did you enter the correct AWS account id when inviting the account? 
+
+If you are still having issues, you can [open a support ticket](https://hello.doit-intl.com/support)
 
 
 
@@ -99,7 +101,7 @@ Is the invite on your spam folder? Did you enter the correct AWS account id when
   
 It means that your Cloudhealth configuration was not done properly**.**
 
-**Actions to take:** please [open a support ticket](https://help.doit-intl.com/tickets/open-a-new-support-request) if you see the  CloudHealth status as "critical" or "unknown", or if you see Payer Account: N/A.  
+**Actions to take:** please [open a support ticket](https://hello.doit-intl.com/support) if you see the  CloudHealth status as "critical" or "unknown", or if you see Payer Account: N/A.  
 **The consequences are the following:** 
 
 * Our Cloud Management Platform is not able to properly reflect your reservation data, and you cannot use the FlexRI and Spot0 services. 

@@ -242,8 +242,8 @@ Then, check the box of any new feature\(s\) you'd like to add permissions for.
 
 There are two options for updating your role:
 
-1. [Creating a stack in CloudFormation](add-your-amazon-web-services-iam-role.md#option-1-create-stack-in-cloudformation)
-2. [Copy + Pasting a command in CloudShell](add-your-amazon-web-services-iam-role.md#option-2-create-role-via-cli)
+1. [Creating a stack in CloudFormation](link-account.md#option-1-create-stack-in-cloudformation)
+2. [Copy + Pasting a command in CloudShell](link-account.md#option-2-create-role-via-cli)
 
 Both methods are detailed above \(and hyperlinked\) in the section on linking your AWS account automatically. 
 

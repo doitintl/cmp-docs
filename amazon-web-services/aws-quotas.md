@@ -18,12 +18,12 @@ However, when you launch a new workload or need additional resources within the 
 _Note: This error is related to the AWS Elastic IP service limits but you may experience service limit error related to another AWS service._
 {% endhint %}
 
-For circumstances like these, we've added Service Limit and Quota Monitoring to the Cloud Management Platform. Once you [link an Amazon Web Services IAM Role](add-your-amazon-web-services-iam-role.md) to the CMP with the requisite permissions for Quota Monitoring, you will receive automatic notifications whenever you hit the 80% threshold of your AWS service limits. 
+For circumstances like these, we've added Service Limit and Quota Monitoring to the Cloud Management Platform. Once you [link an Amazon Web Services IAM Role](link-account.md) to the CMP with the requisite permissions for Quota Monitoring, you will receive automatic notifications whenever you hit the 80% threshold of your AWS service limits. 
 
 ## Setting up requisite permissions for Quota Monitoring
 
 {% hint style="success" %}
-Read [this article](add-your-amazon-web-services-iam-role.md) to see how to link your AWS IAM Role, and specifically [this section](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#quota-monitoring) to see how to give the requisite permissions for AWS Quota Monitoring.
+Read [this article](link-account.md) to see how to link your AWS IAM Role, and specifically [this section](https://help.doit-intl.com/amazon-web-services/add-your-amazon-web-services-iam-role#quota-monitoring) to see how to give the requisite permissions for AWS Quota Monitoring.
 {% endhint %}
 
 ## Adding the Quotas widget to your dashboard

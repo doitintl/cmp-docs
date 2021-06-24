@@ -23,7 +23,7 @@
 
 * [Invite Existing AWS Account](amazon-web-services/invite-existing-aws-account.md)
 * [Create An AWS Account](amazon-web-services/create-an-aws-account.md)
-* [Link your AWS Account](amazon-web-services/add-your-amazon-web-services-iam-role.md)
+* [Link your AWS Account](amazon-web-services/link-account.md)
 * [AWS Cost Allocation Tags](amazon-web-services/supported-aws-cost-allocation-tags.md)
 * [Set up CloudHealth](amazon-web-services/set-up-cloudhealth.md)
 * [AWS Quota Monitoring](amazon-web-services/aws-quotas.md)

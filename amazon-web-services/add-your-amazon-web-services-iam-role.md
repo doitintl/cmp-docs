@@ -253,3 +253,9 @@ The flows are essentially the same as described above, except instead of creatin
 
 To remove a feature that a linked account has access to, go to the IAM page in the AWS console. Then, detach the policy or policies associated with the feature in that linked account's role.
 
+## Video
+
+{% embed url="https://www.loom.com/share/ed483a87c6474c22ae735ec7d19e2215" %}
+
+
+

@@ -82,7 +82,7 @@ In general, while FlexSave reservations do not yield as much discount as AWS Res
 
 ### Which regions are supported with FlexSave?
 
-As of the first quarter of 2021, FlexSave reservations are available in 7 AWS regions with more regions becoming available later this year. Please see our [supported regions matrix](https://help.doit-intl.com/flexible-reservations/flexri-regions) for more details.
+As of the first quarter of 2021, FlexSave reservations are available in 7 AWS regions with more regions becoming available later this year. Please see our [supported regions matrix](flexri-regions.md) for more details.
 
 
 

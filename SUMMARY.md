@@ -8,6 +8,7 @@
 * [Company Registration](general/registration.md)
 * [Your Profile](general/profile.md)
 * [Sharing Feedback](general/sharing-feedback-and-feature-requests.md)
+* [Slack Integration](general/slack.md)
 
 ## Google Cloud
 

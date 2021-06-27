@@ -1,6 +1,10 @@
-# Slack Integration
+---
+description: >-
+  Connect CMP to your Slack workspace to help share reports, budgets, anomalies
+  or almost anything else with your colleagues faster.
+---
 
-Connect CMP to your Slack workspace to help share reports, budgets, anomalies or almost anything else with your colleagues faster.
+# Slack Integration
 
 The DoiT CMP Slack application will automatically unfurl a preview of any CMP link, including chart images for certain reports, making it easy for anyone in your Slack workspace to learn from your CMP analyses.
 

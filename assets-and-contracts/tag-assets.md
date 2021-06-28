@@ -7,7 +7,7 @@ description: Tag your asset to identify them in your Purchase Orders or Invoices
 You can tag an asset for classification purposes. Tags will appear on invoices so you will be able to identify invoice items easier. The best practice is to tag assets with a team name, cost center, location, or anything else. To add tags to assets, see the following instructions. 
 
 {% hint style="info" %}
-Required Permission**: Invoice Viewer**
+Required Role**: Admin**
 {% endhint %}
 
 Access Assets from the menu on the left-hand side of the page and clicking on Assets.

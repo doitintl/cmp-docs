@@ -27,6 +27,11 @@ Let's briefly go over your options for editing reports, highlighted below.
 
 **Savings:** Analyze your reports and selected dimensions on a savings basis. These savings come as a result of your commercial agreement with Google Cloud and the agreed-upon discount between your company and DoiT International.
 
+{% hint style="warning" %}
+ The discount is not available for the following services:   
+Google Maps APIs, Google Support, Looker, Preemptible VMs \(compute engine\), 3rd party GCP Marketplace services, Premium OS Images.
+{% endhint %}
+
 ### Aggregation
 
 Use aggregations to summarize how you view your reports. [Read more on aggregations](https://help.doit-intl.com/cloud-analytics/using-aggregations-in-cloud-reports).
@@ -39,9 +44,12 @@ This is where you select how your report is visualized.
 
 Use this to perform advanced analysis in your reports with just a click. Use this to perform [Trend Analysis](https://help.doit-intl.com/cloud-analytics/trend-analysis) or to [create Forecasts](https://help.doit-intl.com/cloud-analytics/forecasting) is supported.
 
-### Time Interval & Range
+### Time Interval & Time range
 
-Specify the frequency in which data is aggregated and the date range for your report.
+Specify the frequency in which data is aggregated. For the time interval, you have the following options: Hour, Day, Week, Month, Quarter, Year.  
+For the time range, the options are the following:
+
+![](../.gitbook/assets/image%20%2877%29.png)
 
 ### Currency
 
@@ -62,6 +70,8 @@ Your filters are displayed along with any other visible configurations on the ri
 ![](../.gitbook/assets/cloudreports_filtervisibleconfig.jpg)
 
 Finally, click the "Run" button to generate an updated report that reflects the filters you've selected.
+
+
 
 ## **Performing Edits**
 

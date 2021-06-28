@@ -18,11 +18,11 @@ Required Permissions: **Cloud Analytics**
 
 To create an attribution:
 
-1. Click on the Cloud Analytics icon on the lefthand navigation panel
+1. Click on the Cloud Analytics icon on the left hand navigation panel
 2. Switch to the Attributions tab
-3. Click the "**+ NEW**" button
+3. Click the "**+ NEW ATTRIBUTION**" button
 
-![](../.gitbook/assets/cmp_createattributions.jpg)
+![](../.gitbook/assets/attribution.png)
 
 Next, you will be taken to an attribution creation page, where you will configure its conditions and settings.
 
@@ -32,11 +32,13 @@ If you want to give even more context to your Attribution, you may give it a des
 
 ![](../.gitbook/assets/attributions_namee.jpg)
 
-Now it's time to configure the conditions, or the criteria, which will determine what falls under your Attribution. You'll have every Google Cloud billing dimension to choose from; as well as any custom, project, and system labels.
+Now it's time to configure the conditions, or the criteria, which will determine what falls under your Attribution. You have the option to either set as meet "**ALL**" or "**ANY**" of the conditions. This will switch between "AND" to "OR" relations.
 
-Select the field\(s\) you'd like to include as part of your Attribution from the dropdown:
+![](../.gitbook/assets/all-any.png)
 
-![](../.gitbook/assets/attributionslabels.jpg)
+You'll have every Google Cloud billing dimension to choose from; as well as any custom, project, and system labels. Select the field\(s\) you'd like to include as part of your Attribution from the dropdown:
+
+![](../.gitbook/assets/attributions.png)
 
 From there, filter your selections either by keyword, exclusion, or regular expression just as you would do in Cloud Analytics Reports. Continuing our example from above, let's filter for projects which the production team uses.
 

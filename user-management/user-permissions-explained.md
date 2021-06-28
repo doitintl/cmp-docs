@@ -60,7 +60,7 @@ Available Permissions:
 * Update Users
 * Remove Users
 
-**Manage Settings**
+**Settings Manager**
 
 * Manage your Cloud Management Platform account settings
 * Access the Settings page via the left-hand navigation bar

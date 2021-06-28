@@ -70,7 +70,7 @@ There are a few pre-built roles in your account for your convenience. The easies
 | superQuery | access superQuery IDE |
 | Sandbox Admin | set company [Sandbox policy](../cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md) for other users  |
 | FlexRI Admin | purchase and manage [flexible reservations](../flexsave-aws/overview.md) |
-| Manage Settings | manage your Cloud Management Platform account settings |
+| Settings Manager | manage your Cloud Management Platform account settings |
 | Contracts Viewer | provides access to the commercial contracts |
 | Perks Viewer | access and request Perks |
 | Anomalies Viewer | access Cost and Usage Anomalies |
@@ -244,7 +244,7 @@ Has access to all features in the Cloud Management Platform and the CMP API, and
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Manage Settings</td>
+      <td style="text-align:left">Settings Manager</td>
       <td style="text-align:center"><b>&#x2713;</b>
       </td>
       <td style="text-align:center"></td>

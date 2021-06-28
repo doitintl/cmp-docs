@@ -36,7 +36,7 @@ Now it's time to configure the conditions, or the criteria, which will determine
 
 ![](../.gitbook/assets/all-any.png)
 
-You'll have every Google Cloud billing dimension to choose from; as well as any custom, project, and system labels. Select the field\(s\) you'd like to include as part of your Attribution from the dropdown:
+You will have every cloud billing dimension to choose from; as well as any custom, project, and system labels. Select the field\(s\) you'd like to include as part of your Attribution from the dropdown:
 
 ![](../.gitbook/assets/attributions.png)
 

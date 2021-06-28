@@ -24,11 +24,11 @@ You may have already executed some or all of these steps. However, unless ALL st
 
 ## Step 1 - Enable the GKE Cost Analytics
 
-In order to do this, you will need to [connect your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) to the CMP. Please, navigate to the Settings page via the gear icon in your lefthand navigation panel. 
+In order to do this, you will need to [connect your Google Cloud Organization](../google-cloud/connect-google-cloud-service-account.md) to the CMP. Please navigate to the Settings page via the gear icon in your lefthand navigation panel. 
 
 Then check the box\(es\) of the additional features you'd like to enable, making sure to select "GKE Cost Analytics" here. 
 
-Click on the "Create Service Account" button. This will display containing all of the Google SDK \([gcloud\)](https://cloud.google.com/sdk) commands you need to run sequentially to create the service account that contains the permissions for all of the features you checked.
+Click on the "Create Service Account" button. This will display all of the Google SDK \([gcloud\)](https://cloud.google.com/sdk) commands you need to run sequentially to create the service account that contains the permissions for all of the features you checked.
 
 Finally, once you've executed all of the commands, click "Upload Key" to upload the service account to the CMP.
 

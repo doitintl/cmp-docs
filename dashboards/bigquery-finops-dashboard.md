@@ -28,13 +28,26 @@ Once the Google Cloud Service Account setup is complete, click the **'**Attach' 
 
 ![](../.gitbook/assets/budgetao_finops_attach.jpg)
 
-Cloud Management Platform will now start gathering the information on your usage patterns. While this information is being collected, your BigQuery FinOps would have the following state:
-
-![BigQuery FinOps dashboard while collecting usage information](../.gitbook/assets/bigquery-finops-empty-state.png)
+Cloud Management Platform will now start gathering the information on your usage patterns.
 
 {% hint style="info" %}
-Your BigQuery data isn't backfilled, so the data you'll see will be based on activity from the moment your service account key is processed. As more time passes, you'll get more information about your team's BigQuery information.
+**The BigQuery historical jobs are backfilled for the last 30 days**
 {% endhint %}
+
+{% hint style="success" %}
+While this information is being collected, your BigQuery FinOps will  have the three following states:
+{% endhint %}
+
+  
+**1\) We have started to analyze your historical usage. So far we have processed X%. In the meantime, you can explore our training Perks!**
+
+![](../.gitbook/assets/image%20%2882%29.png)
+
+**2\) The scan is completed, and X% of your data was already processed. You are almost there!**
+
+![](../.gitbook/assets/image%20%2884%29.png)
+
+**3\) BigQuery FinOps highlights inefficiencies in your BigQuery usage. The analysis represents the last 30 days of use.**
 
 Once available, you'll see the dashboard appear with the statistics of your organization's BigQuery usage.
 
@@ -42,7 +55,7 @@ Once available, you'll see the dashboard appear with the statistics of your orga
 
 The BigQuery FinOps dashboard \(reference image below\) is compiled of widgets that will provide you more insight into your organization's statistics.
 
-![](../.gitbook/assets/bqfinopsnew.jpg)
+![](../.gitbook/assets/image%20%2879%29.png)
 
 ### Elements of the Dashboard
 

@@ -54,6 +54,24 @@ After a few seconds, your report will appear, ready for your analysis.
 
 ![](../.gitbook/assets/cloudreportsui.jpg)
 
+
+
+## FAQ
+
+### When are the numbers for a day final? 
+
+You can consider numbers “final” for 3 days after the date. With that in mind, there is really no SLA for this and numbers can change any time if there are corrections or delays that needs to be applied.
+
+### Are they the report back-filled/updated and at what frequency? 
+
+Our reports data is updated hourly.
+
+### What timezone are dates defined in?
+
+Data coming from GCP is based on Pacific time and Data coming from AWS is based on Coordinated Universal Time \(UTC\)
+
+
+
 View the bite-sized video below for a closer look at creating and exploring Cloud Reports.
 
 {% embed url="https://www.loom.com/share/b953b425d41844d5b48e95d24da3787e?sharedAppSource=team\_library" %}

@@ -149,7 +149,14 @@ View the bite-sized video below for a quick tutorial on the BigQuery FinOps Dash
 
 You will see "not yet allocated" when analyzing dimensions like Projects in the BigQuery Explorer when we aren't able to detect which table a query is scanning.
 
-This could be because of queries like "SELECT 1" or queries we aren't able to parse due to complexity \(parser times out\), or it uses a function/statement which we don't support yet.
+This could be because of queries like "SELECT 1" or queries we aren't able to parse due to complexity \(parser times out\), or it uses a function/statement which we don't support yet.  
+
+
+### How much does BigQuery finops cost monthly? I understand that BQ datasets are created in the background. 
+
+Typically, it’s less than $10 per month.
+
+
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 

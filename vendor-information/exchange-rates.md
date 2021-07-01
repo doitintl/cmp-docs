@@ -19,6 +19,7 @@ We will not notify you for increases in non-USD prices that are due to currency 
 | March 2021 | 0.852765 | 0.72545 | 1.25652 | 1.316881 |
 | April 2021 | 0.831981 | 0.723772 | 1.229005 | 1.29584 |
 | May 2021 | 0.817428 | 0.70295 | 1.206105 | 1.291156 |
+| June 2021 | 0.852765 | 0.72545 | 1.25652 | 1.316881 |
 
 
 

@@ -15,7 +15,8 @@ There are two modes when managing your EC2 compute with FlexSave: **Autopilot** 
 Let's go over how to use FlexSave in both modes.
 
 {% hint style="info" %}
-Required Permissions: **FlexSave Admin**
+Required Permissions: **FlexSave Admin**   
+Default roles with this permission: **Power User, Admin**
 {% endhint %}
 
 ## FlexSave Autopilot <a id="autopilot"></a>
@@ -113,6 +114,10 @@ You have two options in FlexSave Manual Mode when ordering FlexSave reservations
 
 1. Utilizing [FlexSave Recommendations](www.help.doit-intl.com/flexsave/recommendations) to make orders
 2. Making custom orders yourself
+
+{% hint style="info" %}
+All users with the FlexSave Admin permission \(Admin, Power User\) are notified via email about expiring FlexSave orders.
+{% endhint %}
 
 ### Utilizing FlexSave Recommendations
 

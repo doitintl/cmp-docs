@@ -58,19 +58,17 @@ After a few seconds, your report will appear, ready for your analysis.
 
 ## FAQ
 
-### When are the numbers for a day final? 
+### When are the metric amounts \(Cost, Usage, etc\) for a day as "final"? 
 
 You can consider numbers “final” for 3 days after the date. With that in mind, there is really no SLA for this and numbers can change any time if there are corrections or delays that needs to be applied.
 
 ### Are they the report back-filled/updated and at what frequency? 
 
-Our reports data is updated hourly.
+Cloud Analytics data and reports are updated hourly.
 
-### What timezone are dates defined in?
+### What is timezone the Cloud Analytics is based on?
 
-Data coming from GCP is based on Pacific time and Data coming from AWS is based on Coordinated Universal Time \(UTC\)
-
-
+Data coming from Google Cloud is based on Pacific time and Data coming from AWS is based on Coordinated Universal Time \(UTC\)
 
 View the bite-sized video below for a closer look at creating and exploring Cloud Reports.
 

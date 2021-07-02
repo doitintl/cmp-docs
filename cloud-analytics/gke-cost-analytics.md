@@ -69,6 +69,10 @@ Then enter the service account email in the "Add members" field. Finally, grant 
 Note: Datasets to which the Service Account email is not granted this permission will not be available in the GKE Cost Analytics feature of the DoiT CMP.
 {% endhint %}
 
+{% hint style="warning" %}
+Make sure you have the GKE API enabled in the project linked to your Kubernetes cluster:
+{% endhint %}
+
 ## Analyzing GKE Cost Data in the CMP
 
 Once everything is set up, your team's GKE metering data can be analyzed using the CMP's [Cloud Analytics](create-cloud-report.md) functionality.

@@ -14,9 +14,7 @@ Otherwise, if you don't have a Google or Microsoft account and this is your firs
 
 When using signing with Microsoft for the first time, the organization admin must sign in himself to CMP and grant admin consent for CMP to read user info \(emails, etc.\) for their org. Eg shown below:
 
-![](../.gitbook/assets/image%20%2885%29.png)
-
-
+![](../.gitbook/assets/image%20%2888%29.png)
 
 ### Login using Email and Password
 

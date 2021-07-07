@@ -48,7 +48,7 @@
 * [Create Cloud Analytics Reports](cloud-analytics/create-cloud-report.md)
 * [Edit Cloud Analytics Report](cloud-analytics/editing-your-cloud-report.md)
 * [Attribute Cloud Spend](cloud-analytics/attributing-cloud-spend.md)
-* [Share Cloud Analytics Reports](cloud-analytics/sharing-cloud-reports.md)
+* [Share and Download Cloud Analytics Reports](cloud-analytics/sharing-cloud-reports.md)
 * [Clone Cloud Analytics Reports](cloud-analytics/cloning-and-or-customizing-cloud-reports.md)
 * [Understanding Aggregations](cloud-analytics/using-aggregations-in-cloud-reports.md)
 * [Understanding "Minor Values"](cloud-analytics/minor-values.md)

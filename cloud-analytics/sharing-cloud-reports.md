@@ -4,7 +4,9 @@ description: >-
   members.
 ---
 
-# Share Cloud Analytics Reports
+# Share and Download Cloud Analytics Reports
+
+### _**1\) Sharing Cloud Analytics Reports**_
 
 _**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on_ [_**Creating Cloud Reports**_](create-cloud-report.md) _before reading further._
 
@@ -30,6 +32,8 @@ Once you've entered the email\(s\) of who you're sharing your Cloud Report with,
 
 ![](../.gitbook/assets/sharingreportgif.gif)
 
+
+
 Once a report is shared, the recipient\(s\) will receive an email that looks like this:
 
 ![](../.gitbook/assets/cleanshot-2020-07-01-at-12.56.13.png)
@@ -39,4 +43,22 @@ Once a report is shared, the recipient\(s\) will receive an email that looks lik
 To change a user's role, make them the owner of the report, or remove them from the report, click on the dropdown next to their email in the Share Report pop-up. From there, make a selection and click "Save" to apply the changes.
 
 ![](../.gitbook/assets/userrolesreports.png)
+
+### _\*\*\*\*_
+
+### _**2\) Downloading Cloud Analytics Reports**_
+
+In Cost Analytics &gt; Reports, once you have saved your report you can download it, following these steps:  
+  
+1\) Click on this icon on the side: 
+
+![](../.gitbook/assets/image%20%2887%29.png)
+
+2\) Choose between "Export to CSV" and "Export to Google Sheets"
+
+![](https://im7.ezgif.com/tmp/ezgif-7-d460df636004.gif)
+
+
+
+
 

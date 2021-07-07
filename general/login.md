@@ -8,6 +8,12 @@ In order to access the Cloud Management Platform, you have to sign in with your 
 
 Otherwise, if you don't have a Google or Microsoft account and this is your first time signing in, please click the 'SIGN UP' button and fill in your email and a password of your choice. Once you verify your email account, you will be able to sign in with your email and the selected password.
 
+When using signing with Microsoft for the first time, the organization admin must sign in himself to CMP and grant admin consent for CMP to read user info \(emails, etc.\) for their org. Eg shown below:
+
+![](../.gitbook/assets/image%20%2885%29.png)
+
+
+
 Start at [https://app.doit-intl.com](https://app.doit-intl.com)
 
 ![](../.gitbook/assets/hello.png)
@@ -15,6 +21,8 @@ Start at [https://app.doit-intl.com](https://app.doit-intl.com)
 Click on the 'Forgot password?' button if you need it, and you will be prompted to follow the instructions.
 
 ![](../.gitbook/assets/password-reset.png)
+
+
 
  [ ](https://help.doit-intl.com/hc/article_attachments/360037692131/password_reset.png)
 

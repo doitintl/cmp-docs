@@ -12,9 +12,13 @@ Otherwise, if you don't have a Google or Microsoft account and this is your firs
 
 ### Login using Microsoft Accounts
 
-When using signing with Microsoft for the first time, the organization admin must sign in himself to CMP and grant admin consent for CMP to read user info \(emails, etc.\) for their org. Eg shown below:
+When using sign in with Microsoft for the first time, the organization admin must sign in himself to CMP and grant admin consent for CMP to read user info \(emails, etc.\) for their org. Eg shown below:
 
 ![](../.gitbook/assets/image%20%2888%29.png)
+
+### Login using Google Accounts
+
+When using sign in with Google for the first time, admin consent should not be needed unless it is specifically configured that way by the organization.
 
 ### Login using Email and Password
 

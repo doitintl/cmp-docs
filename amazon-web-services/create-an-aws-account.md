@@ -13,7 +13,7 @@ Please note you must be assigned access to the specific Billing Profile under wh
 {% endhint %}
 
 {% hint style="danger" %}
-You will see an **OrganizationAccountAccessRole** in the new AWS account. This role is created by AWS and links back to the parent account. When creating the account we will use this role to create the CloudHealth IAM Role. The CMP or DoiT International will not use this role afterwards and you will have to **manually remove this role from your account**
+You will see an **OrganizationAccountAccessRole** in the new AWS account. This role is created by AWS and links back to the parent account. When creating the account we will use this role to [create the CloudHealth IAM Role](https://help.doit-intl.com/amazon-web-services/set-up-cloudhealth). The CMP or DoiT International will not use this role afterwards and you will have to **manually remove this role from your account**
 {% endhint %}
 
 Start with you logging into the [Cloud Management Platform](https://app.doit-intl.com), and Access the 'Create AWS Account' from the menu on the left-hand side of the page and clicking on Assets.

@@ -46,7 +46,7 @@ This is your Dashboard in Manual Mode:
 
 About 5 days before the existing FlexSave reservation/s expires \(unless there is a "recurring" setting enabled\), we will send you an email with a summary of all expiring flexible reservations.
 
-### How the discount is calculated exactly?
+### How exactly is the discount is calculated?
 
 The discount is calculated by applying 80% on the applicable AWS Reserved Instances 1-year Full-Upfront "Savings over On-Demand". You can access AWS RI Pricing [here](https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/).
 
@@ -68,7 +68,7 @@ If you enable [Autopilot Mode](overview.md#autopilot), we will automatically imp
 
 Right now, we support Linux and Windows-based \(including with Microsoft SQL Server\) operating systems. RedHat Enterprise Linux \(RHEL\) and SuSe Enterprise Linux \(SLES\) are not yet supported. 
 
-### How is FlexSave are different from Reserved Instances or Saving Plans?
+### How is FlexSave different from Reserved Instances or Saving Plans?
 
 In general, while FlexSave reservations do not yield as much discount as AWS Reserved Instances, you're not at risk of underutilizing reservations for longer than 1-month periods.
 

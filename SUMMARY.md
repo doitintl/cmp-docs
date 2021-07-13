@@ -155,3 +155,10 @@
 
 * [How to get GCS cost per bucket](tutorials/how-to-get-gcs-cost-per-bucket.md)
 
+## Upload Historical GCP Billing Data <a id="upload-historical-gcp-billing-data-1"></a>
+
+---
+
+* [Upload Historical GCP Billing Data](upload-historical-gcp-billing-data.md)
+* [Functional Requirements](functional-requirements.md)
+

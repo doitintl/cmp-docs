@@ -42,34 +42,7 @@ You need to have the appropriate IAM role/permission in GCP to grant the require
 
 
 
-> ### Grant the **bigquery.jobs.create permission**
->
-> Depending on the features initially enabled from the process [Connect Google Cloud Service Account](https://help.doit-intl.com/google-cloud/connect-google-cloud-service-account), you may already have this permission granted to the role. Follow the steps below to verify / add the permission to the project.
-
-1. Select your **organization** from the dropdown options
-2. From the GCP Navigation Menu, navigate to "IAM & Admin" then select "**Roles**"
-3. Click on the role "**DoiT CMP Service Account**"
-4. Check if **bigquery.jobs.create** is included in the assigned permissions, if it is, then no further action is needed since these permissions will be inherited by the projects
-5. If bigquery.jobs.create permission is not yet added, click on "**Edit Role**"
-6. Click "**Add Permissions**"
-7. Filter by **"Permission : bigquery.jobs.create**" and check the box for this permission
-8. Click "**Add**"
-
-![](../.gitbook/assets/image%20%28116%29.png)
-
-![](../.gitbook/assets/image%20%28117%29.png)
-
-![](../.gitbook/assets/image%20%28108%29.png)
-
-![](../.gitbook/assets/image%20%28112%29.png)
-
-
-
 ### Step 3. Link your Google Cloud Direct Billing Account
-
-
-
-
 
 {% hint style="info" %}
 Required Permission: CMP Assets Manager or CMP Admin ?

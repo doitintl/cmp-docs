@@ -12,9 +12,7 @@ The DoiT CMP Slack application will automatically unfurl a preview of any CMP li
 
 To enable the integration, log in to both CMP and Slack, then click "Add to Slack" below:
 
-[link](https://slack.com/oauth/v2/authorize?client_id=95544667184.517333928260&scope=commands,links:read,links:write,users.profile:read,users:read,users:read.email&user_scope=links:read,links:write,users.profile:read)
-
-![](../.gitbook/assets/add_to_slack.png)
+[CMP Slack App](https://slack.com/oauth/v2/authorize?client_id=95544667184.517333928260&scope=links:read,links:write&user_scope=links:read,links:write,users:read.email,users:read)
 
 At this point, DoiT CMP is a part of your Slack workspace, and any CMP links you send in Slack will unfurl with metadata, and if applicable a chart preview.
 

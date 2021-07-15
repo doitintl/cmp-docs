@@ -39,3 +39,13 @@ If you need to setup DoiT International as a new vendor in your systems, you're 
 * The company number is 514554328
 * Our address is David Elazar 12, Tel Aviv, 6107408
 
+**Netherlands**  
+·        Our company name is DoiT International NL B.V.  
+·        Our VAT number is n/a  
+·        Our address is: Claude Debussylaan 10, 1082 MD Amsterdam, NL
+
+**Switzerland**  
+·        Our company name is DoiT International CH Sarl  
+·        Our VAT number is n/a  
+·        Our address is: rue d’Italie 10, 1204 Geneve
+

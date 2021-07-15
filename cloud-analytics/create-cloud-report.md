@@ -58,21 +58,25 @@ After a few seconds, your report will appear, ready for your analysis.
 
 ## FAQ
 
-### When are the metric amounts \(Cost, Usage, etc\) for a day as "final"? 
+### When are the metric amounts \(Cost, Usage, etc\) for a day counted as "final"? 
 
 You can consider numbers “final” for 3 days after the date. With that in mind, there is really no SLA for this and numbers can change any time if there are corrections or delays that needs to be applied.
 
-### Are they the report back-filled/updated and at what frequency? 
+### Are the reports back-filled/updated, and at what frequency? 
 
 Cloud Analytics data and reports are updated hourly.
 
-### What is timezone the Cloud Analytics is based on?
+### What timezone are Cloud Analytics Reports based on?
 
 Data coming from Google Cloud is based on Pacific time and Data coming from AWS is based on Coordinated Universal Time \(UTC\)
 
-View the bite-sized video below for a closer look at creating and exploring Cloud Reports.
+## Watch
 
-{% embed url="https://www.loom.com/share/b953b425d41844d5b48e95d24da3787e?sharedAppSource=team\_library" %}
+View the bite-sized video below for a closer look at creating and exploring Cloud Reports:
+
+{% embed url="https://www.loom.com/share/3bb89b9c624a4a52a2ecfbb61a56b4b8" %}
+
+
 
 
 

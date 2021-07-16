@@ -8,43 +8,29 @@ When creating reports in Cloud Analytics, you will have every billing dimension 
 >
 > This dimension refers to the "Billing Account" in CMP - Assets for Google Cloud; Cloud health account ID and Cloud Health name for AWS
 
-
-
 > ### Cloud
 >
 > This reflects the cloud provider either "Google Cloud" or "Amazon Web Services"
-
-
 
 > ### **Cost Type**
 >
 > The Cost Type dimension helps to identify the type of charge covered for a specific charge item. For example with AWS this helps distinguish between RI fees, usage fees, saving plan fees, taxes \(if applicable\) and so on.
 
-
-
 > ### Credit
 >
 > A credit is usually a cloud provider’s way of implementing discounts such as Committed Use Discount or Sustained Use Discount or free-tier usage of a service
-
-
 
 > ### Folder
 >
 > Folder can contain projects, other folders, or a combination of both. ... For example, your organization might contain multiple departments, each with its own set of Google Cloud resources. folders allow you to group these resources on a per-department basis.
 
-
-
 > ### Operation
 >
 > The specific AWS operation covered by this line item. This describes the specific usage of the line item. For example, a value of `RunInstances` indicates the operation of an Amazon EC2 instance.
 
-
-
 > ### Project
 >
 > This dimension refers to the AWS Account ID; whereas for Google Cloud this identifies the Project ID
-
-
 
 > ### **Region, Country, Zone**
 >
@@ -54,31 +40,21 @@ When creating reports in Cloud Analytics, you will have every billing dimension 
 >
 > [AWS Regions and Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
 
-
-
 > ### Resource
 >
 > At the lowest level, resources are the fundamental components that make up all Google Cloud services. Examples of resources include Compute Engine Virtual Machines \(VMs\), Pub/Sub topics, Cloud Storage buckets, App Engine instances. All these lower level resources can only be parented by projects, which represent the first grouping mechanism of the Google Cloud resource hierarchy.
-
-
 
 > ### Service
 >
 > A service is the high-level “type” of cloud technology that can be broken down into SKUs. A SKU is the resource itself for which there’s a given price per unit.
 
-
-
 > ### SKU
 >
 > The ID of the resource used by the service. For the full list of SKUs, see the [Pricing table repor](https://cloud.google.com/billing/docs/how-to/pricing-table)t
 
-
-
 > ### Unit
 >
 > The "Unit" dimension corresponds to the "Usage" Metric. This varies by service but generally refers to their unit of measure. e.g. Core - "hour"; Ram - "gigabyte hour"; EC2 - "vCPU-Hours"
-
-
 
 ## Date / Time 
 
@@ -91,8 +67,6 @@ When creating reports in Cloud Analytics, you will have every billing dimension 
 > The Date/Time dimension is also linked to the display option "**Time Interval**", thus the selection here will add/remove a Date/Time dimension accordingly. For example, when Time Interval "Hour" is selected, "Hour" will also be automatically added to the dimensions.
 
 ![](../../.gitbook/assets/image%20%28125%29.png)
-
-
 
 ## Labels
 
@@ -115,8 +89,6 @@ For AWS, not all cost allocation tags are automatically imported in CMP. Please 
 {% hint style="warning" %}
 You cannot combine both Google Cloud Labels and GKE Labels in the same report.
 {% endhint %}
-
-
 
 ## GKE Dimensions
 
@@ -143,8 +115,4 @@ The four GKE dimensions \[Namespace, Cluster, Region, and Resource\] add levels 
 Below is a sample report snippet with a full breakdown of the four GKE dimensions: 
 
 ![](../../.gitbook/assets/image%20%28124%29.png)
-
-
-
-
 

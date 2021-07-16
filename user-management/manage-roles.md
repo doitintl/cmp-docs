@@ -40,7 +40,7 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Support | create new and access existing technical support requests |
 | Billing Profiles Admin  | create new and manage existing billing profiles, including payment method |
 | Invoice Viewer | access invoices |
-| Cloud Analytics | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report.md) |
+| Cloud Analytics | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) |
 | Contracts Viewer | provides access to the commercial contracts |
 | Perks Viewer | access and request Perks |
 | Anomalies Viewer | access Cost and Usage Anomalies |
@@ -50,7 +50,7 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Privileges | Only users with privilege can:  |
 | :--- | :--- |
 | Support | create new and access existing technical support requests |
-| Cloud Analytics  | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report.md) |
+| Cloud Analytics  | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) |
 | Sandbox User | create disposable cloud environments \(sandboxes\) according to company policy |
 | superQuery | unlimited access to the superQuery IDE |
 | Contracts Viewer | provides access to the commercial contracts |
@@ -65,7 +65,7 @@ There are a few pre-built roles in your account for your convenience. The easies
 | Privileges | Only users with privilege can:  |
 | :--- | :--- |
 | Support | create new and access existing technical support requests |
-| Cloud Analytics  | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report.md) |
+| Cloud Analytics  | create new and access existing [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) |
 | Sandbox User | [create disposable cloud environments](../cloud-sandbox-management/create-gcp-sandbox-accounts.md) \(sandboxes\) governed by a company Sandbox policy |
 | superQuery | access superQuery IDE |
 | Sandbox Admin | set company [Sandbox policy](../cloud-sandbox-management/configuring-a-policy-for-sandbox-accounts.md) for other users  |

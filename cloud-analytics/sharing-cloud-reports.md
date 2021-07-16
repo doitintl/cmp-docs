@@ -8,7 +8,7 @@ description: >-
 
 ### _**1\) Sharing Cloud Analytics Reports**_
 
-_**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on_ [_**Creating Cloud Reports**_](create-cloud-report.md) _before reading further._
+_**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on_ [_**Creating Cloud Reports**_](create-cloud-report/) _before reading further._
 
 Before discussing how to share a Cloud Report, let's briefly review roles and permissions. 
 

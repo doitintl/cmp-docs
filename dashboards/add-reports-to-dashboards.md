@@ -8,7 +8,7 @@ description: >-
 
 CMP Dashboards help you visually track and analyze key cloud data points & metrics. Create personal dashboards, project dashboards, team-specific dashboards and more, depending on what you would like to track more closely.
 
-Adding [Cloud Analytics Reports](../cloud-analytics/create-cloud-report.md) into [customizable dashboards](customizing-dashboards.md) gives you an at-a-glance view of your most important cloud infrastructure data points.
+Adding [Cloud Analytics Reports](../cloud-analytics/create-cloud-report/) into [customizable dashboards](customizing-dashboards.md) gives you an at-a-glance view of your most important cloud infrastructure data points.
 
 {% hint style="info" %}
 Required Permissions: **Cloud Analytics** \(part of 'Standard User' preset role\)

@@ -75,7 +75,7 @@ Make sure you have the GKE API enabled in the project linked to your Kubernetes 
 
 ## Analyzing GKE Cost Data in the CMP
 
-Once everything is set up, your team's GKE metering data can be analyzed using the CMP's [Cloud Analytics](create-cloud-report.md) functionality.
+Once everything is set up, your team's GKE metering data can be analyzed using the CMP's [Cloud Analytics](create-cloud-report/) functionality.
 
 To start, open a new Report. You should see new GKE dimensions appear alongside your other billing dimensions, as highlighted below.
 

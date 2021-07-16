@@ -36,7 +36,7 @@ Available Permissions:
 
 **Cloud Analytics**
 
-* Create and view [Cloud Reports](../cloud-analytics/create-cloud-report.md) and [Attributions](../cloud-analytics/attributing-cloud-spend.md)
+* Create and view [Cloud Reports](../cloud-analytics/create-cloud-report/) and [Attributions](../cloud-analytics/attributing-cloud-spend.md)
 
 **Contracts Viewer**
 

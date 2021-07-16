@@ -23,7 +23,7 @@ In this brief, we'll briefly go over each of the main capabilities you have acce
 Cloud Reports give you instant visibility into your Google Cloud and AWS costs without having to spend agonizing hours manually scanning through cloud bills.
 
 * Analyze cloud spend to identify optimization opportunities.
-* [Build customized reports](cloud-analytics/create-cloud-report.md) and [share](cloud-analytics/sharing-cloud-reports.md) them with others.
+* [Build customized reports](cloud-analytics/create-cloud-report/) and [share](cloud-analytics/sharing-cloud-reports.md) them with others.
 * Monitor costs on the go from your phone.
 * [Detect trends](cloud-analytics/trend-analysis.md) in your cloud usage
 * [Forecast your cloud spend](cloud-analytics/forecasting.md) across all time ranges and any cloud services

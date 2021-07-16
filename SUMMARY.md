@@ -46,7 +46,8 @@
 
 ## Cloud Analytics
 
-* [Create Cloud Analytics Reports](cloud-analytics/create-cloud-report.md)
+* [Create Cloud Analytics Reports](cloud-analytics/create-cloud-report/README.md)
+  * [Report Dimensions, Group By, and Filters](cloud-analytics/create-cloud-report/report-dimensions-groupings-and-filters.md)
 * [Edit Cloud Analytics Report](cloud-analytics/editing-your-cloud-report.md)
 * [Attribute Cloud Spend](cloud-analytics/attributing-cloud-spend.md)
 * [Share and Download Cloud Analytics Reports](cloud-analytics/sharing-cloud-reports.md)

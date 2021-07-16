@@ -1,6 +1,6 @@
 # Edit Cloud Analytics Report
 
-_**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on_ [_**Creating Cloud Reports**_](create-cloud-report.md) _before reading further._
+_**Note:** If you're new to Cloud Reports and/or haven't created a Cloud Report yet, we recommend reading our post on_ [_**Creating Cloud Reports**_](create-cloud-report/) _before reading further._
 
 There are several types of edits you can make to your Cloud Report:
 

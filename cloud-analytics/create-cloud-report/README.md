@@ -31,7 +31,7 @@ Click on the "Explore" button on the top-right part of the Cloud Analytics page 
 
 If you'd like your report to be automatically saved regardless of whether you give it a name, click on the dropdown arrow next to "Explore" and select "New Report" instead.
 
-![](../.gitbook/assets/cloudreportsnewww.jpg)
+![](../../.gitbook/assets/cloudreportsnewww.jpg)
 
 ### Set up your Cloud Report
 
@@ -41,7 +41,7 @@ To edit your report, click on the pencil icon on the right-hand sidebar. This wi
 
 Conversely, if you are in Edit Mode, you can switch to View mode by clicking on the eye icon that will appear in place of the pencil icon.
 
-![](../.gitbook/assets/cloudreports_editviewmode.jpg)
+![](../../.gitbook/assets/cloudreports_editviewmode.jpg)
 
 There are four steps to setting up your cloud report:
 
@@ -52,7 +52,7 @@ There are four steps to setting up your cloud report:
 
 After a few seconds, your report will appear, ready for your analysis.
 
-![](../.gitbook/assets/cloudreportsui.jpg)
+![](../../.gitbook/assets/cloudreportsui.jpg)
 
 
 
